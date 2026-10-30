@@ -33,31 +33,7 @@ rem ZIP archives are created by Python (tools\zip_directory.py).
 
 set LIST_SOUND_FILES=%PROJECT_TOOLS_PATH%\ListSoundFiles.exe
 
-rem **************************************************************
-rem 				Java
-rem **************************************************************
-rem We need this to build the alpha pngs
-rem set JAVA_PATH=C:\j2sdk1.4.2_04
-set JAVA_PATH=c:\j2sdk1.4.2_04
-set JAVA_EXE=%JAVA_PATH%\bin\java.exe
-echo JAVA_EXE=%JAVA_EXE%
-echo. 
+rem Spreadsheet exporters and ZIP resources use Python.
+if not defined PYTHON_BIN set "PYTHON_BIN=python"
 
 :END
-
-if not exist %JAVA_PATH% (
-	echo **************************************************************
-	echo    JAVA NOT SET !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-	echo    Please set install it  
-	echo **************************************************************
-	echo.
-	pause 
-	set SETENV_ERROR=JAVA NOT INSTALLED
-) 
-
-
-rem **************************************************************
-rem 				Cygwin
-rem **************************************************************
-
-rem set CYGWIN_PATH=C:\cygwin

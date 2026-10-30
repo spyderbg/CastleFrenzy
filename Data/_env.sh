@@ -27,5 +27,5 @@ VERSION_BUILD="${VERSION_BUILD:-0}"
 # Pack build order (mirrors make_prepare.bat DATA_BUILD_FLOW).
 DATA_BUILD_FLOW=(Strings Fonts Sprites Scenes Sounds Effects)
 
-# Java used by the StringParser / SoundConfigExporter tools.
-JAVA_BIN="${JAVA_BIN:-java}"
+# Python used by the native XLS exporters (tools/requirements-exporters.txt).
+PYTHON_BIN="${PYTHON_BIN:-python3}"

@@ -49,7 +49,6 @@ if not "%1"=="no_bar" (
 	echo **************************************************************
 	
 	rem del /Q %OUTPUT_PATH%\%PACK_NAME%.bar
-	rem %JAVA_PATH%\bin\java -jar %PROJECT_TOOLS_PATH%\ResBuilder.jar %PACK_NAME% %TEMP_PATH% %OUTPUT_PATH%
 	
 	rem copy /Y %OUTPUT_PATH%\%PACK_NAME%.bar %OUTPUT_PATH_WII%\%PACK_NAME%.bar
 	

@@ -81,9 +81,25 @@ table. No 32-bit compiler, multilib packages or asset conversion is needed.
    Set BLENDER_BIN to select a Blender executable. Unchanged model exports are
    cached; the native engine checks each export before it is staged. See
    tools/blender/README.md for the exporter add-on, CLI and editing constraints.
-   Camera-only data, string tables and configuration XML use existing exports.
-   Textures and WAV sound packs rebuild natively. Unregistered .dae assets and
-   spreadsheet layouts still require their legacy exporters and headers.
+   The main resource build reuses camera, string-table and configuration exports.
+   Regenerate the spreadsheet exports with the Python tools below when needed.
+   Textures and WAV sound packs rebuild natively; unregistered .dae assets use
+   their existing model exports.
+
+   The standalone Data/Strings and Data/Sounds builds use Python:
+
+   python3 -m pip install -r tools/requirements-exporters.txt
+   python3 tools/string_parser.py Data/Strings/fortress_defender_strings.xls build/strings 7
+   python3 tools/sound_config_exporter.py Data/Sounds/SoundConfiguration.xls build/sounds_config.xml
+
+   The exporter writes the seven UTF-16LE language tables, font-character maps,
+   both C++ ID headers and a deterministic All_Strings.gen. Data/Strings/_make.sh
+   and _make.bat stage these outputs using the existing clean/no_bar modes.
+   The sound exporter preserves global defaults and per-sound overrides.
+   Data/Sounds/_make.sh and _make.bat use it before packaging WAV groups.
+   PYTHON_BIN selects the Python executable. No Java installation is needed.
+   The make.bat/make.sh entry points in Tools/StringParser and
+   Tools/SoundConfigExporter launch the Python tools; no compilation is needed.
    Packages built with the rootless .deps/linux64 setup retain absolute dependency
    paths to this project. Use system-installed dependencies when building
    packages for other machines.

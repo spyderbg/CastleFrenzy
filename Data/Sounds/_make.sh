@@ -15,10 +15,10 @@ source "$(dirname -- "${BASH_SOURCE[0]}")/../_env.sh"
 
 PACK_NAME="Sounds"
 dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+[[ "$OUTPUT_PATH" == /* ]] || OUTPUT_PATH="$PWD/$OUTPUT_PATH"
+[[ "$HEADERS_OUT_PATH" == /* ]] || HEADERS_OUT_PATH="$PWD/$HEADERS_OUT_PATH"
 cd "$dir"
 
-# Java tools live in the capital-T Tools/ directory (case differs from tools/).
-TOOLS_CAP="$PROJECT_PATH/Tools"
 GENERATED_HEADER="sounds.h"
 SOUND_CONFIGURATION_FILE="SoundConfiguration.xls"
 SOUND_CONFIGURATION_OUT="sounds_config.xml"
@@ -48,11 +48,11 @@ install_header() {
 
 # Clean data (mirrors _make.bat: clean when arg is "clean" or empty).
 if [[ "$arg" == "clean" ]]; then
-    "$dir/_clean.sh"
+    OUTPUT_PATH="$OUTPUT_PATH" bash "$dir/_clean.sh"
     exit 0
 fi
 if [[ "$arg" == "" ]]; then
-    "$dir/_clean.sh"
+    OUTPUT_PATH="$OUTPUT_PATH" bash "$dir/_clean.sh"
 fi
 
 echo
@@ -61,7 +61,7 @@ echo "   Make $PACK_NAME"
 echo "**************************************************************"
 
 # Export the sound configuration (SoundConfiguration.xls -> sounds_config.xml).
-"$JAVA_BIN" -jar "$TOOLS_CAP/SoundConfigExporter.jar" "$SOUND_CONFIGURATION_FILE" "$SOUND_CONFIGURATION_OUT"
+"$PYTHON_BIN" "$PROJECT_TOOLS_PATH/sound_config_exporter.py" "$SOUND_CONFIGURATION_FILE" "$SOUND_CONFIGURATION_OUT"
 mkdir -p "$OUTPUT_PATH/config"
 mv -f "$SOUND_CONFIGURATION_OUT" "$OUTPUT_PATH/config/"
 
@@ -72,6 +72,7 @@ if [[ "$arg" != "no_bar" ]]; then
     echo "   Archiving $PACK_NAME"
     echo "**************************************************************"
 
+    mkdir -p "$HEADERS_OUT_PATH"
     # Package each sound group into an audio pack (flattening the .wav files).
     d=""
     for d in */; do
@@ -82,7 +83,7 @@ if [[ "$arg" != "no_bar" ]]; then
             mkdir -p bin
             rm -f "$OUTPUT_PATH/audio_$d.pack"
             find . -path ./bin -prune -o -name "*.wav" -exec cp -f {} bin/ \;
-            ( cd bin && python3 "$PROJECT_TOOLS_PATH/zip_directory.py" "$OUTPUT_PATH/audio_$d.pack" "." --stored )
+            ( cd bin && "$PYTHON_BIN" "$PROJECT_TOOLS_PATH/zip_directory.py" "$OUTPUT_PATH/audio_$d.pack" "." --stored )
             rm -rf bin
         )
     done
@@ -90,7 +91,7 @@ if [[ "$arg" != "no_bar" ]]; then
     # Generate the sound ID header. ListSoundFiles.exe has no Linux binary, so
     # replicate its output exactly: Music then SFX, each sorted by filename,
     # uppercased, in the same include-guarded layout the tool emits.
-    python3 - "$OUTPUT_PATH" <<'PY'
+    "$PYTHON_BIN" - "$OUTPUT_PATH" <<'PY'
 import sys, zipfile
 from pathlib import Path
 out = Path(sys.argv[1])

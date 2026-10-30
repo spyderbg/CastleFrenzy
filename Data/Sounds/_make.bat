@@ -1,4 +1,5 @@
 @echo off
+pushd "%~dp0"
 
 rem ////////////////////////////////////////
 rem 		Init pack
@@ -43,8 +44,12 @@ for /D %%i in (*.) do (
 
 setlocal DISABLEDELAYEDEXPANSION  
 
-%JAVA_PATH%\bin\java -jar %PROJECT_TOOLS_PATH%\SoundConfigExporter.jar %SOUND_CONFIGURATION_FILE% %SOUND_CONFIGURATION_OUT%
-move /Y %SOUND_CONFIGURATION_OUT% %OUTPUT_PATH%\config\
+if not defined PYTHON_BIN set "PYTHON_BIN=python"
+"%PYTHON_BIN%" "%PROJECT_PATH%\tools\sound_config_exporter.py" "%SOUND_CONFIGURATION_FILE%" "%SOUND_CONFIGURATION_OUT%"
+if errorlevel 1 goto FAILED
+if not exist "%OUTPUT_PATH%\config" mkdir "%OUTPUT_PATH%\config"
+move /Y "%SOUND_CONFIGURATION_OUT%" "%OUTPUT_PATH%\config\"
+if errorlevel 1 goto FAILED
 
 rem Build bar file or not
 if not "%1"=="no_bar" (
@@ -71,7 +76,7 @@ if not "%1"=="no_bar" (
 		
 		cd bin
 		
-		python "%PROJECT_TOOLS_PATH%\zip_directory.py" "%OUTPUT_PATH%\audio_%%d.pack" "." --stored
+		"%PYTHON_BIN%" "%PROJECT_TOOLS_PATH%\zip_directory.py" "%OUTPUT_PATH%\audio_%%d.pack" "." --stored
 		if errorlevel 1 exit /b 1
 
 		cd ..
@@ -115,4 +120,11 @@ rem Pause at end
 if "%1"=="" (
 	pause
 )
+
+popd
+exit /b 0
+
+:FAILED
+popd
+exit /b 1
 

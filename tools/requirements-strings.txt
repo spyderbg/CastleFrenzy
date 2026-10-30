@@ -1,0 +1,2 @@
+# Compatibility entry point; both spreadsheet exporters share this dependency.
+-r requirements-exporters.txt

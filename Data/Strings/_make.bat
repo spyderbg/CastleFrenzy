@@ -1,4 +1,5 @@
 @echo off
+pushd "%~dp0"
 
 rem ////////////////////////////////////////
 rem 		Init pack
@@ -33,14 +34,15 @@ if not exist bin (
 	mkdir bin
 )
 
-%JAVA_PATH%\bin\java -jar %PROJECT_TOOLS_PATH%\StringParser.jar %STRING_FILE_NAME% bin 7
+if not defined PYTHON_BIN set "PYTHON_BIN=python"
+"%PYTHON_BIN%" "%PROJECT_PATH%\tools\string_parser.py" "%STRING_FILE_NAME%" bin 7
 
 if ERRORLEVEL 1 ( 
 	echo.
 	echo ERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR
 	echo.
-	pause
-	goto END
+	popd
+	exit /b 1
 )
 
 move /Y bin\*.hpp %HEADERS_OUT_PATH%
@@ -71,7 +73,6 @@ if not "%1"=="no_bar" (
 	rmdir bin
 
 	rem del /Q %OUTPUT_PATH%\%PACK_NAME%.bar
-	rem %JAVA_PATH%\bin\java -jar %PROJECT_TOOLS_PATH%\ResBuilder.jar %PACK_NAME% %TEMP_PATH% %OUTPUT_PATH%
 	
 	rem copy /Y %OUTPUT_PATH%\%PACK_NAME%.bar %OUTPUT_PATH_WII%\%PACK_NAME%.bar
 	
@@ -98,4 +99,6 @@ if not "%1"=="no_bar" (
 )
 
 :END
+popd
+exit /b 0
 

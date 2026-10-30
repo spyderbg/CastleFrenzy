@@ -1,0 +1,2 @@
+# Legacy .xls workbook reader shared by string_parser.py and sound_config_exporter.py.
+xlrd==2.0.2

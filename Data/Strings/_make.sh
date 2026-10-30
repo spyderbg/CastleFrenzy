@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Linux equivalent of Data/Strings/_make.bat
-# Exports localized strings from the .XLS source via StringParser.jar, then
+# Exports localized strings from the .XLS source via tools/string_parser.py, then
 # stages the generated data and headers.
 #
 # Usage: _make.sh [clean|no_bar|no_pause]
@@ -16,20 +16,20 @@ source "$(dirname -- "${BASH_SOURCE[0]}")/../_env.sh"
 
 PACK_NAME="Strings"
 dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+[[ "$OUTPUT_PATH" == /* ]] || OUTPUT_PATH="$PWD/$OUTPUT_PATH"
+[[ "$HEADERS_OUT_PATH" == /* ]] || HEADERS_OUT_PATH="$PWD/$HEADERS_OUT_PATH"
 cd "$dir"
 
 STRING_FILE_NAME="fortress_defender_strings.xls"
-# Java tools live in the capital-T Tools/ directory (case differs from tools/).
-TOOLS_CAP="$PROJECT_PATH/Tools"
 arg="${1:-}"
 
 # Clean data (mirrors _make.bat: clean when arg is "clean" or empty).
 if [[ "$arg" == "clean" ]]; then
-    "$dir/_clean.sh"
+    OUTPUT_PATH="$OUTPUT_PATH" bash "$dir/_clean.sh"
     exit 0
 fi
 if [[ "$arg" == "" ]]; then
-    "$dir/_clean.sh"
+    OUTPUT_PATH="$OUTPUT_PATH" bash "$dir/_clean.sh"
 fi
 
 echo
@@ -38,16 +38,7 @@ echo "   Make $PACK_NAME"
 echo "**************************************************************"
 
 # Export text for all languages from the .XLS file.
-# StringParser.jar is a Windows tool that writes "<output>\<file>" with a
-# literal backslash, so the files land in the current directory as "bin\*".
-"$JAVA_BIN" -jar "$TOOLS_CAP/StringParser.jar" "$STRING_FILE_NAME" bin 7
-
-# Reorganize the backslash-named files into a real bin/ directory.
-mkdir -p bin
-for f in 'bin\'*; do
-    [[ -e "$f" ]] || continue
-    mv -f "$f" "bin/${f#bin\\}"
-done
+"$PYTHON_BIN" "$PROJECT_TOOLS_PATH/string_parser.py" "$STRING_FILE_NAME" bin 7
 
 # Exported headers and generated string tables.
 mkdir -p "$HEADERS_OUT_PATH"
