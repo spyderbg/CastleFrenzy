@@ -39,14 +39,14 @@ const char * const SPRITES_NAMES[]=
 //maps id to texture name
 const char * const SPRITES_TEXTURE_NAMES[]=
 {
-	"./sprites/butons.tga",
-	"./sprites/stick_butons.tga",
-	"./sprites/hud.tga",
-	"./sprites/menu.tga",
-	"./sprites/font.tga",
-	"./sprites/font_menu.tga",
-	"./sprites/tutorial.tga",
-	"./sprites/birds_flock.tga"
+	"./sprites/butons.png",
+	"./sprites/stick_butons.png",
+	"./sprites/hud.png",
+	"./sprites/menu.png",
+	"./sprites/font.png",
+	"./sprites/font_menu.png",
+	"./sprites/tutorial.png",
+	"./sprites/birds_flock.png"
 };
 
 /////////////////////////////////////////////////////////////////////////////

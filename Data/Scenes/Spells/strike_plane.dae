@@ -540,8 +540,8 @@
     </light>
   </library_lights>
   <library_images>
-    <image id="strike.tga" name="strike_tga">
-      <init_from>strike.tga</init_from>
+    <image id="strike.png" name="strike_tga">
+      <init_from>strike.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -561,7 +561,7 @@
       <profile_COMMON>
         <newparam sid="strike_tga-surface">
           <surface type="2D">
-            <init_from>strike.tga</init_from>
+            <init_from>strike.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -577,7 +577,7 @@
         </newparam>
         <newparam sid="strike_tga-surface">
           <surface type="2D">
-            <init_from>strike.tga</init_from>
+            <init_from>strike.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>

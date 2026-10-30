@@ -5,7 +5,7 @@ sprite:
 
   images:
     - id: "0x0000"
-      file: "./griffin_Flash_contour.tga"
+      file: "./griffin_Flash_contour.png"
       transparent: "0x00FF00FF"
 
   modules:

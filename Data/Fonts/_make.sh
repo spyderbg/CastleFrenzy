@@ -37,7 +37,6 @@ echo "**************************************************************"
 mkdir -p bin "$PROJECT_DATA_PATH/Sprites/$PACK_NAME"
 cp -f *.yaml "$PROJECT_DATA_PATH/Sprites/$PACK_NAME"/ 2>/dev/null || true
 cp -f *.png  "$PROJECT_DATA_PATH/Sprites/$PACK_NAME"/ 2>/dev/null || true
-cp -f *.tga  "$PROJECT_DATA_PATH/Sprites/$PACK_NAME"/ 2>/dev/null || true
 cp -f *.txt  bin/ 2>/dev/null || true
 
 # Authored PNG textures are staged unchanged.

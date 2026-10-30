@@ -38,7 +38,6 @@ if not exist %PROJECT_DATA_PATH%\Sprites\%PACK_NAME% (
 
 copy /Y *.yaml %PROJECT_DATA_PATH%\Sprites\%PACK_NAME%\ > NUL
 copy /Y *.png %PROJECT_DATA_PATH%\Sprites\%PACK_NAME%\ > NUL
-copy *.tga %PROJECT_DATA_PATH%\Sprites\%PACK_NAME%\ > NUL
 copy *.txt /Y bin > NUL
 
 

@@ -8,7 +8,7 @@ defineProps<{ unit?: Unit; assets: string }>();
     class="unit-icon"
     :title="unit.name"
     :style="{
-      backgroundImage: `url(/api/texture?path=${encodeURIComponent(assets + '/icons.tga')})`,
+      backgroundImage: `url(/api/texture?path=${encodeURIComponent(assets + '/icons.png')})`,
       backgroundPosition: `-${unit.icon[0]}px -${unit.icon[1]}px`,
     }"
   ></span>

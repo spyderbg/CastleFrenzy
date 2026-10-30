@@ -81,6 +81,11 @@ class ModelBuildTests(unittest.TestCase):
             self.build()
         self.assertEqual(self.exports, 0)
 
+    def test_game_build_rejects_tga_exports(self):
+        with self.assertRaisesRegex(ValueError, 'must use PNG'):
+            models.build(self.manifest, self.output, texture_format='tga')
+        self.assertEqual(self.exports, 0)
+
 
 if __name__ == '__main__':
     unittest.main()

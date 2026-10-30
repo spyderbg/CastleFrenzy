@@ -172,8 +172,8 @@
     </animation_clip>
   </library_animation_clips>
   <library_images>
-    <image id="burned_ground.tga" name="burned_ground_tga">
-      <init_from>burned_ground.tga</init_from>
+    <image id="burned_ground.png" name="burned_ground_tga">
+      <init_from>burned_ground.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -186,7 +186,7 @@
       <profile_COMMON>
         <newparam sid="burned_ground_tga-surface">
           <surface type="2D">
-            <init_from>burned_ground.tga</init_from>
+            <init_from>burned_ground.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -202,7 +202,7 @@
         </newparam>
         <newparam sid="burned_ground_tga-surface">
           <surface type="2D">
-            <init_from>burned_ground.tga</init_from>
+            <init_from>burned_ground.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>

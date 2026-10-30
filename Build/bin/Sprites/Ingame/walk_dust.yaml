@@ -5,7 +5,7 @@ sprite:
 
   images:
     - id: "0x0000"
-      file: "./walk_dust.tga"
+      file: "./walk_dust.png"
       transparent: "0x00FF00FF"
 
   modules:

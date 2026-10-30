@@ -307,9 +307,8 @@ class Exporter:
                                                   kind=kind, times=times, values=values[bone.name][kind]))
         return dict(samples=len(times), max_blender_skin_error=max_vertex_error)
 
-    def texture(self, output, texture_format):
-        suffix, image_format = ('.png', 'PNG') if texture_format == 'png' else ('.tga', 'TARGA_RAW')
-        path = output.with_name(output.stem+'_diffuse'+suffix)
+    def texture(self, output):
+        path = output.with_name(output.stem+'_diffuse.png')
         # Image.copy alone copies the backing file, not unsaved painted pixels.
         # Save a separate pixel buffer so exporting never clears the artist's dirty flag.
         image = self.image.copy()
@@ -319,7 +318,7 @@ class Exporter:
             image.pixels.foreach_set(pixels)
             image.update()
             image.filepath_raw = str(path)
-            image.file_format = image_format
+            image.file_format = 'PNG'
             image.save()
         finally:
             bpy.data.images.remove(image)
@@ -342,6 +341,8 @@ class Exporter:
 
 
 def export_model(template, output, rig=None, texture_format='png'):
+    if texture_format != 'png':
+        raise BdaeError('Game model textures must use PNG')
     if bpy.context.scene.get('bdae_mesh_scene'):
         from scene_tools import export_scene_meshes
         return export_scene_meshes(template, output)
@@ -366,7 +367,7 @@ def export_model(template, output, rig=None, texture_format='png'):
         output.parent.mkdir(parents=True, exist_ok=True)
         with tempfile.TemporaryDirectory(prefix='bdae-export-', dir=output.parent) as temp:
             staged = Path(temp)/output.name
-            texture = exporter.texture(staged, texture_format)
+            texture = exporter.texture(staged)
             staged.write_bytes(serialize(exporter.source, exporter.model))
             verification.update(exporter.verify_binary(staged))
             os.replace(texture, output.parent/texture.name)
@@ -397,7 +398,7 @@ def main():
     parser.add_argument('--template', required=True, type=Path)
     parser.add_argument('--output', required=True, type=Path)
     parser.add_argument('--rig')
-    parser.add_argument('--texture-format', choices=['png', 'tga'], default='png')
+    parser.add_argument('--texture-format', choices=['png'], default='png')
     args = parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
     export_model(args.template, args.output, args.rig, args.texture_format)
 

@@ -2023,8 +2023,8 @@
     </light>
   </library_lights>
   <library_images>
-    <image id="goblin_bomb.tga" name="goblin_bomb_tga">
-      <init_from>goblin_bomb.tga</init_from>
+    <image id="goblin_bomb.png" name="goblin_bomb_tga">
+      <init_from>goblin_bomb.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -2037,7 +2037,7 @@
       <profile_COMMON>
         <newparam sid="goblin_bomb_tga-surface">
           <surface type="2D">
-            <init_from>goblin_bomb.tga</init_from>
+            <init_from>goblin_bomb.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>

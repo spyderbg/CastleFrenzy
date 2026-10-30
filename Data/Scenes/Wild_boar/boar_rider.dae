@@ -2305,8 +2305,8 @@
     </light>
   </library_lights>
   <library_images>
-    <image id="boar_rider.tga" name="boar_rider_tga">
-      <init_from>boar_rider.tga</init_from>
+    <image id="boar_rider.png" name="boar_rider_tga">
+      <init_from>boar_rider.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -2319,7 +2319,7 @@
       <profile_COMMON>
         <newparam sid="boar_rider_tga-surface">
           <surface type="2D">
-            <init_from>boar_rider.tga</init_from>
+            <init_from>boar_rider.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>

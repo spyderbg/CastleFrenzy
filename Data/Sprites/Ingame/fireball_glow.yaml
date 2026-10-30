@@ -5,7 +5,7 @@ sprite:
 
   images:
     - id: "0x0000"
-      file: "./fireball_glow.tga"
+      file: "./fireball_glow.png"
       transparent: "0x00FF00FF"
 
   modules:

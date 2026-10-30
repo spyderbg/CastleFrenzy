@@ -188,22 +188,26 @@ export class Workspace {
     return this.open(relative);
   }
   async imagePath(spritePath: string, file: string) {
-    let relative = path.join(
+    const relative = path.join(
       path.dirname(spritePath),
       file.replace(/\\/g, "/"),
     );
-    // Legacy authoring files sometimes differ only in the case of a filename.
-    try {
-      return await this.file(relative);
-    } catch {
-      const folder = await this.file(path.dirname(relative));
-      const match = (await readdir(folder)).find(
-        (name) => name.toLowerCase() === path.basename(relative).toLowerCase(),
-      );
-      if (!match) throw new Error(`Image not found: ${file}`);
-      relative = path.join(path.dirname(relative), match);
-      return this.file(relative);
+    // Immutable legacy sprites retain their old image names. Prefer the
+    // migrated PNG, including case-only filename differences on Linux.
+    for (const candidate of new Set([
+      relative.replace(/\.(?:tga|pvr|bmp)$/i, ".png"), relative,
+    ])) {
+      try {
+        return await this.file(candidate);
+      } catch {
+        const folder = await this.file(path.dirname(candidate));
+        const match = (await readdir(folder)).find(
+          (name) => name.toLowerCase() === path.basename(candidate).toLowerCase(),
+        );
+        if (match) return this.file(path.join(path.dirname(candidate), match));
+      }
     }
+    throw new Error(`Image not found: ${file}`);
   }
 }
 const hash = (bytes: Buffer) =>

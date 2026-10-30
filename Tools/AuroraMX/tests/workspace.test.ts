@@ -16,6 +16,26 @@ import { decodeImage, previewImage } from "../backend/image";
 import { PNG } from "pngjs";
 import { createServer } from "../backend/server";
 
+test("legacy sprite image names resolve migrated PNGs, including filename case", async () => {
+  const root = await mkdtemp(path.join(os.tmpdir(), "auroramx-png-"));
+  try {
+    const workspace = new Workspace(root);
+    await mkdir(path.join(root, "Sprites"));
+    const png = path.join(root, "Sprites", "Atlas.PNG");
+    await writeFile(png, "PNG fixture");
+    await writeFile(path.join(root, "Sprites", "atlas.tga"), "legacy fixture");
+    assert.equal(await workspace.imagePath("Sprites/old.sprite", "atlas.tga"), png);
+    assert.equal(await workspace.imagePath("Sprites/old.sprite", "atlas.PNG"), png);
+    await writeFile(path.join(root, "Sprites", "other.tga"), "import fixture");
+    assert.equal(await workspace.imagePath("Sprites/old.sprite", "other.tga"),
+      path.join(root, "Sprites", "other.tga"));
+    await assert.rejects(workspace.imagePath("Sprites/old.sprite", "missing.tga"), /Image not found/);
+    await assert.rejects(workspace.imagePath("Sprites/old.sprite", "../../escape.tga"), /outside the workspace/);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
 test("BMP previews preserve RGB row order, color keys and 32-bit alpha", () => {
   const header = Buffer.alloc(54);
   header.write("BM");

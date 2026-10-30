@@ -13,8 +13,8 @@
     <up_axis>Y_UP</up_axis>
   </asset>
   <library_images>
-    <image id="bowl.tga" name="bowl_tga">
-      <init_from>bowl.tga</init_from>
+    <image id="bowl.png" name="bowl_tga">
+      <init_from>bowl.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -27,7 +27,7 @@
       <profile_COMMON>
         <newparam sid="bowl_tga-surface">
           <surface type="2D">
-            <init_from>bowl.tga</init_from>
+            <init_from>bowl.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>

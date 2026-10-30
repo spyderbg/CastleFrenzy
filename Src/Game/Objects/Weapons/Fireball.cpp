@@ -204,9 +204,9 @@ void CFireball::adjustStats(IAttributes* attributes)
 	
 	switch (m_level)
 	{
-	case WL_1: m_sprite->LoadTexture("Sprites/Ingame/fireball_small.tga"); break;
-	case WL_2: m_sprite->LoadTexture("Sprites/Ingame/fireball_medium.tga"); break;
-	case WL_3: m_sprite->LoadTexture("Sprites/Ingame/fireball_big.tga"); break;
+	case WL_1: m_sprite->LoadTexture("Sprites/Ingame/fireball_small.png"); break;
+	case WL_2: m_sprite->LoadTexture("Sprites/Ingame/fireball_medium.png"); break;
+	case WL_3: m_sprite->LoadTexture("Sprites/Ingame/fireball_big.png"); break;
 	}
 }
 

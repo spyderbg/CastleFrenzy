@@ -186,9 +186,10 @@ def material(source,ident,cache):
     if 0<=data['image']<len(source.images):
         name=Path(source.images[data['image']]['file'].replace('\\','/')).name
         folder=source.path.parent.name
-        candidates=[source.path.parent/name,ROOT/'Data/Scenes'/folder/name,
-                    ROOT/'build/linux-release/assets/Scenes'/folder/Path(name).with_suffix('.png'),
-                    source.path.parent/Path(name).with_suffix('.tga')]
+        png=Path(name).with_suffix('.png')
+        candidates=[source.path.parent/png,ROOT/'Data/Scenes'/folder/png,
+                    ROOT/'build/linux-release/assets/Scenes'/folder/png,
+                    source.path.parent/name,ROOT/'Data/Scenes'/folder/name]
         image_path=next((p for p in candidates if p.is_file() and p.suffix.lower()!='.pvr'),None)
         if image_path:
             image=bpy.data.images.load(str(image_path),check_existing=True);image.pack()

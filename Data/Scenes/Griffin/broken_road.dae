@@ -145,7 +145,7 @@
     </animation_clip>
   </library_animation_clips>
   <library_images>
-    <image id="broken_road.tga" name="broken_road_tga">
+    <image id="broken_road.png" name="broken_road_tga">
       <init_from>broken_road.png</init_from>
     </image>
   </library_images>

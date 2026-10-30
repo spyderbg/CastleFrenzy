@@ -59,6 +59,8 @@ def validate_assets(assets):
     files = [p for p in assets.rglob("*") if p.is_file()]
     if any(p.suffix.lower() == ".pvr" for p in files):
         raise ValueError("Assets contain PVR textures; replace them with PNG before building or packaging")
+    if any(p.suffix.lower() == ".tga" for p in files):
+        raise ValueError("Assets contain TGA textures; replace them with PNG before packaging")
     legacy = [p for p in files if p.suffix.lower() in {".sprite", ".bsprite"}]
     if legacy or (assets / "resources.pack").exists():
         raise ValueError("Assets contain legacy sprite data; rebuild resources before packaging")

@@ -1371,8 +1371,8 @@
     </light>
   </library_lights>
   <library_images>
-    <image id="tornado_seq.tga" name="tornado_seq_tga">
-      <init_from>tornado_seq.tga</init_from>
+    <image id="tornado_seq.png" name="tornado_seq_tga">
+      <init_from>tornado_seq.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -1430,7 +1430,7 @@
       <profile_COMMON>
         <newparam sid="tornado_seq_tga-surface">
           <surface type="2D">
-            <init_from>tornado_seq.tga</init_from>
+            <init_from>tornado_seq.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>

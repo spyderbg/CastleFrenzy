@@ -1,0 +1,2589 @@
+{
+  "description": "Lossless migration of project-owned TGA images. Existing runtime PNGs are preserved. Differing authoring variants are stored here and excluded from game staging.",
+  "images": [
+    {
+      "original": "Data/Effects/00901_smoke_new.tga",
+      "png": "Data/TextureSources/Effects/00901_smoke_new.png",
+      "resolution": "preserved source variant",
+      "width": 32,
+      "height": 32,
+      "rgba_sha256": "053301e851e73748ef45127c6ec0aa7a78832be69a49b1e38e9cb1f2e634e61d"
+    },
+    {
+      "original": "Data/Effects/00902_spark.tga",
+      "png": "Data/TextureSources/Effects/00902_spark.png",
+      "resolution": "preserved source variant",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "9d2ffdb4eebeb8023a6965b77822e6b88d3a9d2e5db75ffbf422fbe700f72dd9"
+    },
+    {
+      "original": "Data/Effects/00903_fire.tga",
+      "png": "Data/TextureSources/Effects/00903_fire.png",
+      "resolution": "preserved source variant",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "a578bd4e3f7e46d273eb578fb9deec60a0aa67174daf1eb69d691a7058f95acb"
+    },
+    {
+      "original": "Data/Effects/aaaexplos1.tga",
+      "png": "Data/TextureSources/Effects/aaaexplos1.png",
+      "resolution": "preserved source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "2fb1f14e2bd0471ca271467fe91753673bb69e638dde805c3ad1d42a698311ce"
+    },
+    {
+      "original": "Data/Effects/aaaexplosa2b.tga",
+      "png": "Data/TextureSources/Effects/aaaexplosa2b.png",
+      "resolution": "preserved source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "7508468bb3bb6d09234240d8ed5b9723cffc51e733849773f26cf87299590d7e"
+    },
+    {
+      "original": "Data/Effects/aaaexplosa6.tga",
+      "png": "Data/TextureSources/Effects/aaaexplosa6.png",
+      "resolution": "preserved source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "74d315ece8b2d6e900bd57d96e3859204746cce6ea32062c322335c69e2b74db"
+    },
+    {
+      "original": "Data/Effects/aelectricga.tga",
+      "png": "Data/TextureSources/Effects/aelectricga.png",
+      "resolution": "preserved source variant",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "2c58fc942fa02509639dbd1a252857d234acd05c7cb4f611b48115a0003a003a"
+    },
+    {
+      "original": "Data/Effects/blood_3.tga",
+      "png": "Data/TextureSources/Effects/blood_3.png",
+      "resolution": "preserved source variant",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "4abae3b30c9d0b2fdaab9daff8fee6ef8188b9fe0e2936afe028dd1a9beccc43"
+    },
+    {
+      "original": "Data/Effects/breaks.tga",
+      "png": "Data/TextureSources/Effects/breaks.png",
+      "resolution": "preserved source variant",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "5691d3e83f6106d0130e1ed18d731942309f1a22abab3fd0a223701d98522b19"
+    },
+    {
+      "original": "Data/Effects/ice_ball_core.tga",
+      "png": "Data/TextureSources/Effects/ice_ball_core.png",
+      "resolution": "preserved source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "6e8fbfcd0d3084ea9be660a7a1bbc3815010dd69be5ede276c75f011b579b9f8"
+    },
+    {
+      "original": "Data/Effects/ice_explode.tga",
+      "png": "Data/TextureSources/Effects/ice_explode.png",
+      "resolution": "preserved source variant",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "a7c61f990607afbcd802a35570fb3b69efc0cf7a7bcdd8dc6e3aff61d576979f"
+    },
+    {
+      "original": "Data/Effects/ice_explode_01.tga",
+      "png": "Data/TextureSources/Effects/ice_explode_01.png",
+      "resolution": "preserved source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "04480d3dad4499719d758f291f5780c0e427ffcc6a9f506786e97db30286f3d6"
+    },
+    {
+      "original": "Data/Effects/plasma_blast_alpha.tga",
+      "png": "Data/TextureSources/Effects/plasma_blast_alpha.png",
+      "resolution": "preserved source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "b05724794bc33e0c9feefa70dbe998222c4f9fa6ed8ab5e493323ae8c8fe8196"
+    },
+    {
+      "original": "Data/Effects/plasma_glow.tga",
+      "png": "Data/TextureSources/Effects/plasma_glow.png",
+      "resolution": "preserved source variant",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "6ca2e0a50a30d986f899a2e4f6b8c8ff5563245d0d2acd8872d2450c17cad707"
+    },
+    {
+      "original": "Data/Effects/sparkles.tga",
+      "png": "Data/TextureSources/Effects/sparkles.png",
+      "resolution": "preserved source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "cf1944503ec9619a5f8228ee1cd9120d2caee3a1b4aa1b1e381cb348a2bcbec6"
+    },
+    {
+      "original": "Data/Effects/water.tga",
+      "png": "Data/TextureSources/Effects/water.png",
+      "resolution": "preserved source variant",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "66ac95bf24545954774d369f7e21ea9f15ae169cc3289e42f5c32d5952b97f94"
+    },
+    {
+      "original": "Data/Effects/water_02.tga",
+      "png": "Data/TextureSources/Effects/water_02.png",
+      "resolution": "preserved source variant",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "1f401af803755c673e22be59c72e6399e5e7c3b0f75cf1ab5904d98993c6ac3c"
+    },
+    {
+      "original": "Data/Effects/wave_blast.tga",
+      "png": "Data/TextureSources/Effects/wave_blast.png",
+      "resolution": "preserved source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "3c37b1a184aed819b2655acfd5c95ade81b9a59b6eadd733ec3b827b24876578"
+    },
+    {
+      "original": "Data/Effects/wave_blast_griffin.tga",
+      "png": "Data/TextureSources/Effects/wave_blast_griffin.png",
+      "resolution": "preserved source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "8a513ebc9ce3a07dd51a7c146ffc898c3434480ad179ae68fb27f9e36023654e"
+    },
+    {
+      "original": "Data/Fonts/ArialSmall.tga",
+      "png": "Data/Fonts/ArialSmall.png",
+      "resolution": "existing identical PNG",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "bdbd116902dece741d8000cae53cc942a3065aea08b52b085412607888edb947"
+    },
+    {
+      "original": "Data/Fonts/BerlinSansFB.tga",
+      "png": "Data/TextureSources/Fonts/BerlinSansFB.png",
+      "resolution": "preserved source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "18828d136da97592146b6ce754c49d97d1e66509b6968f17bdccbb0614a8446a"
+    },
+    {
+      "original": "Data/Fonts/ChineseBig.tga",
+      "png": "Data/Fonts/ChineseBig.png",
+      "resolution": "existing identical PNG",
+      "width": 1024,
+      "height": 512,
+      "rgba_sha256": "a63fdddce1e12e64e3a183223f09fc41f196db1308f5c4bf1efcd2c1ae0de9df"
+    },
+    {
+      "original": "Data/Fonts/JapaneseBig.tga",
+      "png": "Data/Fonts/JapaneseBig.png",
+      "resolution": "existing identical PNG",
+      "width": 1024,
+      "height": 512,
+      "rgba_sha256": "b73cdc6e85fc6c5df5a5ba5002da80ac0d3892a27849ca2a9ca11021a5b7db65"
+    },
+    {
+      "original": "Data/Fonts/day_font.tga",
+      "png": "Data/TextureSources/Fonts/day_font.png",
+      "resolution": "preserved source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "4472a47ab63989c02cdbad3a0342c9a643ede295cf2c058a4833aff2d01b6e89"
+    },
+    {
+      "original": "Data/Fonts/money_souls_big_font.tga",
+      "png": "Data/Fonts/money_souls_big_font.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 64,
+      "rgba_sha256": "e7972578063ae9b1fa36bdc68b9f7f62ee5447978c92890b9f53f7e0c51e63cb"
+    },
+    {
+      "original": "Data/Fonts/money_souls_font.tga",
+      "png": "Data/Fonts/money_souls_font.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "e14c40cedf4715762126d375d534eed1b6cf6ee3aad3857ce67338125f71d28d"
+    },
+    {
+      "original": "Data/Scenes/Castle/bigtex.tga",
+      "png": "Data/TextureSources/Scenes/Castle/bigtex.png",
+      "resolution": "preserved source variant",
+      "width": 1024,
+      "height": 1024,
+      "rgba_sha256": "e016bee2fec66d9003647f527e7e5e80bb7984953c300491aa9df727b3c4e89e"
+    },
+    {
+      "original": "Data/Scenes/Castle/bigtex_2.tga",
+      "png": "Data/TextureSources/Scenes/Castle/bigtex_2.png",
+      "resolution": "preserved source variant",
+      "width": 1024,
+      "height": 1024,
+      "rgba_sha256": "873e5292d28158e4992fdfcbc1f4480d03afb6291b029dc5c78914483a8e9124"
+    },
+    {
+      "original": "Data/Scenes/Castle/bigtex_alpha.tga",
+      "png": "Data/TextureSources/Scenes/Castle/bigtex_alpha.png",
+      "resolution": "preserved source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "e29197ee55677a7f6e8158a91ed81eff5f80c54b2dccca2ba81be1e4ae76d03d"
+    },
+    {
+      "original": "Data/Scenes/Castle/clouds_02.tga",
+      "png": "Data/TextureSources/Scenes/Castle/clouds_02.png",
+      "resolution": "preserved source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "e67952dedf70e2eb2f82c98eb245098cea2545ca1fa5e83356d65d52f0791a20"
+    },
+    {
+      "original": "Data/Scenes/Castle/crackedearth.tga",
+      "png": "Data/TextureSources/Scenes/Castle/crackedearth.png",
+      "resolution": "preserved source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "aac2ac9630c4f1c0d3bfd49fea0a5e1142d8e8da89aaa2a92381541aef7254fd"
+    },
+    {
+      "original": "Data/Scenes/Castle/ground_03.tga",
+      "png": "Data/TextureSources/Scenes/Castle/ground_03.png",
+      "resolution": "preserved source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "4403a5d976f5be43484260e18a6926cdaf739a0d1a1661bada50a8b3da8cc827"
+    },
+    {
+      "original": "Data/Scenes/Castle/rock_02.tga",
+      "png": "Data/TextureSources/Scenes/Castle/rock_02.png",
+      "resolution": "preserved source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "0fc833bc226371e5f824be0c44d22e123d2de592f7bdb9d27b1e9d8ae6e203d4"
+    },
+    {
+      "original": "Data/Scenes/Castle/scene_mask.tga",
+      "png": "Data/TextureSources/Scenes/Castle/scene_mask.png",
+      "resolution": "preserved source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "811aa7c899f547bd6f2873dee432bb6bb10a6e61af49d82e2dcda6030bcad772"
+    },
+    {
+      "original": "Data/Scenes/Castle/water.tga",
+      "png": "Data/TextureSources/Scenes/Castle/water.png",
+      "resolution": "preserved source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "921eadae631138ffe149bd49992759d45783a9452a0df4212bb269ce3a90788d"
+    },
+    {
+      "original": "Data/Scenes/Dark_elf/dark_elf_256.tga",
+      "png": "Data/Scenes/Dark_elf/dark_elf_256.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "9254411cc75e85b63715f906de95558d47416a94ba03b8e48a80a775769e25cb"
+    },
+    {
+      "original": "Data/Scenes/Fireball/bowl.tga",
+      "png": "Data/Scenes/Fireball/bowl.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "82c1e5f3375db70476a46c180b54b07ed62a7e3fb1b7527fe5f718ad699de9d7"
+    },
+    {
+      "original": "Data/Scenes/Fireball/burned_ground.tga",
+      "png": "Data/Scenes/Fireball/burned_ground.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "79076eb3926a6c4b9775e2292411858daf17cd1253947497c921760b136526cb"
+    },
+    {
+      "original": "Data/Scenes/Fireball/fireball_light.tga",
+      "png": "Data/Scenes/Fireball/fireball_light.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "82b87bdaaf46b15b28f0ca2b0f5630d4926cfaa45ffce287691179229c1f902b"
+    },
+    {
+      "original": "Data/Scenes/Fireball/ice.tga",
+      "png": "Data/Scenes/Fireball/ice.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "c2b05bb8064534ab84812b2e281e8ac14cb087ab5aecd392bdd2a1a2e9aacf30"
+    },
+    {
+      "original": "Data/Scenes/Gates/arch.tga",
+      "png": "Data/TextureSources/Scenes/Gates/arch.png",
+      "resolution": "preserved source variant",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "cbf4fd710190bb5774aefed8f792fa10dbf29fef0b49d9c9de85235a7a41182c"
+    },
+    {
+      "original": "Data/Scenes/Gates/gate_02.tga",
+      "png": "Data/TextureSources/Scenes/Gates/gate_02.png",
+      "resolution": "preserved source variant",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "e810a3ebf16dbf63048cf89c67bf6bda034cc138f6a1f92be6ce57dda9623978"
+    },
+    {
+      "original": "Data/Scenes/Gates/gate_03.tga",
+      "png": "Data/TextureSources/Scenes/Gates/gate_03.png",
+      "resolution": "preserved source variant",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "0d05b5a5b5789cecc031ea4f32ebfe2b31c79997499722f67bb01a82f46f00b5"
+    },
+    {
+      "original": "Data/Scenes/Gates/gate_04.tga",
+      "png": "Data/TextureSources/Scenes/Gates/gate_04.png",
+      "resolution": "preserved source variant",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "c820fe1b9ebb306da58ec5770c1cc844fa4f95aa1672da8a90513b997ce25248"
+    },
+    {
+      "original": "Data/Scenes/Gates/wood_01a.tga",
+      "png": "Data/TextureSources/Scenes/Gates/wood_01a.png",
+      "resolution": "preserved source variant",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "86b8a1b1fe92d09e15d73809ebd4f958027ba451f912578e93696f7c1c47fa74"
+    },
+    {
+      "original": "Data/Scenes/Goblin/goblin_01.tga",
+      "png": "Data/Scenes/Goblin/goblin_01.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "3b5e18c59efeae19ac116d87422ced3472b91301f3ff22713a2aa55b9d618d0c"
+    },
+    {
+      "original": "Data/Scenes/Goblin/goblin_128.tga",
+      "png": "Data/Scenes/Goblin/goblin_128.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "b539a2716b9d3d8f2ece07b464f781ae8a46745918ecb0a4230145956168092a"
+    },
+    {
+      "original": "Data/Scenes/Goblin/goblin_64.tga",
+      "png": "Data/Scenes/Goblin/goblin_64.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "c479d62f53da8004cfeaa6e8c362176b89c7162e3f7b2e294c84c9f2914d94d3"
+    },
+    {
+      "original": "Data/Scenes/Goblin/goblin_shadow.tga",
+      "png": "Data/Scenes/Goblin/goblin_shadow.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "ad9971ebd9fb03065cb778a754f8caafdb8508b0f476d6306951c3593df701c5"
+    },
+    {
+      "original": "Data/Scenes/Goblin/shadow.tga",
+      "png": "Data/Scenes/Goblin/shadow.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "ad9971ebd9fb03065cb778a754f8caafdb8508b0f476d6306951c3593df701c5"
+    },
+    {
+      "original": "Data/Scenes/Goblin_bomb/bomb.tga",
+      "png": "Data/Scenes/Goblin_bomb/bomb.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "d3d277feb2a7dc5cab67d7251b3b699d600644f8fd4fb5c32169732ebeae8d28"
+    },
+    {
+      "original": "Data/Scenes/Goblin_bomb/goblin_bomb.tga",
+      "png": "Data/Scenes/Goblin_bomb/goblin_bomb.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "d1dcc0f43bec50d2dd78c3f04bc01bea97c47e16a15ca751e690b7ddceb77db3"
+    },
+    {
+      "original": "Data/Scenes/Griffin/griffin_00.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/griffin_00.png",
+      "resolution": "preserved source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "7d45ff4afa9cfcc050a129cf9b7721fcd4892e276ae130ac9d985985b97be801"
+    },
+    {
+      "original": "Data/Scenes/Griffin/griffin_01.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/griffin_01.png",
+      "resolution": "preserved source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "478af802783199900b7d9728b8593d01bfc19187d7b90164d6096c70b13469a3"
+    },
+    {
+      "original": "Data/Scenes/Griffin/griffin_02.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/griffin_02.png",
+      "resolution": "preserved source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "91a57686501f39b45e7cb7ac3c44aee60b253f1f4aed8dee6f67ecbc19f07774"
+    },
+    {
+      "original": "Data/Scenes/Griffin/griffin_light.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/griffin_light.png",
+      "resolution": "preserved source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "e5fcb1b1b7367745ac30ca39d45438c40e9abb21d087a84913b0a18fe8861491"
+    },
+    {
+      "original": "Data/Scenes/Griffin/postament_00.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/postament_00.png",
+      "resolution": "preserved source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "5965a2c178855af8effe2f552b77c99f16268e656c71fb6f350e1effcb542f9d"
+    },
+    {
+      "original": "Data/Scenes/Griffin/postament_01.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/postament_01.png",
+      "resolution": "preserved source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "e37c5fa7187a1519958af9e6b01be1a1d7fee390729677cfaec51981a6387357"
+    },
+    {
+      "original": "Data/Scenes/Griffin/postament_02.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/postament_02.png",
+      "resolution": "preserved source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "3d6bc0f121c610dc512215bd092800f3bf9052676c01e58bed168260dbe64b6b"
+    },
+    {
+      "original": "Data/Scenes/Griffin/smoke_griffin.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/smoke_griffin.png",
+      "resolution": "preserved source variant",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "f6a320a3e7995635da2c7071d9472de6eaea4b9bddc21c066e16b68a0feaf958"
+    },
+    {
+      "original": "Data/Scenes/Hydra/hydra.tga",
+      "png": "Data/Scenes/Hydra/hydra.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "27262a63de7cdaf450d66da28e007711a615d1253005d06f6db33ff61cae9b1f"
+    },
+    {
+      "original": "Data/Scenes/Hydra/towers_wall_02.tga",
+      "png": "Data/Scenes/Hydra/towers_wall_02.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "b6114c1547a7f6383538e043d561fd382b06ea836591f4f4f03f57c180439cf2"
+    },
+    {
+      "original": "Data/Scenes/Hydra/water_hydra.tga",
+      "png": "Data/Scenes/Hydra/water_hydra.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "137de7e78c3fd0b5b10230142058a021003e34c1c552bacd565e64ee54957277"
+    },
+    {
+      "original": "Data/Scenes/Hydra/water_hydra_01.tga",
+      "png": "Data/Scenes/Hydra/water_hydra_01.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "db15a560718597abfeccdb460e350965acbce7986d3de09fa9830bc8e84a628e"
+    },
+    {
+      "original": "Data/Scenes/Shaman/shaman_128.tga",
+      "png": "Data/Scenes/Shaman/shaman_128.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "96e6b64ba84c32e4c190427d014057ea9bcd2d37999e1685d9694ad89bc12ba7"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/fire/fire_blue_00.tga",
+      "png": "Data/Scenes/Skeleton/fire/fire_blue_00.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 128,
+      "rgba_sha256": "6ab106e12c22774784ce0450ec985c92a441af17957d5a3da11dcafa74956f7e"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/fire/fire_blue_01.tga",
+      "png": "Data/Scenes/Skeleton/fire/fire_blue_01.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 128,
+      "rgba_sha256": "57403c80cca8ee80d281d659a9d497429482234f11a323507210b0ece1d1dc2c"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/fire/fire_blue_02.tga",
+      "png": "Data/Scenes/Skeleton/fire/fire_blue_02.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 128,
+      "rgba_sha256": "723bda098d5dfdea6360b801f81dd4f26f8f27dea3a44ba33dad1fbe390f0a1d"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/fire/fire_blue_03.tga",
+      "png": "Data/Scenes/Skeleton/fire/fire_blue_03.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 128,
+      "rgba_sha256": "53b28b02e3aa890b9762444886fc12633dc4898e38a5d2e3b00cc5fb9528027d"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/fire/fire_blue_04.tga",
+      "png": "Data/Scenes/Skeleton/fire/fire_blue_04.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 128,
+      "rgba_sha256": "f10ab0faf227a282f75c904f1a637fa78d8fb51e5aae49b9fc55ef462f988f5f"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/fire/fire_blue_05.tga",
+      "png": "Data/Scenes/Skeleton/fire/fire_blue_05.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 128,
+      "rgba_sha256": "25eba8e53e771cc96ee07ae701b67562fb0c36312cb130bfbcd8a7b9bc978ff8"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/fire/fire_blue_06.tga",
+      "png": "Data/Scenes/Skeleton/fire/fire_blue_06.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 128,
+      "rgba_sha256": "34b1c75d6a550d2763c0382fe1831fe04df2477364cd4299ec02b01d5639e936"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/fire/fire_blue_07.tga",
+      "png": "Data/Scenes/Skeleton/fire/fire_blue_07.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 128,
+      "rgba_sha256": "5e1949218a446c564ca7f3131f5f16b429b333bc080d36d8c6d4e3c950428a70"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/fire/fire_blue_08.tga",
+      "png": "Data/Scenes/Skeleton/fire/fire_blue_08.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 128,
+      "rgba_sha256": "c4346ec39e318ac1fceb75d2d424c37b6215eecf2cb2f666825623c03b273c53"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/fire/fire_red_00.tga",
+      "png": "Data/Scenes/Skeleton/fire/fire_red_00.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 128,
+      "rgba_sha256": "41acd4da7c356944c69f2b85a326307ae5c823936c95da2d79342463dd9ab19a"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/fire/fire_red_01.tga",
+      "png": "Data/Scenes/Skeleton/fire/fire_red_01.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 128,
+      "rgba_sha256": "a1a81a32e76d8ff6178582da6ccda94bbbdde92111fcb654d044e09813ce3940"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/fire/fire_red_02.tga",
+      "png": "Data/Scenes/Skeleton/fire/fire_red_02.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 128,
+      "rgba_sha256": "e6c60e5103ddc239f9f5cf2a4faa6ac3b1b21f87d67a9cdd8ac86aa7dc0f8684"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/fire/fire_red_03.tga",
+      "png": "Data/Scenes/Skeleton/fire/fire_red_03.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 128,
+      "rgba_sha256": "5390c385da3fd2b5e3decec11bdbe3c8f93caf95bbdef7a68e9d70938ac39655"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/fire/fire_red_04.tga",
+      "png": "Data/Scenes/Skeleton/fire/fire_red_04.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 128,
+      "rgba_sha256": "987841961f9519663b420c0dce9f5251271dbaa8ec1b67ce8d6a157ea15e7bdb"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/fire/fire_red_05.tga",
+      "png": "Data/Scenes/Skeleton/fire/fire_red_05.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 128,
+      "rgba_sha256": "ebf216959b3af0ddad6cb6a6dea99a0bd3a7237b69e531f3c0f3484d06e618e6"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/fire/fire_red_06.tga",
+      "png": "Data/Scenes/Skeleton/fire/fire_red_06.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 128,
+      "rgba_sha256": "690cb0a8da4d728ebc5298238bd366ee1380bb6d633b353c57e351d3d32ba711"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/fire/fire_red_07.tga",
+      "png": "Data/Scenes/Skeleton/fire/fire_red_07.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 128,
+      "rgba_sha256": "2bb39a60b8ad00a39f3fa52eb516f6de4ca9b0720a0d480c1b40bed6a2f49d4f"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/fire/fire_red_08.tga",
+      "png": "Data/Scenes/Skeleton/fire/fire_red_08.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 128,
+      "rgba_sha256": "73ce20b346b6272319d0a6e2b6e67142626619bc8aab8c80f59dd3ebe35bd579"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/fire_blue.tga",
+      "png": "Data/Scenes/Skeleton/fire_blue.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 128,
+      "rgba_sha256": "acd033ed3c1042bfe2129770da68342c562a80bfd0a2982102e8753c52427df1"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/fire_red.tga",
+      "png": "Data/Scenes/Skeleton/fire_red.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 128,
+      "rgba_sha256": "34e238e5a6a20d69229381938605168f15e556cde1638ca2440b55653ee1c741"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/seal_blue.tga",
+      "png": "Data/Scenes/Skeleton/seal_blue.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "033af2561d086af79d16e14eabf1a9f062775d7329bfa46c913350010243b41f"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/seal_golden.tga",
+      "png": "Data/Scenes/Skeleton/seal_golden.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "c15f076eef58fb9fbce4d6d04cfbe7cdd9457798bf1bbc79dda0848e0ac13577"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/skeleton_blue.tga",
+      "png": "Data/Scenes/Skeleton/skeleton_blue.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "d09005390ae6af2ebc9feae09a6c051c5af420fa6fe9e077bf74a17dff0d3885"
+    },
+    {
+      "original": "Data/Scenes/Skeleton/skeleton_golden.tga",
+      "png": "Data/Scenes/Skeleton/skeleton_golden.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "a003bd70e45cbed66537400adebb187ee666cfd5a46e12f48fd054e878f9166d"
+    },
+    {
+      "original": "Data/Scenes/Spells/boulder.tga",
+      "png": "Data/Scenes/Spells/boulder.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "42da13a327fab110d1179f576b0762098e2f01af4db1cfaacc5cd4b2e36bfcd6"
+    },
+    {
+      "original": "Data/Scenes/Spells/finger_trail.tga",
+      "png": "Data/Scenes/Spells/finger_trail.png",
+      "resolution": "converted",
+      "width": 8,
+      "height": 8,
+      "rgba_sha256": "4111c0f3447c9f5cf9543e817797eea09778529b4fc0776595b95cd0577e019b"
+    },
+    {
+      "original": "Data/Scenes/Spells/shield_boulder.tga",
+      "png": "Data/Scenes/Spells/shield_boulder.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "e08284ef49a971c12d4af7f04613e97ab84910f70fad66042ec1399497c03e2d"
+    },
+    {
+      "original": "Data/Scenes/Spells/shield_earthquake.tga",
+      "png": "Data/Scenes/Spells/shield_earthquake.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "f25ecf25332cd2c3fba65a31aeed80c407aa7138fc16b9b53f32ac5cf2cd0fc9"
+    },
+    {
+      "original": "Data/Scenes/Spells/shield_ghost_army.tga",
+      "png": "Data/Scenes/Spells/shield_ghost_army.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "ce94eb3e3f7fe87746f61616960ac255af8d614b150a006a18f6dedceb4152c9"
+    },
+    {
+      "original": "Data/Scenes/Spells/shield_lightning.tga",
+      "png": "Data/Scenes/Spells/shield_lightning.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "0939787a0be3a300e4fa81bb942e5cee74cb1c5236d12476063a238e38df91a1"
+    },
+    {
+      "original": "Data/Scenes/Spells/shield_tornado.tga",
+      "png": "Data/Scenes/Spells/shield_tornado.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "2c3bb2478a7a8e6b87a3904f214c5213d7fad1987a357479bab2919a811efd8c"
+    },
+    {
+      "original": "Data/Scenes/Spells/strike.tga",
+      "png": "Data/Scenes/Spells/strike.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "5ac85e0174c35ed9c30f0887842201a6e8d957026b07cabc5e7af914058ec3be"
+    },
+    {
+      "original": "Data/Scenes/Tornado/tornado_alpha.tga",
+      "png": "Data/Scenes/Tornado/tornado_alpha.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "2820e5691a9e0c61a5fae5a076146d3772aee0f8f111078af4fb1731553f6359"
+    },
+    {
+      "original": "Data/Scenes/Tornado/tornado_seq.tga",
+      "png": "Data/Scenes/Tornado/tornado_seq.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 128,
+      "rgba_sha256": "e67c210964ad4673e9699806a71d353a20f7baafa82e6a13ea344ca666861b47"
+    },
+    {
+      "original": "Data/Scenes/Troll/troll.tga",
+      "png": "Data/Scenes/Troll/troll.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "b906c6f878edaff65ef52f4b7fd82960cba57e7b1bdfe832359c586fec569116"
+    },
+    {
+      "original": "Data/Scenes/Wild_boar/boar_evil.tga",
+      "png": "Data/Scenes/Wild_boar/boar_evil.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "3a107252da5dd7164a6563a1c3a6859a7f604a8cdf4205c0abb3a6438699248c"
+    },
+    {
+      "original": "Data/Scenes/Wild_boar/boar_good.tga",
+      "png": "Data/Scenes/Wild_boar/boar_good.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "716faabe4f23b62c106147b9ccbcf2455486cb09319780b6edc209776aa3d4bf"
+    },
+    {
+      "original": "Data/Scenes/Wild_boar/boar_normal.tga",
+      "png": "Data/Scenes/Wild_boar/boar_normal.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "0deeb7d40a18bbf9f9885c31d95f0e146ed975088514b1f5e8e7c466220e6e73"
+    },
+    {
+      "original": "Data/Scenes/Wild_boar/boar_rider.tga",
+      "png": "Data/Scenes/Wild_boar/boar_rider.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "5be524017d79192a9592e3661320786c05515c94d55608ed608ad1099c186c64"
+    },
+    {
+      "original": "Data/Scenes/Wild_boar/wild_boar_blue.tga",
+      "png": "Data/Scenes/Wild_boar/wild_boar_blue.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "70e9ea8004bc1f3590047282618bfa929177d7373de08914485789371bf8010c"
+    },
+    {
+      "original": "Data/Scenes/Wild_boar/wild_boar_red.tga",
+      "png": "Data/Scenes/Wild_boar/wild_boar_red.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "b4ea6e4df64d4f12a09a72389dfdaf89a378ed526f8a8936943a999518c58063"
+    },
+    {
+      "original": "Data/Sprites/Fonts/ArialSmall.tga",
+      "png": "Data/Sprites/Fonts/ArialSmall.png",
+      "resolution": "existing identical PNG",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "bdbd116902dece741d8000cae53cc942a3065aea08b52b085412607888edb947"
+    },
+    {
+      "original": "Data/Sprites/Fonts/BerlinSansFB.tga",
+      "png": "Data/TextureSources/Fonts/BerlinSansFB.png",
+      "resolution": "deduplicated source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "18828d136da97592146b6ce754c49d97d1e66509b6968f17bdccbb0614a8446a"
+    },
+    {
+      "original": "Data/Sprites/Fonts/ChineseBig.tga",
+      "png": "Data/Sprites/Fonts/ChineseBig.png",
+      "resolution": "existing identical PNG",
+      "width": 1024,
+      "height": 512,
+      "rgba_sha256": "a63fdddce1e12e64e3a183223f09fc41f196db1308f5c4bf1efcd2c1ae0de9df"
+    },
+    {
+      "original": "Data/Sprites/Fonts/JapaneseBig.tga",
+      "png": "Data/Sprites/Fonts/JapaneseBig.png",
+      "resolution": "existing identical PNG",
+      "width": 1024,
+      "height": 512,
+      "rgba_sha256": "b73cdc6e85fc6c5df5a5ba5002da80ac0d3892a27849ca2a9ca11021a5b7db65"
+    },
+    {
+      "original": "Data/Sprites/Fonts/day_font.tga",
+      "png": "Data/TextureSources/Fonts/day_font.png",
+      "resolution": "deduplicated source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "4472a47ab63989c02cdbad3a0342c9a643ede295cf2c058a4833aff2d01b6e89"
+    },
+    {
+      "original": "Data/Sprites/Fonts/money_souls_big_font.tga",
+      "png": "Data/Sprites/Fonts/money_souls_big_font.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 64,
+      "rgba_sha256": "e7972578063ae9b1fa36bdc68b9f7f62ee5447978c92890b9f53f7e0c51e63cb"
+    },
+    {
+      "original": "Data/Sprites/Fonts/money_souls_font.tga",
+      "png": "Data/Sprites/Fonts/money_souls_font.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "e14c40cedf4715762126d375d534eed1b6cf6ee3aad3857ce67338125f71d28d"
+    },
+    {
+      "original": "Data/Sprites/Ingame/dead.tga",
+      "png": "Data/Sprites/Ingame/dead.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "9fd698f323fe15426d15080e9bf7565c7979676fd6a0e4ac8606b6218ee2ab31"
+    },
+    {
+      "original": "Data/Sprites/Ingame/dead01.tga",
+      "png": "Data/Sprites/Ingame/dead01.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "829ea308a1dfc6757dd64fd0a7a0e6c83d88689f115d20b3b86c263d19947ca4"
+    },
+    {
+      "original": "Data/Sprites/Ingame/dizzy_effect.tga",
+      "png": "Data/Sprites/Ingame/dizzy_effect.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "9ce48273c50e9eb9093dee101116524999f025f3ee414a5c2e79e798ab1bf099"
+    },
+    {
+      "original": "Data/Sprites/Ingame/effects.tga",
+      "png": "Data/Sprites/Ingame/effects.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 64,
+      "rgba_sha256": "5e9c41804f6165387085b51a7a6d8e8b2a9fca2b084bbd36ef1e82403b0b1454"
+    },
+    {
+      "original": "Data/Sprites/Ingame/fireball_big.tga",
+      "png": "Data/Sprites/Ingame/fireball_big.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "dbe83825bc752d91db5c3e82471689fd34e75be9483c999470e60043965d47fa"
+    },
+    {
+      "original": "Data/Sprites/Ingame/fireball_glow.tga",
+      "png": "Data/Sprites/Ingame/fireball_glow.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "bc0f10f50360ba48e63d4b14552747865d8acc735ef05f761bb33448149186de"
+    },
+    {
+      "original": "Data/Sprites/Ingame/fireball_medium.tga",
+      "png": "Data/Sprites/Ingame/fireball_medium.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "b73b136b2d9601a54a9087790afe83c4ee4c5b846cf816cdd20d1ed156be1053"
+    },
+    {
+      "original": "Data/Sprites/Ingame/fireball_small.tga",
+      "png": "Data/Sprites/Ingame/fireball_small.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "4cc6d6ced321da3b135703e3e50be4405b1205d853eb29ef58acb08217232cf4"
+    },
+    {
+      "original": "Data/Sprites/Ingame/ghost_army.tga",
+      "png": "Data/Sprites/Ingame/ghost_army.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "4c5b2057bb02bfed34cb41436ececcf0ab4f1fe80f488e92527a13d82fdd4a27"
+    },
+    {
+      "original": "Data/Sprites/Ingame/griffin_Flash_contour.tga",
+      "png": "Data/Sprites/Ingame/griffin_Flash_contour.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "e223a27efac274a0295dac578c8b0c564f6f62ef6399332146654fd1251cf6d1"
+    },
+    {
+      "original": "Data/Sprites/Ingame/hit.tga",
+      "png": "Data/Sprites/Ingame/hit.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 128,
+      "rgba_sha256": "a9a4a3bdeaa10ecac545de292a4a6445b0639d7244f6cf9a5874bc8edd4fc2d7"
+    },
+    {
+      "original": "Data/Sprites/Ingame/iceball_big.tga",
+      "png": "Data/Sprites/Ingame/iceball_big.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "1cf938ab49f9284d46a383eb0ae3d7475f46a4b8dd26c84b37383e3d87a72a18"
+    },
+    {
+      "original": "Data/Sprites/Ingame/iceball_glow.tga",
+      "png": "Data/Sprites/Ingame/iceball_glow.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "637929e92cb41fe0e57a71e09a1c4425b0a03091671dac54f09442b6c52b1057"
+    },
+    {
+      "original": "Data/Sprites/Ingame/iceball_medium.tga",
+      "png": "Data/Sprites/Ingame/iceball_medium.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "3bcb4326f89267ca2f38158a4173960fb511f10518ef6259a38106924c3b291a"
+    },
+    {
+      "original": "Data/Sprites/Ingame/iceball_small.tga",
+      "png": "Data/Sprites/Ingame/iceball_small.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "7218adfc648a9cd2723f5828641cb04a47cbb1137bf6900a45258e099f66bc18"
+    },
+    {
+      "original": "Data/Sprites/Ingame/iced_units.tga",
+      "png": "Data/Sprites/Ingame/iced_units.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "ef5d08f9f32c4767367e5207b73842a6a8a5f90ce3a7131f225ebbc00780b2e3"
+    },
+    {
+      "original": "Data/Sprites/Ingame/lightning.tga",
+      "png": "Data/Sprites/Ingame/lightning.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "bbf3670b53f33e17523b82a40a8054ab6a38f65b2aefccb8cd729c5ced6d096b"
+    },
+    {
+      "original": "Data/Sprites/Ingame/stoned_units.tga",
+      "png": "Data/Sprites/Ingame/stoned_units.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "0ac3e92ab73ad7354bd06f9f43cc3b7126caac95504996ae5259935eb01dc977"
+    },
+    {
+      "original": "Data/Sprites/Ingame/walk_dust.tga",
+      "png": "Data/Sprites/Ingame/walk_dust.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 64,
+      "rgba_sha256": "ca71259236b8562c7537d4bb5fc9441ad101c2669c4efb057768babdd4b4116d"
+    },
+    {
+      "original": "Data/Sprites/Menu/achievements.tga",
+      "png": "Data/Sprites/Menu/achievements.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "4faebf895e0a6fa3c68b038c62b7c3505e60e4d596fa7a2ea349ce976b988c46"
+    },
+    {
+      "original": "Data/Sprites/Menu/fullversion.tga",
+      "png": "Data/Sprites/Menu/fullversion.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "f39ee3d6b8ea1d7f324af4341378621e3404ff154d003f2d2232f97993c9d496"
+    },
+    {
+      "original": "Data/Sprites/Menu/help_images.tga",
+      "png": "Data/Sprites/Menu/help_images.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "fe49a7d3112733808198c8105816220ef714525d1037079fe2086a98e70398f4"
+    },
+    {
+      "original": "Data/Sprites/Menu/high_score_icone.tga",
+      "png": "Data/Sprites/Menu/high_score_icone.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "1589d63822f47dc9e564b0b1103b62ac6443c442d659ac1656c3d4c4f8b08f3f"
+    },
+    {
+      "original": "Data/Sprites/Menu/menu.tga",
+      "png": "Data/Sprites/Menu/menu.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "83219dc2a961cf135fa4b8ac02bfb55d44fa4d2233fbe5bd1aa8355d9c057f53"
+    },
+    {
+      "original": "Data/Sprites/Menu/menu_bg.tga",
+      "png": "Data/Sprites/Menu/menu_bg.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "f56546007e2d85d5f93e3c47a0ce9ca77a1d8cf80399f1e8cfdebcccb577b7ef"
+    },
+    {
+      "original": "Data/Sprites/Menu/shop.tga",
+      "png": "Data/Sprites/Menu/shop.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "48cb4cb53719cfb9e157929478fdd073bb911ad8cc036529bdfacca9e77fee45"
+    },
+    {
+      "original": "Data/Scenes/bin/Castle/bigtex.tga",
+      "png": "Data/TextureSources/Scenes/Castle/bigtex.png",
+      "resolution": "deduplicated source variant",
+      "width": 1024,
+      "height": 1024,
+      "rgba_sha256": "e016bee2fec66d9003647f527e7e5e80bb7984953c300491aa9df727b3c4e89e"
+    },
+    {
+      "original": "Data/Scenes/bin/Castle/bigtex_2.tga",
+      "png": "Data/TextureSources/Scenes/Castle/bigtex_2.png",
+      "resolution": "deduplicated source variant",
+      "width": 1024,
+      "height": 1024,
+      "rgba_sha256": "873e5292d28158e4992fdfcbc1f4480d03afb6291b029dc5c78914483a8e9124"
+    },
+    {
+      "original": "Data/Scenes/bin/Castle/bigtex_alpha.tga",
+      "png": "Data/TextureSources/Scenes/Castle/bigtex_alpha.png",
+      "resolution": "deduplicated source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "e29197ee55677a7f6e8158a91ed81eff5f80c54b2dccca2ba81be1e4ae76d03d"
+    },
+    {
+      "original": "Data/Scenes/bin/Castle/clouds_02.tga",
+      "png": "Data/TextureSources/Scenes/Castle/clouds_02.png",
+      "resolution": "deduplicated source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "e67952dedf70e2eb2f82c98eb245098cea2545ca1fa5e83356d65d52f0791a20"
+    },
+    {
+      "original": "Data/Scenes/bin/Castle/crackedearth.tga",
+      "png": "Data/TextureSources/Scenes/Castle/crackedearth.png",
+      "resolution": "deduplicated source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "aac2ac9630c4f1c0d3bfd49fea0a5e1142d8e8da89aaa2a92381541aef7254fd"
+    },
+    {
+      "original": "Data/Scenes/bin/Castle/ground_03.tga",
+      "png": "Data/TextureSources/Scenes/Castle/ground_03.png",
+      "resolution": "deduplicated source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "4403a5d976f5be43484260e18a6926cdaf739a0d1a1661bada50a8b3da8cc827"
+    },
+    {
+      "original": "Data/Scenes/bin/Castle/rock_02.tga",
+      "png": "Data/TextureSources/Scenes/Castle/rock_02.png",
+      "resolution": "deduplicated source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "0fc833bc226371e5f824be0c44d22e123d2de592f7bdb9d27b1e9d8ae6e203d4"
+    },
+    {
+      "original": "Data/Scenes/bin/Castle/scene_mask.tga",
+      "png": "Data/TextureSources/Scenes/Castle/scene_mask.png",
+      "resolution": "deduplicated source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "811aa7c899f547bd6f2873dee432bb6bb10a6e61af49d82e2dcda6030bcad772"
+    },
+    {
+      "original": "Data/Scenes/bin/Castle/water.tga",
+      "png": "Data/TextureSources/Scenes/Castle/water.png",
+      "resolution": "deduplicated source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "921eadae631138ffe149bd49992759d45783a9452a0df4212bb269ce3a90788d"
+    },
+    {
+      "original": "Data/Scenes/bin/Dark_elf/dark_elf_256.tga",
+      "png": "Data/Scenes/bin/Dark_elf/dark_elf_256.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "9254411cc75e85b63715f906de95558d47416a94ba03b8e48a80a775769e25cb"
+    },
+    {
+      "original": "Data/Scenes/bin/Fireball/bowl.tga",
+      "png": "Data/Scenes/bin/Fireball/bowl.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "82c1e5f3375db70476a46c180b54b07ed62a7e3fb1b7527fe5f718ad699de9d7"
+    },
+    {
+      "original": "Data/Scenes/bin/Fireball/burned_ground.tga",
+      "png": "Data/Scenes/bin/Fireball/burned_ground.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "79076eb3926a6c4b9775e2292411858daf17cd1253947497c921760b136526cb"
+    },
+    {
+      "original": "Data/Scenes/bin/Fireball/fireball_light.tga",
+      "png": "Data/Scenes/bin/Fireball/fireball_light.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "82b87bdaaf46b15b28f0ca2b0f5630d4926cfaa45ffce287691179229c1f902b"
+    },
+    {
+      "original": "Data/Scenes/bin/Fireball/ice.tga",
+      "png": "Data/Scenes/bin/Fireball/ice.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "c2b05bb8064534ab84812b2e281e8ac14cb087ab5aecd392bdd2a1a2e9aacf30"
+    },
+    {
+      "original": "Data/Scenes/bin/Gates/arch.tga",
+      "png": "Data/TextureSources/Scenes/Gates/arch.png",
+      "resolution": "deduplicated source variant",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "cbf4fd710190bb5774aefed8f792fa10dbf29fef0b49d9c9de85235a7a41182c"
+    },
+    {
+      "original": "Data/Scenes/bin/Gates/gate_02.tga",
+      "png": "Data/TextureSources/Scenes/Gates/gate_02.png",
+      "resolution": "deduplicated source variant",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "e810a3ebf16dbf63048cf89c67bf6bda034cc138f6a1f92be6ce57dda9623978"
+    },
+    {
+      "original": "Data/Scenes/bin/Gates/gate_03.tga",
+      "png": "Data/TextureSources/Scenes/Gates/gate_03.png",
+      "resolution": "deduplicated source variant",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "0d05b5a5b5789cecc031ea4f32ebfe2b31c79997499722f67bb01a82f46f00b5"
+    },
+    {
+      "original": "Data/Scenes/bin/Gates/gate_04.tga",
+      "png": "Data/TextureSources/Scenes/Gates/gate_04.png",
+      "resolution": "deduplicated source variant",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "c820fe1b9ebb306da58ec5770c1cc844fa4f95aa1672da8a90513b997ce25248"
+    },
+    {
+      "original": "Data/Scenes/bin/Gates/wood_01a.tga",
+      "png": "Data/TextureSources/Scenes/Gates/wood_01a.png",
+      "resolution": "deduplicated source variant",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "86b8a1b1fe92d09e15d73809ebd4f958027ba451f912578e93696f7c1c47fa74"
+    },
+    {
+      "original": "Data/Scenes/bin/Goblin/goblin_01.tga",
+      "png": "Data/Scenes/bin/Goblin/goblin_01.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "3b5e18c59efeae19ac116d87422ced3472b91301f3ff22713a2aa55b9d618d0c"
+    },
+    {
+      "original": "Data/Scenes/bin/Goblin/goblin_128.tga",
+      "png": "Data/Scenes/bin/Goblin/goblin_128.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "b539a2716b9d3d8f2ece07b464f781ae8a46745918ecb0a4230145956168092a"
+    },
+    {
+      "original": "Data/Scenes/bin/Goblin/goblin_64.tga",
+      "png": "Data/Scenes/bin/Goblin/goblin_64.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "c479d62f53da8004cfeaa6e8c362176b89c7162e3f7b2e294c84c9f2914d94d3"
+    },
+    {
+      "original": "Data/Scenes/bin/Goblin/goblin_shadow.tga",
+      "png": "Data/Scenes/bin/Goblin/goblin_shadow.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "ad9971ebd9fb03065cb778a754f8caafdb8508b0f476d6306951c3593df701c5"
+    },
+    {
+      "original": "Data/Scenes/bin/Goblin/shadow.tga",
+      "png": "Data/Scenes/bin/Goblin/shadow.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "ad9971ebd9fb03065cb778a754f8caafdb8508b0f476d6306951c3593df701c5"
+    },
+    {
+      "original": "Data/Scenes/bin/Goblin_bomb/bomb.tga",
+      "png": "Data/Scenes/bin/Goblin_bomb/bomb.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "d3d277feb2a7dc5cab67d7251b3b699d600644f8fd4fb5c32169732ebeae8d28"
+    },
+    {
+      "original": "Data/Scenes/bin/Goblin_bomb/goblin_bomb.tga",
+      "png": "Data/Scenes/bin/Goblin_bomb/goblin_bomb.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "d1dcc0f43bec50d2dd78c3f04bc01bea97c47e16a15ca751e690b7ddceb77db3"
+    },
+    {
+      "original": "Data/Scenes/bin/Griffin/griffin_00.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/griffin_00.png",
+      "resolution": "deduplicated source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "7d45ff4afa9cfcc050a129cf9b7721fcd4892e276ae130ac9d985985b97be801"
+    },
+    {
+      "original": "Data/Scenes/bin/Griffin/griffin_01.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/griffin_01.png",
+      "resolution": "deduplicated source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "478af802783199900b7d9728b8593d01bfc19187d7b90164d6096c70b13469a3"
+    },
+    {
+      "original": "Data/Scenes/bin/Griffin/griffin_02.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/griffin_02.png",
+      "resolution": "deduplicated source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "91a57686501f39b45e7cb7ac3c44aee60b253f1f4aed8dee6f67ecbc19f07774"
+    },
+    {
+      "original": "Data/Scenes/bin/Griffin/griffin_light.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/griffin_light.png",
+      "resolution": "deduplicated source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "e5fcb1b1b7367745ac30ca39d45438c40e9abb21d087a84913b0a18fe8861491"
+    },
+    {
+      "original": "Data/Scenes/bin/Griffin/postament_00.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/postament_00.png",
+      "resolution": "deduplicated source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "5965a2c178855af8effe2f552b77c99f16268e656c71fb6f350e1effcb542f9d"
+    },
+    {
+      "original": "Data/Scenes/bin/Griffin/postament_01.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/postament_01.png",
+      "resolution": "deduplicated source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "e37c5fa7187a1519958af9e6b01be1a1d7fee390729677cfaec51981a6387357"
+    },
+    {
+      "original": "Data/Scenes/bin/Griffin/postament_02.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/postament_02.png",
+      "resolution": "deduplicated source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "3d6bc0f121c610dc512215bd092800f3bf9052676c01e58bed168260dbe64b6b"
+    },
+    {
+      "original": "Data/Scenes/bin/Griffin/smoke_griffin.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/smoke_griffin.png",
+      "resolution": "deduplicated source variant",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "f6a320a3e7995635da2c7071d9472de6eaea4b9bddc21c066e16b68a0feaf958"
+    },
+    {
+      "original": "Data/Scenes/bin/Hydra/hydra.tga",
+      "png": "Data/Scenes/bin/Hydra/hydra.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "27262a63de7cdaf450d66da28e007711a615d1253005d06f6db33ff61cae9b1f"
+    },
+    {
+      "original": "Data/Scenes/bin/Hydra/towers_wall_02.tga",
+      "png": "Data/Scenes/bin/Hydra/towers_wall_02.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "b6114c1547a7f6383538e043d561fd382b06ea836591f4f4f03f57c180439cf2"
+    },
+    {
+      "original": "Data/Scenes/bin/Hydra/water_hydra.tga",
+      "png": "Data/Scenes/bin/Hydra/water_hydra.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "137de7e78c3fd0b5b10230142058a021003e34c1c552bacd565e64ee54957277"
+    },
+    {
+      "original": "Data/Scenes/bin/Hydra/water_hydra_01.tga",
+      "png": "Data/Scenes/bin/Hydra/water_hydra_01.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "db15a560718597abfeccdb460e350965acbce7986d3de09fa9830bc8e84a628e"
+    },
+    {
+      "original": "Data/Scenes/bin/Shaman/shaman_128.tga",
+      "png": "Data/Scenes/bin/Shaman/shaman_128.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "96e6b64ba84c32e4c190427d014057ea9bcd2d37999e1685d9694ad89bc12ba7"
+    },
+    {
+      "original": "Data/Scenes/bin/Skeleton/fire_blue.tga",
+      "png": "Data/Scenes/bin/Skeleton/fire_blue.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 128,
+      "rgba_sha256": "acd033ed3c1042bfe2129770da68342c562a80bfd0a2982102e8753c52427df1"
+    },
+    {
+      "original": "Data/Scenes/bin/Skeleton/fire_red.tga",
+      "png": "Data/Scenes/bin/Skeleton/fire_red.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 128,
+      "rgba_sha256": "34e238e5a6a20d69229381938605168f15e556cde1638ca2440b55653ee1c741"
+    },
+    {
+      "original": "Data/Scenes/bin/Skeleton/seal_blue.tga",
+      "png": "Data/Scenes/bin/Skeleton/seal_blue.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "033af2561d086af79d16e14eabf1a9f062775d7329bfa46c913350010243b41f"
+    },
+    {
+      "original": "Data/Scenes/bin/Skeleton/seal_golden.tga",
+      "png": "Data/Scenes/bin/Skeleton/seal_golden.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "c15f076eef58fb9fbce4d6d04cfbe7cdd9457798bf1bbc79dda0848e0ac13577"
+    },
+    {
+      "original": "Data/Scenes/bin/Skeleton/skeleton_blue.tga",
+      "png": "Data/Scenes/bin/Skeleton/skeleton_blue.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "d09005390ae6af2ebc9feae09a6c051c5af420fa6fe9e077bf74a17dff0d3885"
+    },
+    {
+      "original": "Data/Scenes/bin/Skeleton/skeleton_golden.tga",
+      "png": "Data/Scenes/bin/Skeleton/skeleton_golden.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "a003bd70e45cbed66537400adebb187ee666cfd5a46e12f48fd054e878f9166d"
+    },
+    {
+      "original": "Data/Scenes/bin/Spells/boulder.tga",
+      "png": "Data/Scenes/bin/Spells/boulder.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "42da13a327fab110d1179f576b0762098e2f01af4db1cfaacc5cd4b2e36bfcd6"
+    },
+    {
+      "original": "Data/Scenes/bin/Spells/finger_trail.tga",
+      "png": "Data/Scenes/bin/Spells/finger_trail.png",
+      "resolution": "converted",
+      "width": 8,
+      "height": 8,
+      "rgba_sha256": "4111c0f3447c9f5cf9543e817797eea09778529b4fc0776595b95cd0577e019b"
+    },
+    {
+      "original": "Data/Scenes/bin/Spells/shield_boulder.tga",
+      "png": "Data/Scenes/bin/Spells/shield_boulder.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "e08284ef49a971c12d4af7f04613e97ab84910f70fad66042ec1399497c03e2d"
+    },
+    {
+      "original": "Data/Scenes/bin/Spells/shield_earthquake.tga",
+      "png": "Data/Scenes/bin/Spells/shield_earthquake.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "f25ecf25332cd2c3fba65a31aeed80c407aa7138fc16b9b53f32ac5cf2cd0fc9"
+    },
+    {
+      "original": "Data/Scenes/bin/Spells/shield_ghost_army.tga",
+      "png": "Data/Scenes/bin/Spells/shield_ghost_army.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "ce94eb3e3f7fe87746f61616960ac255af8d614b150a006a18f6dedceb4152c9"
+    },
+    {
+      "original": "Data/Scenes/bin/Spells/shield_lightning.tga",
+      "png": "Data/Scenes/bin/Spells/shield_lightning.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "0939787a0be3a300e4fa81bb942e5cee74cb1c5236d12476063a238e38df91a1"
+    },
+    {
+      "original": "Data/Scenes/bin/Spells/shield_tornado.tga",
+      "png": "Data/Scenes/bin/Spells/shield_tornado.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "2c3bb2478a7a8e6b87a3904f214c5213d7fad1987a357479bab2919a811efd8c"
+    },
+    {
+      "original": "Data/Scenes/bin/Spells/strike.tga",
+      "png": "Data/Scenes/bin/Spells/strike.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "5ac85e0174c35ed9c30f0887842201a6e8d957026b07cabc5e7af914058ec3be"
+    },
+    {
+      "original": "Data/Scenes/bin/Tornado/tornado_alpha.tga",
+      "png": "Data/Scenes/bin/Tornado/tornado_alpha.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "2820e5691a9e0c61a5fae5a076146d3772aee0f8f111078af4fb1731553f6359"
+    },
+    {
+      "original": "Data/Scenes/bin/Tornado/tornado_seq.tga",
+      "png": "Data/Scenes/bin/Tornado/tornado_seq.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 128,
+      "rgba_sha256": "e67c210964ad4673e9699806a71d353a20f7baafa82e6a13ea344ca666861b47"
+    },
+    {
+      "original": "Data/Scenes/bin/Troll/troll.tga",
+      "png": "Data/Scenes/bin/Troll/troll.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "b906c6f878edaff65ef52f4b7fd82960cba57e7b1bdfe832359c586fec569116"
+    },
+    {
+      "original": "Data/Scenes/bin/Wild_boar/boar_evil.tga",
+      "png": "Data/Scenes/bin/Wild_boar/boar_evil.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "3a107252da5dd7164a6563a1c3a6859a7f604a8cdf4205c0abb3a6438699248c"
+    },
+    {
+      "original": "Data/Scenes/bin/Wild_boar/boar_good.tga",
+      "png": "Data/Scenes/bin/Wild_boar/boar_good.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "716faabe4f23b62c106147b9ccbcf2455486cb09319780b6edc209776aa3d4bf"
+    },
+    {
+      "original": "Data/Scenes/bin/Wild_boar/boar_normal.tga",
+      "png": "Data/Scenes/bin/Wild_boar/boar_normal.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "0deeb7d40a18bbf9f9885c31d95f0e146ed975088514b1f5e8e7c466220e6e73"
+    },
+    {
+      "original": "Data/Scenes/bin/Wild_boar/boar_rider.tga",
+      "png": "Data/Scenes/bin/Wild_boar/boar_rider.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "5be524017d79192a9592e3661320786c05515c94d55608ed608ad1099c186c64"
+    },
+    {
+      "original": "Data/Scenes/bin/Wild_boar/wild_boar_blue.tga",
+      "png": "Data/Scenes/bin/Wild_boar/wild_boar_blue.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "70e9ea8004bc1f3590047282618bfa929177d7373de08914485789371bf8010c"
+    },
+    {
+      "original": "Data/Scenes/bin/Wild_boar/wild_boar_red.tga",
+      "png": "Data/Scenes/bin/Wild_boar/wild_boar_red.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "b4ea6e4df64d4f12a09a72389dfdaf89a378ed526f8a8936943a999518c58063"
+    },
+    {
+      "original": "Data/Sprites/bin/Fonts/money_souls_big_font.tga",
+      "png": "Data/Sprites/bin/Fonts/money_souls_big_font.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 64,
+      "rgba_sha256": "e7972578063ae9b1fa36bdc68b9f7f62ee5447978c92890b9f53f7e0c51e63cb"
+    },
+    {
+      "original": "Data/Sprites/bin/Fonts/money_souls_font.tga",
+      "png": "Data/Sprites/bin/Fonts/money_souls_font.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "e14c40cedf4715762126d375d534eed1b6cf6ee3aad3857ce67338125f71d28d"
+    },
+    {
+      "original": "Data/Sprites/bin/Ingame/dead.tga",
+      "png": "Data/Sprites/bin/Ingame/dead.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "9fd698f323fe15426d15080e9bf7565c7979676fd6a0e4ac8606b6218ee2ab31"
+    },
+    {
+      "original": "Data/Sprites/bin/Ingame/dead01.tga",
+      "png": "Data/Sprites/bin/Ingame/dead01.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "829ea308a1dfc6757dd64fd0a7a0e6c83d88689f115d20b3b86c263d19947ca4"
+    },
+    {
+      "original": "Data/Sprites/bin/Ingame/dizzy_effect.tga",
+      "png": "Data/Sprites/bin/Ingame/dizzy_effect.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "9ce48273c50e9eb9093dee101116524999f025f3ee414a5c2e79e798ab1bf099"
+    },
+    {
+      "original": "Data/Sprites/bin/Ingame/effects.tga",
+      "png": "Data/Sprites/bin/Ingame/effects.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 64,
+      "rgba_sha256": "5e9c41804f6165387085b51a7a6d8e8b2a9fca2b084bbd36ef1e82403b0b1454"
+    },
+    {
+      "original": "Data/Sprites/bin/Ingame/fireball_big.tga",
+      "png": "Data/Sprites/bin/Ingame/fireball_big.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "dbe83825bc752d91db5c3e82471689fd34e75be9483c999470e60043965d47fa"
+    },
+    {
+      "original": "Data/Sprites/bin/Ingame/fireball_glow.tga",
+      "png": "Data/Sprites/bin/Ingame/fireball_glow.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "bc0f10f50360ba48e63d4b14552747865d8acc735ef05f761bb33448149186de"
+    },
+    {
+      "original": "Data/Sprites/bin/Ingame/fireball_medium.tga",
+      "png": "Data/Sprites/bin/Ingame/fireball_medium.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "b73b136b2d9601a54a9087790afe83c4ee4c5b846cf816cdd20d1ed156be1053"
+    },
+    {
+      "original": "Data/Sprites/bin/Ingame/fireball_small.tga",
+      "png": "Data/Sprites/bin/Ingame/fireball_small.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "4cc6d6ced321da3b135703e3e50be4405b1205d853eb29ef58acb08217232cf4"
+    },
+    {
+      "original": "Data/Sprites/bin/Ingame/ghost_army.tga",
+      "png": "Data/Sprites/bin/Ingame/ghost_army.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "4c5b2057bb02bfed34cb41436ececcf0ab4f1fe80f488e92527a13d82fdd4a27"
+    },
+    {
+      "original": "Data/Sprites/bin/Ingame/griffin_Flash_contour.tga",
+      "png": "Data/Sprites/bin/Ingame/griffin_Flash_contour.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "e223a27efac274a0295dac578c8b0c564f6f62ef6399332146654fd1251cf6d1"
+    },
+    {
+      "original": "Data/Sprites/bin/Ingame/hit.tga",
+      "png": "Data/Sprites/bin/Ingame/hit.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 128,
+      "rgba_sha256": "a9a4a3bdeaa10ecac545de292a4a6445b0639d7244f6cf9a5874bc8edd4fc2d7"
+    },
+    {
+      "original": "Data/Sprites/bin/Ingame/iceball_big.tga",
+      "png": "Data/Sprites/bin/Ingame/iceball_big.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "1cf938ab49f9284d46a383eb0ae3d7475f46a4b8dd26c84b37383e3d87a72a18"
+    },
+    {
+      "original": "Data/Sprites/bin/Ingame/iceball_glow.tga",
+      "png": "Data/Sprites/bin/Ingame/iceball_glow.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "637929e92cb41fe0e57a71e09a1c4425b0a03091671dac54f09442b6c52b1057"
+    },
+    {
+      "original": "Data/Sprites/bin/Ingame/iceball_medium.tga",
+      "png": "Data/Sprites/bin/Ingame/iceball_medium.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "3bcb4326f89267ca2f38158a4173960fb511f10518ef6259a38106924c3b291a"
+    },
+    {
+      "original": "Data/Sprites/bin/Ingame/iceball_small.tga",
+      "png": "Data/Sprites/bin/Ingame/iceball_small.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "7218adfc648a9cd2723f5828641cb04a47cbb1137bf6900a45258e099f66bc18"
+    },
+    {
+      "original": "Data/Sprites/bin/Ingame/iced_units.tga",
+      "png": "Data/Sprites/bin/Ingame/iced_units.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "ef5d08f9f32c4767367e5207b73842a6a8a5f90ce3a7131f225ebbc00780b2e3"
+    },
+    {
+      "original": "Data/Sprites/bin/Ingame/lightning.tga",
+      "png": "Data/Sprites/bin/Ingame/lightning.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "bbf3670b53f33e17523b82a40a8054ab6a38f65b2aefccb8cd729c5ced6d096b"
+    },
+    {
+      "original": "Data/Sprites/bin/Ingame/stoned_units.tga",
+      "png": "Data/Sprites/bin/Ingame/stoned_units.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "0ac3e92ab73ad7354bd06f9f43cc3b7126caac95504996ae5259935eb01dc977"
+    },
+    {
+      "original": "Data/Sprites/bin/Ingame/walk_dust.tga",
+      "png": "Data/Sprites/bin/Ingame/walk_dust.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 64,
+      "rgba_sha256": "ca71259236b8562c7537d4bb5fc9441ad101c2669c4efb057768babdd4b4116d"
+    },
+    {
+      "original": "Data/Sprites/bin/Menu/achievements.tga",
+      "png": "Data/Sprites/bin/Menu/achievements.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "4faebf895e0a6fa3c68b038c62b7c3505e60e4d596fa7a2ea349ce976b988c46"
+    },
+    {
+      "original": "Data/Sprites/bin/Menu/fullversion.tga",
+      "png": "Data/Sprites/bin/Menu/fullversion.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "f39ee3d6b8ea1d7f324af4341378621e3404ff154d003f2d2232f97993c9d496"
+    },
+    {
+      "original": "Data/Sprites/bin/Menu/help_images.tga",
+      "png": "Data/Sprites/bin/Menu/help_images.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "fe49a7d3112733808198c8105816220ef714525d1037079fe2086a98e70398f4"
+    },
+    {
+      "original": "Data/Sprites/bin/Menu/high_score_icone.tga",
+      "png": "Data/Sprites/bin/Menu/high_score_icone.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "1589d63822f47dc9e564b0b1103b62ac6443c442d659ac1656c3d4c4f8b08f3f"
+    },
+    {
+      "original": "Data/Sprites/bin/Menu/menu.tga",
+      "png": "Data/Sprites/bin/Menu/menu.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "83219dc2a961cf135fa4b8ac02bfb55d44fa4d2233fbe5bd1aa8355d9c057f53"
+    },
+    {
+      "original": "Data/Sprites/bin/Menu/menu_bg.tga",
+      "png": "Data/Sprites/bin/Menu/menu_bg.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "f56546007e2d85d5f93e3c47a0ce9ca77a1d8cf80399f1e8cfdebcccb577b7ef"
+    },
+    {
+      "original": "Data/Sprites/bin/Menu/shop.tga",
+      "png": "Data/Sprites/bin/Menu/shop.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "48cb4cb53719cfb9e157929478fdd073bb911ad8cc036529bdfacca9e77fee45"
+    },
+    {
+      "original": "Tools/myfont.tga",
+      "png": "Tools/myfont.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "a57b900bb04ede4d8c1d10d54dae90e116e34a8e0f45ca2916dc973118fccec1"
+    },
+    {
+      "original": "Tools/myfont1.tga",
+      "png": "Tools/myfont1.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "807213383e5a58a6c4e0cc18b896024b1f642b17f20db631c816f9dd2f5e803f"
+    },
+    {
+      "original": "Tools/myfont2.tga",
+      "png": "Tools/myfont2.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "a441c54faee3158ed3ba52d9cb7521e24f4cb26f2e47a4e9bef5d90edbe908fc"
+    },
+    {
+      "original": "Build/bin/Scenes/Castle/bigtex.tga",
+      "png": "Data/TextureSources/Scenes/Castle/bigtex.png",
+      "resolution": "deduplicated source variant",
+      "width": 1024,
+      "height": 1024,
+      "rgba_sha256": "e016bee2fec66d9003647f527e7e5e80bb7984953c300491aa9df727b3c4e89e"
+    },
+    {
+      "original": "Build/bin/Scenes/Castle/bigtex_2.tga",
+      "png": "Data/TextureSources/Scenes/Castle/bigtex_2.png",
+      "resolution": "deduplicated source variant",
+      "width": 1024,
+      "height": 1024,
+      "rgba_sha256": "873e5292d28158e4992fdfcbc1f4480d03afb6291b029dc5c78914483a8e9124"
+    },
+    {
+      "original": "Build/bin/Scenes/Castle/bigtex_alpha.tga",
+      "png": "Data/TextureSources/Scenes/Castle/bigtex_alpha.png",
+      "resolution": "deduplicated source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "e29197ee55677a7f6e8158a91ed81eff5f80c54b2dccca2ba81be1e4ae76d03d"
+    },
+    {
+      "original": "Build/bin/Scenes/Castle/clouds_02.tga",
+      "png": "Data/TextureSources/Scenes/Castle/clouds_02.png",
+      "resolution": "deduplicated source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "e67952dedf70e2eb2f82c98eb245098cea2545ca1fa5e83356d65d52f0791a20"
+    },
+    {
+      "original": "Build/bin/Scenes/Castle/crackedearth.tga",
+      "png": "Data/TextureSources/Scenes/Castle/crackedearth.png",
+      "resolution": "deduplicated source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "aac2ac9630c4f1c0d3bfd49fea0a5e1142d8e8da89aaa2a92381541aef7254fd"
+    },
+    {
+      "original": "Build/bin/Scenes/Castle/ground_03.tga",
+      "png": "Data/TextureSources/Scenes/Castle/ground_03.png",
+      "resolution": "deduplicated source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "4403a5d976f5be43484260e18a6926cdaf739a0d1a1661bada50a8b3da8cc827"
+    },
+    {
+      "original": "Build/bin/Scenes/Castle/rock_02.tga",
+      "png": "Data/TextureSources/Scenes/Castle/rock_02.png",
+      "resolution": "deduplicated source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "0fc833bc226371e5f824be0c44d22e123d2de592f7bdb9d27b1e9d8ae6e203d4"
+    },
+    {
+      "original": "Build/bin/Scenes/Castle/scene_mask.tga",
+      "png": "Data/TextureSources/Scenes/Castle/scene_mask.png",
+      "resolution": "deduplicated source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "811aa7c899f547bd6f2873dee432bb6bb10a6e61af49d82e2dcda6030bcad772"
+    },
+    {
+      "original": "Build/bin/Scenes/Castle/water.tga",
+      "png": "Data/TextureSources/Scenes/Castle/water.png",
+      "resolution": "deduplicated source variant",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "921eadae631138ffe149bd49992759d45783a9452a0df4212bb269ce3a90788d"
+    },
+    {
+      "original": "Build/bin/Scenes/Dark_elf/dark_elf_256.tga",
+      "png": "Build/bin/Scenes/Dark_elf/dark_elf_256.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "9254411cc75e85b63715f906de95558d47416a94ba03b8e48a80a775769e25cb"
+    },
+    {
+      "original": "Build/bin/Scenes/Fireball/bowl.tga",
+      "png": "Build/bin/Scenes/Fireball/bowl.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "82c1e5f3375db70476a46c180b54b07ed62a7e3fb1b7527fe5f718ad699de9d7"
+    },
+    {
+      "original": "Build/bin/Scenes/Fireball/burned_ground.tga",
+      "png": "Build/bin/Scenes/Fireball/burned_ground.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "79076eb3926a6c4b9775e2292411858daf17cd1253947497c921760b136526cb"
+    },
+    {
+      "original": "Build/bin/Scenes/Fireball/fireball_light.tga",
+      "png": "Build/bin/Scenes/Fireball/fireball_light.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "82b87bdaaf46b15b28f0ca2b0f5630d4926cfaa45ffce287691179229c1f902b"
+    },
+    {
+      "original": "Build/bin/Scenes/Fireball/ice.tga",
+      "png": "Build/bin/Scenes/Fireball/ice.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "c2b05bb8064534ab84812b2e281e8ac14cb087ab5aecd392bdd2a1a2e9aacf30"
+    },
+    {
+      "original": "Build/bin/Scenes/Gates/arch.tga",
+      "png": "Data/TextureSources/Scenes/Gates/arch.png",
+      "resolution": "deduplicated source variant",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "cbf4fd710190bb5774aefed8f792fa10dbf29fef0b49d9c9de85235a7a41182c"
+    },
+    {
+      "original": "Build/bin/Scenes/Gates/gate_02.tga",
+      "png": "Data/TextureSources/Scenes/Gates/gate_02.png",
+      "resolution": "deduplicated source variant",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "e810a3ebf16dbf63048cf89c67bf6bda034cc138f6a1f92be6ce57dda9623978"
+    },
+    {
+      "original": "Build/bin/Scenes/Gates/gate_03.tga",
+      "png": "Data/TextureSources/Scenes/Gates/gate_03.png",
+      "resolution": "deduplicated source variant",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "0d05b5a5b5789cecc031ea4f32ebfe2b31c79997499722f67bb01a82f46f00b5"
+    },
+    {
+      "original": "Build/bin/Scenes/Gates/gate_04.tga",
+      "png": "Data/TextureSources/Scenes/Gates/gate_04.png",
+      "resolution": "deduplicated source variant",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "c820fe1b9ebb306da58ec5770c1cc844fa4f95aa1672da8a90513b997ce25248"
+    },
+    {
+      "original": "Build/bin/Scenes/Gates/wood_01a.tga",
+      "png": "Data/TextureSources/Scenes/Gates/wood_01a.png",
+      "resolution": "deduplicated source variant",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "86b8a1b1fe92d09e15d73809ebd4f958027ba451f912578e93696f7c1c47fa74"
+    },
+    {
+      "original": "Build/bin/Scenes/Goblin/goblin_01.tga",
+      "png": "Build/bin/Scenes/Goblin/goblin_01.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "3b5e18c59efeae19ac116d87422ced3472b91301f3ff22713a2aa55b9d618d0c"
+    },
+    {
+      "original": "Build/bin/Scenes/Goblin/goblin_128.tga",
+      "png": "Build/bin/Scenes/Goblin/goblin_128.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "b539a2716b9d3d8f2ece07b464f781ae8a46745918ecb0a4230145956168092a"
+    },
+    {
+      "original": "Build/bin/Scenes/Goblin/goblin_64.tga",
+      "png": "Build/bin/Scenes/Goblin/goblin_64.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "c479d62f53da8004cfeaa6e8c362176b89c7162e3f7b2e294c84c9f2914d94d3"
+    },
+    {
+      "original": "Build/bin/Scenes/Goblin/goblin_shadow.tga",
+      "png": "Build/bin/Scenes/Goblin/goblin_shadow.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "ad9971ebd9fb03065cb778a754f8caafdb8508b0f476d6306951c3593df701c5"
+    },
+    {
+      "original": "Build/bin/Scenes/Goblin/shadow.tga",
+      "png": "Build/bin/Scenes/Goblin/shadow.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "ad9971ebd9fb03065cb778a754f8caafdb8508b0f476d6306951c3593df701c5"
+    },
+    {
+      "original": "Build/bin/Scenes/Goblin_bomb/bomb.tga",
+      "png": "Build/bin/Scenes/Goblin_bomb/bomb.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "d3d277feb2a7dc5cab67d7251b3b699d600644f8fd4fb5c32169732ebeae8d28"
+    },
+    {
+      "original": "Build/bin/Scenes/Goblin_bomb/goblin_bomb.tga",
+      "png": "Build/bin/Scenes/Goblin_bomb/goblin_bomb.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "d1dcc0f43bec50d2dd78c3f04bc01bea97c47e16a15ca751e690b7ddceb77db3"
+    },
+    {
+      "original": "Build/bin/Scenes/Griffin/griffin_00.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/griffin_00.png",
+      "resolution": "deduplicated source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "7d45ff4afa9cfcc050a129cf9b7721fcd4892e276ae130ac9d985985b97be801"
+    },
+    {
+      "original": "Build/bin/Scenes/Griffin/griffin_01.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/griffin_01.png",
+      "resolution": "deduplicated source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "478af802783199900b7d9728b8593d01bfc19187d7b90164d6096c70b13469a3"
+    },
+    {
+      "original": "Build/bin/Scenes/Griffin/griffin_02.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/griffin_02.png",
+      "resolution": "deduplicated source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "91a57686501f39b45e7cb7ac3c44aee60b253f1f4aed8dee6f67ecbc19f07774"
+    },
+    {
+      "original": "Build/bin/Scenes/Griffin/griffin_light.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/griffin_light.png",
+      "resolution": "deduplicated source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "e5fcb1b1b7367745ac30ca39d45438c40e9abb21d087a84913b0a18fe8861491"
+    },
+    {
+      "original": "Build/bin/Scenes/Griffin/postament_00.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/postament_00.png",
+      "resolution": "deduplicated source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "5965a2c178855af8effe2f552b77c99f16268e656c71fb6f350e1effcb542f9d"
+    },
+    {
+      "original": "Build/bin/Scenes/Griffin/postament_01.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/postament_01.png",
+      "resolution": "deduplicated source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "e37c5fa7187a1519958af9e6b01be1a1d7fee390729677cfaec51981a6387357"
+    },
+    {
+      "original": "Build/bin/Scenes/Griffin/postament_02.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/postament_02.png",
+      "resolution": "deduplicated source variant",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "3d6bc0f121c610dc512215bd092800f3bf9052676c01e58bed168260dbe64b6b"
+    },
+    {
+      "original": "Build/bin/Scenes/Griffin/smoke_griffin.tga",
+      "png": "Data/TextureSources/Scenes/Griffin/smoke_griffin.png",
+      "resolution": "deduplicated source variant",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "f6a320a3e7995635da2c7071d9472de6eaea4b9bddc21c066e16b68a0feaf958"
+    },
+    {
+      "original": "Build/bin/Scenes/Hydra/hydra.tga",
+      "png": "Build/bin/Scenes/Hydra/hydra.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "27262a63de7cdaf450d66da28e007711a615d1253005d06f6db33ff61cae9b1f"
+    },
+    {
+      "original": "Build/bin/Scenes/Hydra/towers_wall_02.tga",
+      "png": "Build/bin/Scenes/Hydra/towers_wall_02.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "b6114c1547a7f6383538e043d561fd382b06ea836591f4f4f03f57c180439cf2"
+    },
+    {
+      "original": "Build/bin/Scenes/Hydra/water_hydra.tga",
+      "png": "Build/bin/Scenes/Hydra/water_hydra.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "137de7e78c3fd0b5b10230142058a021003e34c1c552bacd565e64ee54957277"
+    },
+    {
+      "original": "Build/bin/Scenes/Hydra/water_hydra_01.tga",
+      "png": "Build/bin/Scenes/Hydra/water_hydra_01.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "db15a560718597abfeccdb460e350965acbce7986d3de09fa9830bc8e84a628e"
+    },
+    {
+      "original": "Build/bin/Scenes/Shaman/shaman_128.tga",
+      "png": "Build/bin/Scenes/Shaman/shaman_128.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "96e6b64ba84c32e4c190427d014057ea9bcd2d37999e1685d9694ad89bc12ba7"
+    },
+    {
+      "original": "Build/bin/Scenes/Skeleton/fire_blue.tga",
+      "png": "Build/bin/Scenes/Skeleton/fire_blue.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 128,
+      "rgba_sha256": "acd033ed3c1042bfe2129770da68342c562a80bfd0a2982102e8753c52427df1"
+    },
+    {
+      "original": "Build/bin/Scenes/Skeleton/fire_red.tga",
+      "png": "Build/bin/Scenes/Skeleton/fire_red.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 128,
+      "rgba_sha256": "34e238e5a6a20d69229381938605168f15e556cde1638ca2440b55653ee1c741"
+    },
+    {
+      "original": "Build/bin/Scenes/Skeleton/seal_blue.tga",
+      "png": "Build/bin/Scenes/Skeleton/seal_blue.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "033af2561d086af79d16e14eabf1a9f062775d7329bfa46c913350010243b41f"
+    },
+    {
+      "original": "Build/bin/Scenes/Skeleton/seal_golden.tga",
+      "png": "Build/bin/Scenes/Skeleton/seal_golden.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "c15f076eef58fb9fbce4d6d04cfbe7cdd9457798bf1bbc79dda0848e0ac13577"
+    },
+    {
+      "original": "Build/bin/Scenes/Skeleton/skeleton_blue.tga",
+      "png": "Build/bin/Scenes/Skeleton/skeleton_blue.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "d09005390ae6af2ebc9feae09a6c051c5af420fa6fe9e077bf74a17dff0d3885"
+    },
+    {
+      "original": "Build/bin/Scenes/Skeleton/skeleton_golden.tga",
+      "png": "Build/bin/Scenes/Skeleton/skeleton_golden.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "a003bd70e45cbed66537400adebb187ee666cfd5a46e12f48fd054e878f9166d"
+    },
+    {
+      "original": "Build/bin/Scenes/Spells/boulder.tga",
+      "png": "Build/bin/Scenes/Spells/boulder.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "42da13a327fab110d1179f576b0762098e2f01af4db1cfaacc5cd4b2e36bfcd6"
+    },
+    {
+      "original": "Build/bin/Scenes/Spells/finger_trail.tga",
+      "png": "Build/bin/Scenes/Spells/finger_trail.png",
+      "resolution": "converted",
+      "width": 8,
+      "height": 8,
+      "rgba_sha256": "4111c0f3447c9f5cf9543e817797eea09778529b4fc0776595b95cd0577e019b"
+    },
+    {
+      "original": "Build/bin/Scenes/Spells/shield_boulder.tga",
+      "png": "Build/bin/Scenes/Spells/shield_boulder.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "e08284ef49a971c12d4af7f04613e97ab84910f70fad66042ec1399497c03e2d"
+    },
+    {
+      "original": "Build/bin/Scenes/Spells/shield_earthquake.tga",
+      "png": "Build/bin/Scenes/Spells/shield_earthquake.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "f25ecf25332cd2c3fba65a31aeed80c407aa7138fc16b9b53f32ac5cf2cd0fc9"
+    },
+    {
+      "original": "Build/bin/Scenes/Spells/shield_ghost_army.tga",
+      "png": "Build/bin/Scenes/Spells/shield_ghost_army.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "ce94eb3e3f7fe87746f61616960ac255af8d614b150a006a18f6dedceb4152c9"
+    },
+    {
+      "original": "Build/bin/Scenes/Spells/shield_lightning.tga",
+      "png": "Build/bin/Scenes/Spells/shield_lightning.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "0939787a0be3a300e4fa81bb942e5cee74cb1c5236d12476063a238e38df91a1"
+    },
+    {
+      "original": "Build/bin/Scenes/Spells/shield_tornado.tga",
+      "png": "Build/bin/Scenes/Spells/shield_tornado.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "2c3bb2478a7a8e6b87a3904f214c5213d7fad1987a357479bab2919a811efd8c"
+    },
+    {
+      "original": "Build/bin/Scenes/Spells/strike.tga",
+      "png": "Build/bin/Scenes/Spells/strike.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "5ac85e0174c35ed9c30f0887842201a6e8d957026b07cabc5e7af914058ec3be"
+    },
+    {
+      "original": "Build/bin/Scenes/Tornado/tornado_alpha.tga",
+      "png": "Build/bin/Scenes/Tornado/tornado_alpha.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "2820e5691a9e0c61a5fae5a076146d3772aee0f8f111078af4fb1731553f6359"
+    },
+    {
+      "original": "Build/bin/Scenes/Tornado/tornado_seq.tga",
+      "png": "Build/bin/Scenes/Tornado/tornado_seq.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 128,
+      "rgba_sha256": "e67c210964ad4673e9699806a71d353a20f7baafa82e6a13ea344ca666861b47"
+    },
+    {
+      "original": "Build/bin/Scenes/Troll/troll.tga",
+      "png": "Build/bin/Scenes/Troll/troll.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "b906c6f878edaff65ef52f4b7fd82960cba57e7b1bdfe832359c586fec569116"
+    },
+    {
+      "original": "Build/bin/Scenes/Wild_boar/boar_evil.tga",
+      "png": "Build/bin/Scenes/Wild_boar/boar_evil.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "3a107252da5dd7164a6563a1c3a6859a7f604a8cdf4205c0abb3a6438699248c"
+    },
+    {
+      "original": "Build/bin/Scenes/Wild_boar/boar_good.tga",
+      "png": "Build/bin/Scenes/Wild_boar/boar_good.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "716faabe4f23b62c106147b9ccbcf2455486cb09319780b6edc209776aa3d4bf"
+    },
+    {
+      "original": "Build/bin/Scenes/Wild_boar/boar_normal.tga",
+      "png": "Build/bin/Scenes/Wild_boar/boar_normal.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "0deeb7d40a18bbf9f9885c31d95f0e146ed975088514b1f5e8e7c466220e6e73"
+    },
+    {
+      "original": "Build/bin/Scenes/Wild_boar/boar_rider.tga",
+      "png": "Build/bin/Scenes/Wild_boar/boar_rider.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "5be524017d79192a9592e3661320786c05515c94d55608ed608ad1099c186c64"
+    },
+    {
+      "original": "Build/bin/Scenes/Wild_boar/wild_boar_blue.tga",
+      "png": "Build/bin/Scenes/Wild_boar/wild_boar_blue.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "70e9ea8004bc1f3590047282618bfa929177d7373de08914485789371bf8010c"
+    },
+    {
+      "original": "Build/bin/Scenes/Wild_boar/wild_boar_red.tga",
+      "png": "Build/bin/Scenes/Wild_boar/wild_boar_red.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "b4ea6e4df64d4f12a09a72389dfdaf89a378ed526f8a8936943a999518c58063"
+    },
+    {
+      "original": "Build/bin/Sprites/Fonts/money_souls_big_font.tga",
+      "png": "Build/bin/Sprites/Fonts/money_souls_big_font.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 64,
+      "rgba_sha256": "e7972578063ae9b1fa36bdc68b9f7f62ee5447978c92890b9f53f7e0c51e63cb"
+    },
+    {
+      "original": "Build/bin/Sprites/Fonts/money_souls_font.tga",
+      "png": "Build/bin/Sprites/Fonts/money_souls_font.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "e14c40cedf4715762126d375d534eed1b6cf6ee3aad3857ce67338125f71d28d"
+    },
+    {
+      "original": "Build/bin/Sprites/Ingame/dead.tga",
+      "png": "Build/bin/Sprites/Ingame/dead.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "9fd698f323fe15426d15080e9bf7565c7979676fd6a0e4ac8606b6218ee2ab31"
+    },
+    {
+      "original": "Build/bin/Sprites/Ingame/dead01.tga",
+      "png": "Build/bin/Sprites/Ingame/dead01.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 256,
+      "rgba_sha256": "829ea308a1dfc6757dd64fd0a7a0e6c83d88689f115d20b3b86c263d19947ca4"
+    },
+    {
+      "original": "Build/bin/Sprites/Ingame/dizzy_effect.tga",
+      "png": "Build/bin/Sprites/Ingame/dizzy_effect.png",
+      "resolution": "converted",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "9ce48273c50e9eb9093dee101116524999f025f3ee414a5c2e79e798ab1bf099"
+    },
+    {
+      "original": "Build/bin/Sprites/Ingame/effects.tga",
+      "png": "Build/bin/Sprites/Ingame/effects.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 64,
+      "rgba_sha256": "5e9c41804f6165387085b51a7a6d8e8b2a9fca2b084bbd36ef1e82403b0b1454"
+    },
+    {
+      "original": "Build/bin/Sprites/Ingame/fireball_big.tga",
+      "png": "Build/bin/Sprites/Ingame/fireball_big.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "dbe83825bc752d91db5c3e82471689fd34e75be9483c999470e60043965d47fa"
+    },
+    {
+      "original": "Build/bin/Sprites/Ingame/fireball_glow.tga",
+      "png": "Build/bin/Sprites/Ingame/fireball_glow.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "bc0f10f50360ba48e63d4b14552747865d8acc735ef05f761bb33448149186de"
+    },
+    {
+      "original": "Build/bin/Sprites/Ingame/fireball_medium.tga",
+      "png": "Build/bin/Sprites/Ingame/fireball_medium.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "b73b136b2d9601a54a9087790afe83c4ee4c5b846cf816cdd20d1ed156be1053"
+    },
+    {
+      "original": "Build/bin/Sprites/Ingame/fireball_small.tga",
+      "png": "Build/bin/Sprites/Ingame/fireball_small.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "4cc6d6ced321da3b135703e3e50be4405b1205d853eb29ef58acb08217232cf4"
+    },
+    {
+      "original": "Build/bin/Sprites/Ingame/ghost_army.tga",
+      "png": "Build/bin/Sprites/Ingame/ghost_army.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "4c5b2057bb02bfed34cb41436ececcf0ab4f1fe80f488e92527a13d82fdd4a27"
+    },
+    {
+      "original": "Build/bin/Sprites/Ingame/griffin_Flash_contour.tga",
+      "png": "Build/bin/Sprites/Ingame/griffin_Flash_contour.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "e223a27efac274a0295dac578c8b0c564f6f62ef6399332146654fd1251cf6d1"
+    },
+    {
+      "original": "Build/bin/Sprites/Ingame/hit.tga",
+      "png": "Build/bin/Sprites/Ingame/hit.png",
+      "resolution": "converted",
+      "width": 256,
+      "height": 128,
+      "rgba_sha256": "a9a4a3bdeaa10ecac545de292a4a6445b0639d7244f6cf9a5874bc8edd4fc2d7"
+    },
+    {
+      "original": "Build/bin/Sprites/Ingame/iceball_big.tga",
+      "png": "Build/bin/Sprites/Ingame/iceball_big.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "1cf938ab49f9284d46a383eb0ae3d7475f46a4b8dd26c84b37383e3d87a72a18"
+    },
+    {
+      "original": "Build/bin/Sprites/Ingame/iceball_glow.tga",
+      "png": "Build/bin/Sprites/Ingame/iceball_glow.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "637929e92cb41fe0e57a71e09a1c4425b0a03091671dac54f09442b6c52b1057"
+    },
+    {
+      "original": "Build/bin/Sprites/Ingame/iceball_medium.tga",
+      "png": "Build/bin/Sprites/Ingame/iceball_medium.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "3bcb4326f89267ca2f38158a4173960fb511f10518ef6259a38106924c3b291a"
+    },
+    {
+      "original": "Build/bin/Sprites/Ingame/iceball_small.tga",
+      "png": "Build/bin/Sprites/Ingame/iceball_small.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "7218adfc648a9cd2723f5828641cb04a47cbb1137bf6900a45258e099f66bc18"
+    },
+    {
+      "original": "Build/bin/Sprites/Ingame/iced_units.tga",
+      "png": "Build/bin/Sprites/Ingame/iced_units.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "ef5d08f9f32c4767367e5207b73842a6a8a5f90ce3a7131f225ebbc00780b2e3"
+    },
+    {
+      "original": "Build/bin/Sprites/Ingame/lightning.tga",
+      "png": "Build/bin/Sprites/Ingame/lightning.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "bbf3670b53f33e17523b82a40a8054ab6a38f65b2aefccb8cd729c5ced6d096b"
+    },
+    {
+      "original": "Build/bin/Sprites/Ingame/stoned_units.tga",
+      "png": "Build/bin/Sprites/Ingame/stoned_units.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "0ac3e92ab73ad7354bd06f9f43cc3b7126caac95504996ae5259935eb01dc977"
+    },
+    {
+      "original": "Build/bin/Sprites/Ingame/walk_dust.tga",
+      "png": "Build/bin/Sprites/Ingame/walk_dust.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 64,
+      "rgba_sha256": "ca71259236b8562c7537d4bb5fc9441ad101c2669c4efb057768babdd4b4116d"
+    },
+    {
+      "original": "Build/bin/Sprites/Menu/achievements.tga",
+      "png": "Build/bin/Sprites/Menu/achievements.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "4faebf895e0a6fa3c68b038c62b7c3505e60e4d596fa7a2ea349ce976b988c46"
+    },
+    {
+      "original": "Build/bin/Sprites/Menu/fullversion.tga",
+      "png": "Build/bin/Sprites/Menu/fullversion.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "f39ee3d6b8ea1d7f324af4341378621e3404ff154d003f2d2232f97993c9d496"
+    },
+    {
+      "original": "Build/bin/Sprites/Menu/help_images.tga",
+      "png": "Build/bin/Sprites/Menu/help_images.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "fe49a7d3112733808198c8105816220ef714525d1037079fe2086a98e70398f4"
+    },
+    {
+      "original": "Build/bin/Sprites/Menu/high_score_icone.tga",
+      "png": "Build/bin/Sprites/Menu/high_score_icone.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "1589d63822f47dc9e564b0b1103b62ac6443c442d659ac1656c3d4c4f8b08f3f"
+    },
+    {
+      "original": "Build/bin/Sprites/Menu/menu.tga",
+      "png": "Build/bin/Sprites/Menu/menu.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "83219dc2a961cf135fa4b8ac02bfb55d44fa4d2233fbe5bd1aa8355d9c057f53"
+    },
+    {
+      "original": "Build/bin/Sprites/Menu/menu_bg.tga",
+      "png": "Build/bin/Sprites/Menu/menu_bg.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 512,
+      "rgba_sha256": "f56546007e2d85d5f93e3c47a0ce9ca77a1d8cf80399f1e8cfdebcccb577b7ef"
+    },
+    {
+      "original": "Build/bin/Sprites/Menu/shop.tga",
+      "png": "Build/bin/Sprites/Menu/shop.png",
+      "resolution": "converted",
+      "width": 512,
+      "height": 256,
+      "rgba_sha256": "48cb4cb53719cfb9e157929478fdd073bb911ad8cc036529bdfacca9e77fee45"
+    },
+    {
+      "original": "Build/bin/icons.tga",
+      "png": "Build/bin/icons.png",
+      "resolution": "converted",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "fe8236fded3bc5150338abd8315af9f6b8e47af032298a6a5433d7b21cc89399"
+    }
+  ]
+}

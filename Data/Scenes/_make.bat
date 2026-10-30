@@ -54,10 +54,6 @@ for /D %%d in (*.) do (
 		)
 		
 		rem Copy texture to 'bin' dir
-		for %%f in ( %%d\*.tga ) do (			
-			copy /Y %%f bin\%%d > NUL
-		)
-		rem Copy texture to 'bin' dir
 		for %%f in ( %%d\*.png ) do (
 			copy /Y %%f bin\%%d > NUL
 		)

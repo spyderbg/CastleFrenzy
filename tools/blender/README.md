@@ -82,8 +82,10 @@ exporter, external images, or linked libraries invalidate the model cache, as do
 missing or changed export files. Unchanged exports are reused and checked again.
 `BLENDER_BIN=/path/to/blender ./rebuild_Linux.sh --resources-only` selects a binary.
 
-The resource build writes fresh PNG diffuse images. TGA remains available for
-manual exports; PVR encoding and runtime textures are no longer supported.
+The resource build and manual exports write PNG diffuse images. Project-owned
+TGA files have been migrated to PNG; PVR encoding and runtime textures are no
+longer supported. Original authoring variants that differ from active runtime
+PNGs are preserved under `Data/TextureSources`, outside the staged game packs.
 
 ## Work with animations and events
 

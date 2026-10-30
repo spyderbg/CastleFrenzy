@@ -177,9 +177,9 @@ void CIceball::adjustStats(IAttributes* attributes)
 	
 	switch (m_level)
 	{
-	case WL_1: m_sprite->LoadTexture("Sprites/Ingame/iceball_small.tga"); break;
-	case WL_2: m_sprite->LoadTexture("Sprites/Ingame/iceball_medium.tga"); break;
-	case WL_3: m_sprite->LoadTexture("Sprites/Ingame/iceball_big.tga"); break;
+	case WL_1: m_sprite->LoadTexture("Sprites/Ingame/iceball_small.png"); break;
+	case WL_2: m_sprite->LoadTexture("Sprites/Ingame/iceball_medium.png"); break;
+	case WL_3: m_sprite->LoadTexture("Sprites/Ingame/iceball_big.png"); break;
 	}
 }
 

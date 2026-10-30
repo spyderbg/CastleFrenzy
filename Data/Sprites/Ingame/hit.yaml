@@ -5,7 +5,7 @@ sprite:
 
   images:
     - id: "0x0000"
-      file: "./hit.tga"
+      file: "./hit.png"
       transparent: "0x00FF00FF"
 
   modules:

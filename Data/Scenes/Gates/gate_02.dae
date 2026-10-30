@@ -249,8 +249,8 @@
     </light>
   </library_lights>
   <library_images>
-    <image id="gate_02.tga" name="gate_02_tga">
-      <init_from>gate_02.tga</init_from>
+    <image id="gate_02.png" name="gate_02_tga">
+      <init_from>gate_02.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -263,7 +263,7 @@
       <profile_COMMON>
         <newparam sid="gate_02_tga-surface">
           <surface type="2D">
-            <init_from>gate_02.tga</init_from>
+            <init_from>gate_02.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>

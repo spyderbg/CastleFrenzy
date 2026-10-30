@@ -150,7 +150,7 @@ async function load() {
       const file =
         decodeURIComponent(url).replace(/\\/g, "/").split("/").pop() || "";
       return textureUrl(
-        `${result.directory}/${file.replace(/\.pvr$/i, ".tga")}`,
+        `${result.directory}/${file.replace(/\.(?:pvr|tga)$/i, ".png")}`,
       );
     });
     const failures: string[] = [];

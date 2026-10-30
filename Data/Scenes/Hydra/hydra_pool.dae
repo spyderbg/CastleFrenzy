@@ -248,11 +248,11 @@
     </animation_clip>
   </library_animation_clips>
   <library_images>
-    <image id="towers_wall_02.tga" name="towers_wall_02_tga">
-      <init_from>towers_wall_02.tga</init_from>
+    <image id="towers_wall_02.png" name="towers_wall_02_tga">
+      <init_from>towers_wall_02.png</init_from>
     </image>
-    <image id="water_hydra.tga" name="water_hydra_tga">
-      <init_from>water_hydra.tga</init_from>
+    <image id="water_hydra.png" name="water_hydra_tga">
+      <init_from>water_hydra.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -268,7 +268,7 @@
       <profile_COMMON>
         <newparam sid="towers_wall_02_tga-surface">
           <surface type="2D">
-            <init_from>towers_wall_02.tga</init_from>
+            <init_from>towers_wall_02.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -354,7 +354,7 @@
       <profile_COMMON>
         <newparam sid="water_hydra_tga-surface">
           <surface type="2D">
-            <init_from>water_hydra.tga</init_from>
+            <init_from>water_hydra.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -370,7 +370,7 @@
         </newparam>
         <newparam sid="water_hydra_tga-surface">
           <surface type="2D">
-            <init_from>water_hydra.tga</init_from>
+            <init_from>water_hydra.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>

@@ -1617,8 +1617,8 @@
     </animation_clip>
   </library_animation_clips>
   <library_images>
-    <image id="hydra.tga" name="hydra_tga">
-      <init_from>hydra.tga</init_from>
+    <image id="hydra.png" name="hydra_tga">
+      <init_from>hydra.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -1631,7 +1631,7 @@
       <profile_COMMON>
         <newparam sid="hydra_tga-surface">
           <surface type="2D">
-            <init_from>hydra.tga</init_from>
+            <init_from>hydra.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>

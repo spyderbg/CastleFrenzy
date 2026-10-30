@@ -79,7 +79,6 @@ build_fonts() {
     # Stage font metadata and textures for the sprite pipeline.
     cp -f *.yaml "$PROJECT_DATA_PATH/Sprites/Fonts"/ 2>/dev/null || true
     cp -f *.png  "$PROJECT_DATA_PATH/Sprites/Fonts"/ 2>/dev/null || true
-    cp -f *.tga  "$PROJECT_DATA_PATH/Sprites/Fonts"/ 2>/dev/null || true
     cp -f *.txt  bin/ 2>/dev/null || true
     # Authored PNG textures are staged unchanged.
     # Archive.
@@ -122,10 +121,6 @@ build_sprites() {
             } >> "$sprcmd"
         done
         for f in "$d"/*.png; do [[ -e "$f" ]] && cp -f "$f" "bin/$d"/; done
-        for f in "$d"/*.tga; do
-            [[ -e "$f" ]] || continue
-            [[ ! -e "${f%.tga}.png" ]] && cp -f "$f" "bin/$d"/
-        done
     done
 
     # Run AuroraMX to copy YAML and generate the runtime ID headers.
@@ -166,7 +161,6 @@ build_scenes() {
         # pipeline (rebuild_Linux.sh + Blender) performs that conversion.
         # Stage the already-converted BDAE models and textures.
         for f in "$d"/*.bdae; do [[ -e "$f" ]] && mv -f "$f" "bin/$d"/; done
-        for f in "$d"/*.tga;  do [[ -e "$f" ]] && cp -f "$f" "bin/$d"/; done
         for f in "$d"/*.png;  do [[ -e "$f" ]] && cp -f "$f" "bin/$d"/; done
     done
     # Archive.

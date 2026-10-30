@@ -50,6 +50,12 @@ table. No 32-bit compiler, multilib packages or asset conversion is needed.
    files and the runtime loader have been removed. Builds reject PVR assets.
    Set PYTHON_BIN=/usr/bin/python3 if the default Python lacks Pillow.
 
+   Project-owned TGA images have been migrated losslessly to PNG. When a TGA
+   differed from an existing runtime PNG, its source pixels are preserved under
+   Data/TextureSources; that directory is not staged or packaged. Immutable
+   legacy model/sprite templates and packed Blender source images retain their
+   original image labels; the game and authoring tools resolve PNG variants.
+
    The script reads the version from config.bat, prepares resources, performs a
    clean Release build, and creates build/packages/CastleFrenzy_Linux_v*_*.zip.
    Use --debug for Debug, --incremental to skip cleaning, --no-package to skip

@@ -39,6 +39,8 @@ def atomic_json(path, value):
 
 
 def build(manifest, output, blender='blender', texture_format='png', validator=None):
+    if texture_format != 'png':
+        raise ValueError('Game model textures must use PNG')
     manifest, output = Path(manifest).resolve(), Path(output).resolve()
     config = json.loads(manifest.read_text())
     if config.get('version') != 1 or not isinstance(config.get('assets'), list):
@@ -135,7 +137,7 @@ def main():
     parser.add_argument('--manifest', type=Path, default=ROOT/'Data/Scenes/models.json')
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--blender', default=os.environ.get('BLENDER_BIN', 'blender'))
-    parser.add_argument('--texture-format', choices=['png', 'tga'], default='png')
+    parser.add_argument('--texture-format', choices=['png'], default='png')
     parser.add_argument('--validator', type=Path)
     parser.add_argument('--validate-staged', type=Path, help='Check exported models and resolved PNG images in staged Scenes/')
     args = parser.parse_args()

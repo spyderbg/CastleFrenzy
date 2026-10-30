@@ -36,7 +36,7 @@ CSpell::CSpell() : CWeaponObject(0)
 	setLevel(ST_None);
 	reset();
 
-	m_fingerTrailTexture = __IRR_DRIVER()->getTexture("Scenes/Spells/finger_trail.tga");
+	m_fingerTrailTexture = __IRR_DRIVER()->getTexture("Scenes/Spells/finger_trail.png");
 	m_fingerTrailTexture->grab();
 }
 
@@ -85,28 +85,28 @@ void CSpell::adjustStats(IAttributes* attributes)
 	{
 	case ST_Boulder:
 		{
-			tex = __IRR_DRIVER()->getTexture("Scenes/Spells/shield_boulder.tga");
+			tex = __IRR_DRIVER()->getTexture("Scenes/Spells/shield_boulder.png");
 			m_behaviour = new CBoulderBehaviour;
 		}
 		break;
 
 	case ST_Lightning:
 		{
-			tex = __IRR_DRIVER()->getTexture("Scenes/Spells/shield_lightning.tga");
+			tex = __IRR_DRIVER()->getTexture("Scenes/Spells/shield_lightning.png");
 			m_behaviour = new CLightningBehaviour;
 			break;
 		}
 
 		case ST_Tornado:
 		{
-			tex = __IRR_DRIVER()->getTexture("Scenes/Spells/shield_tornado.tga");
+			tex = __IRR_DRIVER()->getTexture("Scenes/Spells/shield_tornado.png");
 			m_behaviour = new CTornadoBehaviour;
 			break;
 		}
 
 		case ST_GhostArmy:
 		{
-			tex = __IRR_DRIVER()->getTexture("Scenes/Spells/shield_ghost_army.tga");
+			tex = __IRR_DRIVER()->getTexture("Scenes/Spells/shield_ghost_army.png");
 			m_behaviour = new CGhostArmyBehaviour;
 			break;
 		}

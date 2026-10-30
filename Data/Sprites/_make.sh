@@ -60,11 +60,6 @@ for pack in ./*/; do
     for f in "$pack"*.png; do
         cp -f -- "$f" "bin/$name/"
     done
-    for f in "$pack"*.tga; do
-        if [[ ! -f "${f%.tga}.png" ]]; then
-            cp -f -- "$f" "bin/$name/"
-        fi
-    done
 done
 
 # JavaScript tools live in the capital-T Tools/ directory.

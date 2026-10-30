@@ -52,7 +52,7 @@ bool GS_Editor::init ()
 {
 	if (m_icons) return true;
 
-	const char* icons = __IRR_FILE_SYSTEM()->existFile("icons.png") ? "icons.png" : "icons.tga";
+	const char* icons = "icons.png";
 	m_icons = __IRR_DRIVER()->getTexture(icons);
 	if (!m_icons)
 	{

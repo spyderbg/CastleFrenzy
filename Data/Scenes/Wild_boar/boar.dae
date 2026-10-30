@@ -1856,14 +1856,14 @@
     </animation_clip>
   </library_animation_clips>
   <library_images>
-    <image id="boar_evil.tga" name="boar_evil_tga">
-      <init_from>boar_evil.tga</init_from>
+    <image id="boar_evil.png" name="boar_evil_tga">
+      <init_from>boar_evil.png</init_from>
     </image>
-    <image id="boar_good.tga" name="boar_good_tga">
-      <init_from>boar_good.tga</init_from>
+    <image id="boar_good.png" name="boar_good_tga">
+      <init_from>boar_good.png</init_from>
     </image>
-    <image id="boar_normal.tga" name="boar_normal_tga">
-      <init_from>boar_normal.tga</init_from>
+    <image id="boar_normal.png" name="boar_normal_tga">
+      <init_from>boar_normal.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -1882,7 +1882,7 @@
       <profile_COMMON>
         <newparam sid="boar_good_tga-surface">
           <surface type="2D">
-            <init_from>boar_good.tga</init_from>
+            <init_from>boar_good.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -1968,7 +1968,7 @@
       <profile_COMMON>
         <newparam sid="boar_normal_tga-surface">
           <surface type="2D">
-            <init_from>boar_normal.tga</init_from>
+            <init_from>boar_normal.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -2054,7 +2054,7 @@
       <profile_COMMON>
         <newparam sid="boar_evil_tga-surface">
           <surface type="2D">
-            <init_from>boar_evil.tga</init_from>
+            <init_from>boar_evil.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>

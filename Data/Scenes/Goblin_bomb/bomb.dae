@@ -406,8 +406,8 @@
     </light>
   </library_lights>
   <library_images>
-    <image id="bomb.tga" name="bomb_tga">
-      <init_from>bomb.tga</init_from>
+    <image id="bomb.png" name="bomb_tga">
+      <init_from>bomb.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -430,7 +430,7 @@
       <profile_COMMON>
         <newparam sid="bomb_tga-surface">
           <surface type="2D">
-            <init_from>bomb.tga</init_from>
+            <init_from>bomb.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -516,7 +516,7 @@
       <profile_COMMON>
         <newparam sid="bomb_tga-surface">
           <surface type="2D">
-            <init_from>bomb.tga</init_from>
+            <init_from>bomb.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>

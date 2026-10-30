@@ -5,7 +5,7 @@ sprite:
 
   images:
     - id: "0x0000"
-      file: "./stoned_units.tga"
+      file: "./stoned_units.png"
       transparent: "0x00FF00FF"
 
   modules:

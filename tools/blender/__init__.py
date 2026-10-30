@@ -44,8 +44,7 @@ class EXPORT_SCENE_OT_castle_bdae(bpy.types.Operator, ExportHelper):
     filter_glob: StringProperty(default='*.bdae', options={'HIDDEN'})
     template: StringProperty(name='Original BDAE template', subtype='FILE_PATH')
     rig: StringProperty(name='Armature')
-    texture_format: EnumProperty(name='Diffuse texture', items=[('png', 'PNG', 'PNG texture for Linux builds'),
-                                                               ('tga', 'TGA', 'TGA texture for legacy resource mode')], default='png')
+    texture_format: EnumProperty(name='Diffuse texture', items=[('png', 'PNG', 'Game texture')], default='png')
 
     def invoke(self, context, event):
         rig = active_rig(context)

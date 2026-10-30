@@ -2621,8 +2621,8 @@
     </light>
   </library_lights>
   <library_images>
-    <image id="dark_elf_256.tga" name="dark_elf_256_tga">
-      <init_from>dark_elf_256.tga</init_from>
+    <image id="dark_elf_256.png" name="dark_elf_256_tga">
+      <init_from>dark_elf_256.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -2635,7 +2635,7 @@
       <profile_COMMON>
         <newparam sid="dark_elf_256_tga-surface">
           <surface type="2D">
-            <init_from>dark_elf_256.tga</init_from>
+            <init_from>dark_elf_256.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -2651,7 +2651,7 @@
         </newparam>
         <newparam sid="dark_elf_256_tga-surface">
           <surface type="2D">
-            <init_from>dark_elf_256.tga</init_from>
+            <init_from>dark_elf_256.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>

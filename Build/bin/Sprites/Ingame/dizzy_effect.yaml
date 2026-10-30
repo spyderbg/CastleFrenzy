@@ -4,7 +4,7 @@ sprite:
 
   images:
     - id: "0x0000"
-      file: "./dizzy_effect.tga"
+      file: "./dizzy_effect.png"
       transparent: "0x00FF00FF"   # chroma key (green)
 
   modules:

@@ -264,8 +264,8 @@
     </light>
   </library_lights>
   <library_images>
-    <image id="smoke_griffin.tga" name="smoke_griffin_tga">
-      <init_from>smoke_griffin.tga</init_from>
+    <image id="smoke_griffin.png" name="smoke_griffin_tga">
+      <init_from>smoke_griffin.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -278,7 +278,7 @@
       <profile_COMMON>
         <newparam sid="smoke_griffin_tga-surface">
           <surface type="2D">
-            <init_from>smoke_griffin.tga</init_from>
+            <init_from>smoke_griffin.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -294,7 +294,7 @@
         </newparam>
         <newparam sid="smoke_griffin_tga-surface">
           <surface type="2D">
-            <init_from>smoke_griffin.tga</init_from>
+            <init_from>smoke_griffin.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>

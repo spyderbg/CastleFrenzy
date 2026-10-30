@@ -191,8 +191,8 @@
     <image id="wood_01a.png" name="wood_01a_pvr">
       <init_from>wood_01a.png</init_from>
     </image>
-    <image id="wood_01a.tga" name="wood_01a_tga">
-      <init_from>wood_01a.tga</init_from>
+    <image id="wood_01a.png" name="wood_01a_tga">
+      <init_from>wood_01a.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -221,7 +221,7 @@
         </newparam>
         <newparam sid="wood_01a_tga-surface">
           <surface type="2D">
-            <init_from>wood_01a.tga</init_from>
+            <init_from>wood_01a.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>

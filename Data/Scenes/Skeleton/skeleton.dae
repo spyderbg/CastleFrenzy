@@ -2220,14 +2220,14 @@
     </light>
   </library_lights>
   <library_images>
-    <image id="fire_red.tga" name="fire_red_tga">
-      <init_from>fire_red.tga</init_from>
+    <image id="fire_red.png" name="fire_red_tga">
+      <init_from>fire_red.png</init_from>
     </image>
-    <image id="seal_golden.tga" name="seal_golden_tga">
-      <init_from>seal_golden.tga</init_from>
+    <image id="seal_golden.png" name="seal_golden_tga">
+      <init_from>seal_golden.png</init_from>
     </image>
-    <image id="skeleton_golden.tga" name="skeleton_golden_tga">
-      <init_from>skeleton_golden.tga</init_from>
+    <image id="skeleton_golden.png" name="skeleton_golden_tga">
+      <init_from>skeleton_golden.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -2249,7 +2249,7 @@
       <profile_COMMON>
         <newparam sid="skeleton_golden_tga-surface">
           <surface type="2D">
-            <init_from>skeleton_golden.tga</init_from>
+            <init_from>skeleton_golden.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -2265,7 +2265,7 @@
         </newparam>
         <newparam sid="skeleton_golden_tga-surface">
           <surface type="2D">
-            <init_from>skeleton_golden.tga</init_from>
+            <init_from>skeleton_golden.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -2368,7 +2368,7 @@
       <profile_COMMON>
         <newparam sid="seal_golden_tga-surface">
           <surface type="2D">
-            <init_from>seal_golden.tga</init_from>
+            <init_from>seal_golden.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -2384,7 +2384,7 @@
         </newparam>
         <newparam sid="seal_golden_tga-surface">
           <surface type="2D">
-            <init_from>seal_golden.tga</init_from>
+            <init_from>seal_golden.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -2487,7 +2487,7 @@
       <profile_COMMON>
         <newparam sid="fire_red_tga-surface">
           <surface type="2D">
-            <init_from>fire_red.tga</init_from>
+            <init_from>fire_red.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -2503,7 +2503,7 @@
         </newparam>
         <newparam sid="fire_red_tga-surface">
           <surface type="2D">
-            <init_from>fire_red.tga</init_from>
+            <init_from>fire_red.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -2606,7 +2606,7 @@
       <profile_COMMON>
         <newparam sid="fire_red_tga-surface">
           <surface type="2D">
-            <init_from>fire_red.tga</init_from>
+            <init_from>fire_red.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -2622,7 +2622,7 @@
         </newparam>
         <newparam sid="fire_red_tga-surface">
           <surface type="2D">
-            <init_from>fire_red.tga</init_from>
+            <init_from>fire_red.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>

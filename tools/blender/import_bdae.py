@@ -139,9 +139,9 @@ class Importer:
         if len(self.source.images) != 1:
             raise BdaeError('This importer currently expects one diffuse image')
         filename = Path(self.source.images[0]['file'].replace('\\', '/')).name
-        candidates = [self.source.path.parent/filename]
-        # Fresh Linux assets contain PNG versions of the legacy texture names.
-        candidates.append(self.source.path.parent/Path(filename).with_suffix('.png'))
+        # Original templates retain legacy filenames; authored textures are PNG.
+        candidates = [self.source.path.parent/Path(filename).with_suffix('.png'),
+                      self.source.path.parent/filename]
         texture = next((p for p in candidates if p.is_file()), None)
         if texture is None:
             raise BdaeError(f'Missing diffuse texture {filename}')
