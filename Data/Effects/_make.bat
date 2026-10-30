@@ -12,8 +12,7 @@ call %~dp0\..\..\setenv.bat
 rem ///////////////////////////////////////
 
 set LOG=%CD%\make%PACK_NAME%.log
-set TEXTURE_FORMATS=tga;pvr;
-set PVR_TOOL=%PROJECT_PATH%\Tools\PVRTexTool\PVRTexTool.exe
+set TEXTURE_FORMATS=png;
 
 rem Clean data
 if "%1"=="clean" (
@@ -32,7 +31,7 @@ echo **************************************************************
 
 mkdir %OUTPUT_PATH%\%PACK_NAME%
 
-copy *.pvr %OUTPUT_PATH%\%PACK_NAME%
+copy *.png %OUTPUT_PATH%\%PACK_NAME%
 copy effects.xml %OUTPUT_PATH%\%PACK_NAME%
 
 :END

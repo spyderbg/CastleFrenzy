@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Resource textures: "png" or "pvr". The environment can override this default.
-readonly RESOURCE_TEXTURE_FORMAT="${RESOURCE_TEXTURE_FORMAT:-png}"
+# All runtime textures are PNG. PYTHON_BIN selects Python with Pillow installed.
+readonly PYTHON_BIN="${PYTHON_BIN:-python3}"
 readonly BLENDER_BIN="${BLENDER_BIN:-blender}"
 
 set -Eeuo pipefail
@@ -21,15 +21,12 @@ a ZIP in build/packages. Release is the default; --debug selects linux-debug.
 --resources-only prepares assets without rebuilding or packaging the game.
 --incremental skips the clean step. --no-package skips the ZIP step.
 
-Set RESOURCE_TEXTURE_FORMAT at the top of this script to png or pvr, or run:
-    RESOURCE_TEXTURE_FORMAT=pvr ./rebuild_Linux.sh
-
 Requires Node.js 22.12+, npm, and the Linux build dependencies (see readme.txt).
 AuroraMX copies YAML sprites unchanged and generates their ID headers.
 Blender 5.2+ exports the .blend sources registered in Data/Scenes/models.json.
 Set BLENDER_BIN to use a particular Blender executable.
-PNG mode also requires
-Python Pillow: sudo apt install python3-pil
+Textures are staged as PNG. Requires Python Pillow: sudo apt install python3-pil
+Set PYTHON_BIN to select a particular Python executable.
 EOF
 }
 
@@ -43,19 +40,13 @@ for arg in "$@"; do
         *) printf 'Unknown option: %s\n' "$arg" >&2; usage >&2; exit 2 ;;
     esac
 done
-case "$RESOURCE_TEXTURE_FORMAT" in
-    png|pvr) ;;
-    *) printf 'RESOURCE_TEXTURE_FORMAT must be png or pvr.\n' >&2; exit 2 ;;
-esac
-for tool in cmake python3 node npm; do
+for tool in cmake "$PYTHON_BIN" node npm; do
     command -v "$tool" >/dev/null || { printf 'Missing tool: %s\n' "$tool" >&2; exit 1; }
 done
-if [[ $RESOURCE_TEXTURE_FORMAT == png ]]; then
-    python3 -c 'from PIL import Image' || {
-        printf 'PNG mode requires Pillow: sudo apt install python3-pil\n' >&2
-        exit 1
-    }
-fi
+"$PYTHON_BIN" -c 'from PIL import Image' || {
+    printf 'Texture imports require Pillow: sudo apt install python3-pil\n' >&2
+    exit 1
+}
 
 build_dir="$project_dir/build/$preset"
 asset_dir="$build_dir/assets"
@@ -66,8 +57,8 @@ trap 'status=$?; printf "Rebuild finished at %s (exit %s)\n" "$(date -u --iso-86
 printf 'Rebuild started at %s\n' "$(date -u --iso-8601=seconds)"
 
 printf '\nGenerate project version file\n'
-version=$(python3 "$project_dir/tools/linux/build_resources.py" --version)
-printf 'Version: %s; textures: %s\n' "$version" "$RESOURCE_TEXTURE_FORMAT"
+version=$("$PYTHON_BIN" "$project_dir/tools/linux/build_resources.py" --version)
+printf 'Version: %s; textures: PNG\n' "$version"
 
 cmake --fresh --preset "$preset" -DCASTLE_ASSET_DIR="$asset_dir"
 
@@ -81,27 +72,19 @@ cmake -E rm -rf "$build_dir/auroramx/bin"
 node "$auroramx_dir/build/cli.cjs" batch "$project_dir/Data/Sprites/Sprites.sprcmd" \
     --output "$build_dir/auroramx"
 
-decoder_args=()
-if [[ $RESOURCE_TEXTURE_FORMAT == png ]]; then
-    cmake --build --preset "$preset" --target PvrDecode
-    decoder_args=(--pvr-decoder "$build_dir/bin/PvrDecode")
-fi
-
 printf '\nRebuild project data\n'
 printf '\nExport Blender models\n'
 cmake --build --preset "$preset" --target BdaeCheck
-model_texture_format=png
-if [[ $RESOURCE_TEXTURE_FORMAT == pvr ]]; then model_texture_format=tga; fi
-python3 "$project_dir/tools/blender/build_models.py" \
+"$PYTHON_BIN" "$project_dir/tools/blender/build_models.py" \
     --output "$build_dir/blender" --blender "$BLENDER_BIN" \
-    --texture-format "$model_texture_format" --validator "$build_dir/bin/BdaeCheck"
+    --texture-format png --validator "$build_dir/bin/BdaeCheck"
 
-python3 "$project_dir/tools/linux/build_resources.py" \
-    --output "$asset_dir" --texture-format "$RESOURCE_TEXTURE_FORMAT" \
-    --sprite-exports "$build_dir/auroramx/bin" --scene-exports "$build_dir/blender" "${decoder_args[@]}"
-python3 "$project_dir/tools/blender/build_models.py" --output "$build_dir/blender" \
+"$PYTHON_BIN" "$project_dir/tools/linux/build_resources.py" \
+    --output "$asset_dir" \
+    --sprite-exports "$build_dir/auroramx/bin" --scene-exports "$build_dir/blender"
+"$PYTHON_BIN" "$project_dir/tools/blender/build_models.py" --output "$build_dir/blender" \
     --validate-staged "$asset_dir/Scenes" --validator "$build_dir/bin/BdaeCheck" \
-    --texture-format "$model_texture_format"
+    --texture-format png
 if $resources_only; then
     printf '\nResources ready: %s\n' "$asset_dir"
     exit 0
@@ -114,8 +97,8 @@ cmake --build --preset "$preset" "${build_args[@]}"
 
 if $package; then
     printf '\nPack project version\n'
-    python3 "$project_dir/tools/linux/build_resources.py" \
-        --output "$asset_dir" --texture-format "$RESOURCE_TEXTURE_FORMAT" \
+    "$PYTHON_BIN" "$project_dir/tools/linux/build_resources.py" \
+        --output "$asset_dir" \
         --package "$build_dir/bin/FortressDefender"
 fi
 printf '\nReady to run: %s/bin/FortressDefender\nLog: %s\n' "$build_dir" "$log_file"

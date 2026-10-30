@@ -4,7 +4,6 @@
 #include "Editor/ExternalEditor.h"
 #include "Game/Playfield.h"
 #include "IO/TouchScreen/TouchPad.h"
-#include "PlatformSpecifics/Win32/CImageLoaderPVR.h"
 #include "CCommonGLDriver.h"
 #include <cstdlib>
 #include <cstring>
@@ -138,9 +137,6 @@ int main(int argc, char** argv)
     driver->setLogicalScreenSize(gameSize);
     device->setWindowCaption(L"Castle Frenzy - Ubuntu");
     device->setResizeAble(false);
-    CImageLoaderPVR* loader = new CImageLoaderPVR();
-    device->getVideoDriver()->addExternalImageLoader(loader);
-    loader->drop();
     Application* app = __APP();
     app->setFilePaths("", "./", save.c_str());
     app->InitLinux(device);

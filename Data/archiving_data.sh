@@ -17,4 +17,5 @@ rm -f "$archive_name"
 
 python3 "$PROJECT_TOOLS_PATH/zip_directory.py" "$archive_name" "." \
     --exclude-pattern "*.sprite" \
-    --exclude-pattern "*.bsprite"
+    --exclude-pattern "*.bsprite" \
+    --exclude-pattern "*.pvr"

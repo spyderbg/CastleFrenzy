@@ -40,8 +40,7 @@ cp -f *.png  "$PROJECT_DATA_PATH/Sprites/$PACK_NAME"/ 2>/dev/null || true
 cp -f *.tga  "$PROJECT_DATA_PATH/Sprites/$PACK_NAME"/ 2>/dev/null || true
 cp -f *.txt  bin/ 2>/dev/null || true
 
-# PVRTexTool.exe has no Linux binary; PVR generation is provided by the
-# modern pipeline (rebuild_Linux.sh). Source textures are staged as-is.
+# Authored PNG textures are staged unchanged.
 
 # Archive (mirrors the "not no_bar" section of _make.bat).
 if [[ "$arg" != "no_bar" ]]; then

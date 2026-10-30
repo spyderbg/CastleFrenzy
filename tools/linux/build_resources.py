@@ -12,8 +12,6 @@ import json
 from pathlib import Path
 import re
 import shutil
-import struct
-import subprocess
 import sys
 import tempfile
 import zipfile
@@ -21,7 +19,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "tools"))
 from sprite_resources import copy_sprites, copy_headers, validate_assets
-IMAGE_EXTENSIONS = {".pvr", ".png", ".tga", ".bmp"}
+IMAGE_EXTENSIONS = {".png", ".tga", ".bmp"}
 MANIFEST = "linux-resources.json"
 
 
@@ -61,17 +59,10 @@ def source_image(relative, extension):
     return next((p for p in candidates if p.is_file()), None)
 
 
-def png_image(path, decoder):
+def png_image(path):
     from PIL import Image
-    if path.suffix.lower() != ".pvr":
-        with Image.open(path) as image:
-            return image.convert("RGBA")
-    header = path.read_bytes()[:52]
-    if len(header) != 52:
-        raise ValueError(f"Truncated PVR header: {path}")
-    fields = struct.unpack("<13I", header)
-    result = subprocess.run([str(decoder), str(path)], check=True, stdout=subprocess.PIPE)
-    return Image.frombytes("RGBA", (fields[2], fields[1]), result.stdout)
+    with Image.open(path) as image:
+        return image.convert("RGBA")
 
 
 def rebuild_audio(stage):
@@ -98,15 +89,13 @@ def rebuild_audio(stage):
     print(f"Rebuilt sound packs: {len(names)} WAV files")
 
 
-def build(output, texture_format, decoder, sprite_exports=None, scene_exports=None):
+def build(output, sprite_exports=None, scene_exports=None):
     seed = ROOT / "Build/bin"
     output = output.resolve()
     if not output.is_relative_to(ROOT / "build"):
         raise ValueError("Resource output must be inside the project's lowercase build/ directory")
     if output.exists() and any(output.iterdir()) and not (output / MANIFEST).is_file():
         raise ValueError(f"Refusing to replace a directory without {MANIFEST}: {output}")
-    if texture_format == "png" and (not decoder or not decoder.is_file()):
-        raise ValueError("PNG mode requires --pvr-decoder (build the CMake PvrDecode target)")
     output.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix="linux-assets-", dir=output.parent) as temporary:
         stage = Path(temporary) / "assets"
@@ -160,30 +149,18 @@ def build(output, texture_format, decoder, sprite_exports=None, scene_exports=No
                 groups.setdefault(path.relative_to(stage).with_suffix(""), {})[path.suffix.lower()] = path
         converted = 0
         for relative, images in groups.items():
-            if texture_format == "pvr":
-                pvr = source_image(relative, ".pvr")
-                if pvr:
-                    shutil.copy2(pvr, stage / relative.with_suffix(".pvr"))
-                # A source PNG override must not win over the selected legacy
-                # format when the same sprite has a PVR or TGA texture.
-                if (pvr or any(ext in images for ext in (".pvr", ".tga", ".bmp"))) and ".png" in images:
-                    images[".png"].unlink()
-                continue
-            # Preserve exported PVR dimensions, alpha and orientation exactly.
-            # Editable source PNGs take precedence, so a new PNG atlas needs no
-            # PVR tool. Other images use their source TGA/BMP where available.
+            # Fresh model exports take precedence over authoring textures.
+            # Otherwise prefer editable PNG sources, retaining TGA/BMP imports.
             native = next((p for e, p in images.items() if relative.with_suffix(e) in scene_files), None)
-            source = native or source_image(relative, ".png") or images.get(".png") or images.get(".pvr")
+            source = native or source_image(relative, ".png") or images.get(".png")
             if not source:
                 source = source_image(relative, ".tga") or images.get(".tga") or images.get(".bmp")
-            image = png_image(source, decoder)
+            image = png_image(source)
             if relative.parts[0] == "Sprites":
-                if ".pvr" in images:
-                    h = struct.unpack("<13I", images[".pvr"].read_bytes()[:52])
-                    expected = (h[2], h[1])
-                else:
-                    original = images.get(".tga") or images.get(".bmp")
-                    expected = png_image(original, decoder).size if original else image.size
+                original = seed / relative.with_suffix(".png")
+                if not original.is_file():
+                    original = images.get(".tga") or images.get(".bmp") or images.get(".png")
+                expected = png_image(original).size if original else image.size
                 if image.size != expected:
                     raise ValueError(f"PNG atlas dimensions changed for {relative}; update its YAML module coordinates first")
             target = stage / relative.with_suffix(".png")
@@ -194,7 +171,7 @@ def build(output, texture_format, decoder, sprite_exports=None, scene_exports=No
             converted += 1
         rebuild_audio(stage)
         validate_assets(stage)
-        manifest = {"version": version(), "texture_format": texture_format,
+        manifest = {"version": version(), "texture_format": "png",
                     "sprite_format": "yaml", "yaml_sprites": sprite_count,
                     "sprite_exporter": "YAML copies (AuroraMX ID headers)" if sprite_exports else "YAML copies",
                     "model_exporter": "Blender BDAE" if scene_exports else "existing exports",
@@ -211,14 +188,14 @@ def build(output, texture_format, decoder, sprite_exports=None, scene_exports=No
           "reused string/config exports; rebuilt textures and sound packs.")
 
 
-def package(output, binary, texture_format):
+def package(output, binary):
     manifest = json.loads((output / MANIFEST).read_text())
-    if manifest["texture_format"] != texture_format:
-        raise ValueError("Resource format differs from the requested package format; rebuild resources first")
+    if manifest["texture_format"] != "png":
+        raise ValueError("Resources must use PNG textures; rebuild resources first")
     if manifest.get("sprite_format") != "yaml":
         raise ValueError("Sprite format differs from YAML; rebuild resources before packaging")
     validate_assets(output)
-    name = f"CastleFrenzy_Linux_v{version()}_{texture_format}"
+    name = f"CastleFrenzy_Linux_v{version()}_png"
     destination = ROOT / "build/packages" / (name + ".zip")
     destination.parent.mkdir(parents=True, exist_ok=True)
     temporary = destination.with_suffix(".zip.tmp")
@@ -246,8 +223,6 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--version", action="store_true", help="update version.h from config.bat and print version")
     parser.add_argument("--output", type=Path)
-    parser.add_argument("--texture-format", choices=("png", "pvr"), default="png")
-    parser.add_argument("--pvr-decoder", type=Path)
     parser.add_argument("--sprite-exports", type=Path, help="AuroraMX batch bin/ with unchanged YAML copies and ID headers")
     parser.add_argument("--scene-exports", type=Path, help="Validated Blender model export directory")
     parser.add_argument("--package", type=Path, metavar="EXECUTABLE")
@@ -257,14 +232,14 @@ def main():
     elif not args.output:
         parser.error("--output is required")
     elif args.package:
-        package(args.output, args.package, args.texture_format)
+        package(args.output, args.package)
     else:
-        build(args.output, args.texture_format, args.pvr_decoder, args.sprite_exports, args.scene_exports)
+        build(args.output, args.sprite_exports, args.scene_exports)
 
 
 if __name__ == "__main__":
     try:
         main()
-    except (OSError, ValueError, subprocess.CalledProcessError) as error:
+    except (OSError, ValueError) as error:
         print(f"Resource build failed: {error}", file=sys.stderr)
         sys.exit(1)

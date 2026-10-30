@@ -1079,29 +1079,29 @@
     </camera>
   </library_cameras>
   <library_images>
-    <image id="bigtex.pvr" name="bigtex_pvr">
-      <init_from>bigtex.pvr</init_from>
+    <image id="bigtex.png" name="bigtex_pvr">
+      <init_from>bigtex.png</init_from>
     </image>
-    <image id="bigtex_2.pvr" name="bigtex_2_pvr">
-      <init_from>bigtex_2.pvr</init_from>
+    <image id="bigtex_2.png" name="bigtex_2_pvr">
+      <init_from>bigtex_2.png</init_from>
     </image>
-    <image id="bigtex_alpha.pvr" name="bigtex_alpha_pvr">
-      <init_from>bigtex_alpha.pvr</init_from>
+    <image id="bigtex_alpha.png" name="bigtex_alpha_pvr">
+      <init_from>bigtex_alpha.png</init_from>
     </image>
-    <image id="clouds_02.pvr" name="clouds_02_pvr">
-      <init_from>clouds_02.pvr</init_from>
+    <image id="clouds_02.png" name="clouds_02_pvr">
+      <init_from>clouds_02.png</init_from>
     </image>
-    <image id="crackedearth.pvr" name="crackedearth_pvr">
-      <init_from>crackedearth.pvr</init_from>
+    <image id="crackedearth.png" name="crackedearth_pvr">
+      <init_from>crackedearth.png</init_from>
     </image>
-    <image id="ground_03.pvr" name="ground_03_pvr">
-      <init_from>ground_03.pvr</init_from>
+    <image id="ground_03.png" name="ground_03_pvr">
+      <init_from>ground_03.png</init_from>
     </image>
-    <image id="rock_02.pvr" name="rock_02_pvr">
-      <init_from>rock_02.pvr</init_from>
+    <image id="rock_02.png" name="rock_02_pvr">
+      <init_from>rock_02.png</init_from>
     </image>
-    <image id="water.pvr" name="water_pvr">
-      <init_from>water.pvr</init_from>
+    <image id="water.png" name="water_pvr">
+      <init_from>water.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -1135,7 +1135,7 @@
       <profile_COMMON>
         <newparam sid="bigtex_pvr-surface">
           <surface type="2D">
-            <init_from>bigtex.pvr</init_from>
+            <init_from>bigtex.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -1221,7 +1221,7 @@
       <profile_COMMON>
         <newparam sid="bigtex_alpha_pvr-surface">
           <surface type="2D">
-            <init_from>bigtex_alpha.pvr</init_from>
+            <init_from>bigtex_alpha.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -1307,7 +1307,7 @@
       <profile_COMMON>
         <newparam sid="bigtex_2_pvr-surface">
           <surface type="2D">
-            <init_from>bigtex_2.pvr</init_from>
+            <init_from>bigtex_2.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -1393,7 +1393,7 @@
       <profile_COMMON>
         <newparam sid="crackedearth_pvr-surface">
           <surface type="2D">
-            <init_from>crackedearth.pvr</init_from>
+            <init_from>crackedearth.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -1479,7 +1479,7 @@
       <profile_COMMON>
         <newparam sid="rock_02_pvr-surface">
           <surface type="2D">
-            <init_from>rock_02.pvr</init_from>
+            <init_from>rock_02.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -1565,7 +1565,7 @@
       <profile_COMMON>
         <newparam sid="ground_03_pvr-surface">
           <surface type="2D">
-            <init_from>ground_03.pvr</init_from>
+            <init_from>ground_03.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -1651,7 +1651,7 @@
       <profile_COMMON>
         <newparam sid="water_pvr-surface">
           <surface type="2D">
-            <init_from>water.pvr</init_from>
+            <init_from>water.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -1667,7 +1667,7 @@
         </newparam>
         <newparam sid="water_pvr-surface">
           <surface type="2D">
-            <init_from>water.pvr</init_from>
+            <init_from>water.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -1770,7 +1770,7 @@
       <profile_COMMON>
         <newparam sid="clouds_02_pvr-surface">
           <surface type="2D">
-            <init_from>clouds_02.pvr</init_from>
+            <init_from>clouds_02.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -1786,7 +1786,7 @@
         </newparam>
         <newparam sid="clouds_02_pvr-surface">
           <surface type="2D">
-            <init_from>clouds_02.pvr</init_from>
+            <init_from>clouds_02.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>

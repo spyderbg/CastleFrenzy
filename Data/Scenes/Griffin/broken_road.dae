@@ -146,7 +146,7 @@
   </library_animation_clips>
   <library_images>
     <image id="broken_road.tga" name="broken_road_tga">
-      <init_from>broken_road.pvr</init_from>
+      <init_from>broken_road.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -159,7 +159,7 @@
       <profile_COMMON>
         <newparam sid="broken_road_tga-surface">
           <surface type="2D">
-            <init_from>broken_road.pvr</init_from>
+            <init_from>broken_road.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -175,7 +175,7 @@
         </newparam>
         <newparam sid="broken_road_tga-surface">
           <surface type="2D">
-            <init_from>broken_road.pvr</init_from>
+            <init_from>broken_road.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>

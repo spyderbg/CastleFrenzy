@@ -27,8 +27,5 @@ VERSION_BUILD="${VERSION_BUILD:-0}"
 # Pack build order (mirrors make_prepare.bat DATA_BUILD_FLOW).
 DATA_BUILD_FLOW=(Strings Fonts Sprites Scenes Sounds Effects)
 
-# Texture format for the Linux build: "png" (editable) or "pvr" (legacy).
-RESOURCE_TEXTURE_FORMAT="${RESOURCE_TEXTURE_FORMAT:-png}"
-
 # Java used by the StringParser / SoundConfigExporter tools.
 JAVA_BIN="${JAVA_BIN:-java}"

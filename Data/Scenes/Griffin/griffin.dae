@@ -2884,23 +2884,23 @@
     </animation_clip>
   </library_animation_clips>
   <library_images>
-    <image id="griffin_00.pvr" name="griffin_00_pvr">
-      <init_from>griffin_00.pvr</init_from>
+    <image id="griffin_00.png" name="griffin_00_pvr">
+      <init_from>griffin_00.png</init_from>
     </image>
-    <image id="griffin_01.pvr" name="griffin_01_pvr">
-      <init_from>griffin_01.pvr</init_from>
+    <image id="griffin_01.png" name="griffin_01_pvr">
+      <init_from>griffin_01.png</init_from>
     </image>
-    <image id="griffin_02.pvr" name="griffin_02_pvr">
-      <init_from>griffin_02.pvr</init_from>
+    <image id="griffin_02.png" name="griffin_02_pvr">
+      <init_from>griffin_02.png</init_from>
     </image>
-    <image id="postament_00.pvr" name="postament_00_pvr">
-      <init_from>postament_00.pvr</init_from>
+    <image id="postament_00.png" name="postament_00_pvr">
+      <init_from>postament_00.png</init_from>
     </image>
-    <image id="postament_01.pvr" name="postament_01_pvr">
-      <init_from>postament_01.pvr</init_from>
+    <image id="postament_01.png" name="postament_01_pvr">
+      <init_from>postament_01.png</init_from>
     </image>
-    <image id="postament_02.pvr" name="postament_02_pvr">
-      <init_from>postament_02.pvr</init_from>
+    <image id="postament_02.png" name="postament_02_pvr">
+      <init_from>postament_02.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -2928,7 +2928,7 @@
       <profile_COMMON>
         <newparam sid="postament_01_pvr-surface">
           <surface type="2D">
-            <init_from>postament_01.pvr</init_from>
+            <init_from>postament_01.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -3014,7 +3014,7 @@
       <profile_COMMON>
         <newparam sid="griffin_00_pvr-surface">
           <surface type="2D">
-            <init_from>griffin_00.pvr</init_from>
+            <init_from>griffin_00.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -3100,7 +3100,7 @@
       <profile_COMMON>
         <newparam sid="postament_00_pvr-surface">
           <surface type="2D">
-            <init_from>postament_00.pvr</init_from>
+            <init_from>postament_00.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -3186,7 +3186,7 @@
       <profile_COMMON>
         <newparam sid="postament_02_pvr-surface">
           <surface type="2D">
-            <init_from>postament_02.pvr</init_from>
+            <init_from>postament_02.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -3272,7 +3272,7 @@
       <profile_COMMON>
         <newparam sid="griffin_01_pvr-surface">
           <surface type="2D">
-            <init_from>griffin_01.pvr</init_from>
+            <init_from>griffin_01.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>
@@ -3358,7 +3358,7 @@
       <profile_COMMON>
         <newparam sid="griffin_02_pvr-surface">
           <surface type="2D">
-            <init_from>griffin_02.pvr</init_from>
+            <init_from>griffin_02.png</init_from>
             <format>A8R8G8B8</format>
           </surface>
         </newparam>

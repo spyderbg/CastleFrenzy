@@ -1112,8 +1112,8 @@ void CPlayfield::drawFakeZBuffer ()
 	}
 
 	ITexture* tex = m_fireball->getLevel() == WL_None ?
-		driver->getTexture("Scenes/Castle/fortress_mask1.pvr") : 
-		driver->getTexture("Scenes/Castle/fortress_mask2.pvr");
+		driver->getTexture("Scenes/Castle/fortress_mask1.png") :
+		driver->getTexture("Scenes/Castle/fortress_mask2.png");
 
 	//driver->clearZBuffer();
 	matrix4 proj, view;

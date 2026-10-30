@@ -9,7 +9,7 @@
 // Otherwise, IrrLicht will copy "$(IrrLichtPath)\include\IrrCompileDefaultConfig.h"
 // to "$(IrrLichtPath)\include\IrrCompileGameConfig.h"
 
-#define _IRR_ENABLE_NATIVE_TEXTURE_FORMAT_
+// Runtime textures use the standard image loaders (PNG, TGA and BMP).
 #define _IRR_ENABLE_PROCESS_BUFFER_HEAP_EXCESS_
 #define _IRR_COMPILE_WITH_COLLADA_PARTICLE_SYSTEM_
 

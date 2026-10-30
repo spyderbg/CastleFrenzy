@@ -28,9 +28,6 @@ include(cmake/sprite_yaml.cmake)
 
 set(IRR_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/Lib/Irrlicht")
 set(IRR_SRC "${IRR_ROOT}/source/Irrlicht")
-add_executable(PvrDecode EXCLUDE_FROM_ALL tools/linux/pvr_decode.cpp "${IRR_SRC}/PVRT/PVRTDecompress.cpp")
-target_include_directories(PvrDecode PRIVATE "${IRR_ROOT}/include" "${IRR_SRC}")
-set_target_properties(PvrDecode PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
 file(GLOB ENGINE_SOURCES CONFIGURE_DEPENDS "${IRR_SRC}/*.cpp")
 file(GLOB ZLIB_SOURCES CONFIGURE_DEPENDS "${IRR_SRC}/zlib/*.c")
 file(GLOB PNG_SOURCES CONFIGURE_DEPENDS "${IRR_SRC}/libpng/png*.c")
@@ -38,7 +35,7 @@ file(GLOB PNG_SOURCES CONFIGURE_DEPENDS "${IRR_SRC}/libpng/png*.c")
 file(GLOB JPEG_SOURCES CONFIGURE_DEPENDS "${IRR_SRC}/jpeglib/j*.c")
 list(FILTER JPEG_SOURCES EXCLUDE REGEX "/(jmem(ansi|dos|mac|name|nobs)|jpegtran)\\.c$")
 add_library(Irrlicht STATIC ${ENGINE_SOURCES} ${ZLIB_SOURCES} ${PNG_SOURCES} ${JPEG_SOURCES}
-    "${IRR_ROOT}/tools/ResFile/src/resFile.cpp" "${IRR_SRC}/PVRT/PVRTDecompress.cpp")
+    "${IRR_ROOT}/tools/ResFile/src/resFile.cpp")
 target_include_directories(Irrlicht PUBLIC
     "${IRR_ROOT}/include" "${IRR_ROOT}/tools/ColladaConverter/include"
     "${IRR_ROOT}/tools/ResFile/include" "${IRR_SRC}"
@@ -65,9 +62,7 @@ target_link_libraries(SoundLib PUBLIC Irrlicht ${OPENAL_LIBRARY})
 file(GLOB_RECURSE GAME_SOURCES CONFIGURE_DEPENDS "Src/*.cpp")
 list(FILTER GAME_SOURCES EXCLUDE REGEX "/PlatformSpecifics/(Linux|Win32|IPhone)/|AccelerometerWin32\\.cpp$|MediaPlayerWin32\\.cpp$")
 list(FILTER GAME_SOURCES EXCLUDE REGEX "/Sprites/SpriteYaml\\.cpp$")
-add_executable(FortressDefender ${GAME_SOURCES}
-    Src/PlatformSpecifics/Win32/CImageLoaderPVR.cpp
-    Src/PlatformSpecifics/Win32/PVRTDecompress.cpp)
+add_executable(FortressDefender ${GAME_SOURCES})
 target_include_directories(FortressDefender PRIVATE Src)
 if(WIN32)
     target_sources(FortressDefender PRIVATE Src/PlatformSpecifics/Win32/main.cpp
@@ -117,22 +112,13 @@ if(BUILD_TESTING)
     target_include_directories(Resource64Check PRIVATE "${IRR_ROOT}/tools/ResFile/include")
     add_test(NAME resource64 COMMAND Resource64Check)
 
-    add_executable(PvrCodecCheck tests/linux/pvr_codec.cpp "${IRR_SRC}/PVRT/PVRTDecompress.cpp")
-    target_include_directories(PvrCodecCheck PRIVATE "${IRR_SRC}/PVRT" "${IRR_SRC}" "${IRR_ROOT}/include")
-    add_test(NAME pvr_codec64 COMMAND PvrCodecCheck)
-
-    add_executable(GamePvrCodecCheck tests/linux/pvr_codec.cpp
-        Src/PlatformSpecifics/Win32/PVRTDecompress.cpp)
-    target_include_directories(GamePvrCodecCheck PRIVATE Src/PlatformSpecifics/Win32)
-    target_compile_definitions(GamePvrCodecCheck PRIVATE GAME_CODEC)
-    add_test(NAME game_pvr_codec64 COMMAND GamePvrCodecCheck)
 endif()
 
 if(WIN32)
     install(TARGETS FortressDefender OpenAL RUNTIME DESTINATION bin)
     install(DIRECTORY "${CASTLE_ASSET_DIR}/" DESTINATION assets
         PATTERN "*.sprite" EXCLUDE PATTERN "*.bsprite" EXCLUDE
-        PATTERN "resources.pack" EXCLUDE PATTERN ".svn" EXCLUDE)
+        PATTERN "resources.pack" EXCLUDE PATTERN ".svn" EXCLUDE PATTERN "*.pvr" EXCLUDE)
     # OpenAL Soft is distributed under the LGPL; preserve its license and source URL.
     install(FILES "${openal_soft_SOURCE_DIR}/COPYING" DESTINATION licenses RENAME OpenAL-Soft.txt)
     install(FILES Lib/yaml-cpp.LICENSE DESTINATION licenses RENAME yaml-cpp.txt)
@@ -143,7 +129,7 @@ if(WIN32)
 endif()
 
 if(WIN32 AND MINGW)
-    foreach(target FortressDefender PvrDecode BdaeCheck Resource64Check PvrCodecCheck GamePvrCodecCheck XmlRoundtripCheck SpriteYamlCheck)
+    foreach(target FortressDefender BdaeCheck Resource64Check XmlRoundtripCheck SpriteYamlCheck)
         if(TARGET ${target})
             add_custom_command(TARGET ${target} POST_BUILD
                 COMMAND ${CMAKE_COMMAND} -E copy_if_different ${CASTLE_MINGW_RUNTIME_DLLS}

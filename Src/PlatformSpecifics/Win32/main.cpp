@@ -19,7 +19,6 @@
 #include "IO/TouchScreen/TouchPad.h"
 #include "IO/Accelerometer/AccelerometerWin32.h"
 
-#include "PlatformSpecifics/Win32/CImageLoaderPVR.h"
 
 #include "Editor/GS_Editor.h"
 #include "Editor/ExternalEditor.h"
@@ -274,9 +273,6 @@ int main(int argc, char* argv[])
 	device->setWindowCaption(WINDOW_TITLE);
 	device->setResizeAble(true);
 
-	CImageLoaderPVR* loader = new CImageLoaderPVR();
-	device->getVideoDriver()->addExternalImageLoader(loader);
-	loader->drop();
 
 	Application* app = __APP();
 	app->setFilePaths("", "./", save.c_str());

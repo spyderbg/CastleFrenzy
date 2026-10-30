@@ -57,11 +57,11 @@ for pack in ./*/; do
             printf 'Copy("bin/%s/%s.yaml")\n' "$name" "$base"
         } >> "$sprcmd"
     done
-    for f in "$pack"*.png "$pack"*.pvr; do
+    for f in "$pack"*.png; do
         cp -f -- "$f" "bin/$name/"
     done
     for f in "$pack"*.tga; do
-        if [[ ! -f "${f%.tga}.pvr" ]]; then
+        if [[ ! -f "${f%.tga}.png" ]]; then
             cp -f -- "$f" "bin/$name/"
         fi
     done

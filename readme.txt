@@ -43,18 +43,12 @@ table. No 32-bit compiler, multilib packages or asset conversion is needed.
 
    ./rebuild_Linux.sh
 
-   RESOURCE_TEXTURE_FORMAT at the beginning of rebuild_Linux.sh selects "png"
-   (default) or "pvr". It can also be overridden for one invocation:
-
-   RESOURCE_TEXTURE_FORMAT=pvr ./rebuild_Linux.sh
-
-   PNG mode requires Pillow (sudo apt install python3-pil). It prefers matching
-   PNGs in Data/Sprites, Data/Fonts, Data/Scenes and Data/Effects; otherwise it
-   decodes exported PVR textures or converts TGA/BMP images. PNG atlases must
-   retain the dimensions used by their YAML module coordinates. The PNG output
-   contains no PVR/TGA/BMP textures. Existing model/effect texture references
-   resolve to the corresponding PNGs at runtime. PVR mode retains the original
-   PVR textures and TGA fallbacks, as in the Windows build.
+   Runtime textures use PNG on Linux and Windows. Pillow is required for legacy
+   TGA/BMP imports (sudo apt install python3-pil). Matching PNGs in Data/Sprites,
+   Data/Fonts, Data/Scenes and Data/Effects take precedence. PNG atlases retain
+   the dimensions used by their YAML module coordinates. PVR encoders, texture
+   files and the runtime loader have been removed. Builds reject PVR assets.
+   Set PYTHON_BIN=/usr/bin/python3 if the default Python lacks Pillow.
 
    The script reads the version from config.bat, prepares resources, performs a
    clean Release build, and creates build/packages/CastleFrenzy_Linux_v*_*.zip.
@@ -142,7 +136,7 @@ AuroraMX sprite editor:
    x1/y1/x2/y2. Bounds are computed automatically, including hyperframes.
    The existing GP_Data runtime supports MD_IMAGE modules in one image atlas
    per sprite. Other module types and multiple used atlases report an error.
-   Image paths are relative to YAML; PNG/PVR/TGA/BMP variants are resolved like
+   Image paths are relative to YAML; PNG/TGA/BMP variants are resolved like
    existing resources. transparent is an RGB color key; optional alphaFile uses
    the mask's red channel for alpha, matching AuroraMX previews.
 

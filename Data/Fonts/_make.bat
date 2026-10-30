@@ -12,8 +12,6 @@ call %~dp0\..\..\setenv.bat
 rem ///////////////////////////////////////
 
 set LOG=%CD%\make%PACK_NAME%.log
-set PVR_TOOL=%PROJECT_PATH%\Tools\PVRTexTool\PVRTexTool.exe
-set CONVERT_TO_PVR=ArialSmall;BerlinSansFB;ChineseBig;day_font;JapaneseBig;
 
 rem Clean data
 if "%1"=="clean" (
@@ -43,11 +41,6 @@ copy /Y *.png %PROJECT_DATA_PATH%\Sprites\%PACK_NAME%\ > NUL
 copy *.tga %PROJECT_DATA_PATH%\Sprites\%PACK_NAME%\ > NUL
 copy *.txt /Y bin > NUL
 
-for %%i in (%CONVERT_TO_PVR%) do (
-
-	%PVR_TOOL% -i%%i.tga -nt -fOGL88 -p -o%PROJECT_DATA_PATH%\Sprites\%PACK_NAME%\%%i -yflip0
-  
-)
 
 rem Build bar file or not
 if not "%1"=="no_bar" (

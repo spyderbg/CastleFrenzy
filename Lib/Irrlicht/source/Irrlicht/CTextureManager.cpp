@@ -236,11 +236,9 @@ CTextureManager::renameTexture(ITexture* texture, const c8* newName)
 ITexture* 
 CTextureManager::getTexture(const c8* filename)
 {
-#ifdef _IRR_LINUX_PLATFORM_
-	// Binary models and effect definitions retain their original texture names.
-	// Resolve missing PVR/TGA/BMP files to the PNG resource build before caching.
+	// Prefer PNG variants on every platform, including old model references.
 	core::stringc pngFilename;
-	if (filename && !Driver->FileSystem->existFile(filename))
+	if (filename)
 	{
 		core::stringc original(filename);
 		const s32 dot = original.findLast('.');
@@ -251,12 +249,11 @@ CTextureManager::getTexture(const c8* filename)
 			if (extension == ".pvr" || extension == ".tga" || extension == ".bmp")
 			{
 				pngFilename = original.subString(0, dot) + ".png";
-				if (Driver->FileSystem->existFile(pngFilename.c_str()))
+				if (extension == ".pvr" || Driver->FileSystem->existFile(pngFilename.c_str()))
 					filename = pngFilename.c_str();
 			}
 		}
 	}
-#endif
 	irr::core::stringc absoluteFilename;
 	ITexture* texture = 0;
 	//pls using fullpath as false, especially you want to try load texture in your zip archive

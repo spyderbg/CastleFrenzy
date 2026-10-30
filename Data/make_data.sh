@@ -7,8 +7,8 @@
 #   StringParser.jar / SoundConfigExporter.jar  -> java (OpenJDK)
 #   AuroraMX (node)                             -> node / npm
 #   zip_directory.py                            -> python3
-#   PVRTexTool.exe / ColladaConverter.exe       -> no Linux binary; the portable
-#       file staging is done here and full texture/model conversion is provided
+#   ColladaConverter.exe                      -> legacy model staging here;
+#       full texture/model conversion is provided
 #       by the modern pipeline (rebuild_Linux.sh + tools/linux/build_resources.py).
 set -euo pipefail
 shopt -s nullglob
@@ -81,8 +81,7 @@ build_fonts() {
     cp -f *.png  "$PROJECT_DATA_PATH/Sprites/Fonts"/ 2>/dev/null || true
     cp -f *.tga  "$PROJECT_DATA_PATH/Sprites/Fonts"/ 2>/dev/null || true
     cp -f *.txt  bin/ 2>/dev/null || true
-    # PVRTexTool.exe has no Linux binary; PVR generation is provided by the
-    # modern pipeline (rebuild_Linux.sh). Source textures are staged as-is.
+    # Authored PNG textures are staged unchanged.
     # Archive.
     mkdir -p "$OUTPUT_PATH/Fonts"
     cp -r bin/. "$OUTPUT_PATH/Fonts"/
@@ -117,16 +116,15 @@ build_sprites() {
             {
                 echo
                 echo "Load(\"$f\")"
-                echo "ExportFramesID(\"bin/$d.h\", \"$d_F_${base}_\", APPEND|TOUPPER)"
-                echo "ExportAnimsID(\"bin/$d.h\", \"$d_A_${base}_\", APPEND|TOUPPER)"
+                echo "ExportFramesID(\"bin/$d.h\", \"${d}_F_${base}_\", APPEND|TOUPPER)"
+                echo "ExportAnimsID(\"bin/$d.h\", \"${d}_A_${base}_\", APPEND|TOUPPER)"
                 echo "Copy(\"bin/$d/${base}.yaml\")"
             } >> "$sprcmd"
         done
         for f in "$d"/*.png; do [[ -e "$f" ]] && cp -f "$f" "bin/$d"/; done
-        for f in "$d"/*.pvr; do [[ -e "$f" ]] && cp -f "$f" "bin/$d"/; done
         for f in "$d"/*.tga; do
             [[ -e "$f" ]] || continue
-            [[ ! -e "${f%.tga}.pvr" ]] && cp -f "$f" "bin/$d"/
+            [[ ! -e "${f%.tga}.png" ]] && cp -f "$f" "bin/$d"/
         done
     done
 
@@ -169,7 +167,7 @@ build_scenes() {
         # Stage the already-converted BDAE models and textures.
         for f in "$d"/*.bdae; do [[ -e "$f" ]] && mv -f "$f" "bin/$d"/; done
         for f in "$d"/*.tga;  do [[ -e "$f" ]] && cp -f "$f" "bin/$d"/; done
-        for f in "$d"/*.pvr;  do [[ -e "$f" ]] && cp -f "$f" "bin/$d"/; done
+        for f in "$d"/*.png;  do [[ -e "$f" ]] && cp -f "$f" "bin/$d"/; done
     done
     # Archive.
     mkdir -p "$OUTPUT_PATH/Scenes"
@@ -232,7 +230,7 @@ build_effects() {
     banner "Make Effects"
     cd "$dir"
     mkdir -p "$OUTPUT_PATH/Effects"
-    cp -f *.pvr "$OUTPUT_PATH/Effects"/ 2>/dev/null || true
+    cp -f *.png "$OUTPUT_PATH/Effects"/ 2>/dev/null || true
     cp -f effects.xml "$OUTPUT_PATH/Effects"/ 2>/dev/null || true
 }
 

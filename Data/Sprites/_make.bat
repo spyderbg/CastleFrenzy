@@ -78,14 +78,9 @@ for /D %%d in (*.) do (
 			if exist "%%f" copy /Y "%%f" "bin\%%d" > NUL
 		)
 
-		rem Copy all .pvr files to 'bin' dir
-		for %%f in (%%d\*.pvr) do (
-			copy /Y %%f bin\%%d > NUL
-		)
-    
-		rem Copy .tga files if no .pvr is present 
+		rem Copy .tga files if no .png is present
 		for %%f in (%%d\*.tga) do (
-			if not exist %%~pnf.pvr (
+			if not exist %%~pnf.png (
 				copy /Y %%f bin\%%d > NUL
 			)
 		)

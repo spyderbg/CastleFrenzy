@@ -54,7 +54,7 @@ node build/cli.cjs validate ../../Data/Sprites/Menu/menu_bg.yaml
 ./rebuild_Linux.sh --debug --incremental --no-package
 ```
 
-The existing `RESOURCE_TEXTURE_FORMAT` constant still selects PNG or PVR resources. Keep the game's external atlas names/dimensions consistent with its texture bindings. The runtime reads atlas names, transparency keys and optional alpha masks from YAML. `Build/bin` is preserved. AuroraGT is no longer required or bundled.
+Resource builds use PNG textures exclusively. Keep the game's external atlas names/dimensions consistent with its texture bindings. The runtime reads atlas names, transparency keys and optional alpha masks from YAML. `Build/bin` is preserved. AuroraGT is no longer required or bundled.
 
 ### Compatibility
 

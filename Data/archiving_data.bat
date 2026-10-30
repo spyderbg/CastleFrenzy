@@ -16,7 +16,7 @@ pushd %OUTPUT_PATH%
     del /Q %ARCHIVE_NAME%
   )
 
-  python "%PROJECT_TOOLS_PATH%\zip_directory.py" %ARCHIVE_NAME% "." --exclude-pattern "*.sprite" --exclude-pattern "*.bsprite"
+  python "%PROJECT_TOOLS_PATH%\zip_directory.py" %ARCHIVE_NAME% "." --exclude-pattern "*.sprite" --exclude-pattern "*.bsprite" --exclude-pattern "*.pvr"
   if errorlevel 1 exit /b 1
   
 popd

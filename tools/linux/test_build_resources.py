@@ -1,20 +1,15 @@
-"""Run with: python3 tools/linux/test_build_resources.py path/to/PvrDecode"""
+"""Run with: python3 tools/linux/test_build_resources.py (requires Pillow)."""
 import contextlib
 import io
 import hashlib
 import json
 from pathlib import Path
-import struct
-import sys
 import tempfile
 import unittest
 import zipfile
 
 from PIL import Image
 import build_resources as resources
-
-DECODER = Path(sys.argv.pop()).resolve() if len(sys.argv) > 1 else None
-
 
 class ResourceBuildTests(unittest.TestCase):
     def setUp(self):
@@ -31,9 +26,8 @@ class ResourceBuildTests(unittest.TestCase):
         for name in ["Music/m_title", "SFX/sfx_test"]:
             (self.root / f"Data/Sounds/{name}.wav").write_bytes(b"test wave data")
         self.luminance_alpha = bytes([255, 0, 40, 80, 128, 160, 200, 255])
-        self.pvr = struct.pack("<13I", 52, 2, 2, 0, 0x8017, 8, 16,
-                               255, 255, 255, 65280, 0x21525650, 1) + self.luminance_alpha
-        (self.root / "Build/bin/Sprites/Fonts/font.pvr").write_bytes(self.pvr)
+        self.font_image = Image.frombytes("LA", (2, 2), self.luminance_alpha).convert("RGBA")
+        self.font_image.save(self.root / "Build/bin/Sprites/Fonts/font.png")
         (self.root / "Build/bin/Sprites/Fonts/font.bsprite").write_bytes(b"exported sprite metadata")
         (self.root / "Build/bin/Sprites/Fonts/old.sprite").write_text("obsolete metadata")
         (self.root / "Build/bin/Sprites/Fonts/old.yaml").write_text("obsolete YAML")
@@ -46,36 +40,39 @@ class ResourceBuildTests(unittest.TestCase):
         resources.ROOT = self.previous_root
         self.temporary.cleanup()
 
-    def build(self, texture_format="png"):
+    def build(self):
         with contextlib.redirect_stdout(io.StringIO()):
-            resources.build(self.output, texture_format, DECODER)
+            resources.build(self.output)
 
-    def test_decode_preserves_font_luminance_alpha_and_row_order(self):
+    def test_png_preserves_font_luminance_alpha_and_row_order(self):
         self.build()
         with Image.open(self.output / "Sprites/Fonts/font.png") as image:
             expected = Image.frombytes("LA", (2, 2), self.luminance_alpha).convert("RGBA")
             self.assertEqual(image.tobytes(), expected.tobytes())
-        self.assertEqual((self.root / "Build/bin/Sprites/Fonts/font.pvr").read_bytes(), self.pvr)
+        with Image.open(self.root / "Build/bin/Sprites/Fonts/font.png") as image:
+            self.assertEqual(image.tobytes(), self.font_image.tobytes())
         self.assertFalse(list(self.output.rglob("*.pvr")))
         with zipfile.ZipFile(self.output / "audio_Music.pack") as archive:
             self.assertEqual(archive.read("m_title.wav"), b"test wave data")
 
-    def test_editable_png_overrides_exported_pvr(self):
+    def test_editable_png_overrides_seed_texture(self):
         Image.new("RGBA", (2, 2), (12, 34, 56, 78)).save(self.root / "Data/Fonts/font.png")
         self.build()
         with Image.open(self.output / "Sprites/Fonts/font.png") as image:
             self.assertEqual(image.getpixel((1, 1)), (12, 34, 56, 78))
-        self.build("pvr")
-        self.assertFalse((self.output / "Sprites/Fonts/font.png").exists())
-        self.assertEqual((self.output / "Sprites/Fonts/font.pvr").read_bytes(), self.pvr)
+    def test_rebuild_removes_stale_pvr_from_previous_output(self):
+        self.build()
+        (self.output / "Sprites/Fonts/obsolete.pvr").write_bytes(b"stale texture")
+        self.build()
+        self.assertFalse(list(self.output.rglob("*.pvr")))
 
-    def test_changing_format_removes_stale_textures(self):
+    def test_pvr_seed_cannot_replace_previous_valid_resources(self):
         self.build()
-        self.build("pvr")
-        self.assertEqual((self.output / "Sprites/Fonts/font.pvr").read_bytes(), self.pvr)
-        self.assertFalse((self.output / "Sprites/Fonts/font.png").exists())
-        self.build()
-        self.assertFalse((self.output / "Sprites/Fonts/font.pvr").exists())
+        before = (self.output / resources.MANIFEST).read_bytes()
+        (self.root / "Build/bin/Sprites/Fonts/obsolete.pvr").write_bytes(b"legacy texture")
+        with self.assertRaisesRegex(ValueError, "PVR textures"):
+            self.build()
+        self.assertEqual((self.output / resources.MANIFEST).read_bytes(), before)
 
     def test_invalid_atlas_does_not_replace_valid_resources(self):
         self.build()
@@ -87,14 +84,14 @@ class ResourceBuildTests(unittest.TestCase):
 
     def test_output_cannot_overwrite_source_assets(self):
         with self.assertRaisesRegex(ValueError, "lowercase build/"):
-            resources.build(self.root / "Build/bin", "pvr", None)
+            resources.build(self.root / "Build/bin")
 
     def test_package_contains_selected_textures_and_executable_launcher(self):
         self.build()
         binary = self.root / "game"
         binary.write_bytes(b"test executable")
         with contextlib.redirect_stdout(io.StringIO()):
-            resources.package(self.output, binary, "png")
+            resources.package(self.output, binary)
         with zipfile.ZipFile(next((self.root / "build/packages").glob("*.zip"))) as archive:
             self.assertTrue(any(name.endswith("font.png") for name in archive.namelist()))
             self.assertFalse(any(name.endswith(".pvr") for name in archive.namelist()))
@@ -123,14 +120,20 @@ class ResourceBuildTests(unittest.TestCase):
         (exports / "Fonts").mkdir(parents=True)
         (exports / "Fonts/font.yaml").write_bytes(b"outdated YAML")
         with self.assertRaisesRegex(ValueError, "Missing or stale YAML copy"):
-            resources.build(self.output, "png", DECODER, sprite_exports=exports)
+            resources.build(self.output, sprite_exports=exports)
         self.assertEqual((self.output / resources.MANIFEST).read_bytes(), before)
 
     def test_package_rejects_obsolete_binary_sprite_assets(self):
         self.build()
         (self.output / "Sprites/Fonts/stale.bsprite").write_bytes(b"obsolete metadata")
         with self.assertRaisesRegex(ValueError, "legacy sprite data"):
-            resources.package(self.output, self.root / "game", "png")
+            resources.package(self.output, self.root / "game")
+
+    def test_package_rejects_pvr_assets(self):
+        self.build()
+        (self.output / "Sprites/Fonts/obsolete.PVR").write_bytes(b"legacy texture")
+        with self.assertRaisesRegex(ValueError, "PVR textures"):
+            resources.package(self.output, self.root / "game")
 
     def test_version_comes_from_config_bat(self):
         self.assertEqual(resources.write_version(), "1.2.3")
@@ -157,7 +160,7 @@ class ResourceBuildTests(unittest.TestCase):
         source.parent.mkdir(parents=True)
         Image.new('RGBA', (2, 2), 'red').save(source)
         with contextlib.redirect_stdout(io.StringIO()):
-            resources.build(self.output, 'png', DECODER, scene_exports=folder)
+            resources.build(self.output, scene_exports=folder)
         self.assertEqual((self.output / 'Scenes/Goblin/goblin.bdae').read_bytes(), model.read_bytes())
         with Image.open(self.output / 'Scenes/Goblin/goblin_diffuse.png') as image:
             self.assertEqual(image.getpixel((0, 0)), (12, 150, 40, 255))
@@ -165,11 +168,13 @@ class ResourceBuildTests(unittest.TestCase):
         self.assertEqual(manifest['model_exporter'], 'Blender BDAE')
         self.assertEqual(manifest['blend_models'][0]['clips'], 12)
 
-    def test_pvr_mode_preserves_fresh_blender_tga(self):
+    def test_blender_tga_is_converted_to_png(self):
         folder, model, texture = self.scene_export('tga')
         with contextlib.redirect_stdout(io.StringIO()):
-            resources.build(self.output, 'pvr', None, scene_exports=folder)
-        self.assertEqual((self.output / 'Scenes/Goblin/goblin_diffuse.tga').read_bytes(), texture.read_bytes())
+            resources.build(self.output, scene_exports=folder)
+        self.assertFalse((self.output / 'Scenes/Goblin/goblin_diffuse.tga').exists())
+        with Image.open(self.output / 'Scenes/Goblin/goblin_diffuse.png') as image:
+            self.assertEqual(image.getpixel((0, 0)), (12, 150, 40, 255))
 
     def test_changed_scene_export_preserves_previous_valid_resources(self):
         self.build()
@@ -177,11 +182,9 @@ class ResourceBuildTests(unittest.TestCase):
         folder, model, texture = self.scene_export('png')
         model.write_bytes(b'corrupt or stale export')
         with self.assertRaisesRegex(ValueError, 'changed after validation'):
-            resources.build(self.output, 'png', DECODER, scene_exports=folder)
+            resources.build(self.output, scene_exports=folder)
         self.assertEqual((self.output / resources.MANIFEST).read_bytes(), before)
 
 
 if __name__ == "__main__":
-    if not DECODER or not DECODER.is_file():
-        raise SystemExit(__doc__)
     unittest.main()

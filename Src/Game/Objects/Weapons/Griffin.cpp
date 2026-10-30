@@ -120,7 +120,7 @@ void CGriffin::adjustStats(IAttributes* attributes)
 	{
 	case WL_1:
 		{
-			ITexture * tex = __IRR_DRIVER()->getTexture("Scenes/Griffin/griffin_00.pvr");
+			ITexture * tex = __IRR_DRIVER()->getTexture("Scenes/Griffin/griffin_00.png");
 			m_Node->getSceneNodeFromName("griffin")->getChildren().getFirstElem()->getMaterial(0).setTexture(0, tex);
 			m_Node->getSceneNodeFromName("base00")->setVisible(true);
 			m_Node->getSceneNodeFromName("base01")->setVisible(false);
@@ -130,7 +130,7 @@ void CGriffin::adjustStats(IAttributes* attributes)
 
 	case WL_2:
 		{
-			ITexture * tex = __IRR_DRIVER()->getTexture("Scenes/Griffin/griffin_01.pvr");
+			ITexture * tex = __IRR_DRIVER()->getTexture("Scenes/Griffin/griffin_01.png");
 			m_Node->getSceneNodeFromName("griffin")->getChildren().getFirstElem()->getMaterial(0).setTexture(0, tex);
 			m_Node->getSceneNodeFromName("base00")->setVisible(false);
 			m_Node->getSceneNodeFromName("base01")->setVisible(true);
@@ -140,7 +140,7 @@ void CGriffin::adjustStats(IAttributes* attributes)
 
 	case WL_3:
 		{
-			ITexture * tex = __IRR_DRIVER()->getTexture("Scenes/Griffin/griffin_02.pvr");
+			ITexture * tex = __IRR_DRIVER()->getTexture("Scenes/Griffin/griffin_02.png");
 			m_Node->getSceneNodeFromName("griffin")->getChildren().getFirstElem()->getMaterial(0).setTexture(0, tex);
 			m_Node->getSceneNodeFromName("base00")->setVisible(false);
 			m_Node->getSceneNodeFromName("base01")->setVisible(false);

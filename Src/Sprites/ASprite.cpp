@@ -161,7 +161,7 @@ static stringc FindSpriteTexture(stringc image)
 	const s32 dot = image.findLast('.');
 	const s32 slash = image.findLast('/');
 	const stringc base = dot > slash ? image.subString(0, dot) : image;
-	for (const char* extension : {".png", ".pvr", ".tga", ".bmp"})
+	for (const char* extension : {".png", ".tga", ".bmp"})
 	{
 		const stringc candidate = base + extension;
 		if (__IRR_FILE_SYSTEM()->existFile(candidate.c_str())) return candidate;

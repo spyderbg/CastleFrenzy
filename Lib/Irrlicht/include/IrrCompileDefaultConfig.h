@@ -230,7 +230,7 @@ define out. */
 
 //! Define _IRR_ENABLE_NATIVE_TEXTURE_FORMAT_ to... enable native texture format.
 //#if defined(_IRR_USE_IPHONEOS_DEVICE_) || defined(_IRR_IPHONE_EMULATION_) || defined(_IRR_USE_WII_DEVICE_)
-	#define _IRR_ENABLE_NATIVE_TEXTURE_FORMAT_
+	// PVR native texture loading is disabled; use standard PNG images.
 //#endif
 
 //#if defined(_IRR_USE_WII_DEVICE_)

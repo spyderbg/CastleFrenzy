@@ -58,7 +58,7 @@ for /D %%d in (*.) do (
 			copy /Y %%f bin\%%d > NUL
 		)
 		rem Copy texture to 'bin' dir
-		for %%f in ( %%d\*.pvr ) do (			
+		for %%f in ( %%d\*.png ) do (
 			copy /Y %%f bin\%%d > NUL
 		)
   )

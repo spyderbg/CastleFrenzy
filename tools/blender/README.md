@@ -82,9 +82,8 @@ exporter, external images, or linked libraries invalidate the model cache, as do
 missing or changed export files. Unchanged exports are reused and checked again.
 `BLENDER_BIN=/path/to/blender ./rebuild_Linux.sh --resources-only` selects a binary.
 
-PNG resource mode writes a fresh PNG diffuse image. PVR resource mode writes a fresh
-TGA image for Blender models, which the game also supports; it retains legacy PVR
-textures for other assets. This tool does not encode PVRTC.
+The resource build writes fresh PNG diffuse images. TGA remains available for
+manual exports; PVR encoding and runtime textures are no longer supported.
 
 ## Work with animations and events
 

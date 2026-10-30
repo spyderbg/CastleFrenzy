@@ -122,7 +122,7 @@ opts.add_option( "--raw" ,
                  action = "store_true" ,
                  default = False ,
                  help = ("For formats that actually wrap an existing format "
-                         + "(e.g. pvr), output the file in the raw wrapped "
+                         + "output the file in the raw wrapped "
                          + "format.") )
 
 opts.add_option( "-W" ,

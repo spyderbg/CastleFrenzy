@@ -74,7 +74,7 @@ for scene in ./*/; do
     for f in "$scene"*.bdae; do
         mv -f -- "$f" "bin/$name/"
     done
-    for f in "$scene"*.tga "$scene"*.pvr; do
+    for f in "$scene"*.png "$scene"*.tga "$scene"*.bmp; do
         cp -f -- "$f" "bin/$name/"
     done
 done

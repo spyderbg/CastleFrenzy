@@ -32,5 +32,5 @@ echo "   Make $PACK_NAME"
 echo "**************************************************************"
 
 mkdir -p "$OUTPUT_PATH/$PACK_NAME"
-cp -f *.pvr "$OUTPUT_PATH/$PACK_NAME"/ 2>/dev/null || true
+cp -f *.png "$OUTPUT_PATH/$PACK_NAME"/ 2>/dev/null || true
 cp -f effects.xml "$OUTPUT_PATH/$PACK_NAME"/ 2>/dev/null || true
