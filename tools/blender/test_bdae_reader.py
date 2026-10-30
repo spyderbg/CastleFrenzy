@@ -1,14 +1,19 @@
-"""Independent conformance checks using the original COLLADA XML as a reference."""
+"""Independent conformance checks against values read from the original COLLADA exports.
+
+testdata/dae_reference.json snapshots those values from the .dae files, which are no longer
+part of the project; the BDAE reader is checked against it, not against its own output.
+"""
+import json
 import math
 from pathlib import Path
 import struct
 import tempfile
 import unittest
-import xml.etree.ElementTree as ET
 
 from bdae_reader import Bdae, BdaeError
 
 ROOT = Path(__file__).resolve().parents[2]
+REFERENCE = json.loads((Path(__file__).parent/'testdata/dae_reference.json').read_text())['goblin']
 
 
 class GoblinReaderTests(unittest.TestCase):
@@ -16,23 +21,19 @@ class GoblinReaderTests(unittest.TestCase):
     def setUpClass(cls):
         cls.file = ROOT/'Build/bin/Scenes/Goblin/goblin.bdae'
         cls.model = Bdae(cls.file)
-        cls.xml = ET.parse(ROOT/'Data/Scenes/Goblin/goblin.dae').getroot()
-        cls.ns = {'c': 'http://www.collada.org/2005/11/COLLADASchema'}
 
     def test_clip_names_and_timings_match_original_xml(self):
-        clips = self.xml.findall('c:library_animation_clips/c:animation_clip', self.ns)
+        clips = REFERENCE['clips']
         self.assertEqual(len(clips), 12)
-        self.assertEqual([c.get('id') for c in clips], [c['name'] for c in self.model.clips])
+        self.assertEqual([c['id'] for c in clips], [c['name'] for c in self.model.clips])
         for original, clip in zip(clips, self.model.clips):
             for field in ('start', 'end'):
-                self.assertLessEqual(abs(float(original.get(field))*1000-clip[field+'_ms']), 1.01)
+                self.assertLessEqual(abs(original[field]*1000-clip[field+'_ms']), 1.01)
 
     def test_mesh_and_uv_values_match_original_xml(self):
         buffer = self.model.geometries[0]['buffers'][0]
-        for name, field in [('goblin-mesh-positions', 'positions'),
-                            ('goblin-mesh-map-channel1', 'uv')]:
-            node = self.xml.find(f'.//c:source[@id="{name}"]/c:float_array', self.ns)
-            expected = list(map(float, node.text.split()))
+        for field in ('positions', 'uv'):
+            expected = REFERENCE['mesh'][field]
             actual = [v for row in buffer[field] for v in row]
             self.assertEqual(len(expected), len(actual))
             self.assertLess(max(abs(a-b) for a, b in zip(actual, expected)), 1e-7)
@@ -42,13 +43,10 @@ class GoblinReaderTests(unittest.TestCase):
             self.assertEqual(values, (255, 255, 255, 255))
 
     def test_every_animation_key_matches_original_xml(self):
-        animations = {a.get('id'): a for a in self.xml.findall('c:library_animations/c:animation', self.ns)}
+        animations = REFERENCE['animations']
         self.assertEqual(len(self.model.tracks), 35)
         for track in self.model.tracks:
-            original = animations[track['name']]
-            outputs = original.find('c:sampler/c:input[@semantic="OUTPUT"]', self.ns).get('source')[1:]
-            node = original.find(f'c:source[@id="{outputs}"]/c:float_array', self.ns)
-            values = list(map(float, node.text.split()))
+            values = animations[track['name']]
             if track['kind'] == 5:
                 self.assertEqual(len(values), len(track['values'])*4)
                 for index, actual in enumerate(track['values']):

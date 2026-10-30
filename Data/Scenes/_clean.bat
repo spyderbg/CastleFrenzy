@@ -22,9 +22,7 @@ if exist *.log (
 	del /s /q *.log
 )
 
-if exist bin (	
-	rmdir /S /Q bin
-)
+rem bin holds the committed BDAE models (source data), so it is never removed.
 
 if exist %OUTPUT_PATH%\%PACK_NAME% (
 	rd /s /q %OUTPUT_PATH%\%PACK_NAME%

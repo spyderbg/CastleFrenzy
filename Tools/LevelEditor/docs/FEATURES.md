@@ -16,7 +16,7 @@ Reference: `Src/Editor/GS_Editor.cpp`, `EditorUI.cpp`, `Src/Game/LevelInfo.cpp`,
 | Current-day realized wave timeline | Actual native spawn states and extra spawns over the bridge |
 | Gate, hydra, fireball, iceball, griffin starting levels/shop | Weapons tab; same XML indices |
 | Spell bought and shop spell selection | Spell section |
-| Model list, load scale, texture overrides | Source Collada preview with inherited model configuration |
+| Model list, load scale, texture overrides | Blender FBX preview with inherited model configuration |
 | Animation list, loop, step interpolation | Named clip selector, loop/interpolation controls |
 | Camera orbit/wheel zoom and ground grid | OrbitControls, fit camera, grid, plus pan |
 | Play from Waves / Weapons | Save then native selected-day / first-day launch |
@@ -24,4 +24,4 @@ Reference: `Src/Editor/GS_Editor.cpp`, `EditorUI.cpp`, `Src/Game/LevelInfo.cpp`,
 | Save, Exit/Escape saves and returns to game | Save, Save & exit; running game resumes and detaches |
 | Game paused while editing | Automatic pause on browser focus (optional), Pause/Resume controls; E/R built-in editor still available in game |
 
-The browser adds history, backups, stale-save rejection and validation. It previews the source Collada using Three.js rather than rendering runtime BDAE in Irrlicht, so engine-specific materials and baked/smoothed export differences can affect appearance. Live gameplay always runs in the native engine. The native model tab's unused `m_showDummies` member has no exposed control and adds no editing behavior.
+The browser adds history, backups, stale-save rejection and validation. It previews Blender-exported FBX files using Three.js rather than rendering runtime BDAE in Irrlicht, so engine-specific materials, UV scrolling and export differences can affect appearance. Live gameplay always runs in the native engine. The native model tab's unused `m_showDummies` member has no exposed control and adds no editing behavior.

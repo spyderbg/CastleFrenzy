@@ -263,7 +263,9 @@ export class Workspace {
       (m) => m.name === name,
     );
     if (!model) throw new Error("Unknown model");
-    let relative = `Data/${model.file.replace(/\\/g, "/").replace(/\.bdae$/i, ".dae")}`;
+    let relative = path.posix.normalize(
+      `Data/${model.file.replace(/\\/g, "/").replace(/\.bdae$/i, ".fbx")}`,
+    );
     // Windows-authored config can differ only in basename case on Linux.
     const folder = path.posix.dirname(relative),
       basename = path.posix.basename(relative);
@@ -271,18 +273,7 @@ export class Workspace {
       (n) => n.toLowerCase() === basename.toLowerCase(),
     );
     if (actual) relative = `${folder}/${actual}`;
-    const source = decode(await readFile(await this.contained(relative)));
-    const clips = [...source.matchAll(/<animation_clip\s+([^>]+)\/?\s*>/g)].map(
-      (m) => {
-        const attr = (key: string) =>
-          new RegExp(`${key}="([^"]*)"`).exec(m[1])?.[1] || "";
-        return {
-          name: attr("id"),
-          start: Number(attr("start")),
-          end: Number(attr("end")),
-        };
-      },
-    );
+    await this.contained(relative);
     const textures = Object.entries(model.attributes)
       .filter(([key]) => /^TextureFile\d+$/.test(key))
       .map(([key, file]) => ({
@@ -292,11 +283,18 @@ export class Workspace {
       }));
     return {
       ...model,
-      source,
-      clips: [...new Map(clips.map((c) => [c.name, c])).values()],
+      fbx: relative,
       textures,
       directory: path.posix.dirname(relative),
     };
+  }
+  async modelFile(relative: string): Promise<Buffer> {
+    if (!relative.startsWith("Data/") || !/\.fbx$/i.test(relative))
+      throw new Error("Expected a Data/ FBX model");
+    const file = await this.contained(relative);
+    if ((await stat(file)).size > 128 * 1024 * 1024)
+      throw new Error("Model too large");
+    return readFile(file);
   }
   async texture(relative: string): Promise<{ file: string; bytes: Buffer }> {
     if (

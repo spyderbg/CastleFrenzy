@@ -11,5 +11,6 @@ echo "**************************************************************"
 echo "   Cleaning Scenes"
 echo "**************************************************************"
 
+# bin/ is committed source data (BDAE models), so only logs and output are removed.
 find "$dir" -type f -name '*.log' -delete
-rm -rf -- "$dir/bin" "$OUTPUT_PATH/Scenes"
+rm -rf -- "$OUTPUT_PATH/Scenes"

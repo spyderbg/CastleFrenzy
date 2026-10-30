@@ -3,7 +3,11 @@
 All **33 mesh-containing scenes** are registered in [models.json](models.json).
 Open a `*_smooth.blend` file, select its mesh, and press **Tab** to inspect the
 actual denser geometry. Subdivision has been applied, so the added vertices are
-editable. Original `.dae` and `bin/*.bdae` exports remain untouched.
+editable. The original `bin/*.bdae` exports remain untouched. They are the source
+for animation, material and event records, which the Blender export copies from them,
+so keep them. The COLLADA `.dae` files they were converted from have been removed.
+The `*.fbx` beside each scene are Level Editor previews exported from the `.blend` files by
+`python3 tools/blender/build_fbx.py`; the game does not load them.
 
 Save the registered Blender file, close the running game, then run from the project root:
 

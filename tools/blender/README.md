@@ -28,6 +28,25 @@ blender Data/Scenes/Troll/troll_smooth.blend
 artist files. `bdae_scene.py` verifies that original non-mesh records are unchanged
 after relocation. `preview_scenes.py` renders the projects with Blender's CPU renderer.
 
+## Preview models in the Level Editor
+
+The Level Editor's Models tab loads FBX files, not BDAE. Each registered scene has a
+committed `Data/Scenes/<scene>/<model>.fbx` beside its `.blend` folder. After changing a
+registered `.blend`, regenerate them (Blender 5.2+, set `BLENDER_BIN` if it is not `blender`):
+
+```bash
+python3 tools/blender/build_fbx.py                       # every scene in models.json
+python3 tools/blender/build_fbx.py --only Goblin/goblin.bdae
+```
+
+`export_fbx.py` runs inside Blender and changes only that throwaway session. It skips the
+long `__ALL_SOURCE_ANIMATION` timeline (each per-clip Action becomes one FBX take, named after
+the game clip), bakes the driver-controlled gate shape keys into the takes, links each image
+texture straight to Base Color, drops hidden morph-target meshes and degenerate planes, and
+renames meshes that share a name with a bone. Scale is 1 Blender unit = 1 game unit, Y up.
+Material UV scrolling cannot be stored in FBX, so the preview does not show it. Blender's snap
+package exits silently if its output is redirected to a regular file; pipe it (`| tee log`).
+
 ## Edit the Goblin and rebuild
 
 From the project root:
@@ -57,7 +76,7 @@ Blender, open `goblin_smooth.blend` to see the updated mesh.
 
 `Data/Scenes/Goblin/goblin.blend` is the original conversion, with 257 vertices
 and 282 triangles. All three projects contain the original 25-bone armature, 23 weighted
-joints, packed diffuse image, and animation Actions. Original `.dae` and `.bdae`
+joints, packed diffuse image, and animation Actions. Original `.bdae`
 files are unchanged. Both earlier Blender projects remain available.
 
 The resource build reads `Data/Scenes/models.json`. Paths are relative to that file:
@@ -183,13 +202,9 @@ Choose an unused filename. The importer refuses to overwrite a project and write
 an adjacent `.import.json`. It creates editable geometry and a real rig, persistent
 named Action assets, exact event metadata, and a packed diffuse image.
 
-For ordinary XML `.dae` files, Blender 5 removed native COLLADA support. An
-intermediate Blender 4.5 import/save or a compatible COLLADA extension can be used;
-check clips, skinning and game events after conversion. The custom BDAE importer
-avoids that dependency for this game's Goblin.
-
-- [Blender 5.0 I/O release notes](https://developer.blender.org/docs/release_notes/5.0/pipeline_io/)
-- [Collada Support extension](https://extensions.blender.org/add-ons/collada-support/)
+The project no longer contains COLLADA `.dae` files. The custom BDAE importer reads
+the game's `.bdae` files directly, so Blender 5's removal of native COLLADA support
+does not matter here.
 
 ## Verification
 

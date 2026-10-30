@@ -1,15 +1,17 @@
 """Whole-scene preservation checks, including morphs and secondary UVs."""
+import json
 from pathlib import Path
 import struct
 import tempfile
 import unittest
-import xml.etree.ElementTree as ET
 
 from bdae_scene import SceneData, write_meshes, verify_preserved
 from bdae_reader import BdaeError
 
 ROOT=Path(__file__).resolve().parents[2]
 SOURCE=ROOT/'Data/Scenes/bin'
+# Diffuse texture stems read from the original COLLADA effects (the .dae files are gone).
+DIFFUSE_STEMS=json.loads((Path(__file__).parent/'testdata/dae_reference.json').read_text())['diffuse_stems']
 
 
 def identity_models(scene):
@@ -29,23 +31,15 @@ def identity_models(scene):
 
 class WholeSceneTests(unittest.TestCase):
     def test_diffuse_bindings_match_collada_effects_not_runtime_material_caches(self):
-        ns={'c':'http://www.collada.org/2005/11/COLLADASchema'}
-        for name in ['Dark_elf/elf','Castle/castle','Skeleton/skeleton']:
+        for name,expected_stems in DIFFUSE_STEMS.items():
             source=SceneData(SOURCE/(name+'.bdae'))
-            tree=ET.parse(ROOT/'Data/Scenes'/(name+'.dae')).getroot()
-            effects={e.get('id'):e for e in tree.findall('c:library_effects/c:effect',ns)}
-            for mat in tree.findall('c:library_materials/c:material',ns):
-                if mat.get('id') not in source.materials:continue
-                fx=effects[mat.find('c:instance_effect',ns).get('url').lstrip('#')]
-                diffuse=fx.find('.//c:diffuse/c:texture',ns)
-                if diffuse is None:continue
-                params={p.get('sid'):p for p in fx.findall('.//c:newparam',ns)}
-                surface=params[diffuse.get('texture')].find('c:sampler2D/c:source',ns).text
-                image_id=params[surface].find('c:surface/c:init_from',ns).text
-                image=next(i for i in tree.findall('c:library_images/c:image',ns) if i.get('id')==image_id)
-                expected=Path(image.find('c:init_from',ns).text.replace('\\','/')).stem
-                actual=source.images[source.materials[mat.get('id')]['image']]['file']
+            checked=0
+            for material,expected in expected_stems.items():
+                if material not in source.materials:continue
+                actual=source.images[source.materials[material]['image']]['file']
                 self.assertEqual(Path(actual).stem,expected)
+                checked+=1
+            self.assertTrue(checked,name)
 
     def test_every_scene_is_readable_with_all_existing_features(self):
         scenes=[SceneData(p) for p in sorted(SOURCE.rglob('*.bdae'))]

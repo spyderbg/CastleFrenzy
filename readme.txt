@@ -83,8 +83,14 @@ table. No 32-bit compiler, multilib packages or asset conversion is needed.
    tools/blender/README.md for the exporter add-on, CLI and editing constraints.
    The main resource build reuses camera, string-table and configuration exports.
    Regenerate the spreadsheet exports with the Python tools below when needed.
-   Textures and WAV sound packs rebuild natively; unregistered .dae assets use
-   their existing model exports.
+   Textures and WAV sound packs rebuild natively; scenes without a Blender
+   source use their existing model exports.
+   The project has no COLLADA (.dae) files. Data/Scenes/bin/*.bdae are the
+   source for animation, material, event and unrefined mesh records: the
+   Blender export reads them as templates, and no script regenerates or cleans
+   them. Edit meshes in the registered .blend files instead.
+   The Level Editor previews models from Data/Scenes/*/*.fbx, exported from
+   the same .blend files with: python3 tools/blender/build_fbx.py
 
    The standalone Data/Strings and Data/Sounds builds use Python:
 

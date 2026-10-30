@@ -58,12 +58,14 @@ test("reads every shipping day and model; UTF-8/UTF-16 round-trip agrees with ru
   assert.equal(opened.models.length, 21);
   for (const m of opened.models) {
     const model = await w.model(opened.assets, m.name);
-    assert.match(model.source, /<COLLADA/);
+    assert.match(model.fbx, /^Data\/Scenes\/.+\.fbx$/i);
     assert.equal(
-      new Set(model.clips.map((c) => c.name)).size,
-      model.clips.length,
+      (await w.modelFile(model.fbx)).subarray(0, 20).toString("latin1"),
+      "Kaydara FBX Binary  ",
     );
   }
+  await assert.rejects(w.modelFile("Data/Scenes/Goblin/goblin.bdae"), /FBX/);
+  await assert.rejects(w.modelFile("Build/bin/Scenes/x.fbx"), /FBX/);
 });
 test("unchanged saves preserve original bytes; edits back up only changed XML and reject stale revisions", async (t) => {
   const w = await fixture(t),

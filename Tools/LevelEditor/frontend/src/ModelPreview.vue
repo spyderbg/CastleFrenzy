@@ -1,11 +1,10 @@
 <script setup lang="ts">
 import { ref, watch, onMounted, onBeforeUnmount } from "vue";
 import * as THREE from "three";
-import { ColladaLoader } from "three/addons/loaders/ColladaLoader.js";
+import { FBXLoader } from "three/addons/loaders/FBXLoader.js";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import type { Model, Clip } from "../../shared/level";
 import { api } from "./api";
-import { prepareCollada, finishCollada, sliceAnimation } from "./collada";
 const props = defineProps<{ assets: string; model: Model }>();
 const host = ref<HTMLElement>();
 const loadedName = ref(""),
@@ -32,7 +31,6 @@ let animations: THREE.AnimationClip[] = [],
   frame = 0,
   generation = 0,
   observer: ResizeObserver;
-let updateEffects: (time: number, step: boolean) => void = () => {};
 const textureUrl = (p: string) => `/api/texture?path=${encodeURIComponent(p)}`;
 function disposeRoot(group?: THREE.Object3D) {
   if (!group) return;
@@ -53,7 +51,7 @@ function disposeRoot(group?: THREE.Object3D) {
 function fit() {
   if (!root) return;
   root.updateMatrixWorld(true);
-  const box = new THREE.Box3().setFromObject(root),
+  const box = new THREE.Box3().setFromObject(root, true),
     center = box.getCenter(new THREE.Vector3()),
     size = Math.max(1, box.getSize(new THREE.Vector3()).length());
   if (box.isEmpty() || !Number.isFinite(size))
@@ -73,24 +71,13 @@ function selectClip() {
     return;
   }
   mixer.stopAllAction();
-  const clip = clips.value[selected.value];
-  if (selected.value < 0) {
+  if (!animations[selected.value]) {
     action = undefined;
     time.value = 0;
     duration.value = 0;
     return;
   }
-  let animation =
-    animations.find((a) => a.name === clip?.name) || animations[0];
-  if (clip)
-    animation = sliceAnimation(
-      animation,
-      clip.name,
-      clip.start,
-      clip.end,
-      step.value,
-    );
-  animation = animation.clone();
+  const animation = animations[selected.value].clone();
   if (step.value)
     animation.tracks.forEach((t) =>
       t.setInterpolation(THREE.InterpolateDiscrete),
@@ -123,8 +110,7 @@ async function load() {
   try {
     const result = await api<
       Model & {
-        source: string;
-        clips: Clip[];
+        fbx: string;
         directory: string;
         textures: { file: string; object: string }[];
       }
@@ -146,7 +132,7 @@ async function load() {
     };
     manager.setURLModifier((url) => {
       if (url.startsWith("data:")) return url;
-      // Legacy DAE files contain Windows/absolute image paths. Game textures are siblings.
+      // The FBX names its textures by their legacy labels (.tga). Game textures are siblings.
       const file =
         decodeURIComponent(url).replace(/\\/g, "/").split("/").pop() || "";
       return textureUrl(
@@ -159,24 +145,15 @@ async function load() {
       if (id === generation)
         error.value = "Some model textures could not be loaded.";
     };
-    // These legacy clips reference tracks with absolute timestamps. Load one full
-    // timeline and slice it ourselves so every clip starts at its declared offset.
-    const parsed = new ColladaLoader(manager).parse(
-      prepareCollada(result.source),
-      "",
+    const file = await fetch(
+      `/api/model-file?path=${encodeURIComponent(result.fbx)}`,
     );
-    const loaded = parsed.scene;
-    updateEffects = finishCollada(loaded, parsed.library, result.source);
-    // Mirrors cleanNode: lights and empty pivot helpers are not rendered.
-    const remove: THREE.Object3D[] = [];
+    if (!file.ok) throw new Error(`Missing model: ${result.fbx}`);
+    const loaded = new FBXLoader(manager).parse(await file.arrayBuffer(), "");
+    if (id !== generation) return;
+    // Blender names each take after its Action, which is the game clip name.
+    loaded.animations.forEach((a) => (a.name = a.name.split("|").pop() || a.name));
     loaded.traverse((n) => {
-      if (
-        n instanceof THREE.Light ||
-        (n instanceof THREE.Group &&
-          (n.name || "").includes("_PIVOT") &&
-          !n.children.length)
-      )
-        remove.push(n);
       if (n instanceof THREE.Mesh) {
         meshCount.value++;
         n.geometry.computeVertexNormals();
@@ -184,23 +161,21 @@ async function load() {
         materials.forEach((m) => {
           m.side = THREE.DoubleSide;
           m.alphaTest = 0.5;
-          (m as THREE.MeshPhongMaterial).wireframe = wireframe.value;
-          for (const value of Object.values(m))
-            if (value instanceof THREE.Texture) {
-              value.flipY = false;
-              value.needsUpdate = true;
-            }
+          const phong = m as THREE.MeshPhongMaterial;
+          phong.wireframe = wireframe.value;
+          // Blender's Principled shader exports a glossy specular and vertex tint
+          // that the game's materials do not use.
+          phong.specular?.set(0x000000);
+          phong.vertexColors = false;
         });
       }
     });
-    remove.forEach((n) => n.removeFromParent());
     loaded.scale.multiplyScalar(result.scale);
     for (const override of result.textures) {
       const texture = await new THREE.TextureLoader().loadAsync(
         textureUrl(`Data/${override.file.replace(/\\/g, "/")}`),
       );
       texture.colorSpace = THREE.SRGBColorSpace;
-      texture.flipY = false;
       loaded.traverse((n) => {
         if (
           n instanceof THREE.Mesh &&
@@ -223,9 +198,11 @@ async function load() {
     root = loaded;
     scene.add(loaded);
     animations = loaded.animations;
-    clips.value = result.clips.length
-      ? result.clips
-      : animations.map((a) => ({ name: a.name, start: 0, end: a.duration }));
+    clips.value = animations.map((a) => ({
+      name: a.name,
+      start: 0,
+      end: a.duration,
+    }));
     selected.value = 0;
     mixer = new THREE.AnimationMixer(loaded);
     selectClip();
@@ -290,10 +267,6 @@ onMounted(() => {
         action.paused = !playing.value;
         mixer.update(delta * speed.value);
         time.value = action.time;
-        updateEffects(
-          (clips.value[selected.value]?.start || 0) + time.value,
-          step.value,
-        );
       }
       controls.update();
       renderer.render(scene, camera);

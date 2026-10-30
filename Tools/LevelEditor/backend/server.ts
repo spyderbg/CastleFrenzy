@@ -96,6 +96,13 @@ export function createServer(
     (req) => workspace.model(req.query.assets, req.query.name),
   );
   app.get<{ Querystring: { path: string } }>(
+    "/api/model-file",
+    async (req, reply) =>
+      reply
+        .type("application/octet-stream")
+        .send(await workspace.modelFile(req.query.path)),
+  );
+  app.get<{ Querystring: { path: string } }>(
     "/api/texture",
     async (req, reply) => {
       const { bytes } = await workspace.texture(req.query.path);

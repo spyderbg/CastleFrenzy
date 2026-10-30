@@ -151,22 +151,20 @@ build_scenes() {
     local dir="$PROJECT_DATA_PATH/Scenes"
     banner "Make Scenes"
     cd "$dir"
-    mkdir -p bin
+    # bin/ holds the committed BDAE models: source data (engine animation,
+    # material and event records plus the unrefined meshes), staged as they are
+    # and never removed. Refined meshes come from rebuild_Linux.sh + Blender.
+    [[ -d bin ]] || { echo "Data/Scenes/bin is missing; restore it from version control." >&2; return 1; }
+    mkdir -p "$OUTPUT_PATH/Scenes"
+    cp -r bin/. "$OUTPUT_PATH/Scenes"/
     local d f
     for d in */; do
         d="${d%/}"
         [[ "$d" == "bin" ]] && continue
-        mkdir -p "bin/$d"
-        # ColladaConverter.exe (DAE -> BDAE) has no Linux binary; the modern
-        # pipeline (rebuild_Linux.sh + Blender) performs that conversion.
-        # Stage the already-converted BDAE models and textures.
-        for f in "$d"/*.bdae; do [[ -e "$f" ]] && mv -f "$f" "bin/$d"/; done
-        for f in "$d"/*.png;  do [[ -e "$f" ]] && cp -f "$f" "bin/$d"/; done
+        mkdir -p "$OUTPUT_PATH/Scenes/$d"
+        # Scene textures sit beside the .blend files; they override bin/.
+        for f in "$d"/*.png; do [[ -e "$f" ]] && cp -f "$f" "$OUTPUT_PATH/Scenes/$d"/; done
     done
-    # Archive.
-    mkdir -p "$OUTPUT_PATH/Scenes"
-    cp -r bin/. "$OUTPUT_PATH/Scenes"/
-    rm -rf bin
 }
 
 # ---------------------------------------------------------------------------

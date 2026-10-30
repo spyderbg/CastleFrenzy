@@ -12,14 +12,25 @@ call %~dp0\..\..\setenv.bat
 rem ///////////////////////////////////////
 
 set LOG=%CD%\make%PACK_NAME%.log
-set TEXTURE_FORMATS=tga;png;bmp;
-set DAE_CONVERTER=%PROJECT_PATH%\lib\irrlicht\tools\ColladaConverter\bin\Release\ColladaConverter_2008.exe
+
+rem bin holds the committed BDAE models. They are source data (engine animation,
+rem material and event records plus the unrefined meshes), so they are staged as
+rem they are and never removed. Refined meshes come from the .blend files:
+rem see rebuild_Linux.sh and models.json.
 
 rem Clean data
 if "%1"=="clean" (
 	call _clean.bat
 	goto END
 )
+
+if not exist "bin" (
+	echo.
+	echo Data\Scenes\bin is missing; restore it from version control.
+	pause
+	goto END
+)
+
 if "%1"=="" (
 	call _clean.bat
 )
@@ -30,62 +41,37 @@ echo **************************************************************
 echo    Make %PACK_NAME%
 echo **************************************************************
 
-if not exist "bin" (
-	mkdir bin
-)
-
-rem  Go through all scene directories
-for /D %%d in (*.) do (
-  if not "%%d"=="bin" (
-    
-		if not exist bin\%%d (
-			mkdir bin\%%d
-		)
-		
-    echo %%d
-		for %%f in (%%d\*.dae) do (
-		  echo %%~fnxf  
-		  %DAE_CONVERTER% -d -i %%~fnxf
-		)
-		
-		rem Copy texture to 'bin' dir
-		for %%f in ( %%d\*.bdae ) do (			
-			move /Y %%f bin\%%d > NUL
-		)
-		
-		rem Copy texture to 'bin' dir
-		for %%f in ( %%d\*.png ) do (
-			copy /Y %%f bin\%%d > NUL
-		)
-  )
-)
-
 rem Build bar file or not
 if not "%1"=="no_bar" (
 	echo.
 	echo **************************************************************
 	echo    Achiving %PACK_NAME%
 	echo **************************************************************
-	
-	rem del /Q %OUTPUT_PATH%\%PACK_NAME%.bar
-	
-	rem copy /Y %OUTPUT_PATH%\%PACK_NAME%.bar %OUTPUT_PATH_WII%\%PACK_NAME%.bar
-	
+
 	if not exist %OUTPUT_PATH%\%PACK_NAME% (
 		mkdir %OUTPUT_PATH%\%PACK_NAME%
 	)
 	xcopy /S /Y bin %OUTPUT_PATH%\%PACK_NAME%
-	rmdir bin	
 
-	if ERRORLEVEL 1 ( 
+	if ERRORLEVEL 1 (
 		echo.
 		echo ERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR
 		echo.
 		pause
 		goto END
 	)
-	
+
+	rem Scene textures sit beside the .blend files; they override bin.
+	for /D %%d in (*.) do (
+		if not "%%d"=="bin" (
+			if not exist %OUTPUT_PATH%\%PACK_NAME%\%%d (
+				mkdir %OUTPUT_PATH%\%PACK_NAME%\%%d
+			)
+			for %%f in ( %%d\*.png ) do (
+				copy /Y %%f %OUTPUT_PATH%\%PACK_NAME%\%%d > NUL
+			)
+		)
+	)
 )
 
 :END
-
