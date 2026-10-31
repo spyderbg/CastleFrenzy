@@ -3,6 +3,7 @@
 /.linux-port-backup/
 /.auroramx/
 /.level-editor/
+/.unity-editor/
 
 # Generated build directories (Build/bin contains required game assets)
 build/

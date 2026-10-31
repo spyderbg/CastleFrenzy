@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+
+<challenge id="PerfectHealth">
+  <int name="Reward" value="300" />
+</challenge>
+
+<challenge id="GoblinSmasher">
+  <int name="Reward" value="100" />
+</challenge>
+
+<challenge id="ShamanSmasher">
+  <int name="Reward" value="100" />
+</challenge>
+
+<challenge id="BoarRampage">
+  <int name="Reward" value="300" />
+</challenge>
+
+<challenge id="GriffinFireballMaster">
+  <int name="Reward" value="250" />
+</challenge>
+
+<challenge id="GriffinFireballSuperMaster">
+  <int name="Reward" value="100" />
+</challenge>
+
+<challenge id="FlickMaster">
+  <int name="Reward" value="300" />
+</challenge>
+
+<challenge id="OneHitOneKill">
+  <int name="Reward" value="500" />
+</challenge>
+
+<challenge id="ManyEnemiesWithSpecial">
+  <int name="Reward" value="300" />
+</challenge>
+
+<challenge id="ThatWasClose">
+  <int name="Reward" value="250" />
+</challenge>
+
+<challenge id="WallSmasher">
+  <int name="Reward" value="200" />
+</challenge>
+
+<challenge id="GroundSmasher">
+  <int name="Reward" value="100" />
+</challenge>
+
+<challenge id="MenuGoblins">
+  <int name="Reward" value="200" />
+</challenge>
+
+<challenge id="MenuTrolls">
+  <int name="Reward" value="400" />
+</challenge>
+
+<challenge id="MenuShamans">
+  <int name="Reward" value="300" />
+</challenge>
+
+<challenge id="ShamanCombo">
+  <int name="Reward" value="600" />
+</challenge>
+
+<challenge id="TrollCombo">
+  <int name="Reward" value="600" />
+</challenge>
+
+<challenge id="ComboMaster">
+  <int name="Reward" value="500" />
+</challenge>

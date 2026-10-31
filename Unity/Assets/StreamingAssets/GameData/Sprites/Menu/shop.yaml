@@ -1,0 +1,410 @@
+# Converted from shop.sprite by tools/sprites_conver.
+# Edit with AuroraMX (Tools/AuroraMX); the game reads this file directly.
+sprite:
+  version: "0001"
+
+  images:
+    - id: "0x0000"
+      file: "./shop.png"
+      transparent: "0x00FF00FF"
+
+  modules:
+    - id: "0x1015"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 130
+      y: 141
+      w: 63
+      h: 49
+    - id: "0x1016"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 1
+      y: 191
+      w: 73
+      h: 60
+    - id: "0x1024"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 290
+      y: 222
+      w: 26
+      h: 27
+    - id: "0x1034"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 1
+      y: 1
+      w: 479
+      h: 140
+    - id: "0x1035"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 85
+      y: 218
+      w: 203
+      h: 34
+    - id: "0x1036"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 89
+      y: 196
+      w: 54
+      h: 18
+    - id: "0x1037"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 146
+      y: 196
+      w: 53
+      h: 18
+    - id: "0x1038"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 204
+      y: 196
+      w: 54
+      h: 18
+    - id: "0x1039"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 319
+      y: 181
+      w: 30
+      h: 41
+    - id: "0x103A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 1
+      y: 141
+      w: 63
+      h: 49
+    - id: "0x103B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 65
+      y: 141
+      w: 63
+      h: 49
+    - id: "0x103C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 484
+      y: 1
+      w: 11
+      h: 238
+    - id: "0x1005"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 484
+      y: 1
+      w: 24
+      h: 63
+    - id: "0x1007"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 498
+      y: 1
+      w: 12
+      h: 63
+    - id: "0x1008"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 498
+      y: 168
+      w: 12
+      h: 64
+    - id: "0x1006"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 484
+      y: 168
+      w: 24
+      h: 64
+    - id: "0x1002"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 497
+      y: 1
+      w: 11
+      h: 238
+    - id: "0x1003"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 505
+      y: 1
+      w: 3
+      h: 238
+    - id: "0x103F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 201
+      y: 152
+      w: 93
+      h: 24
+    - id: "0x1000"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 270
+      y: 189
+      w: 23
+      h: 21
+    - id: "0x1001"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 299
+      y: 191
+      w: 20
+      h: 24
+    - id: "0x1009"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 405
+      y: 149
+      w: 47
+      h: 50
+    - id: "0x100A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 359
+      y: 167
+      w: 31
+      h: 30
+    - id: "0x100B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 360
+      y: 213
+      w: 29
+      h: 30
+    - id: "0x100C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 400
+      y: 213
+      w: 32
+      h: 29
+    - id: "0x100D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 441
+      y: 212
+      w: 30
+      h: 31
+
+  frames:
+    - id: "0x2025"
+      name: "bg_shop"
+      parts:
+        - { module: "0x1034", x: 0, y: 170 }
+    - id: "0x200B"
+      name: "upper_left_arrow"
+      parts:
+        - { module: "0x1024", x: -14, y: -15, flags: [FLIP_X, FLIP_Y] }
+    - id: "0x201F"
+      name: "upper_right_arrow"
+      parts:
+        - { module: "0x1024", x: -12, y: -12, flags: [FLIP_Y] }
+    - id: "0x2020"
+      name: "bottom_right_arrow"
+      parts:
+        - { module: "0x1024", x: -12, y: -12 }
+    - id: "0x2021"
+      name: "bottom_left_arrow"
+      parts:
+        - { module: "0x1024", x: -12, y: -14, flags: [FLIP_X] }
+    - id: "0x2026"
+      name: "slider_bg_00"
+      parts:
+        - { module: "0x1035", x: -98, y: -14 }
+    - id: "0x2027"
+      name: "slider_bg_01"
+      parts:
+        - { module: "0x1035", x: -98, y: -14 }
+        - { module: "0x1036", x: -84, y: -11 }
+    - id: "0x2028"
+      name: "slider_bg_02"
+      parts:
+        - { module: "0x1035", x: -98, y: -14 }
+        - { module: "0x1036", x: -84, y: -11 }
+        - { module: "0x1037", x: -27, y: -11 }
+    - id: "0x2029"
+      name: "slider_bg_03"
+      parts:
+        - { module: "0x1035", x: -98, y: -14 }
+        - { module: "0x1036", x: -84, y: -11 }
+        - { module: "0x1037", x: -27, y: -11 }
+        - { module: "0x1038", x: 30, y: -11 }
+    - id: "0x2000"
+      name: "slider_fill"
+      rects:
+        - { x1: -56, y1: -10, x2: 56, y2: 10 }
+      parts:
+    - id: "0x202D"
+      name: "slider_btn_normal"
+      parts:
+        - { module: "0x103B", x: -28, y: -23 }
+    - id: "0x202C"
+      name: "slider_btn_disabled"
+      parts:
+        - { module: "0x103A", x: -28, y: -22 }
+    - id: "0x202E"
+      name: "slider_btn_glow"
+      parts:
+        - { module: "0x1016", x: -36, y: -29 }
+    - id: "0x202A"
+      name: "arow_right"
+      parts:
+        - { module: "0x1039", x: -14, y: -19 }
+    - id: "0x202B"
+      name: "arrow_left"
+      parts:
+        - { module: "0x1039", x: -14, y: -19, flags: [FLIP_X] }
+    - id: "0x202F"
+      name: "window"
+      parts:
+        - { module: "0x103C", x: -120, y: -118 }
+        - { module: "0x103C", x: 103, y: -118, flags: [FLIP_X] }
+        - { module: "0x1024", x: 96, y: 94 }
+        - { module: "0x1024", x: -127, y: 94, flags: [FLIP_X] }
+        - { module: "0x1002", x: -109, y: -118 }
+        - { module: "0x1002", x: -98, y: -118 }
+        - { module: "0x1002", x: -87, y: -118 }
+        - { module: "0x1002", x: -76, y: -118 }
+        - { module: "0x1002", x: -65, y: -118 }
+        - { module: "0x1002", x: -54, y: -118 }
+        - { module: "0x1002", x: -43, y: -118 }
+        - { module: "0x1002", x: -32, y: -118 }
+        - { module: "0x1002", x: -21, y: -118 }
+        - { module: "0x1002", x: -10, y: -118 }
+        - { module: "0x1002", x: 1, y: -118 }
+        - { module: "0x1002", x: 12, y: -118 }
+        - { module: "0x1002", x: 23, y: -118 }
+        - { module: "0x1002", x: 34, y: -118 }
+        - { module: "0x1002", x: 45, y: -118 }
+        - { module: "0x1002", x: 56, y: -118 }
+        - { module: "0x1002", x: 67, y: -118 }
+        - { module: "0x1002", x: 78, y: -118 }
+        - { module: "0x1002", x: 89, y: -118 }
+        - { module: "0x1003", x: 100, y: -118 }
+    - id: "0x2001"
+      name: "window_02"
+      parts:
+        - { module: "0x1005", x: -147, y: -58 }
+        - { module: "0x1007", x: -123, y: -58 }
+        - { module: "0x1008", x: -123, y: 5 }
+        - { module: "0x1007", x: -111, y: -58 }
+        - { module: "0x1008", x: -111, y: 5 }
+        - { module: "0x1007", x: -99, y: -58 }
+        - { module: "0x1008", x: -99, y: 5 }
+        - { module: "0x1007", x: -87, y: -58 }
+        - { module: "0x1008", x: -87, y: 5 }
+        - { module: "0x1007", x: -75, y: -58 }
+        - { module: "0x1008", x: -75, y: 5 }
+        - { module: "0x1007", x: -63, y: -58 }
+        - { module: "0x1008", x: -63, y: 5 }
+        - { module: "0x1007", x: -51, y: -58 }
+        - { module: "0x1008", x: -51, y: 5 }
+        - { module: "0x1007", x: -39, y: -58 }
+        - { module: "0x1008", x: -39, y: 5 }
+        - { module: "0x1007", x: -27, y: -58 }
+        - { module: "0x1008", x: -27, y: 5 }
+        - { module: "0x1007", x: -15, y: -58 }
+        - { module: "0x1008", x: -15, y: 5 }
+        - { module: "0x1007", x: -3, y: -58 }
+        - { module: "0x1008", x: -3, y: 5 }
+        - { module: "0x1007", x: 9, y: -58 }
+        - { module: "0x1008", x: 9, y: 5 }
+        - { module: "0x1007", x: 21, y: -58 }
+        - { module: "0x1008", x: 21, y: 5 }
+        - { module: "0x1007", x: 33, y: -58 }
+        - { module: "0x1008", x: 33, y: 5 }
+        - { module: "0x1007", x: 45, y: -58 }
+        - { module: "0x1008", x: 45, y: 5 }
+        - { module: "0x1007", x: 57, y: -58 }
+        - { module: "0x1008", x: 57, y: 5 }
+        - { module: "0x1007", x: 69, y: -58 }
+        - { module: "0x1008", x: 69, y: 5 }
+        - { module: "0x1007", x: 81, y: -58 }
+        - { module: "0x1008", x: 81, y: 5 }
+        - { module: "0x1007", x: 93, y: -58 }
+        - { module: "0x1008", x: 93, y: 5 }
+        - { module: "0x1007", x: 105, y: -58 }
+        - { module: "0x1008", x: 105, y: 5 }
+        - { module: "0x1006", x: -147, y: 5 }
+        - { module: "0x1005", x: 117, y: -58, flags: [FLIP_X] }
+        - { module: "0x1006", x: 117, y: 5, flags: [FLIP_X] }
+    - id: "0x2030"
+      name: "souls"
+      parts:
+        - { module: "0x1001", x: -9, y: -10 }
+    - id: "0x2031"
+      name: "gold"
+      parts:
+        - { module: "0x1000", x: -10, y: -11 }
+    - id: "0x2032"
+      name: "money_soul_bar"
+      parts:
+        - { module: "0x103F", x: -46, y: -12 }
+    - id: "0x2002"
+      name: "tornado"
+      parts:
+        - { module: "0x1009", x: -23, y: -20 }
+    - id: "0x2003"
+      name: "earthquake"
+      parts:
+        - { module: "0x1009", x: -23, y: -20 }
+        - { module: "0x100A", x: -15, y: -12 }
+    - id: "0x2004"
+      name: "thunder"
+      parts:
+        - { module: "0x1009", x: -23, y: -20 }
+        - { module: "0x100B", x: -14, y: -11 }
+    - id: "0x2005"
+      name: "ghost_army"
+      parts:
+        - { module: "0x1009", x: -23, y: -20 }
+        - { module: "0x100C", x: -16, y: -11 }
+    - id: "0x2006"
+      name: "boulder"
+      parts:
+        - { module: "0x1009", x: -23, y: -20 }
+        - { module: "0x100D", x: -15, y: -12 }
+
+  animations:
+    - id: "0x301C"
+      name: "slider_button_normal"
+      frames:
+        - { frame: "0x202D", time: 1, x: 0, y: 0 }
+    - id: "0x301E"
+      name: "slider_button_pressed"
+      frames:
+        - { frame: "0x202E", time: 1, x: 0, y: 0 }
+    - id: "0x301D"
+      name: "slider_button_disabled"
+      frames:
+        - { frame: "0x202C", time: 1, x: 0, y: 0 }
+    - id: "0x3007"
+      name: "left_normal"
+      frames:
+        - { frame: "0x202B", time: 1, x: 0, y: 0 }
+    - id: "0x3008"
+      name: "left_pressed"
+      frames:
+        - { frame: "0x202B", time: 1, x: 0, y: 0 }
+    - id: "0x3009"
+      name: "left_blink"
+      frames:
+        - { frame: "0x202B", time: 1, x: 0, y: 0 }
+    - id: "0x300A"
+      name: "right_normal"
+      frames:
+        - { frame: "0x202A", time: 1, x: 0, y: 0 }
+    - id: "0x300B"
+      name: "right_pressed"
+      frames:
+        - { frame: "0x202A", time: 1, x: 0, y: 0 }
+    - id: "0x300C"
+      name: "right_blink"
+      frames:
+        - { frame: "0x202A", time: 1, x: 0, y: 0 }

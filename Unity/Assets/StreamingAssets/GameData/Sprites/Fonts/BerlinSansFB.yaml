@@ -1,0 +1,1631 @@
+# Converted from BerlinSansFB.sprite by tools/sprites_conver.
+# Edit with AuroraMX (Tools/AuroraMX); the game reads this file directly.
+sprite:
+  version: "0001"
+
+  images:
+    - id: "0x0000"
+      file: "./BerlinSansFB.png"
+      transparent: "0x00FF00FF"
+
+  modules:
+    - id: "0x1000"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 14
+      y: 9
+      w: 6
+      h: 20
+      name: "0x20"
+    - id: "0x1001"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 24
+      y: 3
+      w: 8
+      h: 32
+      name: "0x21"
+    - id: "0x1081"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 395
+      y: 3
+      w: 7
+      h: 32
+      name: "0x21"
+    - id: "0x1002"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 33
+      y: 3
+      w: 22
+      h: 32
+      name: "0x22"
+    - id: "0x1003"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 56
+      y: 3
+      w: 13
+      h: 32
+      name: "0x23"
+    - id: "0x1004"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 71
+      y: 3
+      w: 13
+      h: 32
+      name: "0x24"
+    - id: "0x1005"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 86
+      y: 3
+      w: 9
+      h: 32
+      name: "0x25"
+    - id: "0x1006"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 97
+      y: 3
+      w: 10
+      h: 32
+      name: "0x26"
+    - id: "0x1007"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 109
+      y: 3
+      w: 13
+      h: 32
+      name: "0x27"
+    - id: "0x1008"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 124
+      y: 3
+      w: 11
+      h: 32
+      name: "0x28"
+    - id: "0x1009"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 136
+      y: 3
+      w: 12
+      h: 32
+      name: "0x29"
+    - id: "0x100A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 149
+      y: 3
+      w: 12
+      h: 32
+      name: "0x2A"
+    - id: "0x100B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 162
+      y: 3
+      w: 9
+      h: 32
+      name: "0x2B"
+    - id: "0x100C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 172
+      y: 3
+      w: 9
+      h: 32
+      name: "0x2C"
+    - id: "0x100D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 182
+      y: 3
+      w: 13
+      h: 32
+      name: "0x2D"
+    - id: "0x100E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 196
+      y: 3
+      w: 8
+      h: 32
+      name: "0x2E"
+    - id: "0x100F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 205
+      y: 3
+      w: 9
+      h: 32
+      name: "0x2F"
+    - id: "0x1080"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 216
+      y: 3
+      w: 8
+      h: 32
+      name: "0x2F"
+    - id: "0x1010"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 225
+      y: 3
+      w: 12
+      h: 32
+      name: "0x30"
+    - id: "0x1011"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 239
+      y: 3
+      w: 20
+      h: 32
+      name: "0x31"
+    - id: "0x1012"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 260
+      y: 3
+      w: 18
+      h: 32
+      name: "0x32"
+    - id: "0x1013"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 281
+      y: 3
+      w: 14
+      h: 32
+      name: "0x33"
+    - id: "0x1014"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 297
+      y: 3
+      w: 18
+      h: 32
+      name: "0x34"
+    - id: "0x1015"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 316
+      y: 3
+      w: 14
+      h: 32
+      name: "0x35"
+    - id: "0x1050"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 332
+      y: 3
+      w: 20
+      h: 32
+      name: "0x55"
+    - id: "0x1016"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 355
+      y: 3
+      w: 11
+      h: 32
+      name: "0x36"
+    - id: "0x1017"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 367
+      y: 3
+      w: 11
+      h: 32
+      name: "0x37"
+    - id: "0x1018"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 381
+      y: 3
+      w: 12
+      h: 32
+      name: "0x38"
+    - id: "0x1019"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 12
+      y: 38
+      w: 18
+      h: 32
+      name: "0x39"
+    - id: "0x101A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 31
+      y: 38
+      w: 11
+      h: 32
+      name: "0x3A"
+    - id: "0x101B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 43
+      y: 38
+      w: 16
+      h: 32
+      name: "0x3B"
+    - id: "0x101C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 60
+      y: 38
+      w: 15
+      h: 32
+      name: "0x3C"
+    - id: "0x101D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 76
+      y: 38
+      w: 16
+      h: 32
+      name: "0x3D"
+    - id: "0x101E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 93
+      y: 38
+      w: 15
+      h: 32
+      name: "0x3E"
+    - id: "0x101F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 109
+      y: 38
+      w: 16
+      h: 32
+      name: "0x3F"
+    - id: "0x1020"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 126
+      y: 38
+      w: 15
+      h: 32
+      name: "0x40"
+    - id: "0x1021"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 142
+      y: 38
+      w: 15
+      h: 32
+      name: "0x41"
+    - id: "0x1022"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 158
+      y: 38
+      w: 16
+      h: 32
+      name: "0x42"
+    - id: "0x1023"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 175
+      y: 38
+      w: 21
+      h: 32
+      name: "0x43"
+    - id: "0x1024"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 197
+      y: 38
+      w: 18
+      h: 32
+      name: "0x44"
+    - id: "0x1025"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 216
+      y: 38
+      w: 19
+      h: 32
+      name: "0x45"
+    - id: "0x1026"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 236
+      y: 38
+      w: 20
+      h: 32
+      name: "0x46"
+    - id: "0x1027"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 258
+      y: 38
+      w: 16
+      h: 32
+      name: "0x47"
+    - id: "0x1028"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 276
+      y: 38
+      w: 16
+      h: 32
+      name: "0x48"
+    - id: "0x1029"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 293
+      y: 38
+      w: 20
+      h: 32
+      name: "0x49"
+    - id: "0x102A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 315
+      y: 38
+      w: 20
+      h: 32
+      name: "0x4A"
+    - id: "0x102B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 337
+      y: 38
+      w: 9
+      h: 32
+      name: "0x4B"
+    - id: "0x102C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 347
+      y: 38
+      w: 11
+      h: 32
+      name: "0x4C"
+    - id: "0x102D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 359
+      y: 38
+      w: 18
+      h: 32
+      name: "0x4D"
+    - id: "0x102E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 378
+      y: 38
+      w: 17
+      h: 32
+      name: "0x4E"
+    - id: "0x102F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 396
+      y: 38
+      w: 22
+      h: 32
+      name: "0x4F"
+    - id: "0x1030"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 420
+      y: 38
+      w: 20
+      h: 32
+      name: "0x50"
+    - id: "0x1031"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 12
+      y: 70
+      w: 22
+      h: 32
+      name: "0x51"
+    - id: "0x1032"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 35
+      y: 70
+      w: 19
+      h: 32
+      name: "0x52"
+    - id: "0x1033"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 55
+      y: 70
+      w: 21
+      h: 32
+      name: "0x53"
+    - id: "0x1034"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 78
+      y: 70
+      w: 18
+      h: 32
+      name: "0x54"
+    - id: "0x1035"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 98
+      y: 70
+      w: 14
+      h: 32
+      name: "0x55"
+    - id: "0x1036"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 113
+      y: 70
+      w: 17
+      h: 32
+      name: "0x56"
+    - id: "0x1037"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 131
+      y: 70
+      w: 19
+      h: 32
+      name: "0x57"
+    - id: "0x1038"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 152
+      y: 70
+      w: 18
+      h: 32
+      name: "0x58"
+    - id: "0x1039"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 171
+      y: 70
+      w: 26
+      h: 32
+      name: "0x59"
+    - id: "0x103A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 198
+      y: 70
+      w: 18
+      h: 32
+      name: "0x5A"
+    - id: "0x103B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 217
+      y: 70
+      w: 18
+      h: 32
+      name: "0x5B"
+    - id: "0x103C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 236
+      y: 70
+      w: 16
+      h: 32
+      name: "0x5C"
+    - id: "0x103D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 253
+      y: 70
+      w: 17
+      h: 32
+      name: "0x5D"
+    - id: "0x103E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 272
+      y: 70
+      w: 17
+      h: 32
+      name: "0x5E"
+    - id: "0x103F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 290
+      y: 70
+      w: 14
+      h: 32
+      name: "0x5F"
+    - id: "0x1040"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 305
+      y: 70
+      w: 17
+      h: 32
+      name: "0x60"
+    - id: "0x1041"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 323
+      y: 70
+      w: 16
+      h: 32
+      name: "0x61"
+    - id: "0x1042"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 340
+      y: 70
+      w: 11
+      h: 32
+      name: "0x62"
+    - id: "0x1043"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 351
+      y: 70
+      w: 16
+      h: 32
+      name: "0x63"
+    - id: "0x1044"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 369
+      y: 70
+      w: 16
+      h: 32
+      name: "0x64"
+    - id: "0x1045"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 387
+      y: 70
+      w: 7
+      h: 32
+      name: "0x65"
+    - id: "0x1046"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 395
+      y: 70
+      w: 10
+      h: 32
+      name: "0x66"
+    - id: "0x1047"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 407
+      y: 71
+      w: 16
+      h: 32
+      name: "0x67"
+    - id: "0x1048"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 425
+      y: 70
+      w: 8
+      h: 32
+      name: "0x68"
+    - id: "0x1049"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 13
+      y: 103
+      w: 23
+      h: 32
+      name: "0x69"
+    - id: "0x104A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 38
+      y: 103
+      w: 16
+      h: 32
+      name: "0x6A"
+    - id: "0x104B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 55
+      y: 103
+      w: 17
+      h: 32
+      name: "0x6B"
+    - id: "0x104C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 74
+      y: 103
+      w: 16
+      h: 32
+      name: "0x6C"
+    - id: "0x104D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 92
+      y: 103
+      w: 16
+      h: 32
+      name: "0x6D"
+    - id: "0x104E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 110
+      y: 103
+      w: 12
+      h: 32
+      name: "0x6E"
+    - id: "0x104F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 123
+      y: 103
+      w: 10
+      h: 32
+      name: "0x6F"
+    - id: "0x1051"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 134
+      y: 103
+      w: 12
+      h: 32
+      name: "0x69"
+    - id: "0x1052"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 148
+      y: 103
+      w: 17
+      h: 32
+      name: "0x6A"
+    - id: "0x1053"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 166
+      y: 103
+      w: 16
+      h: 32
+      name: "0x6B"
+    - id: "0x1054"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 183
+      y: 103
+      w: 22
+      h: 32
+      name: "0x6C"
+    - id: "0x1055"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 206
+      y: 103
+      w: 14
+      h: 32
+      name: "0x6D"
+    - id: "0x1056"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 221
+      y: 103
+      w: 16
+      h: 32
+      name: "0x6E"
+    - id: "0x1057"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 238
+      y: 103
+      w: 14
+      h: 32
+      name: "0x6F"
+    - id: "0x1058"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 12
+      y: 146
+      w: 20
+      h: 32
+      name: "0x69"
+    - id: "0x1059"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 33
+      y: 146
+      w: 20
+      h: 32
+      name: "0x6A"
+    - id: "0x105A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 54
+      y: 146
+      w: 20
+      h: 32
+      name: "0x6B"
+    - id: "0x105B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 76
+      y: 146
+      w: 16
+      h: 32
+      name: "0x6C"
+    - id: "0x105C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 94
+      y: 146
+      w: 16
+      h: 32
+      name: "0x6D"
+    - id: "0x105D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 112
+      y: 146
+      w: 16
+      h: 32
+      name: "0x6E"
+    - id: "0x105E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 130
+      y: 146
+      w: 16
+      h: 32
+      name: "0x6F"
+    - id: "0x105F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 148
+      y: 146
+      w: 18
+      h: 32
+      name: "0x69"
+    - id: "0x1060"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 169
+      y: 146
+      w: 18
+      h: 32
+      name: "0x6A"
+    - id: "0x1061"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 190
+      y: 146
+      w: 18
+      h: 32
+      name: "0x6B"
+    - id: "0x1062"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 211
+      y: 146
+      w: 10
+      h: 32
+      name: "0x6C"
+    - id: "0x1063"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 222
+      y: 146
+      w: 10
+      h: 32
+      name: "0x6D"
+    - id: "0x1064"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 233
+      y: 146
+      w: 10
+      h: 32
+      name: "0x6E"
+    - id: "0x1065"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 245
+      y: 146
+      w: 12
+      h: 32
+      name: "0x6F"
+    - id: "0x1066"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 259
+      y: 146
+      w: 21
+      h: 32
+      name: "0x6B"
+    - id: "0x1067"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 282
+      y: 146
+      w: 21
+      h: 32
+      name: "0x6C"
+    - id: "0x1068"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 304
+      y: 146
+      w: 21
+      h: 32
+      name: "0x6D"
+    - id: "0x1082"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 368
+      y: 146
+      w: 21
+      h: 32
+      name: "0x6D"
+    - id: "0x1069"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 328
+      y: 146
+      w: 19
+      h: 32
+      name: "0x6E"
+    - id: "0x106A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 349
+      y: 146
+      w: 18
+      h: 32
+      name: "0x6F"
+    - id: "0x106B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 12
+      y: 182
+      w: 17
+      h: 32
+      name: "0x69"
+    - id: "0x106C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 30
+      y: 182
+      w: 17
+      h: 32
+      name: "0x6A"
+    - id: "0x106D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 48
+      y: 182
+      w: 17
+      h: 32
+      name: "0x6B"
+    - id: "0x106E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 67
+      y: 182
+      w: 16
+      h: 32
+      name: "0x6C"
+    - id: "0x106F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 84
+      y: 182
+      w: 15
+      h: 32
+      name: "0x6D"
+    - id: "0x1070"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 100
+      y: 182
+      w: 16
+      h: 32
+      name: "0x6E"
+    - id: "0x1071"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 117
+      y: 182
+      w: 15
+      h: 32
+      name: "0x6F"
+    - id: "0x1072"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 134
+      y: 182
+      w: 16
+      h: 32
+      name: "0x6B"
+    - id: "0x1073"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 152
+      y: 182
+      w: 16
+      h: 32
+      name: "0x6C"
+    - id: "0x1074"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 171
+      y: 182
+      w: 16
+      h: 32
+      name: "0x6D"
+    - id: "0x1075"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 189
+      y: 182
+      w: 9
+      h: 32
+      name: "0x6E"
+    - id: "0x1076"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 199
+      y: 182
+      w: 9
+      h: 32
+      name: "0x6F"
+    - id: "0x1077"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 211
+      y: 182
+      w: 9
+      h: 32
+      name: "0x6D"
+    - id: "0x1078"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 221
+      y: 182
+      w: 12
+      h: 32
+      name: "0x6E"
+    - id: "0x1079"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 234
+      y: 182
+      w: 16
+      h: 32
+      name: "0x6F"
+    - id: "0x107A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 251
+      y: 182
+      w: 16
+      h: 32
+      name: "0x6B"
+    - id: "0x107B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 268
+      y: 182
+      w: 16
+      h: 32
+      name: "0x6C"
+    - id: "0x1083"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 391
+      y: 146
+      w: 16
+      h: 32
+      name: "0x6C"
+    - id: "0x1087"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 409
+      y: 146
+      w: 18
+      h: 32
+      name: "0x6C"
+    - id: "0x1088"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 430
+      y: 146
+      w: 16
+      h: 32
+      name: "0x6C"
+    - id: "0x107C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 285
+      y: 182
+      w: 16
+      h: 32
+      name: "0x6D"
+    - id: "0x107D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 303
+      y: 182
+      w: 13
+      h: 32
+      name: "0x6E"
+    - id: "0x107E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 318
+      y: 182
+      w: 15
+      h: 32
+      name: "0x6F"
+    - id: "0x107F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 342
+      y: 182
+      w: 12
+      h: 32
+      name: "0x6F"
+    - id: "0x1084"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 359
+      y: 182
+      w: 17
+      h: 32
+      name: "0x6F"
+    - id: "0x1085"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 398
+      y: 192
+      w: 21
+      h: 32
+      name: "0x6F"
+    - id: "0x1086"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 428
+      y: 192
+      w: 25
+      h: 32
+      name: "0x6F"
+    - id: "0x1089"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 12
+      y: 235
+      w: 13
+      h: 32
+      name: "0x69"
+    - id: "0x108A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 27
+      y: 235
+      w: 8
+      h: 32
+      name: "0x6A"
+    - id: "0x108B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 37
+      y: 235
+      w: 13
+      h: 32
+      name: "0x6B"
+    - id: "0x108C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 51
+      y: 235
+      w: 13
+      h: 32
+      name: "0x6C"
+    - id: "0x108D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 64
+      y: 235
+      w: 21
+      h: 32
+      name: "0x6D"
+    - id: "0x108E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 86
+      y: 235
+      w: 24
+      h: 32
+      name: "0x6E"
+    - id: "0x108F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 111
+      y: 235
+      w: 21
+      h: 32
+      name: "0x6F"
+    - id: "0x1090"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 134
+      y: 235
+      w: 21
+      h: 32
+      name: "0x6B"
+    - id: "0x1091"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 156
+      y: 235
+      w: 18
+      h: 32
+      name: "0x6C"
+    - id: "0x1092"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 175
+      y: 235
+      w: 17
+      h: 32
+      name: "0x6D"
+    - id: "0x1093"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 194
+      y: 235
+      w: 17
+      h: 32
+      name: "0x6E"
+    - id: "0x1094"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 212
+      y: 235
+      w: 25
+      h: 32
+      name: "0x6F"
+    - id: "0x1095"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 238
+      y: 235
+      w: 16
+      h: 32
+      name: "0x6D"
+    - id: "0x1096"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 255
+      y: 235
+      w: 16
+      h: 32
+      name: "0x6E"
+    - id: "0x1097"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 273
+      y: 235
+      w: 15
+      h: 32
+      name: "0x6F"
+    - id: "0x1098"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 289
+      y: 235
+      w: 16
+      h: 32
+      name: "0x6B"
+    - id: "0x1099"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 307
+      y: 235
+      w: 27
+      h: 32
+      name: "0x6C"
+    - id: "0x109A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 335
+      y: 235
+      w: 24
+      h: 32
+      name: "0x6D"
+    - id: "0x109B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 360
+      y: 235
+      w: 14
+      h: 32
+      name: "0x6E"
+    - id: "0x109C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 375
+      y: 235
+      w: 13
+      h: 32
+      name: "0x6F"
+    - id: "0x109D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 390
+      y: 235
+      w: 12
+      h: 32
+      name: "0x6F"
+    - id: "0x109E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 404
+      y: 235
+      w: 12
+      h: 32
+      name: "0x6F"
+    - id: "0x109F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 417
+      y: 235
+      w: 15
+      h: 32
+      name: "0x6F"
+    - id: "0x10A0"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 433
+      y: 235
+      w: 15
+      h: 32
+      name: "0x6F"
+    - id: "0x10A1"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 449
+      y: 235
+      w: 10
+      h: 32
+      name: "0x6D"
+    - id: "0x10A2"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 462
+      y: 235
+      w: 12
+      h: 32
+      name: "0x6E"
+    - id: "0x10A3"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 476
+      y: 235
+      w: 7
+      h: 32
+      name: "0x6F"
+    - id: "0x10A4"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 485
+      y: 235
+      w: 12
+      h: 32
+      name: "0x6F"
+    - id: "0x10A5"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 12
+      y: 268
+      w: 16
+      h: 32
+      name: "0x6F"
+    - id: "0x10A6"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 29
+      y: 268
+      w: 12
+      h: 32
+      name: "0x6F"
+    - id: "0x10A7"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 42
+      y: 268
+      w: 16
+      h: 32
+      name: "0x6F"
+    - id: "0x10A8"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 59
+      y: 268
+      w: 20
+      h: 32
+      name: "0x69"
+    - id: "0x10A9"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 80
+      y: 268
+      w: 16
+      h: 32
+      name: "0x6A"
+    - id: "0x10AA"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 98
+      y: 268
+      w: 18
+      h: 32
+      name: "0x6B"
+    - id: "0x10AB"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 117
+      y: 268
+      w: 14
+      h: 32
+      name: "0x6C"
+    - id: "0x10AC"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 132
+      y: 268
+      w: 8
+      h: 32
+      name: "0x6D"
+    - id: "0x10AD"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 141
+      y: 268
+      w: 16
+      h: 32
+      name: "0x6E"
+    - id: "0x10AE"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 17
+      y: 306
+      w: 17
+      h: 32
+      name: "0x6E"
+    - id: "0x10AF"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 35
+      y: 306
+      w: 22
+      h: 32
+      name: "0x6E"
+    - id: "0x10B0"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 59
+      y: 306
+      w: 22
+      h: 32
+      name: "0x6E"
+    - id: "0x10B1"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 83
+      y: 306
+      w: 19
+      h: 32
+      name: "0x6E"
+    - id: "0x10B2"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 102
+      y: 306
+      w: 22
+      h: 32
+      name: "0x6E"
+
+  frames:
+    - id: "0x2000"
+      name: "font"
+      rects:
+        - { x1: 0, y1: 0, x2: 0, y2: 0 }
+      parts:
+        - { module: "0x1000", x: 0, y: 6 }
+        - { module: "0x1001", x: 0, y: 0 }
+        - { module: "0x1081", x: 0, y: 0 }
+        - { module: "0x1002", x: 0, y: 0 }
+        - { module: "0x1003", x: 0, y: 0 }
+        - { module: "0x1004", x: 0, y: 0 }
+        - { module: "0x1005", x: 0, y: 0 }
+        - { module: "0x1006", x: 0, y: 0 }
+        - { module: "0x1007", x: 0, y: 0 }
+        - { module: "0x1008", x: 0, y: 0 }
+        - { module: "0x1009", x: 0, y: 0 }
+        - { module: "0x100A", x: 0, y: 0 }
+        - { module: "0x100B", x: 0, y: 0 }
+        - { module: "0x100C", x: 0, y: 0 }
+        - { module: "0x100D", x: 0, y: 0 }
+        - { module: "0x100E", x: 0, y: 0 }
+        - { module: "0x100F", x: 0, y: 0 }
+        - { module: "0x1080", x: 0, y: 0 }
+        - { module: "0x1010", x: 0, y: 0 }
+        - { module: "0x1011", x: 0, y: 0 }
+        - { module: "0x1012", x: 0, y: 0 }
+        - { module: "0x1013", x: 0, y: 0 }
+        - { module: "0x1014", x: 0, y: 0 }
+        - { module: "0x1015", x: 0, y: 0 }
+        - { module: "0x1050", x: 0, y: 0 }
+        - { module: "0x1016", x: 0, y: 0 }
+        - { module: "0x1017", x: 0, y: 0 }
+        - { module: "0x1018", x: 0, y: 0 }
+        - { module: "0x1019", x: 0, y: 0 }
+        - { module: "0x101A", x: 0, y: 0 }
+        - { module: "0x101B", x: 0, y: 0 }
+        - { module: "0x101C", x: 0, y: 0 }
+        - { module: "0x101D", x: 0, y: 0 }
+        - { module: "0x101E", x: 0, y: 0 }
+        - { module: "0x101F", x: 0, y: 0 }
+        - { module: "0x1020", x: 0, y: 0 }
+        - { module: "0x1021", x: 0, y: 0 }
+        - { module: "0x1022", x: 0, y: 0 }
+        - { module: "0x1023", x: 0, y: 0 }
+        - { module: "0x1024", x: 0, y: 0 }
+        - { module: "0x1025", x: 0, y: 0 }
+        - { module: "0x1026", x: 0, y: 0 }
+        - { module: "0x1027", x: 0, y: 0 }
+        - { module: "0x1028", x: 0, y: 0 }
+        - { module: "0x1029", x: 0, y: 0 }
+        - { module: "0x102A", x: 0, y: 0 }
+        - { module: "0x102B", x: 0, y: 0 }
+        - { module: "0x102C", x: 0, y: 0 }
+        - { module: "0x102D", x: 0, y: 0 }
+        - { module: "0x102E", x: 0, y: 0 }
+        - { module: "0x102F", x: 0, y: 0 }
+        - { module: "0x1030", x: 0, y: 0 }
+        - { module: "0x1031", x: 0, y: 0 }
+        - { module: "0x1032", x: 0, y: 0 }
+        - { module: "0x1033", x: 0, y: 0 }
+        - { module: "0x1034", x: 0, y: 0 }
+        - { module: "0x1035", x: 0, y: 0 }
+        - { module: "0x1036", x: 0, y: 0 }
+        - { module: "0x1037", x: 0, y: 0 }
+        - { module: "0x1038", x: 0, y: 0 }
+        - { module: "0x1039", x: 0, y: 0 }
+        - { module: "0x103A", x: 0, y: 0 }
+        - { module: "0x103B", x: 0, y: 0 }
+        - { module: "0x103C", x: 0, y: 0 }
+        - { module: "0x103D", x: 0, y: 0 }
+        - { module: "0x103E", x: 0, y: 0 }
+        - { module: "0x103F", x: 0, y: 0 }
+        - { module: "0x1040", x: 0, y: 0 }
+        - { module: "0x1041", x: 0, y: 0 }
+        - { module: "0x1042", x: 0, y: 0 }
+        - { module: "0x1043", x: 0, y: 0 }
+        - { module: "0x1044", x: 0, y: 0 }
+        - { module: "0x1045", x: 0, y: 0 }
+        - { module: "0x1046", x: 0, y: 0 }
+        - { module: "0x1047", x: 0, y: 1 }
+        - { module: "0x1048", x: 0, y: 0 }
+        - { module: "0x1049", x: 0, y: 0 }
+        - { module: "0x104A", x: 0, y: 0 }
+        - { module: "0x104B", x: 0, y: 0 }
+        - { module: "0x104C", x: 0, y: 0 }
+        - { module: "0x104D", x: 0, y: 0 }
+        - { module: "0x104E", x: 0, y: 0 }
+        - { module: "0x104F", x: 0, y: 0 }
+        - { module: "0x1051", x: 0, y: 0 }
+        - { module: "0x1052", x: 0, y: 0 }
+        - { module: "0x1053", x: 0, y: 0 }
+        - { module: "0x1054", x: 0, y: 0 }
+        - { module: "0x1055", x: 0, y: 0 }
+        - { module: "0x1056", x: 0, y: 0 }
+        - { module: "0x1057", x: 0, y: 0 }
+        - { module: "0x1058", x: 0, y: 0 }
+        - { module: "0x1059", x: 0, y: 0 }
+        - { module: "0x105A", x: 0, y: 0 }
+        - { module: "0x105B", x: 0, y: 0 }
+        - { module: "0x105C", x: 0, y: 0 }
+        - { module: "0x105D", x: 0, y: 0 }
+        - { module: "0x105E", x: 0, y: 0 }
+        - { module: "0x105F", x: 0, y: 0 }
+        - { module: "0x1060", x: 0, y: 0 }
+        - { module: "0x1087", x: 0, y: 0 }
+        - { module: "0x1061", x: 0, y: 0 }
+        - { module: "0x1062", x: 0, y: 0 }
+        - { module: "0x1063", x: 0, y: 0 }
+        - { module: "0x1064", x: 0, y: 0 }
+        - { module: "0x1065", x: 0, y: 0 }
+        - { module: "0x1066", x: 0, y: 0 }
+        - { module: "0x1067", x: 0, y: 0 }
+        - { module: "0x1068", x: 0, y: 0 }
+        - { module: "0x1082", x: 0, y: 0 }
+        - { module: "0x1069", x: 0, y: 0 }
+        - { module: "0x106A", x: 0, y: 0 }
+        - { module: "0x106B", x: 0, y: -1 }
+        - { module: "0x106C", x: 0, y: -1 }
+        - { module: "0x106D", x: 0, y: -1 }
+        - { module: "0x106E", x: 0, y: -1 }
+        - { module: "0x106F", x: 0, y: -1 }
+        - { module: "0x1070", x: 0, y: -1 }
+        - { module: "0x1071", x: 0, y: -1 }
+        - { module: "0x1072", x: 0, y: -1 }
+        - { module: "0x1073", x: 0, y: -1 }
+        - { module: "0x1088", x: 0, y: 0 }
+        - { module: "0x1074", x: 0, y: -1 }
+        - { module: "0x1075", x: 0, y: -1 }
+        - { module: "0x1076", x: 0, y: -1 }
+        - { module: "0x1077", x: 0, y: -1 }
+        - { module: "0x1078", x: 0, y: -1 }
+        - { module: "0x1079", x: 0, y: -1 }
+        - { module: "0x107A", x: 0, y: -1 }
+        - { module: "0x107B", x: 0, y: -1 }
+        - { module: "0x1083", x: 0, y: 0 }
+        - { module: "0x107C", x: 0, y: -1 }
+        - { module: "0x107D", x: 0, y: -1 }
+        - { module: "0x107E", x: 0, y: -1 }
+        - { module: "0x107F", x: 0, y: 0 }
+        - { module: "0x1084", x: 0, y: 0 }
+        - { module: "0x1085", x: 0, y: 0 }
+        - { module: "0x1086", x: 0, y: 0 }
+        - { module: "0x1089", x: 0, y: 0 }
+        - { module: "0x108A", x: 0, y: 0 }
+        - { module: "0x108B", x: 0, y: 0 }
+        - { module: "0x108C", x: 0, y: 0 }
+        - { module: "0x108D", x: 0, y: -1 }
+        - { module: "0x108E", x: 0, y: -1 }
+        - { module: "0x108F", x: 0, y: -1 }
+        - { module: "0x1090", x: 0, y: -1 }
+        - { module: "0x1091", x: 0, y: -1 }
+        - { module: "0x1092", x: 0, y: -1 }
+        - { module: "0x1093", x: 0, y: -1 }
+        - { module: "0x1094", x: 0, y: -1 }
+        - { module: "0x1095", x: 0, y: -1 }
+        - { module: "0x1096", x: 0, y: -1 }
+        - { module: "0x1097", x: 0, y: -5 }
+        - { module: "0x1098", x: 0, y: -5 }
+        - { module: "0x1099", x: 0, y: -1 }
+        - { module: "0x109A", x: 0, y: -1 }
+        - { module: "0x109B", x: 0, y: 0 }
+        - { module: "0x109C", x: 0, y: 0 }
+        - { module: "0x109D", x: 0, y: 0 }
+        - { module: "0x109E", x: 0, y: 0 }
+        - { module: "0x109F", x: 0, y: 0 }
+        - { module: "0x10A0", x: 0, y: -6 }
+        - { module: "0x10A1", x: 0, y: 0 }
+        - { module: "0x10A2", x: 0, y: 0 }
+        - { module: "0x10A3", x: 0, y: 0 }
+        - { module: "0x10A4", x: 0, y: 0 }
+        - { module: "0x10A5", x: 0, y: 0 }
+        - { module: "0x10A6", x: 0, y: 0 }
+        - { module: "0x10A7", x: 0, y: -1 }
+        - { module: "0x10A8", x: 0, y: -1 }
+        - { module: "0x10A9", x: 0, y: 0 }
+        - { module: "0x10AA", x: 0, y: 0 }
+        - { module: "0x10AB", x: 0, y: 0 }
+        - { module: "0x10AC", x: 0, y: 0 }
+        - { module: "0x10AD", x: 0, y: 0 }
+        - { module: "0x10AE", x: 0, y: -1 }
+        - { module: "0x10AF", x: 0, y: -1 }
+        - { module: "0x10B0", x: 0, y: -1 }
+        - { module: "0x10B1", x: 0, y: -1 }
+        - { module: "0x10B2", x: 0, y: -1 }
+
+  animations: []

@@ -1,0 +1,1375 @@
+# Converted from menu.sprite by tools/sprites_conver.
+# Edit with AuroraMX (Tools/AuroraMX); the game reads this file directly.
+sprite:
+  version: "0001"
+
+  images:
+    - id: "0x0000"
+      file: "./menu.png"
+      transparent: "0x00FF00FF"
+
+  modules:
+    - id: "0x1000"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 4
+      y: 3
+      w: 40
+      h: 42
+    - id: "0x1002"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 124
+      y: 3
+      w: 40
+      h: 42
+    - id: "0x1001"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 44
+      y: 3
+      w: 80
+      h: 42
+    - id: "0x1003"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 33
+      y: 48
+      w: 65
+      h: 46
+    - id: "0x105B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 33
+      y: 48
+      w: 30
+      h: 46
+    - id: "0x105C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 35
+      y: 101
+      w: 30
+      h: 44
+    - id: "0x105E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 35
+      y: 313
+      w: 30
+      h: 48
+    - id: "0x105D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 33
+      y: 152
+      w: 30
+      h: 52
+    - id: "0x1052"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 33
+      y: 48
+      w: 6
+      h: 46
+    - id: "0x1004"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 3
+      y: 48
+      w: 29
+      h: 46
+    - id: "0x1007"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 5
+      y: 99
+      w: 29
+      h: 46
+    - id: "0x100A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 3
+      y: 152
+      w: 33
+      h: 52
+    - id: "0x100B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 101
+      y: 152
+      w: 34
+      h: 52
+    - id: "0x1005"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 98
+      y: 48
+      w: 32
+      h: 46
+    - id: "0x1008"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 99
+      y: 99
+      w: 32
+      h: 46
+    - id: "0x1006"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 34
+      y: 99
+      w: 65
+      h: 46
+    - id: "0x1053"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 34
+      y: 99
+      w: 5
+      h: 46
+    - id: "0x1009"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 36
+      y: 152
+      w: 65
+      h: 52
+    - id: "0x1054"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 36
+      y: 152
+      w: 5
+      h: 52
+    - id: "0x100E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 140
+      y: 322
+      w: 49
+      h: 48
+    - id: "0x100F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 191
+      y: 322
+      w: 50
+      h: 48
+    - id: "0x1010"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 243
+      y: 317
+      w: 60
+      h: 55
+    - id: "0x1012"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 140
+      y: 56
+      w: 56
+      h: 47
+    - id: "0x1013"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 142
+      y: 104
+      w: 57
+      h: 46
+    - id: "0x1014"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 139
+      y: 154
+      w: 63
+      h: 48
+    - id: "0x1015"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 138
+      y: 203
+      w: 74
+      h: 58
+    - id: "0x1016"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 132
+      y: 254
+      w: 80
+      h: 65
+    - id: "0x1017"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 444
+      y: 42
+      w: 23
+      h: 30
+    - id: "0x1018"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 467
+      y: 42
+      w: 28
+      h: 30
+    - id: "0x1019"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 439
+      y: 3
+      w: 30
+      h: 36
+    - id: "0x101A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 470
+      y: 3
+      w: 35
+      h: 36
+    - id: "0x1024"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 416
+      y: 50
+      w: 27
+      h: 28
+    - id: "0x1025"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 4
+      y: 507
+      w: 330
+      h: 2
+    - id: "0x1051"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 4
+      y: 507
+      w: 66
+      h: 2
+    - id: "0x1026"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 507
+      y: 2
+      w: 1
+      h: 231
+    - id: "0x104A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 507
+      y: 14
+      w: 1
+      h: 198
+    - id: "0x101C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 221
+      y: 4
+      w: 19
+      h: 30
+    - id: "0x101D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 290
+      y: 3
+      w: 18
+      h: 30
+    - id: "0x101E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 313
+      y: 4
+      w: 13
+      h: 30
+    - id: "0x1020"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 329
+      y: 10
+      w: 19
+      h: 13
+    - id: "0x1021"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 1
+      y: 210
+      w: 33
+      h: 52
+    - id: "0x1022"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 99
+      y: 210
+      w: 34
+      h: 52
+    - id: "0x1023"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 34
+      y: 210
+      w: 65
+      h: 52
+    - id: "0x1027"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 6
+      y: 374
+      w: 72
+      h: 52
+    - id: "0x1028"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 77
+      y: 373
+      w: 73
+      h: 52
+    - id: "0x104B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 77
+      y: 373
+      w: 44
+      h: 52
+    - id: "0x1029"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 149
+      y: 374
+      w: 73
+      h: 52
+    - id: "0x101B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 214
+      y: 43
+      w: 28
+      h: 50
+    - id: "0x101F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 242
+      y: 43
+      w: 32
+      h: 50
+    - id: "0x102B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 34
+      y: 99
+      w: 45
+      h: 46
+    - id: "0x102C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 36
+      y: 152
+      w: 43
+      h: 52
+    - id: "0x102D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 2
+      y: 261
+      w: 33
+      h: 52
+    - id: "0x102E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 100
+      y: 261
+      w: 34
+      h: 52
+    - id: "0x102F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 35
+      y: 261
+      w: 65
+      h: 52
+    - id: "0x102A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 2
+      y: 312
+      w: 33
+      h: 52
+    - id: "0x1030"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 100
+      y: 312
+      w: 34
+      h: 52
+    - id: "0x1031"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 35
+      y: 312
+      w: 65
+      h: 52
+    - id: "0x1032"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 224
+      y: 382
+      w: 30
+      h: 53
+    - id: "0x105A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 264
+      y: 383
+      w: 30
+      h: 53
+    - id: "0x1039"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 413
+      y: 2
+      w: 26
+      h: 38
+    - id: "0x103D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 440
+      y: 81
+      w: 19
+      h: 28
+    - id: "0x103E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 408
+      y: 81
+      w: 27
+      h: 28
+    - id: "0x1011"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 266
+      y: 475
+      w: 242
+      h: 24
+    - id: "0x1040"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 305
+      y: 86
+      w: 38
+      h: 9
+    - id: "0x103B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 266
+      y: 441
+      w: 122
+      h: 24
+    - id: "0x103C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 256
+      y: 139
+      w: 34
+      h: 34
+    - id: "0x103F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 213
+      y: 139
+      w: 34
+      h: 34
+    - id: "0x1042"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 400
+      y: 143
+      w: 99
+      h: 22
+    - id: "0x1043"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 354
+      y: 84
+      w: 8
+      h: 16
+    - id: "0x1044"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 362
+      y: 84
+      w: 7
+      h: 16
+    - id: "0x104C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 211
+      y: 174
+      w: 144
+      h: 125
+    - id: "0x104D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 353
+      y: 174
+      w: 3
+      h: 125
+    - id: "0x1048"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 343
+      y: 174
+      w: 10
+      h: 125
+    - id: "0x1049"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 333
+      y: 174
+      w: 20
+      h: 125
+    - id: "0x104F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 183
+      y: 432
+      w: 31
+      h: 32
+    - id: "0x1050"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 183
+      y: 464
+      w: 35
+      h: 37
+    - id: "0x1055"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 214
+      y: 175
+      w: 89
+      h: 53
+    - id: "0x1056"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 214
+      y: 246
+      w: 89
+      h: 53
+    - id: "0x1062"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 214
+      y: 189
+      w: 122
+      h: 110
+    - id: "0x1063"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 214
+      y: 174
+      w: 122
+      h: 110
+    - id: "0x1057"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 214
+      y: 190
+      w: 89
+      h: 91
+    - id: "0x104E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 229
+      y: 477
+      w: 25
+      h: 17
+    - id: "0x1058"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 307
+      y: 306
+      w: 170
+      h: 67
+    - id: "0x1059"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 347
+      y: 318
+      w: 130
+      h: 54
+    - id: "0x1034"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 306
+      y: 97
+      w: 32
+      h: 3
+    - id: "0x1035"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 363
+      y: 176
+      w: 92
+      h: 16
+    - id: "0x1036"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 363
+      y: 212
+      w: 92
+      h: 16
+    - id: "0x1037"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 363
+      y: 229
+      w: 92
+      h: 16
+    - id: "0x1038"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 363
+      y: 247
+      w: 92
+      h: 16
+    - id: "0x103A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 363
+      y: 265
+      w: 92
+      h: 16
+
+  frames:
+    - id: "0x2067"
+      name: "BASE_BUTTON"
+      rects:
+        - { x1: -137, y1: -11, x2: 137, y2: 15 }
+      parts:
+        - { module: "0x1004", x: -159, y: -20 }
+        - { module: "0x1003", x: -130, y: -20 }
+        - { module: "0x1003", x: -65, y: -20 }
+        - { module: "0x1003", x: 0, y: -20 }
+        - { module: "0x1003", x: 65, y: -20 }
+        - { module: "0x1005", x: 130, y: -20 }
+    - id: "0x2068"
+      name: "BASE_BUTTON_PRESSED"
+      rects:
+        - { x1: -137, y1: -12, x2: 137, y2: 15 }
+      parts:
+        - { module: "0x1007", x: -160, y: -20 }
+        - { module: "0x1008", x: 129, y: -20 }
+        - { module: "0x1006", x: -131, y: -20 }
+        - { module: "0x1006", x: -66, y: -20 }
+        - { module: "0x1006", x: 64, y: -20 }
+        - { module: "0x1006", x: -1, y: -20 }
+    - id: "0x206A"
+      name: "BASE_BUTTON_BLINK"
+      rects:
+        - { x1: -138, y1: -11, x2: 136, y2: 15 }
+      parts:
+        - { module: "0x100A", x: -164, y: -25 }
+        - { module: "0x1009", x: -131, y: -25 }
+        - { module: "0x1009", x: -66, y: -25 }
+        - { module: "0x1009", x: -1, y: -25 }
+        - { module: "0x1009", x: 64, y: -25 }
+        - { module: "0x100B", x: 129, y: -25 }
+    - id: "0x2003"
+      name: ""
+      rects:
+        - { x1: -180, y1: -9, x2: 231, y2: 12 }
+      parts:
+        - { module: "0x1000", x: -240, y: -18 }
+        - { module: "0x1002", x: 200, y: -18 }
+        - { module: "0x1001", x: -200, y: -18 }
+        - { module: "0x1001", x: -120, y: -18 }
+        - { module: "0x1001", x: -40, y: -18 }
+        - { module: "0x1001", x: 40, y: -18 }
+        - { module: "0x1001", x: 120, y: -18 }
+    - id: "0x2006"
+      name: "BUTTON_INFO"
+      parts:
+        - { module: "0x100E", x: -24, y: -21 }
+    - id: "0x2007"
+      name: "BUTTON_INFO_PRESSED"
+      parts:
+        - { module: "0x100F", x: -23, y: -21 }
+    - id: "0x2008"
+      name: "BUTTON_INFO_BLINK"
+      parts:
+        - { module: "0x1010", x: -29, y: -27 }
+    - id: "0x200C"
+      name: "horizontal_line"
+      parts:
+        - { module: "0x1025", x: -165, y: -1 }
+    - id: "0x2065"
+      name: "help_menu_horizontal_line"
+      parts:
+        - { module: "0x1025", x: -165, y: -1 }
+        - { module: "0x1051", x: -231, y: -1 }
+        - { module: "0x1051", x: 165, y: -1 }
+    - id: "0x200D"
+      name: "vertical_line_main_menu"
+      parts:
+        - { module: "0x1026", x: 0, y: -116 }
+    - id: "0x205E"
+      name: "vertical_line_ingame_menu"
+      parts:
+        - { module: "0x104A", x: 0, y: -100 }
+    - id: "0x200E"
+      name: "BACK_BUTTON"
+      parts:
+        - { module: "0x1012", x: -29, y: -20 }
+    - id: "0x200F"
+      name: "BACK_BUTTON_PRESSED"
+      parts:
+        - { module: "0x1013", x: -30, y: -21 }
+    - id: "0x2010"
+      name: "BACK_BUTTON_BLINK"
+      parts:
+        - { module: "0x1014", x: -33, y: -22 }
+    - id: "0x206B"
+      name: "BACK_BUTTON_R"
+      parts:
+        - { module: "0x1012", x: -29, y: -20, flags: [FLIP_X] }
+    - id: "0x206C"
+      name: "BACK_BUTTON_R_PRESSED"
+      parts:
+        - { module: "0x1013", x: -30, y: -21, flags: [FLIP_X] }
+    - id: "0x206D"
+      name: "BACK_BUTTON_R_BLINK"
+      parts:
+        - { module: "0x1014", x: -33, y: -22, flags: [FLIP_X] }
+    - id: "0x2011"
+      name: "slider_sfx_normal"
+      parts:
+        - { module: "0x1015", x: -37, y: -29 }
+        - { module: "0x1018", x: -15, y: -18 }
+    - id: "0x2012"
+      name: "slider_sfx_pressed"
+      parts:
+        - { module: "0x1016", x: -41, y: -35 }
+        - { module: "0x101A", x: -18, y: -21 }
+    - id: "0x2013"
+      name: "slider_music_normal"
+      parts:
+        - { module: "0x1015", x: -38, y: -28 }
+        - { module: "0x1017", x: -11, y: -17 }
+    - id: "0x2014"
+      name: "slider_music_pressed"
+      parts:
+        - { module: "0x1016", x: -42, y: -34 }
+        - { module: "0x1019", x: -16, y: -19 }
+    - id: "0x2015"
+      name: "slider_empty"
+      parts:
+        - { module: "0x101E", x: -136, y: -12 }
+        - { module: "0x101C", x: -123, y: -11 }
+        - { module: "0x101C", x: -104, y: -11 }
+        - { module: "0x101C", x: -85, y: -11 }
+        - { module: "0x101C", x: -66, y: -11 }
+        - { module: "0x101C", x: -47, y: -11 }
+        - { module: "0x101C", x: -28, y: -11 }
+        - { module: "0x101C", x: -9, y: -11 }
+        - { module: "0x101C", x: 10, y: -11 }
+        - { module: "0x101C", x: 29, y: -11 }
+        - { module: "0x101C", x: 48, y: -11 }
+        - { module: "0x101C", x: 67, y: -11 }
+        - { module: "0x101C", x: 86, y: -11 }
+        - { module: "0x101C", x: 105, y: -11 }
+        - { module: "0x101D", x: 124, y: -12 }
+    - id: "0x2016"
+      name: "slider_fill"
+      rects:
+        - { x1: -123, y1: -5, x2: 124, y2: 8 }
+      parts:
+        - { module: "0x1020", x: -123, y: -6 }
+        - { module: "0x1020", x: -104, y: -6 }
+        - { module: "0x1020", x: -85, y: -6 }
+        - { module: "0x1020", x: -66, y: -6 }
+        - { module: "0x1020", x: -47, y: -6 }
+        - { module: "0x1020", x: -28, y: -6 }
+        - { module: "0x1020", x: -9, y: -6 }
+        - { module: "0x1020", x: 10, y: -6 }
+        - { module: "0x1020", x: 29, y: -6 }
+        - { module: "0x1020", x: 48, y: -6 }
+        - { module: "0x1020", x: 67, y: -6 }
+        - { module: "0x1020", x: 86, y: -6 }
+        - { module: "0x1020", x: 105, y: -6 }
+    - id: "0x2017"
+      name: "ingame_title"
+      parts:
+        - { module: "0x1027", x: -179, y: -21 }
+        - { module: "0x1029", x: 112, y: -21 }
+        - { module: "0x1028", x: -107, y: -22 }
+        - { module: "0x1028", x: -34, y: -22 }
+        - { module: "0x1028", x: 39, y: -22 }
+    - id: "0x203B"
+      name: "ingame_title_score"
+      parts:
+        - { module: "0x1029", x: 154, y: -21 }
+        - { module: "0x104B", x: 110, y: -22 }
+        - { module: "0x104B", x: 66, y: -22 }
+        - { module: "0x104B", x: 22, y: -22 }
+        - { module: "0x104B", x: -22, y: -22 }
+        - { module: "0x104B", x: -66, y: -22 }
+        - { module: "0x104B", x: -110, y: -22 }
+        - { module: "0x104B", x: -154, y: -22 }
+        - { module: "0x1027", x: -226, y: -21 }
+    - id: "0x2018"
+      name: "BASE_BUTTON_SMALL"
+      rects:
+        - { x1: -40, y1: -13, x2: 39, y2: 13 }
+      parts:
+        - { module: "0x1004", x: -61, y: -22 }
+        - { module: "0x1003", x: -32, y: -22 }
+        - { module: "0x1005", x: 33, y: -22 }
+    - id: "0x201B"
+      name: "BASE_BUTTON_SMALL_GREEN"
+      rects:
+        - { x1: -40, y1: -13, x2: 40, y2: 13 }
+      parts:
+        - { module: "0x1022", x: 35, y: -22 }
+        - { module: "0x1023", x: -30, y: -22 }
+        - { module: "0x1021", x: -63, y: -22 }
+    - id: "0x2033"
+      name: ""
+      rects:
+        - { x1: -40, y1: -13, x2: 40, y2: 13 }
+      parts:
+        - { module: "0x102A", x: -63, y: -21 }
+        - { module: "0x1030", x: 35, y: -21 }
+        - { module: "0x1031", x: -30, y: -21 }
+    - id: "0x2019"
+      name: ""
+      rects:
+        - { x1: -40, y1: -13, x2: 40, y2: 13 }
+      parts:
+        - { module: "0x1007", x: -61, y: -22 }
+        - { module: "0x1008", x: 33, y: -22 }
+        - { module: "0x1006", x: -32, y: -22 }
+    - id: "0x201A"
+      name: ""
+      rects:
+        - { x1: -40, y1: -13, x2: 40, y2: 13 }
+      parts:
+        - { module: "0x100A", x: -65, y: -27 }
+        - { module: "0x1009", x: -32, y: -27 }
+        - { module: "0x100B", x: 33, y: -27 }
+    - id: "0x2037"
+      name: "BASE_BUTTON_SMALL_shop"
+      rects:
+        - { x1: -36, y1: -13, x2: 41, y2: 13 }
+      parts:
+        - { module: "0x1004", x: -78, y: -22 }
+        - { module: "0x1003", x: -49, y: -22 }
+        - { module: "0x1005", x: 46, y: -22 }
+        - { module: "0x105B", x: 16, y: -22 }
+    - id: "0x2038"
+      name: ""
+      rects:
+        - { x1: -36, y1: -13, x2: 41, y2: 13 }
+      parts:
+        - { module: "0x102A", x: -81, y: -21 }
+        - { module: "0x1030", x: 47, y: -21 }
+        - { module: "0x1031", x: -18, y: -21 }
+        - { module: "0x105E", x: -48, y: -20 }
+    - id: "0x2039"
+      name: ""
+      rects:
+        - { x1: -36, y1: -13, x2: 41, y2: 13 }
+      parts:
+        - { module: "0x1007", x: -78, y: -22 }
+        - { module: "0x1008", x: 46, y: -22 }
+        - { module: "0x1006", x: -19, y: -22 }
+        - { module: "0x105C", x: -49, y: -20 }
+    - id: "0x203A"
+      name: ""
+      rects:
+        - { x1: -38, y1: -11, x2: 40, y2: 15 }
+      parts:
+        - { module: "0x100A", x: -82, y: -27 }
+        - { module: "0x1009", x: -19, y: -27 }
+        - { module: "0x100B", x: 46, y: -27 }
+        - { module: "0x105D", x: -49, y: -27 }
+    - id: "0x2042"
+      name: "LOCK_BUTTON_ON"
+      rects:
+        - { x1: -207, y1: -13, x2: 100, y2: 13 }
+        - { x1: 124, y1: -13, x2: 204, y2: 13 }
+      parts:
+        - { module: "0x101B", x: -229, y: -20 }
+        - { module: "0x101F", x: -201, y: -20 }
+        - { module: "0x101F", x: -169, y: -20 }
+        - { module: "0x101F", x: -137, y: -20 }
+        - { module: "0x101F", x: -105, y: -20 }
+        - { module: "0x101F", x: -73, y: -20 }
+        - { module: "0x101F", x: -41, y: -20 }
+        - { module: "0x101F", x: -9, y: -20 }
+        - { module: "0x101F", x: 23, y: -20 }
+        - { module: "0x101F", x: 55, y: -20 }
+        - { module: "0x101F", x: 87, y: -20 }
+        - { module: "0x1022", x: 199, y: -22 }
+        - { module: "0x1023", x: 134, y: -22 }
+        - { module: "0x1021", x: 101, y: -22 }
+    - id: "0x2041"
+      name: "LOCK_BUTTON_OFF"
+      rects:
+        - { x1: -207, y1: -13, x2: 100, y2: 13 }
+        - { x1: 124, y1: -13, x2: 204, y2: 13 }
+      parts:
+        - { module: "0x101B", x: -229, y: -20 }
+        - { module: "0x101F", x: -201, y: -20 }
+        - { module: "0x101F", x: -169, y: -20 }
+        - { module: "0x101F", x: -137, y: -20 }
+        - { module: "0x101F", x: -105, y: -20 }
+        - { module: "0x101F", x: -73, y: -20 }
+        - { module: "0x101F", x: -41, y: -20 }
+        - { module: "0x101F", x: -9, y: -20 }
+        - { module: "0x101F", x: 23, y: -20 }
+        - { module: "0x101F", x: 55, y: -20 }
+        - { module: "0x101F", x: 87, y: -20 }
+        - { module: "0x102E", x: 199, y: -21 }
+        - { module: "0x102F", x: 134, y: -21 }
+        - { module: "0x102D", x: 101, y: -21 }
+    - id: "0x201E"
+      name: "LOCK_BUTTON_BLINK"
+      rects:
+        - { x1: -207, y1: -13, x2: 100, y2: 13 }
+        - { x1: 124, y1: -13, x2: 204, y2: 13 }
+      parts:
+        - { module: "0x101B", x: -229, y: -20 }
+        - { module: "0x101F", x: -201, y: -20 }
+        - { module: "0x101F", x: -169, y: -20 }
+        - { module: "0x101F", x: -137, y: -20 }
+        - { module: "0x101F", x: -105, y: -20 }
+        - { module: "0x101F", x: -73, y: -20 }
+        - { module: "0x101F", x: -41, y: -20 }
+        - { module: "0x101F", x: -9, y: -20 }
+        - { module: "0x101F", x: 23, y: -20 }
+        - { module: "0x101F", x: 55, y: -20 }
+        - { module: "0x101F", x: 87, y: -20 }
+        - { module: "0x1009", x: 132, y: -27 }
+        - { module: "0x100A", x: 99, y: -27 }
+        - { module: "0x100B", x: 197, y: -27 }
+    - id: "0x206E"
+      name: "DIFFICULTY_BUTTON"
+      rects:
+        - { x1: -71, y1: -11, x2: 73, y2: 14 }
+      parts:
+        - { module: "0x1004", x: -92, y: -22 }
+        - { module: "0x1003", x: -63, y: -22 }
+        - { module: "0x1003", x: 2, y: -22 }
+        - { module: "0x1005", x: 67, y: -22 }
+    - id: "0x206F"
+      name: "DIFFICULTY_PRESSED"
+      rects:
+        - { x1: -72, y1: -11, x2: 73, y2: 14 }
+      parts:
+        - { module: "0x1007", x: -93, y: -22 }
+        - { module: "0x1008", x: 66, y: -22 }
+        - { module: "0x1006", x: -64, y: -22 }
+        - { module: "0x1006", x: 1, y: -22 }
+    - id: "0x2070"
+      name: "DIFFICULTY_BLINK"
+      rects:
+        - { x1: -71, y1: -11, x2: 73, y2: 14 }
+      parts:
+        - { module: "0x100A", x: -97, y: -27 }
+        - { module: "0x1009", x: -64, y: -27 }
+        - { module: "0x1009", x: 1, y: -27 }
+        - { module: "0x100B", x: 66, y: -27 }
+    - id: "0x200B"
+      name: "upper_left_arrow"
+      parts:
+        - { module: "0x1024", x: -14, y: -15, flags: [FLIP_X, FLIP_Y] }
+    - id: "0x201F"
+      name: "upper_right_arrow"
+      parts:
+        - { module: "0x1024", x: -12, y: -12, flags: [FLIP_Y] }
+    - id: "0x2020"
+      name: "bottom_right_arrow"
+      parts:
+        - { module: "0x1024", x: -12, y: -12 }
+    - id: "0x2021"
+      name: "bottom_left_arrow"
+      parts:
+        - { module: "0x1024", x: -12, y: -14, flags: [FLIP_X] }
+    - id: "0x2022"
+      name: ""
+      rects:
+        - { x1: -137, y1: -13, x2: 137, y2: 13 }
+      parts:
+        - { module: "0x102A", x: -161, y: -21 }
+        - { module: "0x1030", x: 132, y: -21 }
+        - { module: "0x1031", x: -128, y: -21 }
+        - { module: "0x1031", x: -63, y: -21 }
+        - { module: "0x1031", x: 2, y: -21 }
+        - { module: "0x1031", x: 67, y: -21 }
+    - id: "0x2073"
+      name: "big_arrow_up"
+      parts:
+        - { module: "0x1032", x: -12, y: -25 }
+    - id: "0x2035"
+      name: "big_arrow_up_pressed"
+      parts:
+        - { module: "0x105A", x: -12, y: -25 }
+    - id: "0x2023"
+      name: "big_arrow_down"
+      parts:
+        - { module: "0x1032", x: -12, y: -25, flags: [FLIP_Y] }
+    - id: "0x2036"
+      name: "big_arrow_down_pressed"
+      parts:
+        - { module: "0x105A", x: -12, y: -25, flags: [FLIP_Y] }
+    - id: "0x202A"
+      name: "arow_right"
+      parts:
+        - { module: "0x1039", x: -14, y: -19 }
+    - id: "0x202B"
+      name: "arrow_left"
+      parts:
+        - { module: "0x1039", x: -14, y: -19, flags: [FLIP_X] }
+    - id: "0x2030"
+      name: "souls"
+      parts:
+        - { module: "0x103D", x: -9, y: -11 }
+    - id: "0x2031"
+      name: "gold"
+      parts:
+        - { module: "0x103E", x: -12, y: -17 }
+    - id: "0x2032"
+      name: "coin_bar"
+      parts:
+        - { module: "0x1011", x: -92, y: -11 }
+        - { module: "0x103E", x: 31, y: -12 }
+        - { module: "0x103D", x: -84, y: -10 }
+    - id: "0x2025"
+      name: "soul_bar_normal"
+      parts:
+        - { module: "0x1042", x: -41, y: -12 }
+        - { module: "0x103D", x: -41, y: -13 }
+    - id: "0x205D"
+      name: "soul_bar_glow"
+      parts:
+        - { module: "0x103B", x: -41, y: -12 }
+        - { module: "0x103D", x: -37, y: -11 }
+    - id: "0x205C"
+      name: "money_bar_normal"
+      parts:
+        - { module: "0x1042", x: -48, y: -10 }
+        - { module: "0x103E", x: -47, y: -12 }
+    - id: "0x2009"
+      name: "money_bar_glow"
+      parts:
+        - { module: "0x103B", x: -48, y: -13 }
+        - { module: "0x103E", x: -48, y: -14 }
+    - id: "0x2026"
+      name: "play"
+      parts:
+        - { module: "0x103F", x: -16, y: -16 }
+    - id: "0x2027"
+      name: "pause"
+      parts:
+        - { module: "0x103C", x: -16, y: -16 }
+    - id: "0x2028"
+      name: "health_bar_background"
+      parts:
+        - { module: "0x1042", x: -50, y: -10 }
+    - id: "0x2029"
+      name: "bar_green"
+      parts:
+        - { module: "0x1035", x: -46, y: -8 }
+    - id: "0x202C"
+      name: "bar_yellow"
+      parts:
+        - { module: "0x1036", x: -46, y: -8 }
+    - id: "0x202D"
+      name: "bar_red"
+      parts:
+        - { module: "0x1037", x: -46, y: -8 }
+    - id: "0x202E"
+      name: "bar_slow"
+      parts:
+        - { module: "0x103A", x: -46, y: -8 }
+    - id: "0x202F"
+      name: "bar_white"
+      parts:
+        - { module: "0x1038", x: -46, y: -8 }
+    - id: "0x204C"
+      name: "cooldown_bg"
+      parts:
+        - { module: "0x1040", x: -19, y: -4 }
+    - id: "0x205B"
+      name: "cooldown_fill"
+      rects:
+        - { x1: -16, y1: -1, x2: 16, y2: 2 }
+      parts:
+        - { module: "0x1034", x: -16, y: -1 }
+    - id: "0x2060"
+      name: "shop_title"
+      parts:
+        - { module: "0x1027", x: -128, y: -21 }
+        - { module: "0x1029", x: 61, y: -21 }
+        - { module: "0x1028", x: -56, y: -22 }
+        - { module: "0x104B", x: 17, y: -22 }
+    - id: "0x2034"
+      name: "confirmation_bkg"
+      parts:
+        - { module: "0x104C", x: -145, y: -62 }
+        - { module: "0x104C", x: 2, y: -62, flags: [FLIP_X] }
+        - { module: "0x104D", x: -1, y: -62 }
+    - id: "0x2061"
+      name: "diff_confirmation_bkg"
+      parts:
+        - { module: "0x104C", x: -199, y: -62 }
+        - { module: "0x104C", x: 55, y: -62, flags: [FLIP_X] }
+        - { module: "0x1049", x: -55, y: -62 }
+        - { module: "0x1049", x: -35, y: -62 }
+        - { module: "0x1049", x: -15, y: -62 }
+        - { module: "0x1049", x: 5, y: -62 }
+        - { module: "0x1049", x: 25, y: -62 }
+        - { module: "0x1048", x: 45, y: -62 }
+    - id: "0x2063"
+      name: "page_inactive"
+      parts:
+        - { module: "0x104F", x: -13, y: -14 }
+    - id: "0x2064"
+      name: "page_active"
+      parts:
+        - { module: "0x1050", x: -17, y: -19 }
+    - id: "0x2069"
+      name: "achiev_window"
+      parts:
+        - { module: "0x1055", x: -87, y: -100 }
+        - { module: "0x1056", x: -87, y: 44 }
+        - { module: "0x1057", x: -87, y: -47 }
+        - { module: "0x1055", x: 2, y: -100, flags: [FLIP_X] }
+        - { module: "0x1056", x: 2, y: 44, flags: [FLIP_X] }
+        - { module: "0x1057", x: 2, y: -47, flags: [FLIP_X] }
+        - { module: "0x1024", x: -100, y: -115, flags: [FLIP_X, FLIP_Y] }
+        - { module: "0x1024", x: 77, y: -115, flags: [FLIP_Y] }
+        - { module: "0x1024", x: 77, y: 84 }
+        - { module: "0x1024", x: -100, y: 84, flags: [FLIP_X] }
+    - id: "0x2072"
+      name: "arrow_down"
+      parts:
+        - { module: "0x104E", x: -12, y: -10, flags: [FLIP_Y] }
+    - id: "0x2062"
+      name: "arow_up"
+      parts:
+        - { module: "0x104E", x: -12, y: -9 }
+    - id: "0x2066"
+      name: "challenge_bg"
+      parts:
+        - { module: "0x1058", x: 0, y: 0 }
+    - id: "0x2071"
+      name: "achievements_bg"
+      parts:
+        - { module: "0x1059", x: 1, y: 0 }
+        - { module: "0x1059", x: -129, y: 0, flags: [FLIP_X] }
+    - id: "0x201D"
+      name: "fullversion"
+      parts:
+        - { module: "0x1062", x: -121, y: 0 }
+        - { module: "0x1063", x: -121, y: -110 }
+        - { module: "0x1062", x: 1, y: 0, flags: [FLIP_X] }
+        - { module: "0x1063", x: 1, y: -110, flags: [FLIP_X] }
+        - { module: "0x1024", x: 104, y: 91 }
+        - { module: "0x1024", x: 106, y: -119, flags: [FLIP_Y] }
+        - { module: "0x1024", x: -130, y: -119, flags: [FLIP_X, FLIP_Y] }
+        - { module: "0x1024", x: -129, y: 91, flags: [FLIP_X] }
+
+  animations:
+    - id: "0x3000"
+      name: "main"
+      frames:
+        - { frame: "0x2003", time: 1, x: 0, y: 0 }
+    - id: "0x302A"
+      name: "base_button_normal"
+      frames:
+        - { frame: "0x2067", time: 1, x: 0, y: 0 }
+    - id: "0x302B"
+      name: "base_button_pressed"
+      frames:
+        - { frame: "0x2068", time: 1, x: 0, y: 0 }
+    - id: "0x302C"
+      name: "base_button_blink"
+      frames:
+        - { frame: "0x206A", time: 1, x: 0, y: 0 }
+    - id: "0x301B"
+      name: "base_button_lock"
+      frames:
+        - { frame: "0x2022", time: 1, x: 0, y: 0 }
+    - id: "0x3006"
+      name: "info_button_normal"
+      frames:
+        - { frame: "0x2006", time: 1, x: 0, y: 0 }
+    - id: "0x3007"
+      name: "info_button_pressed"
+      frames:
+        - { frame: "0x2007", time: 1, x: 0, y: 0 }
+    - id: "0x3008"
+      name: "info_button_blink"
+      frames:
+        - { frame: "0x2008", time: 1, x: 0, y: 0 }
+    - id: "0x300D"
+      name: "back_button_normal"
+      frames:
+        - { frame: "0x200E", time: 1, x: 0, y: 0 }
+    - id: "0x300E"
+      name: "back_button_pressed"
+      frames:
+        - { frame: "0x200F", time: 1, x: 0, y: 0 }
+    - id: "0x300F"
+      name: "back_button_blink"
+      frames:
+        - { frame: "0x2010", time: 1, x: 0, y: 0 }
+    - id: "0x302D"
+      name: "back_button_r_normal"
+      frames:
+        - { frame: "0x206B", time: 1, x: 0, y: 0 }
+    - id: "0x302E"
+      name: "back_button_r_pressed"
+      frames:
+        - { frame: "0x206C", time: 1, x: 0, y: 0 }
+    - id: "0x302F"
+      name: "back_button_r_blink"
+      frames:
+        - { frame: "0x206D", time: 1, x: 0, y: 0 }
+    - id: "0x3010"
+      name: "sfx_button_normal"
+      frames:
+        - { frame: "0x2011", time: 1, x: 0, y: 0 }
+    - id: "0x3011"
+      name: "sfx_button_pressed"
+      frames:
+        - { frame: "0x2012", time: 1, x: 0, y: 0 }
+    - id: "0x3012"
+      name: "music_button_normal"
+      frames:
+        - { frame: "0x2013", time: 1, x: 0, y: 0 }
+    - id: "0x3013"
+      name: "music_button_pressed"
+      frames:
+        - { frame: "0x2014", time: 1, x: 0, y: 0 }
+    - id: "0x3014"
+      name: "confirmation_button_normal"
+      frames:
+        - { frame: "0x2018", time: 1, x: 0, y: 0 }
+    - id: "0x3015"
+      name: "confirmation_button_pressed"
+      frames:
+        - { frame: "0x2019", time: 1, x: 0, y: 0 }
+    - id: "0x3016"
+      name: "confirmation_button_blink"
+      frames:
+        - { frame: "0x201A", time: 1, x: 0, y: 0 }
+    - id: "0x3017"
+      name: "lock_button_off_normal"
+      frames:
+        - { frame: "0x2041", time: 1, x: 0, y: 0 }
+    - id: "0x3009"
+      name: "lock_button_off_pressed"
+      frames:
+        - { frame: "0x201E", time: 1, x: 0, y: 0 }
+    - id: "0x3018"
+      name: "lock_button_off_blink"
+      frames:
+        - { frame: "0x201E", time: 1, x: 0, y: 0 }
+    - id: "0x3019"
+      name: "lock_button_on_normal"
+      frames:
+        - { frame: "0x2042", time: 1, x: 0, y: 0 }
+    - id: "0x301D"
+      name: "lock_button_on_pressed"
+      frames:
+        - { frame: "0x201E", time: 1, x: 0, y: 0 }
+    - id: "0x3023"
+      name: "lock_button_on_blink"
+      frames:
+        - { frame: "0x201E", time: 1, x: 0, y: 0 }
+    - id: "0x301F"
+      name: "buy_button_normal"
+      frames:
+        - { frame: "0x2037", time: 1, x: 5, y: 0 }
+    - id: "0x3020"
+      name: "buy_button_pressed"
+      frames:
+        - { frame: "0x2039", time: 1, x: 5, y: 0 }
+    - id: "0x3021"
+      name: "buy_button_blink"
+      frames:
+        - { frame: "0x203A", time: 1, x: 5, y: 0 }
+    - id: "0x3022"
+      name: "buy_button_disabled"
+      frames:
+        - { frame: "0x2038", time: 1, x: 5, y: 0 }
+    - id: "0x301C"
+      name: "play"
+      frames:
+        - { frame: "0x2026", time: 1, x: 0, y: 0 }
+    - id: "0x301E"
+      name: "pause_play"
+      frames:
+        - { frame: "0x2027", time: 1, x: 0, y: 0 }
+    - id: "0x3025"
+      name: "coin_bar"
+      frames:
+        - { frame: "0x2032", time: 1, x: 0, y: 0 }
+    - id: "0x301A"
+      name: "shop_button_back_normal"
+      frames:
+        - { frame: "0x201B", time: 1, x: 0, y: 0 }
+    - id: "0x3026"
+      name: "shop_button_back_pressed"
+      frames:
+        - { frame: "0x2019", time: 1, x: 0, y: 0 }
+    - id: "0x3027"
+      name: "shop_button_back_blink"
+      frames:
+        - { frame: "0x2019", time: 1, x: 0, y: 0 }
+    - id: "0x3028"
+      name: "arrow_left_normal"
+      frames:
+        - { frame: "0x202B", time: 1, x: 0, y: 0 }
+    - id: "0x3029"
+      name: "arrow_right_normal"
+      frames:
+        - { frame: "0x202A", time: 1, x: 0, y: 0 }
+    - id: "0x3030"
+      name: "difficulty_normal"
+      frames:
+        - { frame: "0x206E", time: 1, x: 0, y: 0 }
+    - id: "0x3031"
+      name: "difficulty_pressed"
+      frames:
+        - { frame: "0x206F", time: 1, x: 0, y: 0 }
+    - id: "0x3032"
+      name: "difficulty_blink"
+      frames:
+        - { frame: "0x2070", time: 1, x: 0, y: 0 }
+    - id: "0x3024"
+      name: "arrow_up_normal"
+      frames:
+        - { frame: "0x2073", time: 1, x: 0, y: 0 }
+    - id: "0x3033"
+      name: "arrow_up_pressed"
+      frames:
+        - { frame: "0x2035", time: 1, x: 0, y: 0 }
+    - id: "0x3034"
+      name: "arrow_up_blink"
+      frames:
+        - { frame: "0x2035", time: 1, x: 0, y: 0 }
+    - id: "0x3035"
+      name: "arrow_down_normal"
+      frames:
+        - { frame: "0x2023", time: 1, x: 0, y: 0 }
+    - id: "0x3036"
+      name: "arrow_down_pressed"
+      frames:
+        - { frame: "0x2036", time: 1, x: 0, y: 0 }
+    - id: "0x3037"
+      name: "arrow_down_blink"
+      frames:
+        - { frame: "0x2036", time: 1, x: 0, y: 0 }

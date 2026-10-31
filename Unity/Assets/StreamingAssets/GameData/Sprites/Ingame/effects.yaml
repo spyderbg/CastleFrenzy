@@ -1,0 +1,287 @@
+# Converted from effects.sprite by tools/sprites_conver.
+# Edit with AuroraMX (Tools/AuroraMX); the game reads this file directly.
+sprite:
+  version: "0001"
+
+  images:
+    - id: "0x0000"
+      file: "./effects.png"
+      transparent: "0x00FF00FF"
+
+  modules:
+    - id: "0x1000"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 59
+      y: 38
+      w: 30
+      h: 26
+      name: "shaman_fire"
+    - id: "0x1001"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 92
+      y: 38
+      w: 30
+      h: 26
+    - id: "0x1002"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 127
+      y: 38
+      w: 30
+      h: 26
+    - id: "0x1003"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 160
+      y: 38
+      w: 30
+      h: 26
+    - id: "0x1004"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 192
+      y: 38
+      w: 30
+      h: 26
+    - id: "0x1005"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 224
+      y: 38
+      w: 30
+      h: 26
+    - id: "0x1006"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 254
+      y: 38
+      w: 30
+      h: 26
+    - id: "0x1007"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 287
+      y: 38
+      w: 30
+      h: 26
+    - id: "0x1008"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 319
+      y: 38
+      w: 30
+      h: 26
+    - id: "0x1009"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 352
+      y: 38
+      w: 30
+      h: 26
+    - id: "0x100A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 382
+      y: 38
+      w: 30
+      h: 26
+    - id: "0x100B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 60
+      y: 8
+      w: 30
+      h: 26
+      name: "hydra_fly"
+    - id: "0x100C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 93
+      y: 8
+      w: 30
+      h: 26
+    - id: "0x100D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 128
+      y: 8
+      w: 30
+      h: 26
+    - id: "0x100E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 161
+      y: 8
+      w: 30
+      h: 26
+    - id: "0x100F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 193
+      y: 8
+      w: 30
+      h: 26
+    - id: "0x1010"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 225
+      y: 8
+      w: 30
+      h: 26
+    - id: "0x1011"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 255
+      y: 8
+      w: 30
+      h: 26
+    - id: "0x1012"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 288
+      y: 8
+      w: 30
+      h: 26
+    - id: "0x1013"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 320
+      y: 8
+      w: 30
+      h: 26
+    - id: "0x1014"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 353
+      y: 8
+      w: 30
+      h: 26
+    - id: "0x1015"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 383
+      y: 8
+      w: 30
+      h: 26
+
+  frames:
+    - id: "0x2000"
+      name: "shaman_fire"
+      parts:
+        - { module: "0x1000", x: -15, y: -13 }
+    - id: "0x2001"
+      name: ""
+      parts:
+        - { module: "0x1001", x: -15, y: -13 }
+    - id: "0x2002"
+      name: ""
+      parts:
+        - { module: "0x1002", x: -15, y: -14 }
+    - id: "0x2003"
+      name: ""
+      parts:
+        - { module: "0x1003", x: -16, y: -14 }
+    - id: "0x2004"
+      name: ""
+      parts:
+        - { module: "0x1004", x: -15, y: -14 }
+    - id: "0x2005"
+      name: ""
+      parts:
+        - { module: "0x1005", x: -15, y: -14 }
+    - id: "0x2006"
+      name: ""
+      parts:
+        - { module: "0x1006", x: -16, y: -14 }
+    - id: "0x2007"
+      name: ""
+      parts:
+        - { module: "0x1007", x: -16, y: -14 }
+    - id: "0x2008"
+      name: ""
+      parts:
+        - { module: "0x1008", x: -16, y: -14 }
+    - id: "0x2009"
+      name: ""
+      parts:
+        - { module: "0x1009", x: -15, y: -15 }
+    - id: "0x200A"
+      name: ""
+      parts:
+        - { module: "0x100A", x: -15, y: -15 }
+    - id: "0x200B"
+      name: "hydra_fly"
+      parts:
+        - { module: "0x100B", x: -15, y: -13 }
+    - id: "0x200C"
+      name: ""
+      parts:
+        - { module: "0x100C", x: -15, y: -13 }
+    - id: "0x200D"
+      name: ""
+      parts:
+        - { module: "0x100D", x: -15, y: -14 }
+    - id: "0x200E"
+      name: ""
+      parts:
+        - { module: "0x100E", x: -16, y: -14 }
+    - id: "0x200F"
+      name: ""
+      parts:
+        - { module: "0x100F", x: -15, y: -14 }
+    - id: "0x2010"
+      name: ""
+      parts:
+        - { module: "0x1010", x: -15, y: -14 }
+    - id: "0x2011"
+      name: ""
+      parts:
+        - { module: "0x1011", x: -16, y: -14 }
+    - id: "0x2012"
+      name: ""
+      parts:
+        - { module: "0x1012", x: -16, y: -14 }
+    - id: "0x2013"
+      name: ""
+      parts:
+        - { module: "0x1013", x: -16, y: -14 }
+    - id: "0x2014"
+      name: ""
+      parts:
+        - { module: "0x1014", x: -15, y: -15 }
+    - id: "0x2015"
+      name: ""
+      parts:
+        - { module: "0x1015", x: -15, y: -15 }
+
+  animations:
+    - id: "0x3001"
+      name: "shaman_fire"
+      frames:
+        - { frame: "0x2000", time: 2, x: 0, y: 0 }
+        - { frame: "0x2001", time: 2, x: 0, y: 0 }
+        - { frame: "0x2002", time: 2, x: 0, y: 0 }
+        - { frame: "0x2003", time: 2, x: 0, y: 0 }
+        - { frame: "0x2004", time: 2, x: 0, y: 0 }
+        - { frame: "0x2005", time: 2, x: 0, y: 0 }
+        - { frame: "0x2006", time: 2, x: 0, y: 0 }
+        - { frame: "0x2007", time: 2, x: 0, y: 0 }
+        - { frame: "0x2008", time: 2, x: 0, y: 0 }
+        - { frame: "0x2009", time: 2, x: 0, y: 0 }
+        - { frame: "0x200A", time: 2, x: 0, y: 0 }
+    - id: "0x3000"
+      name: "hydra_fly"
+      frames:
+        - { frame: "0x200B", time: 1, x: 0, y: 0 }
+        - { frame: "0x200C", time: 1, x: 0, y: 0 }
+        - { frame: "0x200D", time: 1, x: 0, y: 0 }
+        - { frame: "0x200E", time: 1, x: 0, y: 0 }
+        - { frame: "0x200F", time: 1, x: 0, y: 0 }
+        - { frame: "0x2010", time: 1, x: 0, y: 0 }
+        - { frame: "0x2011", time: 1, x: 0, y: 0 }
+        - { frame: "0x2012", time: 1, x: 0, y: 0 }
+        - { frame: "0x2013", time: 1, x: 0, y: 0 }
+        - { frame: "0x2014", time: 1, x: 0, y: 0 }
+        - { frame: "0x2015", time: 1, x: 0, y: 0 }

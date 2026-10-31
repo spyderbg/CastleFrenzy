@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+
+<!--help config file-->
+<!--the order of the pages is from their defition-->
+
+<page id="page1">
+  <TEXT_TITLE_ID value="HELP_TUTO_GOBLINS_TITLE"/>
+  <TEXT_CONTENT_ID value="HELP_TUTO_GOBLINS"/>
+  <MODEL_NAME value="Goblin" />
+  <MODEL_ANIMATION_ID value="0" />
+  <MODEL_ROTATION_YAW value="-110"/>  
+</page>
+
+<page id="page2">  
+  <TEXT_TITLE_ID value="HELP_TUTO_WARLOCKS_TITLE"/>
+  <TEXT_CONTENT_ID value="HELP_TUTO_WARLOCKS"/>
+  <MODEL_NAME value="Shaman" />
+  <MODEL_ANIMATION_ID value="0" />
+  <MODEL_ROTATION_YAW value="-160"/> 
+</page>
+
+<page id="page3">  
+  <TEXT_TITLE_ID value="HELP_TUTO_BOAR_TITLE"/>
+  <TEXT_CONTENT_ID value="HELP_TUTO_BOAR"/>
+  <MODEL_NAME value="Boar" />
+  <MODEL_ANIMATION_ID value="0" />
+  <MODEL_ROTATION_YAW value="-160"/>
+</page>
+
+<page id="page4">  
+  <TEXT_TITLE_ID value="HELP_TUTO_BOAR_AGGR_TITLE"/>
+  <TEXT_CONTENT_ID value="HELP_TUTO_BOAR_AGGR"/>
+  <MODEL_NAME value="BoarWild" />
+  <MODEL_ANIMATION_ID value="0" />
+  <MODEL_ROTATION_YAW value="-160"/>
+</page>
+
+<page id="page5">  
+  <TEXT_TITLE_ID value="HELP_TUTO_BOMB_GOBLINS_TITLE"/>
+  <TEXT_CONTENT_ID value="HELP_TUTO_BOMB_GOBLINS"/>
+  <MODEL_NAME value="Bomblin" />
+  <MODEL_ANIMATION_ID value="0" />
+  <MODEL_ROTATION_YAW value="-110"/>
+</page>
+
+ <page id="page6">  
+  <TEXT_TITLE_ID value="HELP_TUTO_WARLOCK_BOAR_TITLE"/>
+  <TEXT_CONTENT_ID value="HELP_TUTO_WARLOCK_BOAR"/>
+  <MODEL_NAME value="Shaman" />
+  <MODEL_ANIMATION_ID value="22" />
+  <MODEL_ROTATION_YAW value="-160"/>
+</page>
+
+<page id="page7">  
+  <TEXT_TITLE_ID value="HELP_TUTO_TROLL_TITLE"/>
+  <TEXT_CONTENT_ID value="HELP_TUTO_TROLL"/>
+  <MODEL_NAME value="Troll" />
+  <MODEL_ANIMATION_ID value="0" />
+  <MODEL_ROTATION_YAW value="-110"/>
+</page>
+
+<page id="page8">  
+  <TEXT_TITLE_ID value="HELP_TUTO_DARK_ELVES_TITLE"/>
+  <TEXT_CONTENT_ID value="HELP_TUTO_DARK_ELVES"/>
+  <MODEL_NAME value="Elf" />
+  <MODEL_ANIMATION_ID value="0" />
+  <MODEL_ROTATION_YAW value="-110"/>
+</page>
+
+<page id="page9">  
+  <TEXT_TITLE_ID value="HELP_TUTO_SKELETONS_TITLE"/>
+  <TEXT_CONTENT_ID value="HELP_TUTO_SKELETONS"/>
+  <MODEL_NAME value="Skeleton" />
+  <MODEL_ANIMATION_ID value="0" />
+  <MODEL_ROTATION_YAW value="-105"/>
+</page>
+
+<page id="page10">  
+  <TEXT_TITLE_ID value="HELP_TUTO_SKELETON_COLOUR_TITLE"/>
+  <TEXT_CONTENT_ID value="HELP_TUTO_SKELETON_COLOUR"/>
+  <MODEL_NAME value="SkeletonBlue" />
+  <MODEL_ANIMATION_ID value="0" />
+  <MODEL_ROTATION_YAW value="-105"/>
+</page>
+
+

@@ -1,0 +1,199 @@
+# Converted from iceball.sprite by tools/sprites_conver.
+# Edit with AuroraMX (Tools/AuroraMX); the game reads this file directly.
+sprite:
+  version: "0001"
+
+  images:
+    - id: "0x0000"
+      file: "./iceball_big.png"
+      transparent: "0x00FF00FF"
+
+  modules:
+    - id: "0x1000"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 5
+      y: 0
+      w: 88
+      h: 85
+    - id: "0x1001"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 104
+      y: 2
+      w: 88
+      h: 85
+    - id: "0x1002"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 203
+      y: 4
+      w: 88
+      h: 85
+    - id: "0x1003"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 302
+      y: 5
+      w: 88
+      h: 85
+    - id: "0x1004"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 407
+      y: 5
+      w: 88
+      h: 85
+    - id: "0x100A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 8
+      y: 165
+      w: 88
+      h: 85
+    - id: "0x100B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 106
+      y: 167
+      w: 88
+      h: 85
+    - id: "0x100C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 205
+      y: 169
+      w: 88
+      h: 85
+    - id: "0x100D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 300
+      y: 169
+      w: 88
+      h: 85
+    - id: "0x100E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 398
+      y: 169
+      w: 88
+      h: 85
+    - id: "0x1005"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 9
+      y: 95
+      w: 82
+      h: 69
+    - id: "0x1006"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 109
+      y: 96
+      w: 82
+      h: 69
+    - id: "0x1007"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 207
+      y: 96
+      w: 82
+      h: 69
+    - id: "0x1008"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 310
+      y: 98
+      w: 82
+      h: 69
+    - id: "0x1009"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 409
+      y: 95
+      w: 82
+      h: 69
+
+  frames:
+    - id: "0x2000"
+      name: ""
+      parts:
+        - { module: "0x1000", x: -47, y: -41 }
+    - id: "0x2001"
+      name: ""
+      parts:
+        - { module: "0x1001", x: -41, y: -41 }
+    - id: "0x2002"
+      name: ""
+      parts:
+        - { module: "0x1002", x: -43, y: -41 }
+    - id: "0x2003"
+      name: ""
+      parts:
+        - { module: "0x1003", x: -44, y: -42 }
+    - id: "0x2004"
+      name: ""
+      parts:
+        - { module: "0x1004", x: -44, y: -41 }
+    - id: "0x2005"
+      name: ""
+      parts:
+        - { module: "0x100A", x: -41, y: -43 }
+    - id: "0x2006"
+      name: ""
+      parts:
+        - { module: "0x100B", x: -39, y: -44 }
+    - id: "0x2007"
+      name: "first_tail"
+      parts:
+        - { module: "0x100C", x: -37, y: -42 }
+    - id: "0x2008"
+      name: ""
+      parts:
+        - { module: "0x100D", x: -37, y: -43 }
+    - id: "0x2009"
+      name: ""
+      parts:
+        - { module: "0x100E", x: -40, y: -43 }
+    - id: "0x200A"
+      name: ""
+      parts:
+        - { module: "0x1005", x: -41, y: -41 }
+    - id: "0x200B"
+      name: ""
+      parts:
+        - { module: "0x1006", x: -41, y: -41 }
+    - id: "0x200C"
+      name: ""
+      parts:
+        - { module: "0x1007", x: -41, y: -41 }
+    - id: "0x200D"
+      name: ""
+      parts:
+        - { module: "0x1008", x: -41, y: -41 }
+    - id: "0x200E"
+      name: ""
+      parts:
+        - { module: "0x1009", x: -41, y: -41 }
+
+  animations:
+    - id: "0x3000"
+      name: "ice"
+      frames:
+        - { frame: "0x2000", time: 2, x: 0, y: 0 }
+        - { frame: "0x2001", time: 2, x: 0, y: 0 }
+        - { frame: "0x2002", time: 2, x: 0, y: 0 }
+        - { frame: "0x2003", time: 2, x: 0, y: 0 }
+        - { frame: "0x2004", time: 2, x: 0, y: 0 }
+        - { frame: "0x2005", time: 2, x: 0, y: 0 }
+        - { frame: "0x2006", time: 2, x: 0, y: 0 }
+        - { frame: "0x2007", time: 2, x: 0, y: 0 }
+        - { frame: "0x2008", time: 2, x: 0, y: 0 }
+        - { frame: "0x2000", time: 2, x: 0, y: 0 }
+        - { frame: "0x2001", time: 2, x: 0, y: 0 }
+        - { frame: "0x2002", time: 2, x: 0, y: 0 }
+        - { frame: "0x2004", time: 2, x: 0, y: 0 }
+        - { frame: "0x2005", time: 2, x: 0, y: 0 }
+        - { frame: "0x2006", time: 2, x: 0, y: 0 }
+        - { frame: "0x2007", time: 2, x: 0, y: 0 }

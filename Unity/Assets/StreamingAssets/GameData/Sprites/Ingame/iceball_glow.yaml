@@ -1,0 +1,26 @@
+# Converted from iceball_glow.sprite by tools/sprites_conver.
+# Edit with AuroraMX (Tools/AuroraMX); the game reads this file directly.
+sprite:
+  version: "0001"
+
+  images:
+    - id: "0x0000"
+      file: "./iceball_glow.png"
+      transparent: "0x00FF00FF"
+
+  modules:
+    - id: "0x101A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 0
+      y: 0
+      w: 128
+      h: 128
+
+  frames:
+    - id: "0x2024"
+      name: "glow"
+      parts:
+        - { module: "0x101A", x: -64, y: -66 }
+
+  animations: []

@@ -231,3 +231,10 @@ iPhone build:
 3. In command line call 'make data_rebuild'.
 4. From folder 'Projects/IPhone' open Mac project and rebuild it.
 
+
+Unity port:
+
+   Unity/ is a Unity 6000.3.26f1 project containing a complete C# port of the
+   game (same data, loaded from Unity/Assets/StreamingAssets/GameData) and Unity
+   editor versions of AuroraMX and the Level Editor (menu "Castle Frenzy").
+   See Unity/README.md for playing, building (Linux/Windows/Android) and tools.

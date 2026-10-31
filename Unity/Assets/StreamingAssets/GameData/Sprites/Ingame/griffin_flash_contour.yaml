@@ -1,0 +1,26 @@
+# Converted from griffin_flash_contour.sprite by tools/sprites_conver.
+# Edit with AuroraMX (Tools/AuroraMX); the game reads this file directly.
+sprite:
+  version: "0001"
+
+  images:
+    - id: "0x0000"
+      file: "./griffin_Flash_contour.png"
+      transparent: "0x00FF00FF"
+
+  modules:
+    - id: "0x1000"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 15
+      y: 7
+      w: 104
+      h: 121
+
+  frames:
+    - id: "0x2000"
+      name: ""
+      parts:
+        - { module: "0x1000", x: 0, y: 0 }
+
+  animations: []

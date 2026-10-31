@@ -1,0 +1,90 @@
+# Converted from hit.sprite by tools/sprites_conver.
+# Edit with AuroraMX (Tools/AuroraMX); the game reads this file directly.
+sprite:
+  version: "0001"
+
+  images:
+    - id: "0x0000"
+      file: "./hit.png"
+      transparent: "0x00FF00FF"
+
+  modules:
+    - id: "0x1000"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 7
+      y: 19
+      w: 11
+      h: 17
+    - id: "0x1001"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 27
+      y: 17
+      w: 15
+      h: 21
+    - id: "0x1002"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 48
+      y: 12
+      w: 24
+      h: 37
+    - id: "0x1003"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 79
+      y: 9
+      w: 30
+      h: 46
+    - id: "0x1004"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 112
+      y: 12
+      w: 29
+      h: 47
+    - id: "0x1005"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 147
+      y: 10
+      w: 26
+      h: 43
+
+  frames:
+    - id: "0x2000"
+      name: ""
+      parts:
+        - { module: "0x1000", x: -1, y: -7 }
+    - id: "0x2001"
+      name: ""
+      parts:
+        - { module: "0x1001", x: -1, y: -8 }
+    - id: "0x2002"
+      name: ""
+      parts:
+        - { module: "0x1002", x: 0, y: -14 }
+    - id: "0x2003"
+      name: ""
+      parts:
+        - { module: "0x1003", x: 0, y: -18 }
+    - id: "0x2004"
+      name: ""
+      parts:
+        - { module: "0x1004", x: 0, y: -18 }
+    - id: "0x2005"
+      name: ""
+      parts:
+        - { module: "0x1005", x: 0, y: -18 }
+
+  animations:
+    - id: "0x3000"
+      name: "sparks"
+      frames:
+        - { frame: "0x2000", time: 1, x: 0, y: 0 }
+        - { frame: "0x2001", time: 1, x: 0, y: 0 }
+        - { frame: "0x2002", time: 1, x: 0, y: 0 }
+        - { frame: "0x2003", time: 1, x: 0, y: 0 }
+        - { frame: "0x2004", time: 1, x: 0, y: 0 }
+        - { frame: "0x2005", time: 1, x: 0, y: 0 }

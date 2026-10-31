@@ -1,0 +1,2312 @@
+# Converted from achievements.sprite by tools/sprites_conver.
+# Edit with AuroraMX (Tools/AuroraMX); the game reads this file directly.
+sprite:
+  version: "0001"
+
+  images:
+    - id: "0x0000"
+      file: "./achievements.png"
+      transparent: "0x00FF00FF"
+
+  modules:
+    - id: "0x1000"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 4
+      y: 6
+      w: 51
+      h: 53
+    - id: "0x1001"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 59
+      y: 1
+      w: 51
+      h: 58
+    - id: "0x1002"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 114
+      y: 1
+      w: 51
+      h: 58
+    - id: "0x1003"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 169
+      y: 6
+      w: 51
+      h: 53
+    - id: "0x1004"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 224
+      y: 6
+      w: 51
+      h: 53
+    - id: "0x1005"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 279
+      y: 6
+      w: 51
+      h: 53
+    - id: "0x1006"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 4
+      y: 63
+      w: 51
+      h: 53
+    - id: "0x1007"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 59
+      y: 63
+      w: 51
+      h: 54
+    - id: "0x1008"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 114
+      y: 64
+      w: 51
+      h: 53
+    - id: "0x1009"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 169
+      y: 64
+      w: 51
+      h: 53
+    - id: "0x100A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 224
+      y: 64
+      w: 51
+      h: 53
+    - id: "0x100B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 279
+      y: 64
+      w: 51
+      h: 53
+    - id: "0x100C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 4
+      y: 120
+      w: 51
+      h: 53
+    - id: "0x100D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 59
+      y: 120
+      w: 51
+      h: 53
+    - id: "0x100E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 114
+      y: 120
+      w: 51
+      h: 53
+    - id: "0x100F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 169
+      y: 120
+      w: 51
+      h: 53
+    - id: "0x1010"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 224
+      y: 120
+      w: 51
+      h: 53
+    - id: "0x1011"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 280
+      y: 120
+      w: 51
+      h: 53
+    - id: "0x1012"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 4
+      y: 177
+      w: 51
+      h: 53
+    - id: "0x1013"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 59
+      y: 177
+      w: 51
+      h: 53
+    - id: "0x1014"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 114
+      y: 177
+      w: 51
+      h: 53
+    - id: "0x1015"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 169
+      y: 177
+      w: 51
+      h: 53
+    - id: "0x1016"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 224
+      y: 177
+      w: 51
+      h: 53
+    - id: "0x1018"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 4
+      y: 238
+      w: 51
+      h: 53
+    - id: "0x1019"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 59
+      y: 233
+      w: 51
+      h: 58
+    - id: "0x101A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 114
+      y: 233
+      w: 51
+      h: 58
+    - id: "0x101B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 169
+      y: 238
+      w: 51
+      h: 53
+    - id: "0x101C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 224
+      y: 238
+      w: 51
+      h: 53
+    - id: "0x101D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 279
+      y: 238
+      w: 51
+      h: 53
+    - id: "0x101E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 4
+      y: 295
+      w: 51
+      h: 53
+    - id: "0x101F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 59
+      y: 295
+      w: 51
+      h: 54
+    - id: "0x1020"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 114
+      y: 296
+      w: 51
+      h: 53
+    - id: "0x1021"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 169
+      y: 296
+      w: 51
+      h: 53
+    - id: "0x1022"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 224
+      y: 296
+      w: 51
+      h: 53
+    - id: "0x1023"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 279
+      y: 296
+      w: 51
+      h: 53
+    - id: "0x1024"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 4
+      y: 352
+      w: 51
+      h: 53
+    - id: "0x1025"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 59
+      y: 352
+      w: 51
+      h: 53
+    - id: "0x1026"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 114
+      y: 352
+      w: 51
+      h: 53
+    - id: "0x1027"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 169
+      y: 352
+      w: 51
+      h: 53
+    - id: "0x1028"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 224
+      y: 352
+      w: 51
+      h: 53
+    - id: "0x1029"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 280
+      y: 352
+      w: 51
+      h: 53
+    - id: "0x102A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 4
+      y: 409
+      w: 51
+      h: 53
+    - id: "0x102B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 59
+      y: 409
+      w: 51
+      h: 53
+    - id: "0x102C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 114
+      y: 409
+      w: 51
+      h: 53
+    - id: "0x102D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 169
+      y: 409
+      w: 51
+      h: 53
+    - id: "0x102E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 224
+      y: 409
+      w: 51
+      h: 53
+    - id: "0x1017"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 339
+      y: 11
+      w: 62
+      h: 62
+    - id: "0x102F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 436
+      y: 84
+      w: 32
+      h: 46
+    - id: "0x1030"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 371
+      y: 84
+      w: 65
+      h: 46
+    - id: "0x1031"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 371
+      y: 84
+      w: 6
+      h: 46
+    - id: "0x1032"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 437
+      y: 136
+      w: 32
+      h: 46
+    - id: "0x1033"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 372
+      y: 136
+      w: 65
+      h: 46
+    - id: "0x1034"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 372
+      y: 136
+      w: 6
+      h: 46
+    - id: "0x1038"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 440
+      y: 195
+      w: 32
+      h: 56
+    - id: "0x1039"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 375
+      y: 195
+      w: 65
+      h: 56
+    - id: "0x103A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 375
+      y: 195
+      w: 6
+      h: 56
+    - id: "0x103B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 444
+      y: 305
+      w: 32
+      h: 56
+    - id: "0x103C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 379
+      y: 305
+      w: 65
+      h: 56
+    - id: "0x103D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 379
+      y: 305
+      w: 6
+      h: 56
+    - id: "0x1035"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 442
+      y: 254
+      w: 32
+      h: 46
+    - id: "0x1036"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 377
+      y: 254
+      w: 65
+      h: 46
+    - id: "0x1037"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 377
+      y: 254
+      w: 6
+      h: 46
+
+  frames:
+    - id: "0x2000"
+      name: "lock_load"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x1000", x: -136, y: -24 }
+    - id: "0x202E"
+      name: "lock_load_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x1000", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x2045"
+      name: "lock_load_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x1000", x: -136, y: -24 }
+        - { module: "0x1017", x: -141, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+    - id: "0x2017"
+      name: "lock_load_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+        - { module: "0x1018", x: -136, y: -24 }
+    - id: "0x2046"
+      name: "lock_load_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1018", x: -136, y: -24 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x2001"
+      name: "100_goblins"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x1001", x: -136, y: -29 }
+    - id: "0x202F"
+      name: "100_goblins_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x1001", x: -136, y: -29 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x2047"
+      name: "100_goblins_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x1001", x: -136, y: -29 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+    - id: "0x2018"
+      name: "100_goblins_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+        - { module: "0x1019", x: -136, y: -29 }
+    - id: "0x2048"
+      name: "100_goblins_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1019", x: -136, y: -29 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x2002"
+      name: "100_darkelf"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x1002", x: -136, y: -29 }
+    - id: "0x2030"
+      name: "100_darkelf_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x1002", x: -136, y: -29 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x2049"
+      name: "100_darkelf_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x1002", x: -136, y: -29 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+    - id: "0x2019"
+      name: "100_darkelf_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+        - { module: "0x101A", x: -136, y: -29 }
+    - id: "0x204A"
+      name: "100_darkelf_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x101A", x: -136, y: -29 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x2003"
+      name: "statue_garden"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x1003", x: -136, y: -24 }
+    - id: "0x2031"
+      name: "statue_garden_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x1003", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x204B"
+      name: "statue_garden_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -85, y: -26 }
+        - { module: "0x1003", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+    - id: "0x201A"
+      name: "statue_garden_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+        - { module: "0x101B", x: -136, y: -24 }
+    - id: "0x204C"
+      name: "statue_garden_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x101B", x: -136, y: -24 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x2004"
+      name: "free_yuor_minde"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x1004", x: -136, y: -24 }
+    - id: "0x2032"
+      name: "free_yuor_minde_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x1004", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x204D"
+      name: "free_yuor_minde_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x1004", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+    - id: "0x201B"
+      name: "free_yuor_minde_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+        - { module: "0x101C", x: -136, y: -24 }
+    - id: "0x204E"
+      name: "free_yuor_minde_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x101C", x: -136, y: -24 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x2005"
+      name: "brick_in_the_wall"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x1005", x: -136, y: -24 }
+    - id: "0x2033"
+      name: "brick_in_the_wall_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x1005", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x204F"
+      name: "brick_in_the_wall_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x1005", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+    - id: "0x201C"
+      name: "brick_in_the_wall_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+        - { module: "0x101D", x: -136, y: -24 }
+    - id: "0x2050"
+      name: "brick_in_the_wall_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x101D", x: -136, y: -24 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x2006"
+      name: "cash_carry"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x1006", x: -136, y: -24 }
+    - id: "0x2034"
+      name: "cash_carry_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x1006", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x2052"
+      name: "cash_carry_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x1006", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+    - id: "0x201D"
+      name: "cash_carry_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x101E", x: -136, y: -24 }
+    - id: "0x2053"
+      name: "cash_carry_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x101E", x: -136, y: -24 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x2007"
+      name: "100_warlocks"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x1007", x: -136, y: -25 }
+    - id: "0x2035"
+      name: "100_warlocks_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x1007", x: -136, y: -25 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x2054"
+      name: "100_warlocks_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x1007", x: -136, y: -25 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+    - id: "0x201E"
+      name: "100_warlocks_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+        - { module: "0x101F", x: -136, y: -25 }
+    - id: "0x2055"
+      name: "100_warlocks_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x101F", x: -136, y: -25 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x2008"
+      name: "100_skeletons"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x1008", x: -136, y: -24 }
+    - id: "0x2036"
+      name: "100_skeletons_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x1008", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x2056"
+      name: "100_skeletons_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x1008", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+    - id: "0x201F"
+      name: "100_skeletons_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+        - { module: "0x1020", x: -136, y: -24 }
+    - id: "0x2057"
+      name: "100_skeletons_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1020", x: -136, y: -24 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x2009"
+      name: "troll_burden"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x1009", x: -136, y: -24 }
+    - id: "0x2037"
+      name: "troll_burden_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x1009", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x2072"
+      name: "troll_burden_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x1009", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+    - id: "0x2020"
+      name: "troll_burden_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+        - { module: "0x1021", x: -136, y: -24 }
+    - id: "0x2073"
+      name: "troll_burden_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1021", x: -136, y: -24 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x200A"
+      name: "recluuit"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x100A", x: -136, y: -24 }
+    - id: "0x2038"
+      name: "recluuit_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x100A", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x2070"
+      name: "recluuit_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x100A", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+    - id: "0x2021"
+      name: "recluuit_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+        - { module: "0x1022", x: -136, y: -24 }
+    - id: "0x2071"
+      name: "recluuit_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1022", x: -136, y: -24 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x200B"
+      name: "challenger"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x100B", x: -136, y: -24 }
+    - id: "0x2039"
+      name: "challenger_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x100B", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x206E"
+      name: "challenger_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x100B", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+    - id: "0x2022"
+      name: "challenger_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+        - { module: "0x1023", x: -136, y: -24 }
+    - id: "0x206F"
+      name: "challenger_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1023", x: -136, y: -24 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x200C"
+      name: "picky_customer"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x100C", x: -136, y: -24 }
+    - id: "0x203A"
+      name: "picky_customer_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x100C", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x206C"
+      name: "picky_customer_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x100C", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1039", x: -80, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+        - { module: "0x1038", x: 115, y: -26 }
+    - id: "0x2023"
+      name: "picky_customer_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1024", x: -136, y: -24 }
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+    - id: "0x206D"
+      name: "picky_customer_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1024", x: -136, y: -24 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x200D"
+      name: "100_boars"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x100D", x: -136, y: -24 }
+    - id: "0x203B"
+      name: "100_boars_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x100D", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x206B"
+      name: "100_boars_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x100D", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+    - id: "0x2024"
+      name: "100_boars_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+        - { module: "0x1025", x: -136, y: -24 }
+    - id: "0x206A"
+      name: "100_boars_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1025", x: -136, y: -24 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x200E"
+      name: "riders_no_the_storm"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x100E", x: -136, y: -24 }
+    - id: "0x203C"
+      name: "riders_no_the_storm_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x100E", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x2067"
+      name: "riders_no_the_storm_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x100E", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+    - id: "0x2025"
+      name: "riders_no_the_storm_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1026", x: -136, y: -24 }
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+    - id: "0x2069"
+      name: "riders_no_the_storm_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1026", x: -136, y: -24 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+    - id: "0x200F"
+      name: "ice_ice_baby"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x100F", x: -136, y: -24 }
+    - id: "0x203D"
+      name: "ice_ice_baby_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x100F", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x2066"
+      name: "ice_ice_baby_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x100F", x: -136, y: -24 }
+        - { module: "0x1017", x: -141, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+    - id: "0x2026"
+      name: "ice_ice_baby_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+        - { module: "0x1027", x: -136, y: -24 }
+    - id: "0x2068"
+      name: "ice_ice_baby_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1027", x: -136, y: -24 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x2010"
+      name: "soldier"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x1010", x: -136, y: -24 }
+    - id: "0x203E"
+      name: "soldier_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x1010", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x2064"
+      name: "soldier_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x1010", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+    - id: "0x2027"
+      name: "soldier_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1028", x: -136, y: -24 }
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+    - id: "0x2065"
+      name: "soldier_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1028", x: -136, y: -24 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x2011"
+      name: "addicted"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x1011", x: -136, y: -24 }
+    - id: "0x203F"
+      name: "addicted_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x1011", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x2062"
+      name: "addicted_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x1011", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+        - { module: "0x1038", x: 115, y: -26 }
+    - id: "0x2028"
+      name: "addicted_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+        - { module: "0x1029", x: -136, y: -24 }
+    - id: "0x2063"
+      name: "addicted_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1029", x: -136, y: -24 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x2012"
+      name: "treat_pets_well"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x1012", x: -136, y: -24 }
+    - id: "0x2040"
+      name: "treat_pets_well_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x1012", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x2060"
+      name: "treat_pets_well_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x1012", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+    - id: "0x2029"
+      name: "treat_pets_well_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+        - { module: "0x102A", x: -136, y: -24 }
+    - id: "0x2061"
+      name: "treat_pets_well_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x102A", x: -136, y: -24 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x2013"
+      name: "100_trolls"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x1013", x: -136, y: -24 }
+    - id: "0x2041"
+      name: "100_trolls_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x1013", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x205E"
+      name: "100_trolls_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x1013", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+    - id: "0x202A"
+      name: "100_trolls_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+        - { module: "0x102B", x: -136, y: -24 }
+    - id: "0x205F"
+      name: "100_trolls_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x102B", x: -136, y: -24 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x2014"
+      name: "fireball_master"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x1014", x: -136, y: -24 }
+    - id: "0x2042"
+      name: "fireball_master_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x1014", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x205B"
+      name: "fireball_master_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x1014", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+    - id: "0x202B"
+      name: "fireball_master_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x102C", x: -136, y: -24 }
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+    - id: "0x205C"
+      name: "fireball_master_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x102C", x: -136, y: -24 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x2015"
+      name: "no_more_stranders"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x1015", x: -136, y: -24 }
+    - id: "0x2043"
+      name: "no_more_stranders_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x1015", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x205A"
+      name: "no_more_stranders_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x1015", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+    - id: "0x202C"
+      name: "no_more_stranders_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+        - { module: "0x102D", x: -136, y: -24 }
+    - id: "0x205D"
+      name: "no_more_stranders_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x102D", x: -136, y: -24 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+    - id: "0x2016"
+      name: "true_defender"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1031", x: -86, y: -19 }
+        - { module: "0x1030", x: -80, y: -19 }
+        - { module: "0x1030", x: -15, y: -19 }
+        - { module: "0x1030", x: 50, y: -19 }
+        - { module: "0x102F", x: 115, y: -19 }
+        - { module: "0x1016", x: -136, y: -24 }
+    - id: "0x2044"
+      name: "true_defender_pressed"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x1033", x: -80, y: -20 }
+        - { module: "0x1033", x: -15, y: -20 }
+        - { module: "0x1033", x: 50, y: -20 }
+        - { module: "0x1034", x: -86, y: -20 }
+        - { module: "0x1032", x: 115, y: -20 }
+        - { module: "0x1016", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+    - id: "0x2058"
+      name: "true_defender_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x103A", x: -86, y: -26 }
+        - { module: "0x1016", x: -136, y: -24 }
+        - { module: "0x1017", x: -142, y: -30 }
+        - { module: "0x1038", x: 115, y: -26 }
+        - { module: "0x1039", x: -80, y: -26 }
+        - { module: "0x1039", x: -15, y: -26 }
+        - { module: "0x1039", x: 50, y: -26 }
+    - id: "0x202D"
+      name: "true_defender_locked"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x102E", x: -136, y: -24 }
+        - { module: "0x1036", x: -80, y: -19 }
+        - { module: "0x1036", x: -15, y: -19 }
+        - { module: "0x1036", x: 50, y: -19 }
+        - { module: "0x1037", x: -86, y: -19 }
+        - { module: "0x1035", x: 115, y: -19 }
+    - id: "0x2059"
+      name: "true_defender_locked_blink"
+      rects:
+        - { x1: -84, y1: -12, x2: 117, y2: 14 }
+      parts:
+        - { module: "0x102E", x: -136, y: -24 }
+        - { module: "0x103B", x: 115, y: -26 }
+        - { module: "0x103C", x: -80, y: -26 }
+        - { module: "0x103C", x: -15, y: -26 }
+        - { module: "0x103C", x: 50, y: -26 }
+        - { module: "0x103D", x: -86, y: -26 }
+
+  animations:
+    - id: "0x3000"
+      name: "lock_load_normal"
+      frames:
+        - { frame: "0x2000", time: 1, x: 0, y: 0 }
+    - id: "0x3001"
+      name: "lock_load_pressed"
+      frames:
+        - { frame: "0x202E", time: 1, x: 0, y: 0 }
+    - id: "0x3045"
+      name: "lock_load_blink"
+      frames:
+        - { frame: "0x2045", time: 1, x: 0, y: 0 }
+    - id: "0x3002"
+      name: "lock_load_locked"
+      frames:
+        - { frame: "0x2017", time: 1, x: 0, y: 0 }
+    - id: "0x3046"
+      name: "lock_load__locked_select"
+      frames:
+        - { frame: "0x2046", time: 1, x: 0, y: 0 }
+    - id: "0x3089"
+      name: "lock_load__locked_select"
+      frames:
+        - { frame: "0x2046", time: 1, x: 0, y: 0 }
+    - id: "0x3003"
+      name: "100_goblins_normal"
+      frames:
+        - { frame: "0x2001", time: 1, x: 0, y: 0 }
+    - id: "0x3004"
+      name: "100_goblins_pressed"
+      frames:
+        - { frame: "0x202F", time: 1, x: 0, y: 0 }
+    - id: "0x3047"
+      name: "100_goblins_blink"
+      frames:
+        - { frame: "0x2047", time: 1, x: 0, y: 0 }
+    - id: "0x3005"
+      name: "100_goblins_locked"
+      frames:
+        - { frame: "0x2018", time: 1, x: 0, y: 0 }
+    - id: "0x3048"
+      name: "100_goblins_locked_select"
+      frames:
+        - { frame: "0x2048", time: 1, x: 0, y: 0 }
+    - id: "0x3088"
+      name: "100_goblins_locked_select"
+      frames:
+        - { frame: "0x2048", time: 1, x: 0, y: 0 }
+    - id: "0x3006"
+      name: "100_dark_elf_normal"
+      frames:
+        - { frame: "0x2002", time: 1, x: 0, y: 0 }
+    - id: "0x3007"
+      name: "100_dark_elf_pressed"
+      frames:
+        - { frame: "0x2030", time: 1, x: 0, y: 0 }
+    - id: "0x3049"
+      name: "100_dark_elf_blink"
+      frames:
+        - { frame: "0x2049", time: 1, x: 0, y: 0 }
+    - id: "0x3008"
+      name: "100_dark_elf_locked"
+      frames:
+        - { frame: "0x2019", time: 1, x: 0, y: 0 }
+    - id: "0x304A"
+      name: "100_dark_elf_locked_select"
+      frames:
+        - { frame: "0x204A", time: 1, x: 0, y: 0 }
+    - id: "0x3087"
+      name: "100_dark_elf_locked_select"
+      frames:
+        - { frame: "0x204A", time: 1, x: 0, y: 0 }
+    - id: "0x3009"
+      name: "statue_garden_normal"
+      frames:
+        - { frame: "0x2003", time: 1, x: 0, y: 0 }
+    - id: "0x300A"
+      name: "statue_garden_pressed"
+      frames:
+        - { frame: "0x2031", time: 1, x: 0, y: 0 }
+    - id: "0x304B"
+      name: "statue_garden_blink"
+      frames:
+        - { frame: "0x204B", time: 1, x: 0, y: 0 }
+    - id: "0x300B"
+      name: "statue_garden_locked"
+      frames:
+        - { frame: "0x201A", time: 1, x: 0, y: 0 }
+    - id: "0x304C"
+      name: "statue_garden_locked_select"
+      frames:
+        - { frame: "0x204C", time: 1, x: 0, y: 0 }
+    - id: "0x3086"
+      name: "statue_garden_locked_select"
+      frames:
+        - { frame: "0x204C", time: 1, x: 0, y: 0 }
+    - id: "0x300C"
+      name: "free_your_minde_normal"
+      frames:
+        - { frame: "0x2004", time: 1, x: 0, y: 0 }
+    - id: "0x300D"
+      name: "free_your_minde_pressed"
+      frames:
+        - { frame: "0x2032", time: 1, x: 0, y: 0 }
+    - id: "0x304D"
+      name: "free_your_minde_blink"
+      frames:
+        - { frame: "0x204D", time: 1, x: 0, y: 0 }
+    - id: "0x300E"
+      name: "free_your_minde_locked"
+      frames:
+        - { frame: "0x201B", time: 1, x: 0, y: 0 }
+    - id: "0x304E"
+      name: "free_your_minde_locked_select"
+      frames:
+        - { frame: "0x204E", time: 1, x: 0, y: 0 }
+    - id: "0x3085"
+      name: "free_your_minde_locked_select"
+      frames:
+        - { frame: "0x204E", time: 1, x: 0, y: 0 }
+    - id: "0x300F"
+      name: "another_brick_in_the_wall_normal"
+      frames:
+        - { frame: "0x2005", time: 1, x: 0, y: 0 }
+    - id: "0x3010"
+      name: "another_brick_in_the_wall_pressed"
+      frames:
+        - { frame: "0x2033", time: 1, x: 0, y: 0 }
+    - id: "0x304F"
+      name: "another_brick_in_the_wall_blink"
+      frames:
+        - { frame: "0x204F", time: 1, x: 0, y: 0 }
+    - id: "0x3011"
+      name: "another_brick_in_the_wall_locked"
+      frames:
+        - { frame: "0x201C", time: 1, x: 0, y: 0 }
+    - id: "0x3050"
+      name: "another_brick_in_the_wall_locked_select"
+      frames:
+        - { frame: "0x2050", time: 1, x: 0, y: 0 }
+    - id: "0x3084"
+      name: "another_brick_in_the_wall_locked_select"
+      frames:
+        - { frame: "0x2050", time: 1, x: 0, y: 0 }
+    - id: "0x3012"
+      name: "cash_carry_normal"
+      frames:
+        - { frame: "0x2006", time: 1, x: 0, y: 0 }
+    - id: "0x3013"
+      name: "cash_carry_pressed"
+      frames:
+        - { frame: "0x2034", time: 1, x: 0, y: 0 }
+    - id: "0x3051"
+      name: "cash_carry_blink"
+      frames:
+        - { frame: "0x2052", time: 1, x: 0, y: 0 }
+    - id: "0x3014"
+      name: "cash_carry_locked"
+      frames:
+        - { frame: "0x201D", time: 1, x: 0, y: 0 }
+    - id: "0x3052"
+      name: "cash_carry_locked_select"
+      frames:
+        - { frame: "0x2053", time: 1, x: 0, y: 0 }
+    - id: "0x3083"
+      name: "cash_carry_locked_select"
+      frames:
+        - { frame: "0x2053", time: 1, x: 0, y: 0 }
+    - id: "0x3015"
+      name: "100_warlocks_normal"
+      frames:
+        - { frame: "0x2007", time: 1, x: 0, y: 0 }
+    - id: "0x3016"
+      name: "100_warlocks_pressed"
+      frames:
+        - { frame: "0x2035", time: 1, x: 0, y: 0 }
+    - id: "0x3053"
+      name: "100_warlocks_blink"
+      frames:
+        - { frame: "0x2054", time: 1, x: 0, y: 0 }
+    - id: "0x3017"
+      name: "100_warlocks_locked"
+      frames:
+        - { frame: "0x201E", time: 1, x: 0, y: 0 }
+    - id: "0x3054"
+      name: "100_warlocks_locked_select"
+      frames:
+        - { frame: "0x2055", time: 1, x: 0, y: 0 }
+    - id: "0x3082"
+      name: "100_warlocks_locked_select"
+      frames:
+        - { frame: "0x2055", time: 1, x: 0, y: 0 }
+    - id: "0x3018"
+      name: "100_skeletoms_normal"
+      frames:
+        - { frame: "0x2008", time: 1, x: 0, y: 0 }
+    - id: "0x3019"
+      name: "100_skeletoms_pressed"
+      frames:
+        - { frame: "0x2036", time: 1, x: 0, y: 0 }
+    - id: "0x3055"
+      name: "100_skeletoms_select"
+      frames:
+        - { frame: "0x2056", time: 1, x: 0, y: 0 }
+    - id: "0x301A"
+      name: "100_skeletoms_locked"
+      frames:
+        - { frame: "0x201F", time: 1, x: 0, y: 0 }
+    - id: "0x3056"
+      name: "100_skeletoms_locked_select"
+      frames:
+        - { frame: "0x2057", time: 1, x: 0, y: 0 }
+    - id: "0x3081"
+      name: "100_skeletoms_locked_select"
+      frames:
+        - { frame: "0x2057", time: 1, x: 0, y: 0 }
+    - id: "0x301B"
+      name: "troll_burden_normal"
+      frames:
+        - { frame: "0x2009", time: 1, x: 0, y: 0 }
+    - id: "0x301C"
+      name: "troll_burden_pressed"
+      frames:
+        - { frame: "0x2037", time: 1, x: 0, y: 0 }
+    - id: "0x305B"
+      name: "troll_burden_blink"
+      frames:
+        - { frame: "0x2072", time: 1, x: 0, y: 0 }
+    - id: "0x301D"
+      name: "troll_burden_locked"
+      frames:
+        - { frame: "0x2020", time: 1, x: 0, y: 0 }
+    - id: "0x305C"
+      name: "troll_burden_locked_select"
+      frames:
+        - { frame: "0x2073", time: 1, x: 0, y: 0 }
+    - id: "0x3080"
+      name: "troll_burden_locked_select"
+      frames:
+        - { frame: "0x2073", time: 1, x: 0, y: 0 }
+    - id: "0x301E"
+      name: "recluuit_normal"
+      frames:
+        - { frame: "0x200A", time: 1, x: 0, y: 0 }
+    - id: "0x301F"
+      name: "recluuit_pressed"
+      frames:
+        - { frame: "0x2038", time: 1, x: 0, y: 0 }
+    - id: "0x305D"
+      name: "recluuit_blink"
+      frames:
+        - { frame: "0x2070", time: 1, x: 0, y: 0 }
+    - id: "0x3020"
+      name: "recluuit_locked"
+      frames:
+        - { frame: "0x2021", time: 1, x: 0, y: 0 }
+    - id: "0x305E"
+      name: "recluuit_locked_select"
+      frames:
+        - { frame: "0x2071", time: 1, x: 0, y: 0 }
+    - id: "0x307F"
+      name: "recluuit_locked_select"
+      frames:
+        - { frame: "0x2071", time: 1, x: 0, y: 0 }
+    - id: "0x3021"
+      name: "challenger_normal"
+      frames:
+        - { frame: "0x200B", time: 1, x: 0, y: 0 }
+    - id: "0x3022"
+      name: "challenger_pressed"
+      frames:
+        - { frame: "0x2039", time: 1, x: 0, y: 0 }
+    - id: "0x305F"
+      name: "challenger_blink"
+      frames:
+        - { frame: "0x206E", time: 1, x: 0, y: 0 }
+    - id: "0x3023"
+      name: "challenger_locked"
+      frames:
+        - { frame: "0x2022", time: 1, x: 0, y: 0 }
+    - id: "0x3060"
+      name: "challenger_locked_select"
+      frames:
+        - { frame: "0x206F", time: 1, x: 0, y: 0 }
+    - id: "0x307E"
+      name: "challenger_locked_select"
+      frames:
+        - { frame: "0x206F", time: 1, x: 0, y: 0 }
+    - id: "0x3024"
+      name: "picky_customer_normal"
+      frames:
+        - { frame: "0x200C", time: 1, x: 0, y: 0 }
+    - id: "0x3025"
+      name: "picky_customer_pressed"
+      frames:
+        - { frame: "0x203A", time: 1, x: 0, y: 0 }
+    - id: "0x3061"
+      name: "picky_customer_blink"
+      frames:
+        - { frame: "0x206C", time: 1, x: 0, y: 0 }
+    - id: "0x3026"
+      name: "picky_customer_locked"
+      frames:
+        - { frame: "0x2023", time: 1, x: 0, y: 0 }
+    - id: "0x3062"
+      name: "picky_customer_locked_select"
+      frames:
+        - { frame: "0x206D", time: 1, x: 0, y: 0 }
+    - id: "0x307D"
+      name: "picky_customer_locked_select"
+      frames:
+        - { frame: "0x206D", time: 1, x: 0, y: 0 }
+    - id: "0x3027"
+      name: "100_boars_normal"
+      frames:
+        - { frame: "0x200D", time: 1, x: 0, y: 0 }
+    - id: "0x3028"
+      name: "100_boars_pressed"
+      frames:
+        - { frame: "0x203B", time: 1, x: 0, y: 0 }
+    - id: "0x3063"
+      name: "100_boars_blink"
+      frames:
+        - { frame: "0x206B", time: 1, x: 0, y: 0 }
+    - id: "0x3029"
+      name: "100_boars_locked"
+      frames:
+        - { frame: "0x2024", time: 1, x: 0, y: 0 }
+    - id: "0x3064"
+      name: "100_boars_select"
+      frames:
+        - { frame: "0x206A", time: 1, x: 0, y: 0 }
+    - id: "0x307C"
+      name: "100_boars_select"
+      frames:
+        - { frame: "0x206A", time: 1, x: 0, y: 0 }
+    - id: "0x302A"
+      name: "riders_on_the_storm_normal"
+      frames:
+        - { frame: "0x200E", time: 1, x: 0, y: 0 }
+    - id: "0x302B"
+      name: "riders_on_the_storm_pressed"
+      frames:
+        - { frame: "0x203C", time: 1, x: 0, y: 0 }
+    - id: "0x3065"
+      name: "riders_on_the_storm_blink"
+      frames:
+        - { frame: "0x2067", time: 1, x: 0, y: 0 }
+    - id: "0x302C"
+      name: "riders_on_the_storm_locked"
+      frames:
+        - { frame: "0x2025", time: 1, x: 0, y: 0 }
+    - id: "0x3066"
+      name: "riders_on_the_storm_locked_select"
+      frames:
+        - { frame: "0x2069", time: 1, x: 0, y: 0 }
+    - id: "0x307B"
+      name: "riders_on_the_storm_locked_select"
+      frames:
+        - { frame: "0x2069", time: 1, x: 0, y: 0 }
+    - id: "0x302D"
+      name: "ice_ice_baby_normal"
+      frames:
+        - { frame: "0x200F", time: 1, x: 0, y: 0 }
+    - id: "0x302E"
+      name: "ice_ice_baby_pressed"
+      frames:
+        - { frame: "0x203D", time: 1, x: 0, y: 0 }
+    - id: "0x3067"
+      name: "ice_ice_baby_blink"
+      frames:
+        - { frame: "0x2066", time: 1, x: 0, y: 0 }
+    - id: "0x302F"
+      name: "ice_ice_baby_locked"
+      frames:
+        - { frame: "0x2026", time: 1, x: 0, y: 0 }
+    - id: "0x3068"
+      name: "ice_ice_baby_locked_select"
+      frames:
+        - { frame: "0x2068", time: 1, x: 0, y: 0 }
+    - id: "0x307A"
+      name: "ice_ice_baby_locked_select"
+      frames:
+        - { frame: "0x2068", time: 1, x: 0, y: 0 }
+    - id: "0x3030"
+      name: "soldier_normal"
+      frames:
+        - { frame: "0x2010", time: 1, x: 0, y: 0 }
+    - id: "0x3031"
+      name: "soldier_pressed"
+      frames:
+        - { frame: "0x203E", time: 1, x: 0, y: 0 }
+    - id: "0x3069"
+      name: "soldier_blink"
+      frames:
+        - { frame: "0x2064", time: 1, x: 0, y: 0 }
+    - id: "0x3032"
+      name: "soldier_locked"
+      frames:
+        - { frame: "0x2027", time: 1, x: 0, y: 0 }
+    - id: "0x306A"
+      name: "soldier_locked_select"
+      frames:
+        - { frame: "0x2065", time: 1, x: 0, y: 0 }
+    - id: "0x3079"
+      name: "soldier_locked_select"
+      frames:
+        - { frame: "0x2065", time: 1, x: 0, y: 0 }
+    - id: "0x3033"
+      name: "addicted_normal"
+      frames:
+        - { frame: "0x2011", time: 1, x: 0, y: 0 }
+    - id: "0x3034"
+      name: "addicted_pressed"
+      frames:
+        - { frame: "0x203F", time: 1, x: 0, y: 0 }
+    - id: "0x306B"
+      name: "addicted_blink"
+      frames:
+        - { frame: "0x2062", time: 1, x: 0, y: 0 }
+    - id: "0x3035"
+      name: "addicted_locked"
+      frames:
+        - { frame: "0x2028", time: 1, x: 0, y: 0 }
+    - id: "0x306C"
+      name: "addicted_locked_select"
+      frames:
+        - { frame: "0x2063", time: 1, x: 0, y: 0 }
+    - id: "0x3078"
+      name: "addicted_locked_select"
+      frames:
+        - { frame: "0x2063", time: 1, x: 0, y: 0 }
+    - id: "0x3036"
+      name: "treat_pets_well_normal"
+      frames:
+        - { frame: "0x2012", time: 1, x: 0, y: 0 }
+    - id: "0x3037"
+      name: "treat_pets_well_pressed"
+      frames:
+        - { frame: "0x2040", time: 1, x: 0, y: 0 }
+    - id: "0x306D"
+      name: "treat_pets_well_blink"
+      frames:
+        - { frame: "0x2060", time: 1, x: 0, y: 0 }
+    - id: "0x3038"
+      name: "treat_pets_well_locked"
+      frames:
+        - { frame: "0x2029", time: 1, x: 0, y: 0 }
+    - id: "0x306E"
+      name: "treat_pets_well_locked_select"
+      frames:
+        - { frame: "0x2061", time: 1, x: 0, y: 0 }
+    - id: "0x3077"
+      name: "treat_pets_well_locked_select"
+      frames:
+        - { frame: "0x2061", time: 1, x: 0, y: 0 }
+    - id: "0x3039"
+      name: "100_trolls_normal"
+      frames:
+        - { frame: "0x2013", time: 1, x: 0, y: 0 }
+    - id: "0x303A"
+      name: "100_trolls_pressed"
+      frames:
+        - { frame: "0x2041", time: 1, x: 0, y: 0 }
+    - id: "0x306F"
+      name: "100_trolls_blink"
+      frames:
+        - { frame: "0x205E", time: 1, x: 0, y: 0 }
+    - id: "0x303B"
+      name: "100_trolls_locked"
+      frames:
+        - { frame: "0x202A", time: 1, x: 0, y: 0 }
+    - id: "0x3070"
+      name: "100_trolls_locked_select"
+      frames:
+        - { frame: "0x205F", time: 1, x: 0, y: 0 }
+    - id: "0x3076"
+      name: "100_trolls_locked_select"
+      frames:
+        - { frame: "0x205F", time: 1, x: 0, y: 0 }
+    - id: "0x303C"
+      name: "fireball_master_normal"
+      frames:
+        - { frame: "0x2014", time: 1, x: 0, y: 0 }
+    - id: "0x303D"
+      name: "fireball_master_pressed"
+      frames:
+        - { frame: "0x2042", time: 1, x: 0, y: 0 }
+    - id: "0x3071"
+      name: "fireball_master_blink"
+      frames:
+        - { frame: "0x205B", time: 1, x: 0, y: 0 }
+    - id: "0x303E"
+      name: "fireball_master_locked"
+      frames:
+        - { frame: "0x202B", time: 1, x: 0, y: 0 }
+    - id: "0x3072"
+      name: "fireball_master_locked_select"
+      frames:
+        - { frame: "0x205C", time: 1, x: 0, y: 0 }
+    - id: "0x3075"
+      name: "fireball_master_locked_select"
+      frames:
+        - { frame: "0x205C", time: 1, x: 0, y: 0 }
+    - id: "0x303F"
+      name: "no_more_strangers_normal"
+      frames:
+        - { frame: "0x2015", time: 1, x: 0, y: 0 }
+    - id: "0x3040"
+      name: "no_more_strangers_pressed"
+      frames:
+        - { frame: "0x2043", time: 1, x: 0, y: 0 }
+    - id: "0x3059"
+      name: "no_more_strangers_blink"
+      frames:
+        - { frame: "0x205A", time: 1, x: 0, y: 0 }
+    - id: "0x3041"
+      name: "no_more_strangers_locked"
+      frames:
+        - { frame: "0x202C", time: 1, x: 0, y: 0 }
+    - id: "0x305A"
+      name: "no_more_strangers_locked_select"
+      frames:
+        - { frame: "0x205D", time: 1, x: 0, y: 0 }
+    - id: "0x3074"
+      name: "no_more_strangers_locked_select"
+      frames:
+        - { frame: "0x205D", time: 1, x: 0, y: 0 }
+    - id: "0x3042"
+      name: "true_defender_normal"
+      frames:
+        - { frame: "0x2016", time: 1, x: 0, y: 0 }
+    - id: "0x3043"
+      name: "true_defender_pressed"
+      frames:
+        - { frame: "0x2044", time: 1, x: 0, y: 0 }
+    - id: "0x3057"
+      name: "true_defender_blink"
+      frames:
+        - { frame: "0x2058", time: 1, x: 0, y: 0 }
+    - id: "0x3044"
+      name: "true_defender_locked"
+      frames:
+        - { frame: "0x202D", time: 1, x: 0, y: 0 }
+    - id: "0x3058"
+      name: "true_defender_locked_select"
+      frames:
+        - { frame: "0x2059", time: 1, x: 0, y: 0 }
+    - id: "0x3073"
+      name: "true_defender_locked_select"
+      frames:
+        - { frame: "0x2059", time: 1, x: 0, y: 0 }

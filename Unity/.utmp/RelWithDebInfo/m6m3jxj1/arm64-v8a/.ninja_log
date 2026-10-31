@@ -1,0 +1,23 @@
+# ninja log v5
+14	888	1793425491959579400	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	2ce5223f1b3de5e2
+16	103	1793425491184228100	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	fc90705a9e4aa1f2
+15	572	1793425491644587200	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	d544e596206082bc
+15	806	1793425491880440900	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	b0b7f5ffc7c85079
+14	647	1793425491719806400	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	a55f7d32fb0781c0
+15	626	1793425491698696300	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	991bffa59acab0c2
+888	913	1793425491996410200	/media/spyder/_Projects/Gameloft/CastleFrenzy_Ubuntu/Unity/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/m6m3jxj1/obj/arm64-v8a/libgame.so	b766199614a36c6a
+15	670	1793425491742991100	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	22ab6392422bf096
+104	144	1793425491226755500	/media/spyder/_Projects/Gameloft/CastleFrenzy_Ubuntu/Unity/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/m6m3jxj1/obj/arm64-v8a/libswappywrapper.so	8bb3e840e5ee9780
+16	615	1793425491680167900	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	682cb02086c3d14
+16	664	1793425491737115100	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	b66ff5678f2171d2
+15	99	1793427831109559800	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	fc90705a9e4aa1f2
+100	144	1793427831157232800	/media/spyder/_Projects/Gameloft/CastleFrenzy_Ubuntu/Unity/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/m6m3jxj1/obj/arm64-v8a/libswappywrapper.so	8bb3e840e5ee9780
+13	560	1793427831564006500	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	991bffa59acab0c2
+14	598	1793427831601827900	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	d544e596206082bc
+13	627	1793427831630593300	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	22ab6392422bf096
+14	630	1793427831633018500	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	682cb02086c3d14
+12	636	1793427831639990000	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	a55f7d32fb0781c0
+14	739	1793427831739128900	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	b66ff5678f2171d2
+13	777	1793427831779936200	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	b0b7f5ffc7c85079
+12	879	1793427831879655800	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	2ce5223f1b3de5e2
+879	916	1793427831929244800	/media/spyder/_Projects/Gameloft/CastleFrenzy_Ubuntu/Unity/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/m6m3jxj1/obj/arm64-v8a/libgame.so	b766199614a36c6a

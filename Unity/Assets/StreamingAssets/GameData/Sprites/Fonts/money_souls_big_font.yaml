@@ -1,0 +1,137 @@
+# Converted from money_souls_big_font.sprite by tools/sprites_conver.
+# Edit with AuroraMX (Tools/AuroraMX); the game reads this file directly.
+sprite:
+  version: "0001"
+
+  images:
+    - id: "0x0000"
+      file: "./money_souls_big_font.png"
+      transparent: "0x00FF00FF"
+
+  modules:
+    - id: "0x1000"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 18
+      y: 36
+      w: 6
+      h: 17
+      name: "0x20"
+    - id: "0x1051"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 1
+      y: 5
+      w: 19
+      h: 17
+      name: "0x32"
+    - id: "0x1052"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 23
+      y: 5
+      w: 17
+      h: 17
+      name: "0x32"
+    - id: "0x1053"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 44
+      y: 5
+      w: 17
+      h: 17
+      name: "0x32"
+    - id: "0x1054"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 66
+      y: 5
+      w: 17
+      h: 17
+      name: "0x32"
+    - id: "0x1055"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 87
+      y: 5
+      w: 17
+      h: 17
+      name: "0x32"
+    - id: "0x1056"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 48
+      y: 36
+      w: 17
+      h: 17
+      name: "0x32"
+    - id: "0x1057"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 75
+      y: 36
+      w: 17
+      h: 17
+      name: "0x32"
+    - id: "0x1058"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 108
+      y: 5
+      w: 17
+      h: 17
+      name: "0x32"
+    - id: "0x1059"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 1
+      y: 36
+      w: 17
+      h: 17
+      name: "0x32"
+    - id: "0x105A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 24
+      y: 36
+      w: 17
+      h: 17
+      name: "0x32"
+    - id: "0x1001"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 104
+      y: 44
+      w: 8
+      h: 9
+      name: "."
+    - id: "0x1002"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 114
+      y: 44
+      w: 8
+      h: 11
+      name: ","
+
+  frames:
+    - id: "0x2000"
+      name: "font"
+      rects:
+        - { x1: 0, y1: 0, x2: 0, y2: 0 }
+      parts:
+        - { module: "0x1000", x: 0, y: 0 }
+        - { module: "0x1051", x: 0, y: 2 }
+        - { module: "0x1052", x: 0, y: 2 }
+        - { module: "0x1053", x: 0, y: 2 }
+        - { module: "0x1054", x: 0, y: 2 }
+        - { module: "0x1055", x: 0, y: 2 }
+        - { module: "0x1058", x: 0, y: 2 }
+        - { module: "0x1059", x: 0, y: 2 }
+        - { module: "0x105A", x: 0, y: 2 }
+        - { module: "0x1056", x: 0, y: 2 }
+        - { module: "0x1057", x: 0, y: 2 }
+        - { module: "0x1001", x: 1, y: 11 }
+        - { module: "0x1002", x: 1, y: 11 }
+
+  animations: []

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="windows-1250"?>
+
+<!-- Available font settings example: 
+  <string name="FileName" value="CairoSmall" />
+	<int name="CharSpacing" value="-2" />
+	<int name="LineSpacing" value="4" />
+	<int name="SpaceWidth" value="0" />
+	<color name="Color" value="0xFFFFFF" />
+	<int name="Alpha" value="255" />
+-->
+	
+<!--*************************************************************************-->
+<!--**** BASE FONTS *********************************************************-->
+
+<font id="Arial" >
+  <string name="FileName" value="ArialSmall" />
+	<int name="CharSpacing" value="-1" />
+	<int name="LineSpacing" value="2" />
+	
+  <string name="JapaneseEquivalent" value="JapaneseBig" />
+  <string name="ChineseEquivalent" value="ChineseBig" />
+</font>
+
+<font id="BerlinSansFB" >
+  <string name="FileName" value="BerlinSansFB" />
+  <int name="CharSpacing" value="-1" />
+  <int name="LineSpacing" value="2" />
+
+  <string name="JapaneseEquivalent" value="JapaneseBig" />
+  <string name="ChineseEquivalent" value="ChineseBig" />
+</font>
+
+<font id="DayFont" >
+  <string name="FileName" value="day_font" />
+  <int name="LineSpacing" value="2" />
+</font>
+
+<font id="FloatingText" >
+  <string name="FileName" value="money_souls_font" />
+  <int name="LineSpacing" value="2" />
+</font>
+
+<!--*************************************************************************-->
+<!--*****Eastern Fonts*******************************************************-->
+<font id="JapaneseBig" >
+	<string name="FileName" value="JapaneseBig" />
+	<float name="FontSize" value="14" />
+	<int name="CharSpacing" value="0" />
+	<int name="LineSpacing" value="6" />
+	<color name="Color1" value="0xFFFFFF" />
+	<color name="Color2" value="0x000000" />
+</font>
+
+<font id="JapaneseBigRed" >
+	<string name="FileName" value="JapaneseBig" />
+	<float name="FontSize" value="14" />
+	<int name="CharSpacing" value="0" />
+	<int name="LineSpacing" value="6" />
+	<color name="Color1" value="0xFFFFFF" />
+	<color name="Color2" value="0x001439" />
+</font>
+
+<font id="ChineseBig" >
+	<string name="FileName" value="ChineseBig" />
+	<float name="FontSize" value="22" />
+	<int name="CharSpacing" value="0" />
+	<int name="LineSpacing" value="2" />
+	<color name="Color1" value="0xFFFFFF" />
+	<color name="Color2" value="0x000000" />
+</font>
+
+<!--*************************************************************************-->
+<!--**** INGAME *************************************************************-->
+
+<font id="Challenge" extends="Arial" >
+  <color name="Color" value="0xFFFFFF" />
+  <int name="CharSpacing" value="-2" />
+</font>
+
+<font id="ChallengeFailed" extends="Arial" >
+  <color name="Color" value="0xFF0000" />
+  <int name="CharSpacing" value="-2" />
+</font>
+
+<font id="Health" extends="FloatingText" >
+  <color name="Color" value="0xFFFFFF" />
+  <int name="CharSpacing" value="0" />
+</font>
+
+<font id="Money" extends="FloatingText" >
+  <color name="Color" value="0xFFFFFF" />
+  <int name="CharSpacing" value="-3" />
+</font>
+
+<font id="BigMoney">
+  <string name="FileName" value="money_souls_big_font" />
+  <color name="Color" value="0xFFFFFF" />
+  <int name="CharSpacing" value="-3" />
+</font>
+
+<font id="Bonus" extends="Money" >
+  <color name="Color" value="0xFF2000" />
+</font>
+
+<font id="DayBlue" extends="DayFont" >
+  <color name="Color1" value="0xFFFFFF" />
+  <color name="Color2" value="0x0030A0" />
+</font>
+
+<font id="DayRed" extends="DayFont" >
+  <color name="Color1" value="0xFF7F7F" />
+  <color name="Color2" value="0x7F0000" />
+</font>
+
+<!--*************************************************************************-->
+<!--**** MENU SHOP **********************************************************-->
+
+<font id="MS_Title" extends="BerlinSansFB" >
+  <color name="Color1" value="0xFFFFFF" />
+  <color name="Color2" value="0x000000" />
+  <int name="CharSpacing" value="-2" />
+</font>
+
+<font id="MS_Text" extends="Arial" >
+  <color name="Color" value="0xF0F0F0" />
+  <int name="CharSpacing" value="-2" />
+</font>
+
+<font id="MS_SmallNormal" extends="Arial" >
+  <color name="Color" value="0xF0F0F0" />
+  <int name="CharSpacing" value="-2" />
+</font>
+
+<font id="MS_SmallGold" extends="Arial" >
+  <color name="Color" value="0xFFFF40" />
+  <int name="CharSpacing" value="-2" />
+</font>
+
+<font id="MS_SmallRed" extends="Arial" >
+  <color name="Color" value="0xFF0000" />
+  <int name="CharSpacing" value="-2" />
+</font>
+
+<!--*************************************************************************-->
+<!--**** Loading Screen *****************************************************-->
+
+<font id="LoadingTitle" extends="BerlinSansFB">
+  <color name="Color1" value="0xFFFFFF" />
+  <color name="Color2" value="0x000000" />
+</font>
+
+<font id="LoadingText" extends="Arial">
+  <color name="Color1" value="0xFFFFFF" />
+  <color name="Color2" value="0x000000" />
+</font>
+
+<!--*************************************************************************-->
+<!--*************************************************************************-->
+
+<font id="MM_Normal" extends="BerlinSansFB">
+  <color name="Color1" value="0xFFFFFF" />
+  <color name="Color2" value="0x000000" />
+</font>
+
+<font id="MM_Pressed" extends="BerlinSansFB" >
+  <color name="Color1" value="0x000000" />
+  <color name="Color2" value="0xFFFFFF" />
+</font>
+
+<font id="MM_Title" extends="Arial">
+  <color name="Color1" value="0xFFFFFF" />
+  <color name="Color2" value="0x000000" />
+</font>
+
+<font id="MM_MoreGamesNormal" extends="Arial">
+  <color name="Color" value="0xFFFFFF" />
+</font>
+
+<font id="MM_Achievements" >
+	<string name="FileName" value="ArialSmall" />
+	
+  <string name="JapaneseEquivalent" value="JapaneseBig" />
+  <string name="ChineseEquivalent" value="ChineseBig" />
+
+	<int name="CharSpacing" value="-1" />
+	<int name="LineSpacing" value="2" />
+	<color name="Color1" value="0xFFFFFF" />
+	<color name="Color2" value="0x000000" />
+</font>
+
+<font id="MM_Achievements_Pressed" >
+	<string name="FileName" value="ArialSmall" />
+	
+  <string name="JapaneseEquivalent" value="JapaneseBig" />
+  <string name="ChineseEquivalent" value="ChineseBig" />
+
+	<int name="CharSpacing" value="-1" />
+	<int name="LineSpacing" value="2" />
+	<color name="Color1" value="0x000000" />
+	<color name="Color2" value="0xFFFFFF" />
+</font>
+
+<font id="Achievements" extends="Arial" >
+	<color name="Color" value="0xFFFFFF" />
+	<int name="CharSpacing" value="-1" />
+	<int name="LineSpacing" value="3" />  
+</font>
+
+<font id="MM_Help" extends="Arial">
+  <color name="Color" value="0xFFFFFF" />
+</font>
+
+<font id="SingleHighScore" >
+  <string name="FileName" value="money_souls_font" />
+  <int name="CharSpacing" value="-1" />
+  <int name="LineSpacing" value="2" />
+</font>
+
+<font id="TotalHighScore" extends="BerlinSansFB">
+  <color name="Color1" value="0xFFFFFF" />
+  <color name="Color2" value="0x000000" />
+</font>

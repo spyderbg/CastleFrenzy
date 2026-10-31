@@ -1,0 +1,4402 @@
+# Converted from JapaneseBig.sprite by tools/sprites_conver.
+# Edit with AuroraMX (Tools/AuroraMX); the game reads this file directly.
+sprite:
+  version: "0001"
+
+  images:
+    - id: "0x0000"
+      file: "JapaneseBig.png"
+      transparent: "0x00FF00FF"
+
+  modules:
+    - id: "0x0000"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 0
+      y: 0
+      w: 5
+      h: 24
+    - id: "0x0001"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 6
+      y: 0
+      w: 8
+      h: 24
+    - id: "0x0002"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 15
+      y: 0
+      w: 13
+      h: 13
+    - id: "0x0003"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 29
+      y: 0
+      w: 17
+      h: 24
+    - id: "0x0004"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 47
+      y: 0
+      w: 15
+      h: 29
+    - id: "0x0005"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 63
+      y: 0
+      w: 18
+      h: 25
+    - id: "0x0006"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 82
+      y: 0
+      w: 18
+      h: 25
+    - id: "0x0007"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 101
+      y: 0
+      w: 9
+      h: 13
+    - id: "0x0008"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 111
+      y: 0
+      w: 12
+      h: 30
+    - id: "0x0009"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 124
+      y: 0
+      w: 13
+      h: 30
+    - id: "0x000A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 138
+      y: 0
+      w: 16
+      h: 16
+    - id: "0x000B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 155
+      y: 0
+      w: 11
+      h: 13
+    - id: "0x000C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 167
+      y: 0
+      w: 13
+      h: 7
+    - id: "0x000D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 181
+      y: 0
+      w: 9
+      h: 9
+    - id: "0x000E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 191
+      y: 0
+      w: 16
+      h: 25
+    - id: "0x000F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 208
+      y: 0
+      w: 16
+      h: 25
+    - id: "0x0010"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 225
+      y: 0
+      w: 12
+      h: 24
+    - id: "0x0011"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 238
+      y: 0
+      w: 14
+      h: 25
+    - id: "0x0012"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 253
+      y: 0
+      w: 14
+      h: 24
+    - id: "0x0013"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 268
+      y: 0
+      w: 17
+      h: 24
+    - id: "0x0014"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 286
+      y: 0
+      w: 14
+      h: 24
+    - id: "0x0015"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 301
+      y: 0
+      w: 16
+      h: 25
+    - id: "0x0016"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 318
+      y: 0
+      w: 15
+      h: 24
+    - id: "0x0017"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 334
+      y: 0
+      w: 16
+      h: 25
+    - id: "0x0018"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 351
+      y: 0
+      w: 15
+      h: 25
+    - id: "0x0019"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 367
+      y: 0
+      w: 9
+      h: 20
+    - id: "0x001A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 377
+      y: 0
+      w: 10
+      h: 24
+    - id: "0x001B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 388
+      y: 0
+      w: 15
+      h: 21
+    - id: "0x001C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 404
+      y: 0
+      w: 15
+      h: 13
+    - id: "0x001D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 420
+      y: 0
+      w: 16
+      h: 21
+    - id: "0x001E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 437
+      y: 0
+      w: 16
+      h: 25
+    - id: "0x001F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 454
+      y: 0
+      w: 17
+      h: 25
+    - id: "0x0020"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 472
+      y: 0
+      w: 18
+      h: 24
+    - id: "0x0021"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 491
+      y: 0
+      w: 16
+      h: 25
+    - id: "0x0022"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 508
+      y: 0
+      w: 15
+      h: 25
+    - id: "0x0023"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 524
+      y: 0
+      w: 16
+      h: 25
+    - id: "0x0024"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 541
+      y: 0
+      w: 14
+      h: 24
+    - id: "0x0025"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 556
+      y: 0
+      w: 14
+      h: 24
+    - id: "0x0026"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 571
+      y: 0
+      w: 16
+      h: 25
+    - id: "0x0027"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 588
+      y: 0
+      w: 16
+      h: 24
+    - id: "0x0028"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 605
+      y: 0
+      w: 14
+      h: 24
+    - id: "0x0029"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 620
+      y: 0
+      w: 14
+      h: 24
+    - id: "0x002A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 635
+      y: 0
+      w: 16
+      h: 24
+    - id: "0x002B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 652
+      y: 0
+      w: 14
+      h: 24
+    - id: "0x002C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 667
+      y: 0
+      w: 17
+      h: 24
+    - id: "0x002D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 685
+      y: 0
+      w: 15
+      h: 24
+    - id: "0x002E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 701
+      y: 0
+      w: 17
+      h: 25
+    - id: "0x002F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 719
+      y: 0
+      w: 16
+      h: 25
+    - id: "0x0030"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 736
+      y: 0
+      w: 17
+      h: 29
+    - id: "0x0031"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 754
+      y: 0
+      w: 16
+      h: 25
+    - id: "0x0032"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 771
+      y: 0
+      w: 16
+      h: 25
+    - id: "0x0033"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 788
+      y: 0
+      w: 16
+      h: 24
+    - id: "0x0034"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 805
+      y: 0
+      w: 16
+      h: 24
+    - id: "0x0035"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 822
+      y: 0
+      w: 17
+      h: 24
+    - id: "0x0036"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 840
+      y: 0
+      w: 17
+      h: 24
+    - id: "0x0037"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 858
+      y: 0
+      w: 16
+      h: 24
+    - id: "0x0038"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 875
+      y: 0
+      w: 17
+      h: 24
+    - id: "0x0039"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 893
+      y: 0
+      w: 15
+      h: 24
+    - id: "0x003A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 909
+      y: 0
+      w: 12
+      h: 30
+    - id: "0x003B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 922
+      y: 0
+      w: 17
+      h: 24
+    - id: "0x003C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 940
+      y: 0
+      w: 12
+      h: 30
+    - id: "0x003D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 953
+      y: 0
+      w: 16
+      h: 7
+    - id: "0x003E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 970
+      y: 0
+      w: 15
+      h: 19
+    - id: "0x003F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 986
+      y: 0
+      w: 16
+      h: 24
+    - id: "0x0040"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 1003
+      y: 0
+      w: 14
+      h: 19
+    - id: "0x0041"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 0
+      y: 31
+      w: 15
+      h: 24
+    - id: "0x0042"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 16
+      y: 31
+      w: 15
+      h: 19
+    - id: "0x0043"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 32
+      y: 31
+      w: 15
+      h: 25
+    - id: "0x0044"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 48
+      y: 31
+      w: 16
+      h: 24
+    - id: "0x0045"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 65
+      y: 31
+      w: 16
+      h: 24
+    - id: "0x0046"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 82
+      y: 31
+      w: 14
+      h: 25
+    - id: "0x0047"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 97
+      y: 31
+      w: 12
+      h: 30
+    - id: "0x0048"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 110
+      y: 31
+      w: 16
+      h: 24
+    - id: "0x0049"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 127
+      y: 31
+      w: 15
+      h: 24
+    - id: "0x004A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 143
+      y: 31
+      w: 17
+      h: 19
+    - id: "0x004B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 161
+      y: 31
+      w: 16
+      h: 19
+    - id: "0x004C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 178
+      y: 31
+      w: 16
+      h: 19
+    - id: "0x004D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 195
+      y: 31
+      w: 16
+      h: 24
+    - id: "0x004E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 212
+      y: 31
+      w: 14
+      h: 19
+    - id: "0x004F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 227
+      y: 31
+      w: 15
+      h: 19
+    - id: "0x0050"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 243
+      y: 31
+      w: 15
+      h: 23
+    - id: "0x0051"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 259
+      y: 31
+      w: 15
+      h: 19
+    - id: "0x0052"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 275
+      y: 31
+      w: 16
+      h: 19
+    - id: "0x0053"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 292
+      y: 31
+      w: 17
+      h: 19
+    - id: "0x0054"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 310
+      y: 31
+      w: 16
+      h: 19
+    - id: "0x0055"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 327
+      y: 31
+      w: 16
+      h: 24
+    - id: "0x0056"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 344
+      y: 31
+      w: 14
+      h: 19
+    - id: "0x0057"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 359
+      y: 31
+      w: 7
+      h: 32
+    - id: "0x0058"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 367
+      y: 31
+      w: 5
+      h: 36
+    - id: "0x0059"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 373
+      y: 31
+      w: 8
+      h: 24
+    - id: "0x005A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 382
+      y: 31
+      w: 18
+      h: 23
+    - id: "0x005B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 401
+      y: 31
+      w: 13
+      h: 13
+    - id: "0x005C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 415
+      y: 31
+      w: 15
+      h: 20
+    - id: "0x005D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 431
+      y: 31
+      w: 15
+      h: 24
+    - id: "0x005E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 447
+      y: 31
+      w: 18
+      h: 31
+    - id: "0x005F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 466
+      y: 31
+      w: 18
+      h: 31
+    - id: "0x0060"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 485
+      y: 31
+      w: 18
+      h: 30
+    - id: "0x0061"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 504
+      y: 31
+      w: 15
+      h: 30
+    - id: "0x0062"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 520
+      y: 31
+      w: 14
+      h: 31
+    - id: "0x0063"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 535
+      y: 31
+      w: 14
+      h: 31
+    - id: "0x0064"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 550
+      y: 31
+      w: 15
+      h: 31
+    - id: "0x0065"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 566
+      y: 31
+      w: 14
+      h: 30
+    - id: "0x0066"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 581
+      y: 31
+      w: 14
+      h: 31
+    - id: "0x0067"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 596
+      y: 31
+      w: 14
+      h: 31
+    - id: "0x0068"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 611
+      y: 31
+      w: 15
+      h: 31
+    - id: "0x0069"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 627
+      y: 31
+      w: 14
+      h: 30
+    - id: "0x006A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 642
+      y: 31
+      w: 15
+      h: 31
+    - id: "0x006B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 658
+      y: 31
+      w: 17
+      h: 31
+    - id: "0x006C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 676
+      y: 31
+      w: 17
+      h: 31
+    - id: "0x006D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 694
+      y: 31
+      w: 17
+      h: 31
+    - id: "0x006E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 712
+      y: 31
+      w: 17
+      h: 30
+    - id: "0x006F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 730
+      y: 31
+      w: 16
+      h: 18
+    - id: "0x0070"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 747
+      y: 31
+      w: 16
+      h: 31
+    - id: "0x0071"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 764
+      y: 31
+      w: 16
+      h: 31
+    - id: "0x0072"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 781
+      y: 31
+      w: 16
+      h: 30
+    - id: "0x0073"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 798
+      y: 31
+      w: 16
+      h: 25
+    - id: "0x0074"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 815
+      y: 31
+      w: 15
+      h: 25
+    - id: "0x0075"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 831
+      y: 31
+      w: 15
+      h: 25
+    - id: "0x0076"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 847
+      y: 31
+      w: 15
+      h: 25
+    - id: "0x0077"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 863
+      y: 31
+      w: 14
+      h: 24
+    - id: "0x0078"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 878
+      y: 31
+      w: 15
+      h: 25
+    - id: "0x0079"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 894
+      y: 31
+      w: 15
+      h: 25
+    - id: "0x007A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 910
+      y: 31
+      w: 15
+      h: 25
+    - id: "0x007B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 926
+      y: 31
+      w: 15
+      h: 25
+    - id: "0x007C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 942
+      y: 31
+      w: 14
+      h: 25
+    - id: "0x007D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 957
+      y: 31
+      w: 14
+      h: 25
+    - id: "0x007E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 972
+      y: 31
+      w: 15
+      h: 25
+    - id: "0x007F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 988
+      y: 31
+      w: 14
+      h: 25
+    - id: "0x0080"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 1003
+      y: 31
+      w: 16
+      h: 25
+    - id: "0x0081"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 0
+      y: 68
+      w: 16
+      h: 25
+    - id: "0x0082"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 17
+      y: 68
+      w: 16
+      h: 25
+    - id: "0x0083"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 34
+      y: 68
+      w: 16
+      h: 25
+    - id: "0x0084"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 51
+      y: 68
+      w: 16
+      h: 25
+    - id: "0x0085"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 68
+      y: 68
+      w: 15
+      h: 25
+    - id: "0x0086"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 84
+      y: 68
+      w: 15
+      h: 25
+    - id: "0x0087"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 100
+      y: 68
+      w: 15
+      h: 25
+    - id: "0x0088"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 116
+      y: 68
+      w: 22
+      h: 23
+    - id: "0x0089"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 139
+      y: 68
+      w: 31
+      h: 6
+    - id: "0x008A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 171
+      y: 68
+      w: 12
+      h: 12
+    - id: "0x008B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 184
+      y: 68
+      w: 13
+      h: 13
+    - id: "0x008C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 198
+      y: 68
+      w: 21
+      h: 22
+    - id: "0x008D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 220
+      y: 68
+      w: 16
+      h: 25
+    - id: "0x008E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 237
+      y: 68
+      w: 16
+      h: 25
+    - id: "0x008F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 254
+      y: 68
+      w: 27
+      h: 27
+    - id: "0x0090"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 282
+      y: 68
+      w: 26
+      h: 23
+    - id: "0x0091"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 309
+      y: 68
+      w: 24
+      h: 27
+    - id: "0x0092"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 334
+      y: 68
+      w: 27
+      h: 27
+    - id: "0x0093"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 362
+      y: 68
+      w: 28
+      h: 27
+    - id: "0x0094"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 391
+      y: 68
+      w: 28
+      h: 27
+    - id: "0x0095"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 420
+      y: 68
+      w: 28
+      h: 27
+    - id: "0x0096"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 449
+      y: 68
+      w: 27
+      h: 27
+    - id: "0x0097"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 477
+      y: 68
+      w: 29
+      h: 29
+    - id: "0x0098"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 507
+      y: 68
+      w: 19
+      h: 28
+    - id: "0x0099"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 527
+      y: 68
+      w: 26
+      h: 27
+    - id: "0x009A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 554
+      y: 68
+      w: 29
+      h: 30
+    - id: "0x009B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 584
+      y: 68
+      w: 23
+      h: 25
+    - id: "0x009C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 608
+      y: 68
+      w: 26
+      h: 27
+    - id: "0x009D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 635
+      y: 68
+      w: 23
+      h: 26
+    - id: "0x009E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 659
+      y: 68
+      w: 27
+      h: 29
+    - id: "0x009F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 687
+      y: 68
+      w: 30
+      h: 29
+    - id: "0x00A0"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 718
+      y: 68
+      w: 27
+      h: 27
+    - id: "0x00A1"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 746
+      y: 68
+      w: 27
+      h: 26
+    - id: "0x00A2"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 774
+      y: 68
+      w: 30
+      h: 29
+    - id: "0x00A3"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 805
+      y: 68
+      w: 26
+      h: 28
+    - id: "0x00A4"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 832
+      y: 68
+      w: 28
+      h: 29
+    - id: "0x00A5"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 861
+      y: 68
+      w: 26
+      h: 27
+    - id: "0x00A6"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 888
+      y: 68
+      w: 23
+      h: 19
+    - id: "0x00A7"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 912
+      y: 68
+      w: 27
+      h: 23
+    - id: "0x00A8"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 940
+      y: 68
+      w: 29
+      h: 27
+    - id: "0x00A9"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 970
+      y: 68
+      w: 27
+      h: 25
+    - id: "0x00AA"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 0
+      y: 99
+      w: 28
+      h: 25
+    - id: "0x00AB"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 29
+      y: 99
+      w: 23
+      h: 27
+    - id: "0x00AC"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 53
+      y: 99
+      w: 27
+      h: 27
+    - id: "0x00AD"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 81
+      y: 99
+      w: 25
+      h: 26
+    - id: "0x00AE"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 107
+      y: 99
+      w: 27
+      h: 24
+    - id: "0x00AF"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 135
+      y: 99
+      w: 27
+      h: 27
+    - id: "0x00B0"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 163
+      y: 99
+      w: 29
+      h: 29
+    - id: "0x00B1"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 193
+      y: 99
+      w: 29
+      h: 29
+    - id: "0x00B2"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 223
+      y: 99
+      w: 30
+      h: 29
+    - id: "0x00B3"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 254
+      y: 99
+      w: 29
+      h: 19
+    - id: "0x00B4"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 284
+      y: 99
+      w: 29
+      h: 24
+    - id: "0x00B5"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 314
+      y: 99
+      w: 27
+      h: 26
+    - id: "0x00B6"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 342
+      y: 99
+      w: 29
+      h: 29
+    - id: "0x00B7"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 372
+      y: 99
+      w: 25
+      h: 27
+    - id: "0x00B8"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 398
+      y: 99
+      w: 28
+      h: 26
+    - id: "0x00B9"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 427
+      y: 99
+      w: 28
+      h: 27
+    - id: "0x00BA"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 456
+      y: 99
+      w: 27
+      h: 27
+    - id: "0x00BB"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 484
+      y: 99
+      w: 27
+      h: 27
+    - id: "0x00BC"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 512
+      y: 99
+      w: 29
+      h: 28
+    - id: "0x00BD"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 542
+      y: 99
+      w: 24
+      h: 27
+    - id: "0x00BE"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 567
+      y: 99
+      w: 23
+      h: 26
+    - id: "0x00BF"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 591
+      y: 99
+      w: 22
+      h: 27
+    - id: "0x00C0"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 614
+      y: 99
+      w: 24
+      h: 26
+    - id: "0x00C1"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 639
+      y: 99
+      w: 30
+      h: 27
+    - id: "0x00C2"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 670
+      y: 99
+      w: 24
+      h: 26
+    - id: "0x00C3"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 695
+      y: 99
+      w: 28
+      h: 27
+    - id: "0x00C4"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 724
+      y: 99
+      w: 26
+      h: 27
+    - id: "0x00C5"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 751
+      y: 99
+      w: 27
+      h: 26
+    - id: "0x00C6"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 779
+      y: 99
+      w: 22
+      h: 21
+    - id: "0x00C7"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 802
+      y: 99
+      w: 26
+      h: 24
+    - id: "0x00C8"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 829
+      y: 99
+      w: 21
+      h: 21
+    - id: "0x00C9"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 851
+      y: 99
+      w: 26
+      h: 26
+    - id: "0x00CA"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 878
+      y: 99
+      w: 25
+      h: 27
+    - id: "0x00CB"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 904
+      y: 99
+      w: 23
+      h: 18
+    - id: "0x00CC"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 928
+      y: 99
+      w: 27
+      h: 22
+    - id: "0x00CD"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 956
+      y: 99
+      w: 22
+      h: 23
+    - id: "0x00CE"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 979
+      y: 99
+      w: 26
+      h: 26
+    - id: "0x00CF"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 0
+      y: 129
+      w: 24
+      h: 27
+    - id: "0x00D0"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 25
+      y: 129
+      w: 27
+      h: 28
+    - id: "0x00D1"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 53
+      y: 129
+      w: 29
+      h: 29
+    - id: "0x00D2"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 83
+      y: 129
+      w: 24
+      h: 27
+    - id: "0x00D3"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 108
+      y: 129
+      w: 29
+      h: 28
+    - id: "0x00D4"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 138
+      y: 129
+      w: 27
+      h: 27
+    - id: "0x00D5"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 166
+      y: 129
+      w: 30
+      h: 28
+    - id: "0x00D6"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 197
+      y: 129
+      w: 23
+      h: 23
+    - id: "0x00D7"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 221
+      y: 129
+      w: 28
+      h: 27
+    - id: "0x00D8"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 250
+      y: 129
+      w: 27
+      h: 26
+    - id: "0x00D9"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 278
+      y: 129
+      w: 30
+      h: 29
+    - id: "0x00DA"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 309
+      y: 129
+      w: 26
+      h: 25
+    - id: "0x00DB"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 336
+      y: 129
+      w: 28
+      h: 28
+    - id: "0x00DC"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 365
+      y: 129
+      w: 25
+      h: 24
+    - id: "0x00DD"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 391
+      y: 129
+      w: 29
+      h: 28
+    - id: "0x00DE"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 421
+      y: 129
+      w: 28
+      h: 26
+    - id: "0x00DF"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 450
+      y: 129
+      w: 30
+      h: 29
+    - id: "0x00E0"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 481
+      y: 129
+      w: 25
+      h: 24
+    - id: "0x00E1"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 507
+      y: 129
+      w: 24
+      h: 27
+    - id: "0x00E2"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 532
+      y: 129
+      w: 28
+      h: 28
+    - id: "0x00E3"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 561
+      y: 129
+      w: 27
+      h: 26
+    - id: "0x00E4"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 589
+      y: 129
+      w: 22
+      h: 21
+    - id: "0x00E5"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 612
+      y: 129
+      w: 26
+      h: 24
+    - id: "0x00E6"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 639
+      y: 129
+      w: 27
+      h: 25
+    - id: "0x00E7"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 667
+      y: 129
+      w: 29
+      h: 28
+    - id: "0x00E8"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 697
+      y: 129
+      w: 19
+      h: 26
+    - id: "0x00E9"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 717
+      y: 129
+      w: 22
+      h: 27
+    - id: "0x00EA"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 740
+      y: 129
+      w: 27
+      h: 27
+    - id: "0x00EB"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 768
+      y: 129
+      w: 25
+      h: 22
+    - id: "0x00EC"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 794
+      y: 129
+      w: 28
+      h: 27
+    - id: "0x00ED"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 823
+      y: 129
+      w: 23
+      h: 26
+    - id: "0x00EE"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 847
+      y: 129
+      w: 27
+      h: 24
+    - id: "0x00EF"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 875
+      y: 129
+      w: 27
+      h: 27
+    - id: "0x00F0"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 903
+      y: 129
+      w: 27
+      h: 27
+    - id: "0x00F1"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 931
+      y: 129
+      w: 22
+      h: 25
+    - id: "0x00F2"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 954
+      y: 129
+      w: 25
+      h: 27
+    - id: "0x00F3"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 980
+      y: 129
+      w: 24
+      h: 24
+    - id: "0x00F4"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 0
+      y: 159
+      w: 27
+      h: 28
+    - id: "0x00F5"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 28
+      y: 159
+      w: 28
+      h: 28
+    - id: "0x00F6"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 57
+      y: 159
+      w: 29
+      h: 21
+    - id: "0x00F7"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 87
+      y: 159
+      w: 29
+      h: 25
+    - id: "0x00F8"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 117
+      y: 159
+      w: 29
+      h: 25
+    - id: "0x00F9"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 147
+      y: 159
+      w: 30
+      h: 28
+    - id: "0x00FA"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 178
+      y: 159
+      w: 30
+      h: 29
+    - id: "0x00FB"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 209
+      y: 159
+      w: 26
+      h: 24
+    - id: "0x00FC"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 236
+      y: 159
+      w: 23
+      h: 26
+    - id: "0x00FD"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 260
+      y: 159
+      w: 27
+      h: 25
+    - id: "0x00FE"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 288
+      y: 159
+      w: 25
+      h: 26
+    - id: "0x00FF"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 314
+      y: 159
+      w: 27
+      h: 24
+    - id: "0x0100"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 342
+      y: 159
+      w: 23
+      h: 22
+    - id: "0x0101"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 366
+      y: 159
+      w: 27
+      h: 26
+    - id: "0x0102"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 394
+      y: 159
+      w: 23
+      h: 18
+    - id: "0x0103"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 418
+      y: 159
+      w: 27
+      h: 22
+    - id: "0x0104"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 446
+      y: 159
+      w: 20
+      h: 21
+    - id: "0x0105"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 467
+      y: 159
+      w: 24
+      h: 24
+    - id: "0x0106"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 492
+      y: 159
+      w: 25
+      h: 25
+    - id: "0x0107"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 518
+      y: 159
+      w: 20
+      h: 26
+    - id: "0x0108"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 539
+      y: 159
+      w: 28
+      h: 26
+    - id: "0x0109"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 568
+      y: 159
+      w: 23
+      h: 26
+    - id: "0x010A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 592
+      y: 159
+      w: 25
+      h: 24
+    - id: "0x010B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 618
+      y: 159
+      w: 25
+      h: 24
+    - id: "0x010C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 644
+      y: 159
+      w: 25
+      h: 24
+    - id: "0x010D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 670
+      y: 159
+      w: 9
+      h: 8
+    - id: "0x010E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 680
+      y: 159
+      w: 27
+      h: 8
+    - id: "0x010F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 708
+      y: 159
+      w: 27
+      h: 7
+    - id: "0x0110"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 736
+      y: 159
+      w: 27
+      h: 26
+    - id: "0x0111"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 764
+      y: 159
+      w: 27
+      h: 27
+    - id: "0x0112"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 792
+      y: 159
+      w: 27
+      h: 26
+    - id: "0x0113"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 820
+      y: 159
+      w: 28
+      h: 27
+    - id: "0x0114"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 849
+      y: 159
+      w: 29
+      h: 28
+    - id: "0x0115"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 879
+      y: 159
+      w: 28
+      h: 26
+    - id: "0x0116"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 908
+      y: 159
+      w: 24
+      h: 28
+    - id: "0x0117"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 933
+      y: 159
+      w: 24
+      h: 25
+    - id: "0x0118"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 958
+      y: 159
+      w: 28
+      h: 28
+    - id: "0x0119"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 987
+      y: 159
+      w: 27
+      h: 28
+    - id: "0x011A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 0
+      y: 189
+      w: 28
+      h: 28
+    - id: "0x011B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 29
+      y: 189
+      w: 29
+      h: 29
+    - id: "0x011C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 59
+      y: 189
+      w: 28
+      h: 29
+    - id: "0x011D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 88
+      y: 189
+      w: 29
+      h: 27
+    - id: "0x011E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 118
+      y: 189
+      w: 27
+      h: 28
+    - id: "0x011F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 146
+      y: 189
+      w: 29
+      h: 29
+    - id: "0x0120"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 176
+      y: 189
+      w: 29
+      h: 28
+    - id: "0x0121"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 206
+      y: 189
+      w: 29
+      h: 28
+    - id: "0x0122"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 236
+      y: 189
+      w: 28
+      h: 29
+    - id: "0x0123"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 265
+      y: 189
+      w: 28
+      h: 29
+    - id: "0x0124"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 294
+      y: 189
+      w: 29
+      h: 29
+    - id: "0x0125"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 324
+      y: 189
+      w: 30
+      h: 29
+    - id: "0x0126"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 355
+      y: 189
+      w: 28
+      h: 29
+    - id: "0x0127"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 384
+      y: 189
+      w: 29
+      h: 29
+    - id: "0x0128"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 414
+      y: 189
+      w: 29
+      h: 29
+    - id: "0x0129"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 444
+      y: 189
+      w: 30
+      h: 29
+    - id: "0x012A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 475
+      y: 189
+      w: 30
+      h: 30
+    - id: "0x012B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 506
+      y: 189
+      w: 28
+      h: 28
+    - id: "0x012C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 535
+      y: 189
+      w: 29
+      h: 27
+    - id: "0x012D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 565
+      y: 189
+      w: 28
+      h: 29
+    - id: "0x012E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 594
+      y: 189
+      w: 24
+      h: 29
+    - id: "0x012F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 619
+      y: 189
+      w: 24
+      h: 26
+    - id: "0x0130"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 644
+      y: 189
+      w: 29
+      h: 26
+    - id: "0x0131"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 674
+      y: 189
+      w: 28
+      h: 28
+    - id: "0x0132"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 703
+      y: 189
+      w: 26
+      h: 26
+    - id: "0x0133"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 730
+      y: 189
+      w: 24
+      h: 28
+    - id: "0x0134"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 755
+      y: 189
+      w: 29
+      h: 27
+    - id: "0x0135"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 785
+      y: 189
+      w: 27
+      h: 28
+    - id: "0x0136"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 813
+      y: 189
+      w: 26
+      h: 28
+    - id: "0x0137"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 840
+      y: 189
+      w: 27
+      h: 28
+    - id: "0x0138"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 868
+      y: 189
+      w: 27
+      h: 28
+    - id: "0x0139"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 896
+      y: 189
+      w: 26
+      h: 27
+    - id: "0x013A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 923
+      y: 189
+      w: 28
+      h: 28
+    - id: "0x013B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 952
+      y: 189
+      w: 28
+      h: 29
+    - id: "0x013C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 981
+      y: 189
+      w: 29
+      h: 28
+    - id: "0x013D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 0
+      y: 220
+      w: 28
+      h: 27
+    - id: "0x013E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 29
+      y: 220
+      w: 27
+      h: 28
+    - id: "0x013F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 57
+      y: 220
+      w: 27
+      h: 25
+    - id: "0x0140"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 85
+      y: 220
+      w: 28
+      h: 28
+    - id: "0x0141"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 114
+      y: 220
+      w: 26
+      h: 27
+    - id: "0x0142"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 141
+      y: 220
+      w: 28
+      h: 26
+    - id: "0x0143"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 170
+      y: 220
+      w: 28
+      h: 28
+    - id: "0x0144"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 199
+      y: 220
+      w: 27
+      h: 28
+    - id: "0x0145"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 227
+      y: 220
+      w: 27
+      h: 28
+    - id: "0x0146"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 255
+      y: 220
+      w: 26
+      h: 28
+    - id: "0x0147"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 282
+      y: 220
+      w: 28
+      h: 27
+    - id: "0x0148"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 311
+      y: 220
+      w: 26
+      h: 27
+    - id: "0x0149"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 338
+      y: 220
+      w: 27
+      h: 27
+    - id: "0x014A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 366
+      y: 220
+      w: 28
+      h: 28
+    - id: "0x014B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 395
+      y: 220
+      w: 27
+      h: 28
+    - id: "0x014C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 423
+      y: 220
+      w: 26
+      h: 26
+    - id: "0x014D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 450
+      y: 220
+      w: 26
+      h: 25
+    - id: "0x014E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 477
+      y: 220
+      w: 26
+      h: 27
+    - id: "0x014F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 504
+      y: 220
+      w: 26
+      h: 27
+    - id: "0x0150"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 531
+      y: 220
+      w: 26
+      h: 27
+    - id: "0x0151"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 558
+      y: 220
+      w: 29
+      h: 28
+    - id: "0x0152"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 588
+      y: 220
+      w: 27
+      h: 28
+    - id: "0x0153"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 616
+      y: 220
+      w: 27
+      h: 27
+    - id: "0x0154"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 644
+      y: 220
+      w: 29
+      h: 28
+    - id: "0x0155"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 674
+      y: 220
+      w: 28
+      h: 29
+    - id: "0x0156"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 703
+      y: 220
+      w: 29
+      h: 29
+    - id: "0x0157"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 733
+      y: 220
+      w: 27
+      h: 30
+    - id: "0x0158"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 761
+      y: 220
+      w: 27
+      h: 29
+    - id: "0x0159"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 789
+      y: 220
+      w: 28
+      h: 27
+    - id: "0x015A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 818
+      y: 220
+      w: 28
+      h: 28
+    - id: "0x015B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 847
+      y: 220
+      w: 26
+      h: 29
+    - id: "0x015C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 874
+      y: 220
+      w: 29
+      h: 27
+    - id: "0x015D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 904
+      y: 220
+      w: 28
+      h: 28
+    - id: "0x015E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 933
+      y: 220
+      w: 28
+      h: 27
+    - id: "0x015F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 962
+      y: 220
+      w: 29
+      h: 27
+    - id: "0x0160"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 992
+      y: 220
+      w: 28
+      h: 28
+    - id: "0x0161"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 0
+      y: 251
+      w: 29
+      h: 28
+    - id: "0x0162"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 30
+      y: 251
+      w: 28
+      h: 28
+    - id: "0x0163"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 59
+      y: 251
+      w: 28
+      h: 28
+    - id: "0x0164"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 88
+      y: 251
+      w: 27
+      h: 28
+    - id: "0x0165"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 116
+      y: 251
+      w: 28
+      h: 27
+    - id: "0x0166"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 145
+      y: 251
+      w: 27
+      h: 29
+    - id: "0x0167"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 173
+      y: 251
+      w: 27
+      h: 28
+    - id: "0x0168"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 201
+      y: 251
+      w: 28
+      h: 29
+    - id: "0x0169"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 230
+      y: 251
+      w: 27
+      h: 27
+    - id: "0x016A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 258
+      y: 251
+      w: 24
+      h: 27
+    - id: "0x016B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 283
+      y: 251
+      w: 27
+      h: 28
+    - id: "0x016C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 311
+      y: 251
+      w: 27
+      h: 29
+    - id: "0x016D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 339
+      y: 251
+      w: 29
+      h: 29
+    - id: "0x016E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 369
+      y: 251
+      w: 28
+      h: 28
+    - id: "0x016F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 398
+      y: 251
+      w: 29
+      h: 30
+    - id: "0x0170"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 428
+      y: 251
+      w: 29
+      h: 29
+    - id: "0x0171"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 458
+      y: 251
+      w: 28
+      h: 28
+    - id: "0x0172"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 487
+      y: 251
+      w: 29
+      h: 28
+    - id: "0x0173"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 517
+      y: 251
+      w: 24
+      h: 28
+    - id: "0x0174"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 542
+      y: 251
+      w: 29
+      h: 30
+    - id: "0x0175"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 572
+      y: 251
+      w: 29
+      h: 28
+    - id: "0x0176"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 602
+      y: 251
+      w: 29
+      h: 29
+    - id: "0x0177"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 632
+      y: 251
+      w: 29
+      h: 28
+    - id: "0x0178"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 662
+      y: 251
+      w: 27
+      h: 28
+    - id: "0x0179"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 690
+      y: 251
+      w: 28
+      h: 27
+    - id: "0x017A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 719
+      y: 251
+      w: 28
+      h: 28
+    - id: "0x017B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 748
+      y: 251
+      w: 29
+      h: 30
+    - id: "0x017C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 778
+      y: 251
+      w: 28
+      h: 28
+    - id: "0x017D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 807
+      y: 251
+      w: 29
+      h: 29
+    - id: "0x017E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 837
+      y: 251
+      w: 29
+      h: 29
+    - id: "0x017F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 867
+      y: 251
+      w: 27
+      h: 28
+    - id: "0x0180"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 895
+      y: 251
+      w: 28
+      h: 28
+    - id: "0x0181"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 924
+      y: 251
+      w: 28
+      h: 28
+    - id: "0x0182"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 953
+      y: 251
+      w: 29
+      h: 29
+    - id: "0x0183"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 983
+      y: 251
+      w: 28
+      h: 28
+    - id: "0x0184"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 0
+      y: 282
+      w: 27
+      h: 28
+    - id: "0x0185"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 28
+      y: 282
+      w: 29
+      h: 28
+    - id: "0x0186"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 58
+      y: 282
+      w: 29
+      h: 28
+    - id: "0x0187"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 88
+      y: 282
+      w: 27
+      h: 28
+    - id: "0x0188"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 116
+      y: 282
+      w: 28
+      h: 28
+    - id: "0x0189"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 145
+      y: 282
+      w: 28
+      h: 29
+    - id: "0x018A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 174
+      y: 282
+      w: 29
+      h: 28
+    - id: "0x018B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 204
+      y: 282
+      w: 28
+      h: 28
+    - id: "0x018C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 233
+      y: 282
+      w: 29
+      h: 29
+    - id: "0x018D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 263
+      y: 282
+      w: 28
+      h: 28
+    - id: "0x018E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 292
+      y: 282
+      w: 29
+      h: 28
+    - id: "0x018F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 322
+      y: 282
+      w: 29
+      h: 28
+    - id: "0x0190"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 352
+      y: 282
+      w: 29
+      h: 29
+    - id: "0x0191"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 382
+      y: 282
+      w: 29
+      h: 28
+    - id: "0x0192"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 412
+      y: 282
+      w: 28
+      h: 28
+    - id: "0x0193"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 441
+      y: 282
+      w: 28
+      h: 28
+    - id: "0x0194"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 470
+      y: 282
+      w: 28
+      h: 29
+    - id: "0x0195"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 499
+      y: 282
+      w: 28
+      h: 27
+    - id: "0x0196"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 528
+      y: 282
+      w: 29
+      h: 28
+    - id: "0x0197"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 558
+      y: 282
+      w: 21
+      h: 25
+    - id: "0x0198"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 580
+      y: 282
+      w: 28
+      h: 27
+    - id: "0x0199"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 609
+      y: 282
+      w: 27
+      h: 28
+    - id: "0x019A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 637
+      y: 282
+      w: 28
+      h: 28
+    - id: "0x019B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 666
+      y: 282
+      w: 28
+      h: 28
+    - id: "0x019C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 695
+      y: 282
+      w: 27
+      h: 28
+    - id: "0x019D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 723
+      y: 282
+      w: 30
+      h: 28
+    - id: "0x019E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 754
+      y: 282
+      w: 27
+      h: 28
+    - id: "0x019F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 782
+      y: 282
+      w: 28
+      h: 28
+    - id: "0x01A0"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 811
+      y: 282
+      w: 28
+      h: 27
+    - id: "0x01A1"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 840
+      y: 282
+      w: 29
+      h: 29
+    - id: "0x01A2"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 870
+      y: 282
+      w: 28
+      h: 28
+    - id: "0x01A3"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 899
+      y: 282
+      w: 27
+      h: 27
+    - id: "0x01A4"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 927
+      y: 282
+      w: 29
+      h: 28
+    - id: "0x01A5"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 957
+      y: 282
+      w: 28
+      h: 28
+    - id: "0x01A6"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 986
+      y: 282
+      w: 27
+      h: 28
+    - id: "0x01A7"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 0
+      y: 312
+      w: 28
+      h: 28
+    - id: "0x01A8"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 29
+      y: 312
+      w: 26
+      h: 28
+    - id: "0x01A9"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 56
+      y: 312
+      w: 28
+      h: 29
+    - id: "0x01AA"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 85
+      y: 312
+      w: 28
+      h: 29
+    - id: "0x01AB"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 114
+      y: 312
+      w: 27
+      h: 28
+    - id: "0x01AC"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 142
+      y: 312
+      w: 29
+      h: 29
+    - id: "0x01AD"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 172
+      y: 312
+      w: 28
+      h: 28
+    - id: "0x01AE"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 201
+      y: 312
+      w: 28
+      h: 28
+    - id: "0x01AF"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 230
+      y: 312
+      w: 27
+      h: 29
+    - id: "0x01B0"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 258
+      y: 312
+      w: 28
+      h: 29
+    - id: "0x01B1"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 287
+      y: 312
+      w: 29
+      h: 28
+    - id: "0x01B2"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 317
+      y: 312
+      w: 25
+      h: 28
+    - id: "0x01B3"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 343
+      y: 312
+      w: 28
+      h: 28
+    - id: "0x01B4"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 372
+      y: 312
+      w: 28
+      h: 29
+    - id: "0x01B5"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 401
+      y: 312
+      w: 29
+      h: 28
+    - id: "0x01B6"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 431
+      y: 312
+      w: 30
+      h: 28
+    - id: "0x01B7"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 462
+      y: 312
+      w: 30
+      h: 29
+    - id: "0x01B8"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 493
+      y: 312
+      w: 28
+      h: 25
+    - id: "0x01B9"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 522
+      y: 312
+      w: 27
+      h: 27
+    - id: "0x01BA"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 550
+      y: 312
+      w: 26
+      h: 28
+    - id: "0x01BB"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 577
+      y: 312
+      w: 28
+      h: 26
+    - id: "0x01BC"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 606
+      y: 312
+      w: 28
+      h: 28
+    - id: "0x01BD"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 635
+      y: 312
+      w: 29
+      h: 28
+    - id: "0x01BE"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 665
+      y: 312
+      w: 21
+      h: 25
+    - id: "0x01BF"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 687
+      y: 312
+      w: 26
+      h: 29
+    - id: "0x01C0"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 714
+      y: 312
+      w: 27
+      h: 28
+    - id: "0x01C1"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 742
+      y: 312
+      w: 28
+      h: 29
+    - id: "0x01C2"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 771
+      y: 312
+      w: 28
+      h: 28
+    - id: "0x01C3"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 800
+      y: 312
+      w: 28
+      h: 28
+    - id: "0x01C4"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 829
+      y: 312
+      w: 28
+      h: 26
+    - id: "0x01C5"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 858
+      y: 312
+      w: 30
+      h: 28
+    - id: "0x01C6"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 889
+      y: 312
+      w: 29
+      h: 29
+    - id: "0x01C7"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 919
+      y: 312
+      w: 30
+      h: 28
+    - id: "0x01C8"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 950
+      y: 312
+      w: 27
+      h: 28
+    - id: "0x01C9"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 978
+      y: 312
+      w: 28
+      h: 26
+    - id: "0x01CA"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 0
+      y: 343
+      w: 28
+      h: 30
+    - id: "0x01CB"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 29
+      y: 343
+      w: 28
+      h: 29
+    - id: "0x01CC"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 58
+      y: 343
+      w: 29
+      h: 28
+    - id: "0x01CD"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 88
+      y: 343
+      w: 29
+      h: 28
+    - id: "0x01CE"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 118
+      y: 343
+      w: 29
+      h: 29
+    - id: "0x01CF"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 148
+      y: 343
+      w: 28
+      h: 29
+    - id: "0x01D0"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 177
+      y: 343
+      w: 29
+      h: 29
+    - id: "0x01D1"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 207
+      y: 343
+      w: 29
+      h: 29
+    - id: "0x01D2"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 237
+      y: 343
+      w: 30
+      h: 28
+    - id: "0x01D3"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 268
+      y: 343
+      w: 30
+      h: 30
+    - id: "0x01D4"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 299
+      y: 343
+      w: 28
+      h: 27
+    - id: "0x01D5"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 328
+      y: 343
+      w: 27
+      h: 28
+    - id: "0x01D6"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 356
+      y: 343
+      w: 28
+      h: 29
+    - id: "0x01D7"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 385
+      y: 343
+      w: 28
+      h: 28
+    - id: "0x01D8"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 414
+      y: 343
+      w: 22
+      h: 28
+    - id: "0x01D9"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 437
+      y: 343
+      w: 28
+      h: 28
+    - id: "0x01DA"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 466
+      y: 343
+      w: 28
+      h: 28
+    - id: "0x01DB"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 495
+      y: 343
+      w: 29
+      h: 28
+    - id: "0x01DC"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 525
+      y: 343
+      w: 29
+      h: 29
+    - id: "0x01DD"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 555
+      y: 343
+      w: 28
+      h: 27
+    - id: "0x01DE"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 584
+      y: 343
+      w: 28
+      h: 27
+    - id: "0x01DF"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 613
+      y: 343
+      w: 27
+      h: 27
+    - id: "0x01E0"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 641
+      y: 343
+      w: 26
+      h: 29
+    - id: "0x01E1"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 668
+      y: 343
+      w: 30
+      h: 28
+    - id: "0x01E2"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 699
+      y: 343
+      w: 27
+      h: 27
+    - id: "0x01E3"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 727
+      y: 343
+      w: 28
+      h: 28
+    - id: "0x01E4"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 756
+      y: 343
+      w: 28
+      h: 27
+    - id: "0x01E5"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 785
+      y: 343
+      w: 29
+      h: 28
+    - id: "0x01E6"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 815
+      y: 343
+      w: 29
+      h: 27
+    - id: "0x01E7"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 845
+      y: 343
+      w: 29
+      h: 27
+    - id: "0x01E8"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 875
+      y: 343
+      w: 28
+      h: 27
+    - id: "0x01E9"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 904
+      y: 343
+      w: 29
+      h: 29
+    - id: "0x01EA"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 934
+      y: 343
+      w: 30
+      h: 29
+    - id: "0x01EB"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 965
+      y: 343
+      w: 25
+      h: 28
+    - id: "0x01EC"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 991
+      y: 343
+      w: 26
+      h: 29
+    - id: "0x01ED"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 0
+      y: 374
+      w: 28
+      h: 28
+    - id: "0x01EE"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 29
+      y: 374
+      w: 29
+      h: 28
+    - id: "0x01EF"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 59
+      y: 374
+      w: 28
+      h: 29
+    - id: "0x01F0"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 88
+      y: 374
+      w: 27
+      h: 28
+    - id: "0x01F1"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 116
+      y: 374
+      w: 29
+      h: 27
+    - id: "0x01F2"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 146
+      y: 374
+      w: 28
+      h: 27
+    - id: "0x01F3"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 175
+      y: 374
+      w: 29
+      h: 27
+    - id: "0x01F4"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 205
+      y: 374
+      w: 28
+      h: 28
+    - id: "0x01F5"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 234
+      y: 374
+      w: 28
+      h: 29
+    - id: "0x01F6"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 263
+      y: 374
+      w: 29
+      h: 28
+    - id: "0x01F7"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 293
+      y: 374
+      w: 29
+      h: 29
+    - id: "0x01F8"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 323
+      y: 374
+      w: 29
+      h: 27
+    - id: "0x01F9"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 353
+      y: 374
+      w: 28
+      h: 28
+    - id: "0x01FA"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 382
+      y: 374
+      w: 28
+      h: 28
+    - id: "0x01FB"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 411
+      y: 374
+      w: 29
+      h: 27
+    - id: "0x01FC"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 441
+      y: 374
+      w: 24
+      h: 27
+    - id: "0x01FD"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 466
+      y: 374
+      w: 26
+      h: 27
+    - id: "0x01FE"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 493
+      y: 374
+      w: 26
+      h: 27
+    - id: "0x01FF"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 520
+      y: 374
+      w: 26
+      h: 28
+    - id: "0x0200"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 547
+      y: 374
+      w: 26
+      h: 27
+    - id: "0x0201"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 574
+      y: 374
+      w: 28
+      h: 28
+    - id: "0x0202"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 603
+      y: 374
+      w: 27
+      h: 27
+    - id: "0x0203"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 631
+      y: 374
+      w: 28
+      h: 28
+    - id: "0x0204"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 660
+      y: 374
+      w: 28
+      h: 29
+    - id: "0x0205"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 689
+      y: 374
+      w: 28
+      h: 28
+    - id: "0x0206"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 718
+      y: 374
+      w: 27
+      h: 28
+    - id: "0x0207"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 746
+      y: 374
+      w: 27
+      h: 27
+    - id: "0x0208"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 774
+      y: 374
+      w: 28
+      h: 28
+    - id: "0x0209"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 803
+      y: 374
+      w: 28
+      h: 26
+    - id: "0x020A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 832
+      y: 374
+      w: 28
+      h: 28
+    - id: "0x020B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 861
+      y: 374
+      w: 29
+      h: 28
+    - id: "0x020C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 891
+      y: 374
+      w: 29
+      h: 28
+    - id: "0x020D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 921
+      y: 374
+      w: 29
+      h: 29
+    - id: "0x020E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 951
+      y: 374
+      w: 29
+      h: 27
+    - id: "0x020F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 981
+      y: 374
+      w: 28
+      h: 29
+    - id: "0x0210"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 0
+      y: 404
+      w: 29
+      h: 28
+    - id: "0x0211"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 30
+      y: 404
+      w: 28
+      h: 28
+    - id: "0x0212"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 59
+      y: 404
+      w: 29
+      h: 30
+    - id: "0x0213"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 89
+      y: 404
+      w: 30
+      h: 30
+    - id: "0x0214"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 120
+      y: 404
+      w: 28
+      h: 27
+    - id: "0x0215"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 149
+      y: 404
+      w: 9
+      h: 24
+    - id: "0x0216"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 159
+      y: 404
+      w: 13
+      h: 30
+    - id: "0x0217"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 173
+      y: 404
+      w: 13
+      h: 30
+    - id: "0x0218"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 187
+      y: 404
+      w: 23
+      h: 26
+    - id: "0x0219"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 211
+      y: 404
+      w: 15
+      h: 24
+    - id: "0x021A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 227
+      y: 404
+      w: 18
+      h: 25
+    - id: "0x021B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 246
+      y: 404
+      w: 17
+      h: 24
+    - id: "0x021C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 264
+      y: 404
+      w: 20
+      h: 24
+    - id: "0x021D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 285
+      y: 404
+      w: 18
+      h: 24
+    - id: "0x021E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 304
+      y: 404
+      w: 19
+      h: 25
+    - id: "0x021F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 324
+      y: 404
+      w: 19
+      h: 24
+    - id: "0x0220"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 344
+      y: 404
+      w: 19
+      h: 25
+    - id: "0x0221"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 364
+      y: 404
+      w: 9
+      h: 20
+    - id: "0x0222"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 374
+      y: 404
+      w: 19
+      h: 25
+    - id: "0x0223"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 394
+      y: 404
+      w: 6
+      h: 6
+
+  frames:
+    - id: "0x2000"
+      name: "font"
+      parts:
+        - { module: "0x0000", x: 0, y: 7 }
+        - { module: "0x0001", x: 0, y: 7 }
+        - { module: "0x0002", x: 0, y: 5 }
+        - { module: "0x0003", x: 0, y: 7 }
+        - { module: "0x0004", x: 0, y: 4 }
+        - { module: "0x0005", x: 0, y: 6 }
+        - { module: "0x0006", x: 0, y: 6 }
+        - { module: "0x0007", x: 0, y: 5 }
+        - { module: "0x0008", x: 0, y: 5 }
+        - { module: "0x0009", x: 0, y: 5 }
+        - { module: "0x000A", x: 1, y: 6 }
+        - { module: "0x000B", x: 0, y: 22 }
+        - { module: "0x000C", x: 0, y: 17 }
+        - { module: "0x000D", x: 0, y: 22 }
+        - { module: "0x000E", x: 0, y: 7 }
+        - { module: "0x000F", x: 0, y: 6 }
+        - { module: "0x0010", x: 0, y: 7 }
+        - { module: "0x0011", x: 0, y: 6 }
+        - { module: "0x0012", x: 0, y: 7 }
+        - { module: "0x0013", x: 0, y: 7 }
+        - { module: "0x0014", x: 0, y: 7 }
+        - { module: "0x0015", x: 0, y: 6 }
+        - { module: "0x0016", x: 0, y: 7 }
+        - { module: "0x0017", x: 0, y: 6 }
+        - { module: "0x0018", x: 0, y: 6 }
+        - { module: "0x0019", x: 0, y: 11 }
+        - { module: "0x001A", x: 0, y: 11 }
+        - { module: "0x001B", x: 0, y: 10 }
+        - { module: "0x001C", x: 0, y: 14 }
+        - { module: "0x001D", x: 0, y: 10 }
+        - { module: "0x001E", x: 0, y: 6 }
+        - { module: "0x001F", x: 0, y: 9 }
+        - { module: "0x0020", x: 0, y: 7 }
+        - { module: "0x0021", x: 0, y: 6 }
+        - { module: "0x0022", x: 0, y: 6 }
+        - { module: "0x0023", x: 0, y: 6 }
+        - { module: "0x0024", x: 0, y: 7 }
+        - { module: "0x0025", x: 0, y: 7 }
+        - { module: "0x0026", x: 1, y: 6 }
+        - { module: "0x0027", x: 0, y: 7 }
+        - { module: "0x0028", x: 0, y: 7 }
+        - { module: "0x0029", x: 0, y: 7 }
+        - { module: "0x002A", x: 0, y: 7 }
+        - { module: "0x002B", x: 0, y: 7 }
+        - { module: "0x002C", x: 0, y: 7 }
+        - { module: "0x002D", x: 0, y: 7 }
+        - { module: "0x002E", x: 0, y: 6 }
+        - { module: "0x002F", x: 0, y: 6 }
+        - { module: "0x0030", x: 0, y: 6 }
+        - { module: "0x0031", x: 0, y: 6 }
+        - { module: "0x0032", x: 0, y: 6 }
+        - { module: "0x0033", x: 0, y: 7 }
+        - { module: "0x0034", x: 0, y: 7 }
+        - { module: "0x0035", x: 0, y: 7 }
+        - { module: "0x0036", x: 0, y: 7 }
+        - { module: "0x0037", x: 0, y: 7 }
+        - { module: "0x0038", x: 0, y: 7 }
+        - { module: "0x0039", x: 0, y: 7 }
+        - { module: "0x003A", x: 0, y: 5 }
+        - { module: "0x003B", x: 0, y: 7 }
+        - { module: "0x003C", x: 0, y: 5 }
+        - { module: "0x003D", x: 0, y: 28 }
+        - { module: "0x003E", x: 0, y: 12 }
+        - { module: "0x003F", x: 0, y: 7 }
+        - { module: "0x0040", x: 0, y: 12 }
+        - { module: "0x0041", x: 0, y: 7 }
+        - { module: "0x0042", x: 0, y: 12 }
+        - { module: "0x0043", x: 0, y: 6 }
+        - { module: "0x0044", x: 0, y: 12 }
+        - { module: "0x0045", x: 0, y: 7 }
+        - { module: "0x0046", x: 0, y: 6 }
+        - { module: "0x0047", x: 0, y: 6 }
+        - { module: "0x0048", x: 0, y: 7 }
+        - { module: "0x0049", x: 0, y: 7 }
+        - { module: "0x004A", x: 0, y: 12 }
+        - { module: "0x004B", x: 0, y: 12 }
+        - { module: "0x004C", x: 0, y: 12 }
+        - { module: "0x004D", x: 0, y: 12 }
+        - { module: "0x004E", x: 0, y: 12 }
+        - { module: "0x004F", x: 0, y: 12 }
+        - { module: "0x0050", x: 0, y: 8 }
+        - { module: "0x0051", x: 0, y: 12 }
+        - { module: "0x0052", x: 0, y: 12 }
+        - { module: "0x0053", x: 0, y: 12 }
+        - { module: "0x0054", x: 0, y: 12 }
+        - { module: "0x0055", x: 0, y: 12 }
+        - { module: "0x0056", x: 0, y: 12 }
+        - { module: "0x0057", x: 0, y: 4 }
+        - { module: "0x0058", x: 0, y: 0 }
+        - { module: "0x0059", x: 0, y: 12 }
+        - { module: "0x005A", x: 0, y: 7 }
+        - { module: "0x005B", x: 0, y: 6 }
+        - { module: "0x005C", x: 0, y: 6 }
+        - { module: "0x005D", x: 0, y: 12 }
+        - { module: "0x005E", x: 0, y: 0 }
+        - { module: "0x005F", x: 0, y: 0 }
+        - { module: "0x0060", x: 0, y: 1 }
+        - { module: "0x0061", x: 0, y: 6 }
+        - { module: "0x0062", x: 0, y: 0 }
+        - { module: "0x0063", x: 0, y: 0 }
+        - { module: "0x0064", x: 0, y: 0 }
+        - { module: "0x0065", x: 0, y: 1 }
+        - { module: "0x0066", x: 0, y: 0 }
+        - { module: "0x0067", x: 0, y: 0 }
+        - { module: "0x0068", x: 0, y: 0 }
+        - { module: "0x0069", x: 0, y: 1 }
+        - { module: "0x006A", x: 0, y: 0 }
+        - { module: "0x006B", x: 0, y: 0 }
+        - { module: "0x006C", x: 0, y: 0 }
+        - { module: "0x006D", x: 0, y: 0 }
+        - { module: "0x006E", x: 0, y: 1 }
+        - { module: "0x006F", x: 0, y: 12 }
+        - { module: "0x0070", x: 0, y: 0 }
+        - { module: "0x0071", x: 0, y: 0 }
+        - { module: "0x0072", x: 0, y: 1 }
+        - { module: "0x0073", x: 0, y: 6 }
+        - { module: "0x0074", x: 0, y: 6 }
+        - { module: "0x0075", x: 0, y: 6 }
+        - { module: "0x0076", x: 0, y: 6 }
+        - { module: "0x0077", x: 0, y: 12 }
+        - { module: "0x0078", x: 0, y: 6 }
+        - { module: "0x0079", x: 0, y: 6 }
+        - { module: "0x007A", x: 0, y: 6 }
+        - { module: "0x007B", x: 0, y: 6 }
+        - { module: "0x007C", x: 0, y: 6 }
+        - { module: "0x007D", x: 0, y: 6 }
+        - { module: "0x007E", x: 0, y: 6 }
+        - { module: "0x007F", x: 0, y: 6 }
+        - { module: "0x0080", x: 0, y: 6 }
+        - { module: "0x0081", x: 0, y: 6 }
+        - { module: "0x0082", x: 0, y: 6 }
+        - { module: "0x0083", x: 0, y: 6 }
+        - { module: "0x0084", x: 0, y: 6 }
+        - { module: "0x0085", x: 0, y: 6 }
+        - { module: "0x0086", x: 0, y: 6 }
+        - { module: "0x0087", x: 0, y: 6 }
+        - { module: "0x0088", x: 1, y: 11 }
+        - { module: "0x0089", x: 0, y: 16 }
+        - { module: "0x008A", x: 0, y: 21 }
+        - { module: "0x008B", x: 0, y: 20 }
+        - { module: "0x008C", x: 0, y: 8 }
+        - { module: "0x008D", x: 0, y: 4 }
+        - { module: "0x008E", x: 0, y: 9 }
+        - { module: "0x008F", x: 0, y: 5 }
+        - { module: "0x0090", x: 0, y: 8 }
+        - { module: "0x0091", x: 0, y: 5 }
+        - { module: "0x0092", x: 0, y: 5 }
+        - { module: "0x0093", x: 0, y: 5 }
+        - { module: "0x0094", x: 0, y: 5 }
+        - { module: "0x0095", x: 0, y: 5 }
+        - { module: "0x0096", x: 0, y: 5 }
+        - { module: "0x0097", x: 0, y: 4 }
+        - { module: "0x0098", x: 0, y: 5 }
+        - { module: "0x0099", x: 0, y: 5 }
+        - { module: "0x009A", x: 0, y: 3 }
+        - { module: "0x009B", x: 0, y: 7 }
+        - { module: "0x009C", x: 0, y: 5 }
+        - { module: "0x009D", x: 0, y: 6 }
+        - { module: "0x009E", x: 0, y: 4 }
+        - { module: "0x009F", x: 0, y: 4 }
+        - { module: "0x00A0", x: 0, y: 5 }
+        - { module: "0x00A1", x: 0, y: 6 }
+        - { module: "0x00A2", x: 0, y: 3 }
+        - { module: "0x00A3", x: 0, y: 4 }
+        - { module: "0x00A4", x: 0, y: 4 }
+        - { module: "0x00A5", x: 0, y: 5 }
+        - { module: "0x00A6", x: 0, y: 12 }
+        - { module: "0x00A7", x: 0, y: 8 }
+        - { module: "0x00A8", x: 0, y: 4 }
+        - { module: "0x00A9", x: 0, y: 7 }
+        - { module: "0x00AA", x: 0, y: 7 }
+        - { module: "0x00AB", x: 0, y: 5 }
+        - { module: "0x00AC", x: 1, y: 5 }
+        - { module: "0x00AD", x: 0, y: 6 }
+        - { module: "0x00AE", x: 0, y: 7 }
+        - { module: "0x00AF", x: 0, y: 5 }
+        - { module: "0x00B0", x: 0, y: 3 }
+        - { module: "0x00B1", x: 0, y: 3 }
+        - { module: "0x00B2", x: 0, y: 3 }
+        - { module: "0x00B3", x: 0, y: 10 }
+        - { module: "0x00B4", x: 0, y: 5 }
+        - { module: "0x00B5", x: 0, y: 6 }
+        - { module: "0x00B6", x: 0, y: 3 }
+        - { module: "0x00B7", x: 0, y: 5 }
+        - { module: "0x00B8", x: 0, y: 6 }
+        - { module: "0x00B9", x: 0, y: 5 }
+        - { module: "0x00BA", x: 0, y: 5 }
+        - { module: "0x00BB", x: 0, y: 5 }
+        - { module: "0x00BC", x: 0, y: 5 }
+        - { module: "0x00BD", x: 0, y: 5 }
+        - { module: "0x00BE", x: 0, y: 6 }
+        - { module: "0x00BF", x: 0, y: 5 }
+        - { module: "0x00C0", x: 0, y: 6 }
+        - { module: "0x00C1", x: 0, y: 5 }
+        - { module: "0x00C2", x: 0, y: 6 }
+        - { module: "0x00C3", x: 0, y: 5 }
+        - { module: "0x00C4", x: 0, y: 5 }
+        - { module: "0x00C5", x: 0, y: 6 }
+        - { module: "0x00C6", x: 0, y: 11 }
+        - { module: "0x00C7", x: 0, y: 7 }
+        - { module: "0x00C8", x: 1, y: 11 }
+        - { module: "0x00C9", x: 0, y: 6 }
+        - { module: "0x00CA", x: 0, y: 5 }
+        - { module: "0x00CB", x: 0, y: 12 }
+        - { module: "0x00CC", x: 0, y: 8 }
+        - { module: "0x00CD", x: 0, y: 9 }
+        - { module: "0x00CE", x: 0, y: 5 }
+        - { module: "0x00CF", x: 0, y: 5 }
+        - { module: "0x00D0", x: 0, y: 5 }
+        - { module: "0x00D1", x: 0, y: 4 }
+        - { module: "0x00D2", x: 0, y: 5 }
+        - { module: "0x00D3", x: 0, y: 4 }
+        - { module: "0x00D4", x: 1, y: 5 }
+        - { module: "0x00D5", x: 0, y: 4 }
+        - { module: "0x00D6", x: 0, y: 8 }
+        - { module: "0x00D7", x: 0, y: 4 }
+        - { module: "0x00D8", x: 0, y: 6 }
+        - { module: "0x00D9", x: 0, y: 3 }
+        - { module: "0x00DA", x: 0, y: 6 }
+        - { module: "0x00DB", x: 0, y: 4 }
+        - { module: "0x00DC", x: 1, y: 7 }
+        - { module: "0x00DD", x: 0, y: 4 }
+        - { module: "0x00DE", x: 0, y: 5 }
+        - { module: "0x00DF", x: 0, y: 3 }
+        - { module: "0x00E0", x: 0, y: 7 }
+        - { module: "0x00E1", x: 0, y: 5 }
+        - { module: "0x00E2", x: 1, y: 4 }
+        - { module: "0x00E3", x: 0, y: 6 }
+        - { module: "0x00E4", x: 0, y: 11 }
+        - { module: "0x00E5", x: 0, y: 7 }
+        - { module: "0x00E6", x: 0, y: 7 }
+        - { module: "0x00E7", x: 0, y: 4 }
+        - { module: "0x00E8", x: 0, y: 6 }
+        - { module: "0x00E9", x: 0, y: 5 }
+        - { module: "0x00EA", x: 0, y: 5 }
+        - { module: "0x00EB", x: 0, y: 8 }
+        - { module: "0x00EC", x: 1, y: 5 }
+        - { module: "0x00ED", x: 0, y: 6 }
+        - { module: "0x00EE", x: 0, y: 7 }
+        - { module: "0x00EF", x: 1, y: 4 }
+        - { module: "0x00F0", x: 1, y: 4 }
+        - { module: "0x00F1", x: 0, y: 6 }
+        - { module: "0x00F2", x: 0, y: 4 }
+        - { module: "0x00F3", x: 0, y: 7 }
+        - { module: "0x00F4", x: 0, y: 3 }
+        - { module: "0x00F5", x: 0, y: 3 }
+        - { module: "0x00F6", x: 0, y: 9 }
+        - { module: "0x00F7", x: 0, y: 5 }
+        - { module: "0x00F8", x: 0, y: 5 }
+        - { module: "0x00F9", x: 0, y: 4 }
+        - { module: "0x00FA", x: 0, y: 3 }
+        - { module: "0x00FB", x: 0, y: 7 }
+        - { module: "0x00FC", x: 1, y: 6 }
+        - { module: "0x00FD", x: 0, y: 6 }
+        - { module: "0x00FE", x: 0, y: 6 }
+        - { module: "0x00FF", x: 0, y: 7 }
+        - { module: "0x0100", x: 0, y: 10 }
+        - { module: "0x0101", x: 1, y: 6 }
+        - { module: "0x0102", x: 0, y: 12 }
+        - { module: "0x0103", x: 0, y: 8 }
+        - { module: "0x0104", x: 0, y: 11 }
+        - { module: "0x0105", x: 0, y: 7 }
+        - { module: "0x0106", x: 0, y: 7 }
+        - { module: "0x0107", x: 0, y: 6 }
+        - { module: "0x0108", x: 1, y: 6 }
+        - { module: "0x0109", x: 0, y: 6 }
+        - { module: "0x010A", x: 0, y: 7 }
+        - { module: "0x010B", x: 0, y: 7 }
+        - { module: "0x010C", x: 0, y: 7 }
+        - { module: "0x010D", x: 0, y: 15 }
+        - { module: "0x010E", x: 0, y: 15 }
+        - { module: "0x010F", x: 0, y: 14 }
+        - { module: "0x0110", x: 0, y: 6 }
+        - { module: "0x0111", x: 0, y: 4 }
+        - { module: "0x0112", x: 0, y: 6 }
+        - { module: "0x0113", x: 0, y: 6 }
+        - { module: "0x0114", x: 0, y: 4 }
+        - { module: "0x0115", x: 0, y: 5 }
+        - { module: "0x0116", x: 0, y: 4 }
+        - { module: "0x0117", x: 0, y: 6 }
+        - { module: "0x0118", x: 0, y: 5 }
+        - { module: "0x0119", x: 1, y: 4 }
+        - { module: "0x011A", x: 0, y: 4 }
+        - { module: "0x011B", x: 0, y: 3 }
+        - { module: "0x011C", x: 0, y: 4 }
+        - { module: "0x011D", x: 0, y: 5 }
+        - { module: "0x011E", x: 1, y: 4 }
+        - { module: "0x011F", x: 0, y: 4 }
+        - { module: "0x0120", x: 0, y: 4 }
+        - { module: "0x0121", x: 0, y: 4 }
+        - { module: "0x0122", x: 0, y: 4 }
+        - { module: "0x0123", x: 0, y: 4 }
+        - { module: "0x0124", x: 0, y: 4 }
+        - { module: "0x0125", x: 0, y: 4 }
+        - { module: "0x0126", x: 0, y: 3 }
+        - { module: "0x0127", x: 0, y: 4 }
+        - { module: "0x0128", x: 0, y: 4 }
+        - { module: "0x0129", x: 0, y: 4 }
+        - { module: "0x012A", x: 0, y: 3 }
+        - { module: "0x012B", x: 0, y: 4 }
+        - { module: "0x012C", x: 0, y: 5 }
+        - { module: "0x012D", x: 0, y: 3 }
+        - { module: "0x012E", x: 0, y: 3 }
+        - { module: "0x012F", x: 0, y: 6 }
+        - { module: "0x0130", x: 0, y: 6 }
+        - { module: "0x0131", x: 0, y: 4 }
+        - { module: "0x0132", x: 0, y: 5 }
+        - { module: "0x0133", x: 0, y: 4 }
+        - { module: "0x0134", x: 1, y: 5 }
+        - { module: "0x0135", x: 0, y: 4 }
+        - { module: "0x0136", x: 1, y: 4 }
+        - { module: "0x0137", x: 0, y: 4 }
+        - { module: "0x0138", x: 0, y: 4 }
+        - { module: "0x0139", x: 0, y: 5 }
+        - { module: "0x013A", x: 0, y: 4 }
+        - { module: "0x013B", x: 0, y: 4 }
+        - { module: "0x013C", x: 0, y: 4 }
+        - { module: "0x013D", x: 0, y: 5 }
+        - { module: "0x013E", x: 0, y: 4 }
+        - { module: "0x013F", x: 0, y: 6 }
+        - { module: "0x0140", x: 0, y: 4 }
+        - { module: "0x0141", x: 0, y: 5 }
+        - { module: "0x0142", x: 0, y: 6 }
+        - { module: "0x0143", x: 0, y: 4 }
+        - { module: "0x0144", x: 1, y: 4 }
+        - { module: "0x0145", x: 0, y: 4 }
+        - { module: "0x0146", x: 0, y: 4 }
+        - { module: "0x0147", x: 0, y: 5 }
+        - { module: "0x0148", x: 0, y: 5 }
+        - { module: "0x0149", x: 0, y: 5 }
+        - { module: "0x014A", x: 0, y: 4 }
+        - { module: "0x014B", x: 1, y: 4 }
+        - { module: "0x014C", x: 0, y: 5 }
+        - { module: "0x014D", x: 0, y: 6 }
+        - { module: "0x014E", x: 0, y: 5 }
+        - { module: "0x014F", x: 0, y: 5 }
+        - { module: "0x0150", x: 0, y: 5 }
+        - { module: "0x0151", x: 0, y: 4 }
+        - { module: "0x0152", x: 0, y: 3 }
+        - { module: "0x0153", x: 0, y: 5 }
+        - { module: "0x0154", x: 0, y: 4 }
+        - { module: "0x0155", x: 0, y: 3 }
+        - { module: "0x0156", x: 1, y: 3 }
+        - { module: "0x0157", x: 0, y: 3 }
+        - { module: "0x0158", x: 1, y: 4 }
+        - { module: "0x0159", x: 0, y: 5 }
+        - { module: "0x015A", x: 0, y: 4 }
+        - { module: "0x015B", x: 0, y: 4 }
+        - { module: "0x015C", x: 0, y: 5 }
+        - { module: "0x015D", x: 0, y: 4 }
+        - { module: "0x015E", x: 0, y: 5 }
+        - { module: "0x015F", x: 0, y: 4 }
+        - { module: "0x0160", x: 0, y: 4 }
+        - { module: "0x0161", x: 0, y: 4 }
+        - { module: "0x0162", x: 0, y: 4 }
+        - { module: "0x0163", x: 0, y: 4 }
+        - { module: "0x0164", x: 0, y: 4 }
+        - { module: "0x0165", x: 0, y: 5 }
+        - { module: "0x0166", x: 1, y: 4 }
+        - { module: "0x0167", x: 1, y: 4 }
+        - { module: "0x0168", x: 0, y: 4 }
+        - { module: "0x0169", x: 0, y: 4 }
+        - { module: "0x016A", x: 0, y: 5 }
+        - { module: "0x016B", x: 0, y: 4 }
+        - { module: "0x016C", x: 0, y: 4 }
+        - { module: "0x016D", x: 0, y: 4 }
+        - { module: "0x016E", x: 0, y: 5 }
+        - { module: "0x016F", x: 0, y: 3 }
+        - { module: "0x0170", x: 0, y: 3 }
+        - { module: "0x0171", x: 0, y: 4 }
+        - { module: "0x0172", x: 0, y: 4 }
+        - { module: "0x0173", x: 0, y: 4 }
+        - { module: "0x0174", x: 0, y: 3 }
+        - { module: "0x0175", x: 0, y: 4 }
+        - { module: "0x0176", x: 0, y: 4 }
+        - { module: "0x0177", x: 0, y: 4 }
+        - { module: "0x0178", x: 1, y: 4 }
+        - { module: "0x0179", x: 0, y: 5 }
+        - { module: "0x017A", x: 0, y: 4 }
+        - { module: "0x017B", x: 0, y: 3 }
+        - { module: "0x017C", x: 0, y: 4 }
+        - { module: "0x017D", x: 1, y: 3 }
+        - { module: "0x017E", x: 0, y: 3 }
+        - { module: "0x017F", x: 0, y: 4 }
+        - { module: "0x0180", x: 0, y: 4 }
+        - { module: "0x0181", x: 0, y: 5 }
+        - { module: "0x0182", x: 0, y: 4 }
+        - { module: "0x0183", x: 0, y: 4 }
+        - { module: "0x0184", x: 0, y: 4 }
+        - { module: "0x0185", x: 0, y: 4 }
+        - { module: "0x0186", x: 0, y: 4 }
+        - { module: "0x0187", x: 0, y: 4 }
+        - { module: "0x0188", x: 0, y: 4 }
+        - { module: "0x0189", x: 0, y: 3 }
+        - { module: "0x018A", x: 0, y: 4 }
+        - { module: "0x018B", x: 0, y: 4 }
+        - { module: "0x018C", x: 0, y: 4 }
+        - { module: "0x018D", x: 0, y: 4 }
+        - { module: "0x018E", x: 0, y: 4 }
+        - { module: "0x018F", x: 0, y: 4 }
+        - { module: "0x0190", x: 0, y: 4 }
+        - { module: "0x0191", x: 0, y: 4 }
+        - { module: "0x0192", x: 0, y: 4 }
+        - { module: "0x0193", x: 0, y: 5 }
+        - { module: "0x0194", x: 0, y: 4 }
+        - { module: "0x0195", x: 0, y: 5 }
+        - { module: "0x0196", x: 0, y: 4 }
+        - { module: "0x0197", x: 0, y: 6 }
+        - { module: "0x0198", x: 0, y: 5 }
+        - { module: "0x0199", x: 0, y: 4 }
+        - { module: "0x019A", x: 0, y: 4 }
+        - { module: "0x019B", x: 0, y: 4 }
+        - { module: "0x019C", x: 0, y: 5 }
+        - { module: "0x019D", x: 0, y: 5 }
+        - { module: "0x019E", x: 0, y: 4 }
+        - { module: "0x019F", x: 0, y: 4 }
+        - { module: "0x01A0", x: 0, y: 5 }
+        - { module: "0x01A1", x: 0, y: 4 }
+        - { module: "0x01A2", x: 0, y: 4 }
+        - { module: "0x01A3", x: 0, y: 6 }
+        - { module: "0x01A4", x: 0, y: 4 }
+        - { module: "0x01A5", x: 0, y: 4 }
+        - { module: "0x01A6", x: 1, y: 4 }
+        - { module: "0x01A7", x: 0, y: 5 }
+        - { module: "0x01A8", x: 1, y: 4 }
+        - { module: "0x01A9", x: 0, y: 4 }
+        - { module: "0x01AA", x: 0, y: 4 }
+        - { module: "0x01AB", x: 1, y: 4 }
+        - { module: "0x01AC", x: 0, y: 4 }
+        - { module: "0x01AD", x: 0, y: 4 }
+        - { module: "0x01AE", x: 0, y: 4 }
+        - { module: "0x01AF", x: 0, y: 4 }
+        - { module: "0x01B0", x: 0, y: 3 }
+        - { module: "0x01B1", x: 0, y: 4 }
+        - { module: "0x01B2", x: 1, y: 4 }
+        - { module: "0x01B3", x: 0, y: 4 }
+        - { module: "0x01B4", x: 0, y: 4 }
+        - { module: "0x01B5", x: 0, y: 4 }
+        - { module: "0x01B6", x: 0, y: 4 }
+        - { module: "0x01B7", x: 0, y: 4 }
+        - { module: "0x01B8", x: 0, y: 6 }
+        - { module: "0x01B9", x: 0, y: 4 }
+        - { module: "0x01BA", x: 1, y: 5 }
+        - { module: "0x01BB", x: 0, y: 6 }
+        - { module: "0x01BC", x: 0, y: 4 }
+        - { module: "0x01BD", x: 0, y: 4 }
+        - { module: "0x01BE", x: 0, y: 6 }
+        - { module: "0x01BF", x: 0, y: 3 }
+        - { module: "0x01C0", x: 0, y: 4 }
+        - { module: "0x01C1", x: 0, y: 3 }
+        - { module: "0x01C2", x: 0, y: 4 }
+        - { module: "0x01C3", x: 0, y: 4 }
+        - { module: "0x01C4", x: 0, y: 6 }
+        - { module: "0x01C5", x: 0, y: 4 }
+        - { module: "0x01C6", x: 0, y: 4 }
+        - { module: "0x01C7", x: 0, y: 4 }
+        - { module: "0x01C8", x: 0, y: 4 }
+        - { module: "0x01C9", x: 0, y: 5 }
+        - { module: "0x01CA", x: 0, y: 3 }
+        - { module: "0x01CB", x: 0, y: 3 }
+        - { module: "0x01CC", x: 0, y: 4 }
+        - { module: "0x01CD", x: 1, y: 4 }
+        - { module: "0x01CE", x: 1, y: 4 }
+        - { module: "0x01CF", x: 0, y: 4 }
+        - { module: "0x01D0", x: 0, y: 4 }
+        - { module: "0x01D1", x: 0, y: 4 }
+        - { module: "0x01D2", x: 0, y: 4 }
+        - { module: "0x01D3", x: 0, y: 3 }
+        - { module: "0x01D4", x: 0, y: 5 }
+        - { module: "0x01D5", x: 1, y: 4 }
+        - { module: "0x01D6", x: 0, y: 4 }
+        - { module: "0x01D7", x: 0, y: 4 }
+        - { module: "0x01D8", x: 0, y: 4 }
+        - { module: "0x01D9", x: 0, y: 4 }
+        - { module: "0x01DA", x: 0, y: 4 }
+        - { module: "0x01DB", x: 0, y: 4 }
+        - { module: "0x01DC", x: 0, y: 4 }
+        - { module: "0x01DD", x: 0, y: 5 }
+        - { module: "0x01DE", x: 0, y: 5 }
+        - { module: "0x01DF", x: 0, y: 5 }
+        - { module: "0x01E0", x: 0, y: 3 }
+        - { module: "0x01E1", x: 0, y: 4 }
+        - { module: "0x01E2", x: 0, y: 5 }
+        - { module: "0x01E3", x: 0, y: 4 }
+        - { module: "0x01E4", x: 0, y: 5 }
+        - { module: "0x01E5", x: 0, y: 4 }
+        - { module: "0x01E6", x: 0, y: 5 }
+        - { module: "0x01E7", x: 0, y: 5 }
+        - { module: "0x01E8", x: 0, y: 5 }
+        - { module: "0x01E9", x: 0, y: 4 }
+        - { module: "0x01EA", x: 0, y: 4 }
+        - { module: "0x01EB", x: 0, y: 5 }
+        - { module: "0x01EC", x: 1, y: 4 }
+        - { module: "0x01ED", x: 0, y: 5 }
+        - { module: "0x01EE", x: 0, y: 4 }
+        - { module: "0x01EF", x: 0, y: 3 }
+        - { module: "0x01F0", x: 0, y: 4 }
+        - { module: "0x01F1", x: 0, y: 5 }
+        - { module: "0x01F2", x: 0, y: 5 }
+        - { module: "0x01F3", x: 0, y: 5 }
+        - { module: "0x01F4", x: 0, y: 4 }
+        - { module: "0x01F5", x: 0, y: 3 }
+        - { module: "0x01F6", x: 0, y: 4 }
+        - { module: "0x01F7", x: 0, y: 3 }
+        - { module: "0x01F8", x: 0, y: 5 }
+        - { module: "0x01F9", x: 0, y: 4 }
+        - { module: "0x01FA", x: 0, y: 4 }
+        - { module: "0x01FB", x: 0, y: 5 }
+        - { module: "0x01FC", x: 0, y: 5 }
+        - { module: "0x01FD", x: 0, y: 5 }
+        - { module: "0x01FE", x: 0, y: 5 }
+        - { module: "0x01FF", x: 0, y: 4 }
+        - { module: "0x0200", x: 0, y: 5 }
+        - { module: "0x0201", x: 0, y: 4 }
+        - { module: "0x0202", x: 0, y: 5 }
+        - { module: "0x0203", x: 0, y: 4 }
+        - { module: "0x0204", x: 0, y: 3 }
+        - { module: "0x0205", x: 0, y: 4 }
+        - { module: "0x0206", x: 0, y: 5 }
+        - { module: "0x0207", x: 0, y: 5 }
+        - { module: "0x0208", x: 0, y: 4 }
+        - { module: "0x0209", x: 0, y: 6 }
+        - { module: "0x020A", x: 0, y: 4 }
+        - { module: "0x020B", x: 0, y: 5 }
+        - { module: "0x020C", x: 1, y: 4 }
+        - { module: "0x020D", x: 0, y: 4 }
+        - { module: "0x020E", x: 0, y: 5 }
+        - { module: "0x020F", x: 0, y: 4 }
+        - { module: "0x0210", x: 0, y: 4 }
+        - { module: "0x0211", x: 0, y: 4 }
+        - { module: "0x0212", x: 0, y: 3 }
+        - { module: "0x0213", x: 0, y: 3 }
+        - { module: "0x0214", x: 0, y: 5 }
+        - { module: "0x0215", x: 0, y: 7 }
+        - { module: "0x0216", x: 0, y: 4 }
+        - { module: "0x0217", x: 1, y: 4 }
+        - { module: "0x0218", x: 0, y: 6 }
+        - { module: "0x0219", x: 0, y: 7 }
+        - { module: "0x021A", x: 0, y: 6 }
+        - { module: "0x021B", x: 0, y: 7 }
+        - { module: "0x021C", x: 0, y: 7 }
+        - { module: "0x021D", x: 0, y: 7 }
+        - { module: "0x021E", x: 0, y: 6 }
+        - { module: "0x021F", x: 0, y: 7 }
+        - { module: "0x0220", x: 0, y: 6 }
+        - { module: "0x0221", x: 0, y: 9 }
+        - { module: "0x0222", x: 0, y: 6 }
+        - { module: "0x0223", x: 0, y: 16 }
+
+  animations: []

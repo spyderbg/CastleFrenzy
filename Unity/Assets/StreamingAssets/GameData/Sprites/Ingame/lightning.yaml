@@ -1,0 +1,871 @@
+# Converted from lightning.sprite by tools/sprites_conver.
+# Edit with AuroraMX (Tools/AuroraMX); the game reads this file directly.
+sprite:
+  version: "0001"
+
+  images:
+    - id: "0x0000"
+      file: "lightning.png"
+      transparent: "0x00FF00FF"
+
+  modules:
+    - id: "0x104D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 240
+      y: 83
+      w: 94
+      h: 62
+      name: "_00"
+    - id: "0x1013"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 353
+      y: 187
+      w: 131
+      h: 44
+      name: "_01"
+    - id: "0x1012"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 101
+      y: 142
+      w: 95
+      h: 46
+      name: "_02"
+    - id: "0x1011"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 452
+      y: 66
+      w: 56
+      h: 64
+      name: "_03"
+    - id: "0x1010"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 101
+      y: 84
+      w: 116
+      h: 58
+      name: "_04_00"
+    - id: "0x1023"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 227
+      y: 236
+      w: 90
+      h: 16
+      name: "_04_01"
+    - id: "0x1022"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 389
+      y: 247
+      w: 51
+      h: 8
+      name: "_04_02"
+    - id: "0x100F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 348
+      y: 0
+      w: 82
+      h: 80
+      name: "_05"
+    - id: "0x104E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 348
+      y: 80
+      w: 100
+      h: 80
+      name: "_00"
+    - id: "0x100E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 196
+      y: 145
+      w: 121
+      h: 46
+      name: "_01"
+    - id: "0x100D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 0
+      y: 0
+      w: 101
+      h: 161
+      name: "_02"
+    - id: "0x100C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 279
+      y: 0
+      w: 69
+      h: 81
+      name: "_03"
+    - id: "0x100B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 101
+      y: 0
+      w: 139
+      h: 84
+      name: "_04"
+    - id: "0x100A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 230
+      y: 204
+      w: 109
+      h: 32
+      name: "_05"
+    - id: "0x105E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 134
+      y: 188
+      w: 17
+      h: 36
+      name: "_00"
+    - id: "0x1009"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 284
+      y: 191
+      w: 40
+      h: 9
+      name: "_01"
+    - id: "0x1008"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 180
+      y: 244
+      w: 34
+      h: 5
+      name: "_02_00"
+    - id: "0x102D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 353
+      y: 160
+      w: 47
+      h: 27
+      name: "_02_01"
+    - id: "0x102C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 46
+      y: 203
+      w: 21
+      h: 29
+      name: "_02_02"
+    - id: "0x1007"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 400
+      y: 160
+      w: 36
+      h: 25
+      name: "_03"
+    - id: "0x1006"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 0
+      y: 204
+      w: 21
+      h: 29
+      name: "_04_00"
+    - id: "0x1035"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 436
+      y: 160
+      w: 12
+      h: 17
+      name: "_04_01"
+    - id: "0x1034"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 498
+      y: 52
+      w: 14
+      h: 12
+      name: "_04_02"
+    - id: "0x1005"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 430
+      y: 0
+      w: 22
+      h: 67
+      name: "_05"
+    - id: "0x104F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 74
+      y: 188
+      w: 29
+      h: 40
+      name: "_00"
+    - id: "0x1004"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 339
+      y: 231
+      w: 32
+      h: 20
+      name: "_01"
+    - id: "0x1003"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 338
+      y: 160
+      w: 15
+      h: 44
+      name: "_02_00"
+    - id: "0x1021"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 317
+      y: 145
+      w: 21
+      h: 45
+      name: "_02_01"
+    - id: "0x1020"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 240
+      y: 0
+      w: 39
+      h: 83
+      name: "_02_02"
+    - id: "0x1002"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 30
+      y: 161
+      w: 44
+      h: 42
+      name: "_03"
+    - id: "0x1001"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 192
+      y: 191
+      w: 38
+      h: 33
+      name: "_04"
+    - id: "0x1000"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 230
+      y: 191
+      w: 54
+      h: 9
+      name: "_05_00"
+    - id: "0x103F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 448
+      y: 130
+      w: 35
+      h: 57
+      name: "_05_01_00"
+    - id: "0x102B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 217
+      y: 84
+      w: 21
+      h: 51
+      name: "_05_01_01"
+    - id: "0x102A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 334
+      y: 125
+      w: 12
+      h: 20
+      name: "_05_01_02"
+    - id: "0x103E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 452
+      y: 0
+      w: 29
+      h: 66
+      name: "_05_02"
+    - id: "0x103D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 120
+      y: 225
+      w: 12
+      h: 15
+      name: "_05_03"
+    - id: "0x1050"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 484
+      y: 215
+      w: 17
+      h: 28
+      name: "_00_00"
+    - id: "0x103A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 104
+      y: 243
+      w: 27
+      h: 8
+      name: "_00_01"
+    - id: "0x1036"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 230
+      y: 200
+      w: 28
+      h: 4
+      name: "_00_02"
+    - id: "0x1018"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 484
+      y: 178
+      w: 19
+      h: 37
+      name: "_01_00"
+    - id: "0x1033"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 0
+      y: 161
+      w: 30
+      h: 43
+      name: "_01_01"
+    - id: "0x1032"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 30
+      y: 203
+      w: 16
+      h: 30
+      name: "_01_02"
+    - id: "0x1017"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 483
+      y: 130
+      w: 27
+      h: 48
+      name: "_02"
+    - id: "0x1016"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 217
+      y: 135
+      w: 23
+      h: 9
+      name: "_03_00"
+    - id: "0x103C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 371
+      y: 231
+      w: 18
+      h: 17
+      name: "_03_01"
+    - id: "0x103B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 418
+      y: 231
+      w: 18
+      h: 16
+      name: "_03_02"
+    - id: "0x1015"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 453
+      y: 231
+      w: 21
+      h: 16
+      name: "_04_00"
+    - id: "0x1042"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 430
+      y: 67
+      w: 7
+      h: 10
+      name: "_04_01"
+    - id: "0x1041"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 180
+      y: 224
+      w: 32
+      h: 20
+      name: "_04_02"
+    - id: "0x1040"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 212
+      y: 224
+      w: 15
+      h: 19
+      name: "_04_03"
+    - id: "0x1014"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 510
+      y: 0
+      w: 1
+      h: 1
+      name: "_05_00"
+    - id: "0x1029"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 0
+      y: 233
+      w: 23
+      h: 15
+      name: "_05_01"
+    - id: "0x1028"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 67
+      y: 228
+      w: 37
+      h: 20
+      name: "_05_02"
+    - id: "0x1051"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 175
+      y: 188
+      w: 17
+      h: 33
+      name: "_00"
+    - id: "0x101D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 481
+      y: 0
+      w: 17
+      h: 64
+      name: "_01_00"
+    - id: "0x101F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 104
+      y: 225
+      w: 16
+      h: 18
+      name: "_01_01"
+    - id: "0x101E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 334
+      y: 103
+      w: 11
+      h: 22
+      name: "_01_02"
+    - id: "0x101C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 474
+      y: 243
+      w: 27
+      h: 6
+      name: "_02_00_00"
+    - id: "0x1025"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 74
+      y: 161
+      w: 23
+      h: 22
+      name: "_02_00_01"
+    - id: "0x1024"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 151
+      y: 223
+      w: 29
+      h: 28
+      name: "_02_00_02"
+    - id: "0x1039"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 498
+      y: 29
+      w: 14
+      h: 23
+      name: "_02_01"
+    - id: "0x1038"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 151
+      y: 188
+      w: 24
+      h: 35
+      name: "_02_02"
+    - id: "0x1037"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 436
+      y: 231
+      w: 17
+      h: 16
+      name: "_02_03"
+    - id: "0x101B"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 437
+      y: 67
+      w: 13
+      h: 3
+      name: "_03_00"
+    - id: "0x1027"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 23
+      y: 233
+      w: 32
+      h: 14
+      name: "_03_01"
+    - id: "0x1026"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 339
+      y: 204
+      w: 13
+      h: 18
+      name: "_03_02"
+    - id: "0x101A"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 389
+      y: 231
+      w: 29
+      h: 16
+      name: "_04_00"
+    - id: "0x102F"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 134
+      y: 224
+      w: 17
+      h: 20
+      name: "_04_01"
+    - id: "0x102E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 501
+      y: 215
+      w: 11
+      h: 15
+      name: "_04_02"
+    - id: "0x1019"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 498
+      y: 0
+      w: 12
+      h: 29
+      name: "_05_00"
+    - id: "0x1031"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 334
+      y: 81
+      w: 12
+      h: 22
+      name: "_05_01"
+    - id: "0x1030"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 103
+      y: 188
+      w: 31
+      h: 37
+      name: "_05_02"
+
+  frames:
+    - id: "0x2083"
+      name: "lightning_strike"
+      parts:
+        - { module: "0x104D", x: -108, y: -325 }
+        - { module: "0x1013", x: -67, y: -199 }
+        - { module: "0x1012", x: -14, y: -325 }
+        - { module: "0x1011", x: -70, y: -263 }
+        - { module: "0x1010", x: -69, y: -155 }
+        - { module: "0x1023", x: -55, y: -97 }
+        - { module: "0x1022", x: -35, y: -81 }
+        - { module: "0x100F", x: -14, y: -279 }
+        - { module: "0x105E", x: -23, y: -329 }
+        - { module: "0x1009", x: -23, y: -207 }
+        - { module: "0x1008", x: -20, y: -268 }
+        - { module: "0x102D", x: -22, y: -234 }
+        - { module: "0x102C", x: -2, y: -263 }
+        - { module: "0x1007", x: -24, y: -293 }
+        - { module: "0x1006", x: -15, y: -131 }
+        - { module: "0x1035", x: -16, y: -102 }
+        - { module: "0x1034", x: 6, y: -128 }
+        - { module: "0x1005", x: -10, y: -198 }
+    - id: "0x2084"
+      name: ""
+      parts:
+        - { module: "0x104D", x: -108, y: -325 }
+        - { module: "0x1013", x: -67, y: -199 }
+        - { module: "0x1012", x: -14, y: -325 }
+        - { module: "0x1011", x: -70, y: -263 }
+        - { module: "0x1010", x: -69, y: -155 }
+        - { module: "0x1023", x: -55, y: -97 }
+        - { module: "0x1022", x: -35, y: -81 }
+        - { module: "0x100F", x: -14, y: -279 }
+        - { module: "0x104D", x: -108, y: -325 }
+        - { module: "0x1013", x: -67, y: -199 }
+        - { module: "0x1012", x: -14, y: -325 }
+        - { module: "0x1011", x: -70, y: -263 }
+        - { module: "0x1010", x: -69, y: -155 }
+        - { module: "0x1023", x: -55, y: -97 }
+        - { module: "0x1022", x: -35, y: -81 }
+        - { module: "0x100F", x: -14, y: -279 }
+        - { module: "0x104F", x: -26, y: -325 }
+        - { module: "0x1004", x: -56, y: -85 }
+        - { module: "0x1003", x: -30, y: -222 }
+        - { module: "0x1021", x: 24, y: -205 }
+        - { module: "0x1020", x: -15, y: -243 }
+        - { module: "0x1002", x: -26, y: -285 }
+        - { module: "0x1001", x: -28, y: -28 }
+        - { module: "0x1000", x: -13, y: -160 }
+        - { module: "0x103F", x: -24, y: -85 }
+        - { module: "0x102B", x: 11, y: -79 }
+        - { module: "0x102A", x: 32, y: -77 }
+        - { module: "0x103E", x: -21, y: -151 }
+        - { module: "0x103D", x: 8, y: -129 }
+    - id: "0x2085"
+      name: ""
+      parts:
+        - { module: "0x104E", x: -114, y: -325 }
+        - { module: "0x100E", x: -69, y: -164 }
+        - { module: "0x100D", x: -14, y: -325 }
+        - { module: "0x100C", x: -83, y: -245 }
+        - { module: "0x100B", x: -77, y: -118 }
+        - { module: "0x100A", x: -63, y: -34 }
+        - { module: "0x104E", x: -114, y: -325 }
+        - { module: "0x100E", x: -69, y: -164 }
+        - { module: "0x100D", x: -14, y: -325 }
+        - { module: "0x100C", x: -83, y: -245 }
+        - { module: "0x100B", x: -77, y: -118 }
+        - { module: "0x100A", x: -63, y: -34 }
+        - { module: "0x104E", x: -114, y: -325 }
+        - { module: "0x100E", x: -69, y: -164 }
+        - { module: "0x100D", x: -14, y: -325 }
+        - { module: "0x100C", x: -83, y: -245 }
+        - { module: "0x100B", x: -77, y: -118 }
+        - { module: "0x100A", x: -63, y: -34 }
+    - id: "0x2086"
+      name: ""
+      parts:
+        - { module: "0x104E", x: -114, y: -325 }
+        - { module: "0x100E", x: -69, y: -164 }
+        - { module: "0x100D", x: -14, y: -325 }
+        - { module: "0x100C", x: -83, y: -245 }
+        - { module: "0x100B", x: -77, y: -118 }
+        - { module: "0x100A", x: -63, y: -34 }
+        - { module: "0x104E", x: -114, y: -325 }
+        - { module: "0x100E", x: -69, y: -164 }
+        - { module: "0x100D", x: -14, y: -325 }
+        - { module: "0x100C", x: -83, y: -245 }
+        - { module: "0x100B", x: -77, y: -118 }
+        - { module: "0x100A", x: -63, y: -34 }
+        - { module: "0x104E", x: -114, y: -325 }
+        - { module: "0x100E", x: -69, y: -164 }
+        - { module: "0x100D", x: -14, y: -325 }
+        - { module: "0x100C", x: -83, y: -245 }
+        - { module: "0x100B", x: -77, y: -118 }
+        - { module: "0x100A", x: -63, y: -34 }
+        - { module: "0x1051", x: -21, y: -300 }
+        - { module: "0x101D", x: -3, y: -163 }
+        - { module: "0x101F", x: 25, y: -163 }
+        - { module: "0x101E", x: 14, y: -144 }
+        - { module: "0x101C", x: -14, y: -232 }
+        - { module: "0x1025", x: 13, y: -220 }
+        - { module: "0x1024", x: -25, y: -226 }
+        - { module: "0x1039", x: -27, y: -198 }
+        - { module: "0x1038", x: 24, y: -198 }
+        - { module: "0x1037", x: -3, y: -179 }
+        - { module: "0x101B", x: -15, y: -267 }
+        - { module: "0x1027", x: -15, y: -246 }
+        - { module: "0x1026", x: -13, y: -264 }
+        - { module: "0x101A", x: -51, y: -86 }
+        - { module: "0x102F", x: -22, y: -95 }
+        - { module: "0x102E", x: -47, y: -70 }
+        - { module: "0x1019", x: 7, y: -85 }
+        - { module: "0x1031", x: 25, y: -47 }
+        - { module: "0x1030", x: 19, y: -84 }
+        - { module: "0x1051", x: -21, y: -300 }
+        - { module: "0x101D", x: -3, y: -163 }
+        - { module: "0x101F", x: 25, y: -163 }
+        - { module: "0x101E", x: 14, y: -144 }
+        - { module: "0x101C", x: -14, y: -232 }
+        - { module: "0x1025", x: 13, y: -220 }
+        - { module: "0x1024", x: -25, y: -226 }
+        - { module: "0x1039", x: -27, y: -198 }
+        - { module: "0x1038", x: 24, y: -198 }
+        - { module: "0x1037", x: -3, y: -179 }
+        - { module: "0x101B", x: -15, y: -267 }
+        - { module: "0x1027", x: -15, y: -246 }
+        - { module: "0x1026", x: -13, y: -264 }
+        - { module: "0x101A", x: -51, y: -86 }
+        - { module: "0x102F", x: -22, y: -95 }
+        - { module: "0x102E", x: -47, y: -70 }
+        - { module: "0x1019", x: 7, y: -85 }
+        - { module: "0x1031", x: 25, y: -47 }
+        - { module: "0x1030", x: 19, y: -84 }
+        - { module: "0x1050", x: -22, y: -325 }
+        - { module: "0x103A", x: -25, y: -297 }
+        - { module: "0x1036", x: -22, y: -289 }
+        - { module: "0x1018", x: -13, y: -160 }
+        - { module: "0x1033", x: -17, y: -93 }
+        - { module: "0x1032", x: -17, y: -123 }
+        - { module: "0x1017", x: -1, y: -243 }
+        - { module: "0x1016", x: -13, y: -285 }
+        - { module: "0x103C", x: 2, y: -260 }
+        - { module: "0x103B", x: -4, y: -276 }
+        - { module: "0x1015", x: -18, y: -50 }
+        - { module: "0x1042", x: -23, y: -13 }
+        - { module: "0x1041", x: -24, y: -34 }
+        - { module: "0x1040", x: -6, y: -14 }
+        - { module: "0x1014", x: -23, y: -180 }
+        - { module: "0x1029", x: -10, y: -195 }
+        - { module: "0x1028", x: -15, y: -180 }
+        - { module: "0x1050", x: -22, y: -325 }
+        - { module: "0x103A", x: -25, y: -297 }
+        - { module: "0x1036", x: -22, y: -289 }
+        - { module: "0x1018", x: -13, y: -160 }
+        - { module: "0x1033", x: -17, y: -93 }
+        - { module: "0x1032", x: -17, y: -123 }
+        - { module: "0x1017", x: -1, y: -243 }
+        - { module: "0x1016", x: -13, y: -285 }
+        - { module: "0x103C", x: 2, y: -260 }
+        - { module: "0x103B", x: -4, y: -276 }
+        - { module: "0x1015", x: -18, y: -50 }
+        - { module: "0x1042", x: -23, y: -13 }
+        - { module: "0x1041", x: -24, y: -34 }
+        - { module: "0x1040", x: -6, y: -14 }
+        - { module: "0x1014", x: -23, y: -180 }
+        - { module: "0x1029", x: -10, y: -195 }
+        - { module: "0x1028", x: -15, y: -180 }
+    - id: "0x2087"
+      name: ""
+      parts:
+        - { module: "0x104E", x: -114, y: -325 }
+        - { module: "0x100E", x: -69, y: -164 }
+        - { module: "0x100D", x: -14, y: -325 }
+        - { module: "0x100C", x: -83, y: -245 }
+        - { module: "0x100B", x: -77, y: -118 }
+        - { module: "0x100A", x: -63, y: -34 }
+        - { module: "0x104E", x: -114, y: -325 }
+        - { module: "0x100E", x: -69, y: -164 }
+        - { module: "0x100D", x: -14, y: -325 }
+        - { module: "0x100C", x: -83, y: -245 }
+        - { module: "0x100B", x: -77, y: -118 }
+        - { module: "0x100A", x: -63, y: -34 }
+        - { module: "0x1051", x: -21, y: -300 }
+        - { module: "0x101D", x: -3, y: -163 }
+        - { module: "0x101F", x: 25, y: -163 }
+        - { module: "0x101E", x: 14, y: -144 }
+        - { module: "0x101C", x: -14, y: -232 }
+        - { module: "0x1025", x: 13, y: -220 }
+        - { module: "0x1024", x: -25, y: -226 }
+        - { module: "0x1039", x: -27, y: -198 }
+        - { module: "0x1038", x: 24, y: -198 }
+        - { module: "0x1037", x: -3, y: -179 }
+        - { module: "0x101B", x: -15, y: -267 }
+        - { module: "0x1027", x: -15, y: -246 }
+        - { module: "0x1026", x: -13, y: -264 }
+        - { module: "0x101A", x: -51, y: -86 }
+        - { module: "0x102F", x: -22, y: -95 }
+        - { module: "0x102E", x: -47, y: -70 }
+        - { module: "0x1019", x: 7, y: -85 }
+        - { module: "0x1031", x: 25, y: -47 }
+        - { module: "0x1030", x: 19, y: -84 }
+        - { module: "0x1050", x: -22, y: -325 }
+        - { module: "0x103A", x: -25, y: -297 }
+        - { module: "0x1036", x: -22, y: -289 }
+        - { module: "0x1018", x: -13, y: -160 }
+        - { module: "0x1033", x: -17, y: -93 }
+        - { module: "0x1032", x: -17, y: -123 }
+        - { module: "0x1017", x: -1, y: -243 }
+        - { module: "0x1016", x: -13, y: -285 }
+        - { module: "0x103C", x: 2, y: -260 }
+        - { module: "0x103B", x: -4, y: -276 }
+        - { module: "0x1015", x: -18, y: -50 }
+        - { module: "0x1042", x: -23, y: -13 }
+        - { module: "0x1041", x: -24, y: -34 }
+        - { module: "0x1040", x: -6, y: -14 }
+        - { module: "0x1014", x: -23, y: -180 }
+        - { module: "0x1029", x: -10, y: -195 }
+        - { module: "0x1028", x: -15, y: -180 }
+        - { module: "0x1050", x: -22, y: -325 }
+        - { module: "0x103A", x: -25, y: -297 }
+        - { module: "0x1036", x: -22, y: -289 }
+        - { module: "0x1018", x: -13, y: -160 }
+        - { module: "0x1033", x: -17, y: -93 }
+        - { module: "0x1032", x: -17, y: -123 }
+        - { module: "0x1017", x: -1, y: -243 }
+        - { module: "0x1016", x: -13, y: -285 }
+        - { module: "0x103C", x: 2, y: -260 }
+        - { module: "0x103B", x: -4, y: -276 }
+        - { module: "0x1015", x: -18, y: -50 }
+        - { module: "0x1042", x: -23, y: -13 }
+        - { module: "0x1041", x: -24, y: -34 }
+        - { module: "0x1040", x: -6, y: -14 }
+        - { module: "0x1014", x: -23, y: -180 }
+        - { module: "0x1029", x: -10, y: -195 }
+        - { module: "0x1028", x: -15, y: -180 }
+    - id: "0x2088"
+      name: ""
+      parts:
+        - { module: "0x104D", x: -108, y: -325 }
+        - { module: "0x1013", x: -67, y: -199 }
+        - { module: "0x1012", x: -14, y: -325 }
+        - { module: "0x1011", x: -70, y: -263 }
+        - { module: "0x1010", x: -69, y: -155 }
+        - { module: "0x1023", x: -55, y: -97 }
+        - { module: "0x1022", x: -35, y: -81 }
+        - { module: "0x100F", x: -14, y: -279 }
+        - { module: "0x1050", x: -22, y: -325 }
+        - { module: "0x103A", x: -25, y: -297 }
+        - { module: "0x1036", x: -22, y: -289 }
+        - { module: "0x1018", x: -13, y: -160 }
+        - { module: "0x1033", x: -17, y: -93 }
+        - { module: "0x1032", x: -17, y: -123 }
+        - { module: "0x1017", x: -1, y: -243 }
+        - { module: "0x1016", x: -13, y: -285 }
+        - { module: "0x103C", x: 2, y: -260 }
+        - { module: "0x103B", x: -4, y: -276 }
+        - { module: "0x1015", x: -18, y: -50 }
+        - { module: "0x1042", x: -23, y: -13 }
+        - { module: "0x1041", x: -24, y: -34 }
+        - { module: "0x1040", x: -6, y: -14 }
+        - { module: "0x1014", x: -23, y: -180 }
+        - { module: "0x1029", x: -10, y: -195 }
+        - { module: "0x1028", x: -15, y: -180 }
+
+  animations:
+    - id: "0x3017"
+      name: "LIGHTNING_BOLT"
+      frames:
+        - { frame: "0x2083", time: 2, x: 0, y: 0 }
+        - { frame: "0x2084", time: 2, x: 0, y: 0 }
+        - { frame: "0x2085", time: 2, x: 0, y: 0 }
+        - { frame: "0x2086", time: 2, x: 0, y: 0 }
+        - { frame: "0x2087", time: 2, x: 0, y: 0 }
+        - { frame: "0x2088", time: 2, x: 0, y: 0 }

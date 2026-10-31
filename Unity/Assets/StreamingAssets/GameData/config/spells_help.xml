@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+
+<!--help config file-->
+<!--the order of the pages is from their defition-->
+
+<page id="page1">
+  <TEXT_TITLE_ID value="HELP_HELP_1"/>
+  <TEXT_CONTENT_ID value="HELP_HELP_2"/>
+  <ANIM_ID  value="1" />
+</page>
+
+<page id="page2">  
+  <TEXT_TITLE_ID value="HELP_HELP_3"/>
+  <TEXT_CONTENT_ID value="HELP_HELP_4"/>
+  <ANIM_ID value="2" />
+</page>
+
+<page id="page3">  
+  <TEXT_TITLE_ID value="HELP_HELP_5"/>
+  <TEXT_CONTENT_ID value="HELP_HELP_6"/>
+  <ANIM_ID value="3" />
+</page>
+
+<page id="page4">  
+  <TEXT_TITLE_ID value="HELP_HELP_7"/>
+  <TEXT_CONTENT_ID value="HELP_HELP_8"/>
+  <ANIM_ID value="0" />
+</page>
+
+<!-- <page id="page5">  
+  <TEXT_TITLE_ID value="HELP_HELP_1"/>
+  <TEXT_CONTENT_ID value="HELP_HELP_1"/>
+  <ANIM_ID value="5" />
+</page> -->
+
+<page id="page5">  
+  <TEXT_TITLE_ID value="HELP_LIGHTNING_NAME"/>
+  <TEXT_CONTENT_ID value="HELP_LIGHTNING_DESC"/>
+  <ANIM_ID value="7" />
+</page>
+
+<page id="page6">  
+  <TEXT_TITLE_ID value="HELP_BOULDER_NAME"/>
+  <TEXT_CONTENT_ID value="HELP_BOULDER_DESC"/>
+  <ANIM_ID value="6" />
+</page>
+
+<page id="page7">  
+  <TEXT_TITLE_ID value="HELP_TORNADO_NAME"/>
+  <TEXT_CONTENT_ID value="HELP_TORNADO_DESC"/>
+  <ANIM_ID value="8" />
+</page>
+
+<page id="page8">  
+  <TEXT_TITLE_ID value="HELP_GHOST_NAME"/>
+  <TEXT_CONTENT_ID value="HELP_GHOST_DESC"/>
+  <ANIM_ID value="4" />
+</page>

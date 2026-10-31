@@ -1,0 +1,102 @@
+# Converted from menu_bg.sprite by tools/sprites_conver.
+# Edit with AuroraMX (Tools/AuroraMX); the game reads this file directly.
+sprite:
+  version: "0001"
+
+  images:
+    - id: "0x0000"
+      file: "./menu_bg.png"
+      transparent: "0x00FF00FF"
+
+  modules:
+    - id: "0x1000"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 4
+      y: 3
+      w: 480
+      h: 320
+    - id: "0x101C"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 19
+      y: 334
+      w: 19
+      h: 30
+    - id: "0x101D"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 88
+      y: 333
+      w: 18
+      h: 30
+    - id: "0x101E"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 111
+      y: 334
+      w: 13
+      h: 30
+    - id: "0x1020"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 127
+      y: 340
+      w: 19
+      h: 13
+    - id: "0x1001"
+      type: MD_IMAGE
+      image: "0x0000"
+      x: 251
+      y: 323
+      w: 218
+      h: 188
+
+  frames:
+    - id: "0x2000"
+      name: "menu_bg"
+      parts:
+        - { module: "0x1000", x: -240, y: -160 }
+    - id: "0x2001"
+      name: "menu_bg_logo"
+      parts:
+        - { module: "0x1000", x: -240, y: -160 }
+        - { module: "0x1001", x: -247, y: -158 }
+    - id: "0x2015"
+      name: "slider_empty"
+      parts:
+        - { module: "0x101E", x: -136, y: -12 }
+        - { module: "0x101C", x: -123, y: -11 }
+        - { module: "0x101C", x: -104, y: -11 }
+        - { module: "0x101C", x: -85, y: -11 }
+        - { module: "0x101C", x: -66, y: -11 }
+        - { module: "0x101C", x: -47, y: -11 }
+        - { module: "0x101C", x: -28, y: -11 }
+        - { module: "0x101C", x: -9, y: -11 }
+        - { module: "0x101C", x: 10, y: -11 }
+        - { module: "0x101C", x: 29, y: -11 }
+        - { module: "0x101C", x: 48, y: -11 }
+        - { module: "0x101C", x: 67, y: -11 }
+        - { module: "0x101C", x: 86, y: -11 }
+        - { module: "0x101C", x: 105, y: -11 }
+        - { module: "0x101D", x: 124, y: -12 }
+    - id: "0x2016"
+      name: "slider_fill"
+      rects:
+        - { x1: -123, y1: -5, x2: 124, y2: 8 }
+      parts:
+        - { module: "0x1020", x: -123, y: -6 }
+        - { module: "0x1020", x: -104, y: -6 }
+        - { module: "0x1020", x: -85, y: -6 }
+        - { module: "0x1020", x: -66, y: -6 }
+        - { module: "0x1020", x: -47, y: -6 }
+        - { module: "0x1020", x: -28, y: -6 }
+        - { module: "0x1020", x: -9, y: -6 }
+        - { module: "0x1020", x: 10, y: -6 }
+        - { module: "0x1020", x: 29, y: -6 }
+        - { module: "0x1020", x: 48, y: -6 }
+        - { module: "0x1020", x: 67, y: -6 }
+        - { module: "0x1020", x: 86, y: -6 }
+        - { module: "0x1020", x: 105, y: -6 }
+
+  animations: []

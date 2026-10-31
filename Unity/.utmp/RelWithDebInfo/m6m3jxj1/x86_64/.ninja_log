@@ -1,0 +1,12 @@
+# ninja log v5
+5	88	1793425492986247300	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	e94bc43e721a5189
+91	129	1793425493029874100	/media/spyder/_Projects/Gameloft/CastleFrenzy_Ubuntu/Unity/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/m6m3jxj1/obj/x86_64/libswappywrapper.so	2639baa6a2eb9245
+4	573	1793425493454168000	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	fe204911617bbd09
+4	610	1793425493465464400	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	d180af1f73b91bef
+4	611	1793425493501033300	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	78d2b60d00929fb3
+5	612	1793425493464634600	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	2a2c9443684c09fc
+5	614	1793425493478309500	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	e62cf085378f0563
+5	692	1793425493583299800	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	f2ad37c0107600ed
+4	781	1793425493672188500	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	3e5df9748fd2599b
+3	871	1793425493761463700	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	71217f2ab8daeef9
+871	895	1793425493796226300	/media/spyder/_Projects/Gameloft/CastleFrenzy_Ubuntu/Unity/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/m6m3jxj1/obj/x86_64/libgame.so	b9b5a3c8421800f
